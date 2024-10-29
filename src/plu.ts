@@ -1,3 +1,5 @@
+export type Produce<K extends keyof typeof PLU = keyof typeof PLU> = typeof PLU[K];
+
 export type Type = "Global" | "LA" | "EMEA";
 
 export type Category = "Fruits" | "Vegetables" | "Herbs" | "Nuts" | "Dried Fruits" | "Retailer Assigned Numbers";
