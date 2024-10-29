@@ -1,3 +1,19 @@
+export interface PLU {
+  Plu: number;
+  Type: string;
+  Category: string;
+  Commodity: string;
+  Variety?: string;
+  Size: string;
+  Measures_na?: string;
+  Measures_row?: string;
+  Restrictions?: string;
+  Botanical?: string;
+  Aka?: string;
+  Notes?: string;
+  Created_at: string;
+}
+
 export default {
   3000: {
     Plu: 3000,
@@ -15750,4 +15766,4 @@ export default {
     Aka: "Bloss®",
     Created_at: "2024-07-30 14:43:07",
   }
-} as const;
+} as const satisfies Record<number, PLU>;
