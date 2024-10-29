@@ -7,11 +7,7 @@ export default {
     Variety: "Alkmene",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Netsetters Admin",
-    Updated_at: "2024-02-02 19:50:24",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3001: {
     Plu: 3001,
@@ -23,11 +19,7 @@ export default {
     Measures_na: "100 size and smaller",
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2024-02-02 19:50:51",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3002: {
     Plu: 3002,
@@ -37,11 +29,7 @@ export default {
     Variety: "Cantared",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2024-02-08 16:08:54",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3003: {
     Plu: 3003,
@@ -51,11 +39,7 @@ export default {
     Variety: "D'Estivale",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:54",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3004: {
     Plu: 3004,
@@ -65,11 +49,7 @@ export default {
     Variety: "Discovery",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:54",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3005: {
     Plu: 3005,
@@ -79,11 +59,7 @@ export default {
     Variety: "Golden Delicious Blush",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:54",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3006: {
     Plu: 3006,
@@ -93,11 +69,7 @@ export default {
     Variety: "Ingrid Marie",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:54",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3007: {
     Plu: 3007,
@@ -107,11 +79,7 @@ export default {
     Variety: "Lochbuie",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:54",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3008: {
     Plu: 3008,
@@ -121,11 +89,7 @@ export default {
     Variety: "Rubinette",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:54",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3009: {
     Plu: 3009,
@@ -135,11 +99,7 @@ export default {
     Variety: "Russet",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:54",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3010: {
     Plu: 3010,
@@ -152,11 +112,7 @@ export default {
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
     Aka: "Sundowner",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:54",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3011: {
     Plu: 3011,
@@ -166,11 +122,7 @@ export default {
     Variety: "Worcester",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:54",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3012: {
     Plu: 3012,
@@ -180,11 +132,7 @@ export default {
     Variety: "Abate Fetel",
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:54",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3013: {
     Plu: 3013,
@@ -194,11 +142,7 @@ export default {
     Variety: "Beurre Hardy",
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:54",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3014: {
     Plu: 3014,
@@ -208,11 +152,7 @@ export default {
     Variety: "Bon Rouge",
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:54",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3015: {
     Plu: 3015,
@@ -222,11 +162,7 @@ export default {
     Variety: "Clara Friis",
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:54",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3016: {
     Plu: 3016,
@@ -236,11 +172,7 @@ export default {
     Variety: "Concorde",
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:54",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3017: {
     Plu: 3017,
@@ -250,11 +182,7 @@ export default {
     Variety: "Conference",
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:54",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3018: {
     Plu: 3018,
@@ -264,11 +192,7 @@ export default {
     Variety: "Durondeau",
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:54",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3019: {
     Plu: 3019,
@@ -278,11 +202,7 @@ export default {
     Variety: "Flamingo",
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:54",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3020: {
     Plu: 3020,
@@ -292,11 +212,7 @@ export default {
     Variety: "General Leclerc",
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:54",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3021: {
     Plu: 3021,
@@ -306,11 +222,7 @@ export default {
     Variety: "Guyot",
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
-    Status: "Approved",
-    Updated_by: "Netsetters Admin",
-    Updated_at: "2023-12-19 19:08:54",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3022: {
     Plu: 3022,
@@ -320,11 +232,7 @@ export default {
     Variety: "Josephine",
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:54",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3023: {
     Plu: 3023,
@@ -336,11 +244,7 @@ export default {
     Measures_na: "110 size and smaller",
     Measures_row: "Average Fruit Weight = less than 180g",
     Botanical: "Pyrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:54",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3024: {
     Plu: 3024,
@@ -350,11 +254,7 @@ export default {
     Variety: "Rocha",
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:54",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3025: {
     Plu: 3025,
@@ -364,11 +264,7 @@ export default {
     Variety: "Rosemarie",
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:54",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3026: {
     Plu: 3026,
@@ -378,11 +274,7 @@ export default {
     Variety: "Triumph de Vienne",
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:54",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3027: {
     Plu: 3027,
@@ -392,11 +284,7 @@ export default {
     Variety: "Shamouti",
     Size: "All Sizes",
     Botanical: "Citrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:54",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3028: {
     Plu: 3028,
@@ -408,11 +296,7 @@ export default {
     Measures_na: "113 and smaller",
     Measures_row: "Average Fruit Dimensions = less than 66mm",
     Botanical: "Citrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:54",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3029: {
     Plu: 3029,
@@ -423,11 +307,7 @@ export default {
     Size: "All Sizes",
     Restrictions: "This code can be used anyplace in the globe; however, there are other codes for this item that can be used outside of North America.",
     Botanical: "Citrus unshiu",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:54",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3030: {
     Plu: 3030,
@@ -437,11 +317,7 @@ export default {
     Variety: "Nova (includes Clemenvilla, Suntina)",
     Size: "All Sizes",
     Botanical: "Citrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:54",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3031: {
     Plu: 3031,
@@ -451,11 +327,7 @@ export default {
     Variety: "Jamaican Tangor (includes Ortanique, Mandor, Mandora, Tambor, Topaz, Ortanline)",
     Size: "All Sizes",
     Botanical: "Citrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:54",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3032: {
     Plu: 3032,
@@ -466,11 +338,7 @@ export default {
     Size: "All Sizes",
     Restrictions: "This code can be used anyplace in the globe; however, there are other codes for this item that can be used outside of North America.",
     Botanical: "Citrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:54",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3033: {
     Plu: 3033,
@@ -481,11 +349,7 @@ export default {
     Size: "Small",
     Measures_row: "Average Fruit Weight =  less than 625g",
     Botanical: "Cucumis melo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:54",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3034: {
     Plu: 3034,
@@ -496,11 +360,7 @@ export default {
     Size: "Large",
     Measures_row: "Average Fruit Weight =  625g and above",
     Botanical: "Cucumis melo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:54",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3035: {
     Plu: 3035,
@@ -512,11 +372,7 @@ export default {
     Measures_na: "66 size and larger",
     Measures_row: "Average Fruit Weight =  185g and above",
     Botanical: "Prunus persica",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:54",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3036: {
     Plu: 3036,
@@ -528,11 +384,7 @@ export default {
     Measures_na: "113 size and smaller",
     Measures_row: "Average Fruit Dimensions = less than 66mm",
     Botanical: "Citrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:54",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3037: {
     Plu: 3037,
@@ -543,11 +395,7 @@ export default {
     Size: "All Sizes",
     Restrictions: "Sizes for pineapple based on two-layer lug.",
     Botanical: "Ananas comosus",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:54",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3038: {
     Plu: 3038,
@@ -557,11 +405,7 @@ export default {
     Variety: "Granadilla, Orange",
     Size: "All Sizes",
     Botanical: "Passiflorae.var. flavicarpa",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:54",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3039: {
     Plu: 3039,
@@ -570,11 +414,7 @@ export default {
     Commodity: "PHYSALIS/CAPE GOOSEBERRY/GROUND CHERRY",
     Size: "All Sizes",
     Botanical: "Physalis spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:54",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3040: {
     Plu: 3040,
@@ -584,11 +424,7 @@ export default {
     Variety: "Red (skin color)",
     Size: "All Sizes",
     Botanical: "Hylocereus lindatus",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:54",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3041: {
     Plu: 3041,
@@ -597,11 +433,7 @@ export default {
     Commodity: "RAMBUTAN",
     Size: "All Sizes",
     Botanical: "Nephelium lappaceum",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:54",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3042: {
     Plu: 3042,
@@ -610,11 +442,7 @@ export default {
     Commodity: "MANGOSTEEN",
     Size: "All Sizes",
     Botanical: "Garcinia mangostana",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:54",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3043: {
     Plu: 3043,
@@ -624,11 +452,7 @@ export default {
     Variety: "Italia, Seeded",
     Size: "All Sizes",
     Botanical: "Vitis vinifera",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:54",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3044: {
     Plu: 3044,
@@ -638,11 +462,7 @@ export default {
     Variety: "Black Velvet",
     Size: "All Sizes",
     Botanical: "Prunus armeniaca",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:54",
     Created_at: "2006-11-14 23:00:00",
-    Language: "EN"
   },
   3045: {
     Plu: 3045,
@@ -652,11 +472,7 @@ export default {
     Variety: "Fresh, On Branch",
     Size: "All Sizes",
     Botanical: "Phoenix dactylifera",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:54",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3046: {
     Plu: 3046,
@@ -666,11 +482,7 @@ export default {
     Variety: "Fresh, Frozen",
     Size: "All Sizes",
     Botanical: "Phoenix dactylifera",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:54",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3047: {
     Plu: 3047,
@@ -680,11 +492,7 @@ export default {
     Variety: "Medjool",
     Size: "All Sizes",
     Botanical: "Phoenix dactylifera",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:54",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3048: {
     Plu: 3048,
@@ -694,11 +502,7 @@ export default {
     Variety: "Helda/Flat",
     Size: "All Sizes",
     Botanical: "Phaseolus vulgaris",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:54",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3049: {
     Plu: 3049,
@@ -708,11 +512,7 @@ export default {
     Variety: "Fine",
     Size: "All Sizes",
     Botanical: "Phaseolus vulgaris",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:54",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3050: {
     Plu: 3050,
@@ -722,11 +522,7 @@ export default {
     Variety: "Dutch White/Winter White",
     Size: "All Sizes",
     Botanical: "Brassica oleracea",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:54",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3051: {
     Plu: 3051,
@@ -736,11 +532,7 @@ export default {
     Variety: "Spring Cabbage/Spring Greens",
     Size: "All Sizes",
     Botanical: "Brassica oleracea",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:54",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3052: {
     Plu: 3052,
@@ -750,11 +542,7 @@ export default {
     Variety: "String",
     Size: "All Sizes",
     Botanical: "Allium sativum",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:54",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3053: {
     Plu: 3053,
@@ -764,11 +552,7 @@ export default {
     Variety: "Baby",
     Size: "All Sizes",
     Botanical: "Pastinaca sativa",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:54",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3054: {
     Plu: 3054,
@@ -778,11 +562,7 @@ export default {
     Variety: "Elongated (Clovis Red/Lamuyo Red)",
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:54",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3055: {
     Plu: 3055,
@@ -792,11 +572,7 @@ export default {
     Variety: "Elongated (Clovis Green/Lamuyo Green)",
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:54",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3056: {
     Plu: 3056,
@@ -806,11 +582,7 @@ export default {
     Variety: "Elongated (Clovis Yellow/Lamuyo Yellow)",
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:54",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3057: {
     Plu: 3057,
@@ -820,11 +592,7 @@ export default {
     Variety: "Elongated (Clovis Orange/Lamuyo Orange)",
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:54",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3058: {
     Plu: 3058,
@@ -834,11 +602,7 @@ export default {
     Variety: "Elongated (Clovis White/Lamuyo White)",
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:54",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3059: {
     Plu: 3059,
@@ -848,11 +612,7 @@ export default {
     Variety: "Crown Prince",
     Size: "All Sizes",
     Botanical: "C.maxima",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:54",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3060: {
     Plu: 3060,
@@ -862,11 +622,7 @@ export default {
     Variety: "Vegetable Marrow",
     Size: "All Sizes",
     Botanical: "C.pepo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:54",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3061: {
     Plu: 3061,
@@ -876,11 +632,7 @@ export default {
     Variety: "Beef/Beefsteak",
     Size: "All Sizes",
     Botanical: "Lycopersicon esculenta",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:54",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3062: {
     Plu: 3062,
@@ -889,11 +641,7 @@ export default {
     Commodity: "BAY LEAVES",
     Size: "All Sizes",
     Botanical: "Laurus nobilis",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:54",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3063: {
     Plu: 3063,
@@ -902,11 +650,7 @@ export default {
     Commodity: "FENNEL LEAVES",
     Size: "All Sizes",
     Botanical: "Foeniculum vulgare",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:54",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3064: {
     Plu: 3064,
@@ -915,11 +659,7 @@ export default {
     Commodity: "ALOE VERA LEAVES",
     Size: "All Sizes",
     Botanical: "Aloe Vera",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:54",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3065: {
     Plu: 3065,
@@ -931,11 +671,7 @@ export default {
     Measures_na: "100 size and smaller",
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:54",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3066: {
     Plu: 3066,
@@ -947,11 +683,7 @@ export default {
     Measures_na: "88 size and larger",
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:54",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3067: {
     Plu: 3067,
@@ -963,11 +695,7 @@ export default {
     Measures_na: "100 size and smaller",
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3068: {
     Plu: 3068,
@@ -979,11 +707,7 @@ export default {
     Measures_na: "88 size and larger",
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3069: {
     Plu: 3069,
@@ -995,11 +719,7 @@ export default {
     Measures_na: "100 size and smaller",
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3070: {
     Plu: 3070,
@@ -1011,11 +731,7 @@ export default {
     Measures_na: "88 size and larger",
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3071: {
     Plu: 3071,
@@ -1025,11 +741,7 @@ export default {
     Variety: "Granny Smith, Red",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3072: {
     Plu: 3072,
@@ -1039,11 +751,7 @@ export default {
     Variety: "Lady",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3073: {
     Plu: 3073,
@@ -1053,11 +761,7 @@ export default {
     Variety: "Macoun",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3074: {
     Plu: 3074,
@@ -1067,11 +771,7 @@ export default {
     Variety: "Greening (RI)",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3075: {
     Plu: 3075,
@@ -1081,11 +781,7 @@ export default {
     Variety: "Baldwin",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3076: {
     Plu: 3076,
@@ -1095,11 +791,7 @@ export default {
     Variety: "Melrose",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3077: {
     Plu: 3077,
@@ -1109,11 +801,7 @@ export default {
     Variety: "Northern Spy",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3078: {
     Plu: 3078,
@@ -1123,11 +811,7 @@ export default {
     Variety: "Liberty",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3079: {
     Plu: 3079,
@@ -1138,11 +822,7 @@ export default {
     Size: "All Sizes",
     Restrictions: "This code can be used anyplace in the globe; however, there are other codes for this item that can be used outside of North America.",
     Botanical: "Asparagus officinalis",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3080: {
     Plu: 3080,
@@ -1152,11 +832,7 @@ export default {
     Variety: "Pinkerton",
     Size: "All Sizes",
     Botanical: "Persea americana",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3081: {
     Plu: 3081,
@@ -1166,11 +842,7 @@ export default {
     Variety: "Saskatoon",
     Size: "All Sizes",
     Botanical: "Amelanchier alnifolia",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3082: {
     Plu: 3082,
@@ -1180,11 +852,7 @@ export default {
     Variety: "Crowns",
     Size: "All Sizes",
     Botanical: "Brassica oleracea",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3083: {
     Plu: 3083,
@@ -1194,11 +862,7 @@ export default {
     Variety: "Stalk",
     Size: "All Sizes",
     Botanical: "Brassica olerace",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3084: {
     Plu: 3084,
@@ -1207,11 +871,7 @@ export default {
     Commodity: "CHERVIL",
     Size: "All Sizes",
     Botanical: "Anthriscus cerefolium",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3085: {
     Plu: 3085,
@@ -1221,11 +881,7 @@ export default {
     Variety: "Indian, Decorative",
     Size: "Large",
     Botanical: "Zea mays",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3086: {
     Plu: 3086,
@@ -1235,11 +891,7 @@ export default {
     Variety: "Indian. Decorative",
     Size: "Mini",
     Botanical: "Zea mays",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3087: {
     Plu: 3087,
@@ -1249,11 +901,7 @@ export default {
     Variety: "Indian, Strawberry",
     Size: "All Sizes",
     Botanical: "Zea mays",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3088: {
     Plu: 3088,
@@ -1263,11 +911,7 @@ export default {
     Variety: "Red",
     Size: "All Sizes",
     Botanical: "Ribes sativum",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3089: {
     Plu: 3089,
@@ -1277,11 +921,7 @@ export default {
     Variety: "Chinese",
     Size: "All Sizes",
     Botanical: "Solanum melongena",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3090: {
     Plu: 3090,
@@ -1291,11 +931,7 @@ export default {
     Variety: "Thai",
     Size: "All Sizes",
     Botanical: "Solanum melongena",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3091: {
     Plu: 3091,
@@ -1304,11 +940,7 @@ export default {
     Commodity: "GOBO ROOT/BURDOCK",
     Size: "All Sizes",
     Botanical: "Arctium lappa",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3092: {
     Plu: 3092,
@@ -1318,11 +950,7 @@ export default {
     Variety: "OroBlanco/Sweetie",
     Size: "All Sizes",
     Botanical: "Citrus paradisi",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3093: {
     Plu: 3093,
@@ -1332,11 +960,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Vitis vinifera",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3094: {
     Plu: 3094,
@@ -1346,11 +970,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Vitis vinifera",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3095: {
     Plu: 3095,
@@ -1360,11 +980,7 @@ export default {
     Variety: "Multicolor",
     Size: "All Sizes",
     Botanical: "Brassica oleracea",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2003-10-28 23:00:00",
-    Language: "EN"
   },
   3096: {
     Plu: 3096,
@@ -1374,11 +990,7 @@ export default {
     Variety: "Purple/Red/All Other Colors",
     Size: "All Sizes",
     Botanical: "Brassica oleracea",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3097: {
     Plu: 3097,
@@ -1388,11 +1000,7 @@ export default {
     Variety: "Romaine, Red",
     Size: "All Sizes",
     Botanical: "Lactuca sativa",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3098: {
     Plu: 3098,
@@ -1402,11 +1010,7 @@ export default {
     Variety: "Boston, Red",
     Size: "All Sizes",
     Botanical: "Lactuca sativa",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3099: {
     Plu: 3099,
@@ -1415,11 +1019,7 @@ export default {
     Commodity: "LOTUS ROOT",
     Size: "All Sizes",
     Botanical: "Nelumbo nucifera",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3100: {
     Plu: 3100,
@@ -1429,11 +1029,7 @@ export default {
     Variety: "Gold Honeydew",
     Size: "All Sizes",
     Botanical: "Cucumis melo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3101: {
     Plu: 3101,
@@ -1443,11 +1039,7 @@ export default {
     Variety: "Piel de Sapo",
     Size: "All Sizes",
     Botanical: "Cucumis melo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3102: {
     Plu: 3102,
@@ -1457,11 +1049,7 @@ export default {
     Variety: "Morel",
     Size: "All Sizes",
     Botanical: "Morchella angusticeps",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3103: {
     Plu: 3103,
@@ -1471,11 +1059,7 @@ export default {
     Variety: "Enoki",
     Size: "All Sizes",
     Botanical: "Flammulina velutipe",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3104: {
     Plu: 3104,
@@ -1486,11 +1070,7 @@ export default {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Aka: "Evelina",
-    Status: "Approved",
-    Updated_by: "Netsetters Admin",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2012-12-10 23:00:00",
-    Language: "EN"
   },
   3105: {
     Plu: 3105,
@@ -1499,11 +1079,7 @@ export default {
     Commodity: "CASHEWS",
     Size: "All Sizes",
     Botanical: "Anacardium occidental",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3106: {
     Plu: 3106,
@@ -1512,11 +1088,7 @@ export default {
     Commodity: "MACADAMIA",
     Size: "All Sizes",
     Botanical: "Macadamia integrifolia",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3107: {
     Plu: 3107,
@@ -1528,11 +1100,7 @@ export default {
     Measures_na: "88/72 size",
     Measures_row: "Average Fruit Dimensions = 66mm - under 84mm",
     Botanical: "Citrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3108: {
     Plu: 3108,
@@ -1544,11 +1112,7 @@ export default {
     Measures_na: "88/72 size",
     Measures_row: "Average Fruit Dimensions = 66mm - under 84mm",
     Botanical: "Citrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3109: {
     Plu: 3109,
@@ -1558,11 +1122,7 @@ export default {
     Variety: "Seville (Marmalade type)",
     Size: "All Sizes",
     Botanical: "Citrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3110: {
     Plu: 3110,
@@ -1572,11 +1132,7 @@ export default {
     Variety: "Navel, Cara Cara (Red)",
     Size: "All Sizes",
     Botanical: "Citrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3111: {
     Plu: 3111,
@@ -1586,11 +1142,7 @@ export default {
     Variety: "Red-Fleshed (Solo Sunrise)",
     Size: "All Sizes",
     Botanical: "Carica papaya",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3112: {
     Plu: 3112,
@@ -1600,11 +1152,7 @@ export default {
     Variety: "Meridol",
     Size: "All Sizes",
     Botanical: "Carica papaya",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3113: {
     Plu: 3113,
@@ -1614,11 +1162,7 @@ export default {
     Variety: "Flat White Flesh (Saturn type)",
     Size: "All Sizes",
     Botanical: "Prunus persica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2008-11-25 23:00:00",
-    Language: "EN"
   },
   3114: {
     Plu: 3114,
@@ -1630,11 +1174,7 @@ export default {
     Measures_na: "7 size and larger",
     Botanical: "Magnifera Indica",
     Aka: "Keitt and Francis varieties",
-    Status: "Approved",
-    Updated_by: "Vicki Bonvetti",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2008-11-25 23:00:00",
-    Language: "EN"
   },
   3115: {
     Plu: 3115,
@@ -1644,11 +1184,7 @@ export default {
     Variety: "Flat Yellow Flesh",
     Size: "All Sizes",
     Botanical: "Prunus persica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2008-11-25 23:00:00",
-    Language: "EN"
   },
   3116: {
     Plu: 3116,
@@ -1661,11 +1197,7 @@ export default {
     Measures_row: "Average Fruit Weight =  less than 185g",
     Restrictions: "Restricted for items grown east of the Mississippi River in the U.S. or east of the Ontario/Manitoba border in Canada.",
     Botanical: "Prunus persica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3117: {
     Plu: 3117,
@@ -1678,11 +1210,7 @@ export default {
     Measures_row: "Average Fruit Weight =  185g and above",
     Restrictions: "Restricted for items grown east of the Mississippi River in the U.S. or east of the Ontario/Manitoba border in Canada.",
     Botanical: "Prunus persica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3118: {
     Plu: 3118,
@@ -1692,11 +1220,7 @@ export default {
     Variety: "Starkrimson",
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3119: {
     Plu: 3119,
@@ -1708,11 +1232,7 @@ export default {
     Measures_na: "med. size and smaller",
     Measures_row: "Min diameter less than 65mm",
     Botanical: "Capsicum spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3120: {
     Plu: 3120,
@@ -1724,11 +1244,7 @@ export default {
     Measures_na: "large size and larger",
     Measures_row: "Min diameter 65mm and above",
     Botanical: "Capsicum spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3121: {
     Plu: 3121,
@@ -1738,11 +1254,7 @@ export default {
     Variety: "Bell, Greenhouse - Orange",
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3122: {
     Plu: 3122,
@@ -1752,11 +1264,7 @@ export default {
     Variety: "Bell, Greenhouse - White",
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3123: {
     Plu: 3123,
@@ -1766,11 +1274,7 @@ export default {
     Variety: "Bell, Greenhouse - Brown",
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3124: {
     Plu: 3124,
@@ -1780,11 +1284,7 @@ export default {
     Variety: "Bell, Greenhouse - Purple",
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3125: {
     Plu: 3125,
@@ -1794,11 +1294,7 @@ export default {
     Variety: "Habanero",
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3126: {
     Plu: 3126,
@@ -1808,11 +1304,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Prunus armeniaca hybrid",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2008-06-02 22:00:00",
-    Language: "EN"
   },
   3127: {
     Plu: 3127,
@@ -1823,11 +1315,7 @@ export default {
     Measures_na: "30 to 36 size",
     Measures_row: "Average Fruit Dimensions = 3.375 - 3.875 inch",
     Botanical: "Punica granatum",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2007-10-29 23:00:00",
-    Language: "EN"
   },
   3129: {
     Plu: 3129,
@@ -1837,11 +1325,7 @@ export default {
     Variety: "Pummelo - Red",
     Size: "All Sizes",
     Botanical: "C.grandis",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3130: {
     Plu: 3130,
@@ -1851,11 +1335,7 @@ export default {
     Variety: "Jumbo",
     Size: "All Sizes",
     Botanical: "Cucurbita pepo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3131: {
     Plu: 3131,
@@ -1865,11 +1345,7 @@ export default {
     Variety: "Decorative (Painted)",
     Size: "All Sizes",
     Botanical: "Cucurbita pepo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3132: {
     Plu: 3132,
@@ -1879,11 +1355,7 @@ export default {
     Variety: "White",
     Size: "All Sizes",
     Botanical: "Cucurbita pepo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3133: {
     Plu: 3133,
@@ -1893,11 +1365,7 @@ export default {
     Variety: "White - Mini",
     Size: "All Sizes",
     Botanical: "Cucurbita pepo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3134: {
     Plu: 3134,
@@ -1907,11 +1375,7 @@ export default {
     Variety: "Pie Pumpkin",
     Size: "All Sizes",
     Botanical: "Cucurbita pepo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3135: {
     Plu: 3135,
@@ -1921,11 +1385,7 @@ export default {
     Variety: "Ornamental",
     Size: "All Sizes",
     Botanical: "Trichosarthes cucumerina",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3136: {
     Plu: 3136,
@@ -1934,11 +1394,7 @@ export default {
     Commodity: "SAPODILLO/NISPERO",
     Size: "All Sizes",
     Botanical: "Manilkara zapote",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3137: {
     Plu: 3137,
@@ -1948,11 +1404,7 @@ export default {
     Variety: "White",
     Size: "All Sizes",
     Botanical: "Casimiroa edulis",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3138: {
     Plu: 3138,
@@ -1962,11 +1414,7 @@ export default {
     Variety: "Black",
     Size: "All Sizes",
     Botanical: "Diospyros digyna",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3139: {
     Plu: 3139,
@@ -1975,11 +1423,7 @@ export default {
     Commodity: "SAVORY",
     Size: "All Sizes",
     Botanical: "Satureja spp.",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3140: {
     Plu: 3140,
@@ -1989,11 +1433,7 @@ export default {
     Variety: "Cucuzza",
     Size: "All Sizes",
     Botanical: "C.pepo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3141: {
     Plu: 3141,
@@ -2003,11 +1443,7 @@ export default {
     Variety: "Opo",
     Size: "All Sizes",
     Botanical: "Langenaria siceraria",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3142: {
     Plu: 3142,
@@ -2017,11 +1453,7 @@ export default {
     Variety: "Carnival",
     Size: "All Sizes",
     Botanical: "C.pepo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3143: {
     Plu: 3143,
@@ -2031,11 +1463,7 @@ export default {
     Variety: "Acorn - baby",
     Size: "All Sizes",
     Botanical: "C.pepo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3144: {
     Plu: 3144,
@@ -2045,11 +1473,7 @@ export default {
     Variety: "Fall Glo",
     Size: "All Sizes",
     Botanical: "Citrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3145: {
     Plu: 3145,
@@ -2059,11 +1483,7 @@ export default {
     Variety: "Plum/Italian/Saladette/Roma (Yellow)",
     Size: "All Sizes",
     Botanical: "Lycopersicon esculenta",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3146: {
     Plu: 3146,
@@ -2074,11 +1494,7 @@ export default {
     Size: "All Sizes",
     Measures_row: "Up to and including 35mm diam",
     Botanical: "Lycopersicon esculenta",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3147: {
     Plu: 3147,
@@ -2089,11 +1505,7 @@ export default {
     Size: "All Sizes",
     Measures_row: "Up to and including 35mm diam",
     Botanical: "Lycopersicon esculenta",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3148: {
     Plu: 3148,
@@ -2103,11 +1515,7 @@ export default {
     Variety: "Regular - Yelllow, On the Vine (Truss)",
     Size: "All Sizes",
     Botanical: "Lycopersicon esculenta",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3149: {
     Plu: 3149,
@@ -2117,11 +1525,7 @@ export default {
     Variety: "Regular - Orange, On the Vine",
     Size: "All Sizes",
     Botanical: "Lycopersicon esculenta",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3150: {
     Plu: 3150,
@@ -2132,11 +1536,7 @@ export default {
     Size: "All Sizes",
     Measures_row: "35 - 40mm diameter",
     Botanical: "Lycopersicon esculenta",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3151: {
     Plu: 3151,
@@ -2148,11 +1548,7 @@ export default {
     Measures_na: "5X6 and larger",
     Measures_row: "Diameter 70mm and above",
     Botanical: "Lycopersicon esculenta",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3152: {
     Plu: 3152,
@@ -2162,11 +1558,7 @@ export default {
     Variety: "Melogold",
     Size: "All Sizes",
     Botanical: "C.grandis",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3153: {
     Plu: 3153,
@@ -2178,11 +1570,7 @@ export default {
     Measures_na: "88/72 size",
     Measures_row: "Average Fruit Dimensions = 66mm - under 84mm",
     Botanical: "Citrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3154: {
     Plu: 3154,
@@ -2194,11 +1582,7 @@ export default {
     Measures_na: "56 size and larger",
     Measures_row: "Average Fruit Dimensions = 84mm and above",
     Botanical: "Citrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3155: {
     Plu: 3155,
@@ -2210,11 +1594,7 @@ export default {
     Measures_na: "88/72 size",
     Measures_row: "Average Fruit Dimensions = 66mm - under 84mm",
     Botanical: "Citrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3156: {
     Plu: 3156,
@@ -2226,11 +1606,7 @@ export default {
     Measures_na: "56 size and larger",
     Measures_row: "Average Fruit Dimensions = 84mm and above",
     Botanical: "Citrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3157: {
     Plu: 3157,
@@ -2242,11 +1618,7 @@ export default {
     Measures_na: "27 size and larger",
     Restrictions: "Restricted for items grown east of the Mississippi River in the U.S or east of the Ontario/Manitoba border in Canada.",
     Botanical: "Citrus paradisi",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-05-01 22:00:00",
-    Language: "EN"
   },
   3158: {
     Plu: 3158,
@@ -2258,11 +1630,7 @@ export default {
     Measures_na: "27 size and larger",
     Restrictions: "Restricted for items grown in Texas, Arizona and New Mexico in the U.S.",
     Botanical: "Citrus paradisi",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3159: {
     Plu: 3159,
@@ -2274,11 +1642,7 @@ export default {
     Measures_na: "27 size and larger",
     Measures_row: "Average Fruit Dimensions = 108mm and above",
     Botanical: "Citrus paradisi",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3160: {
     Plu: 3160,
@@ -2288,11 +1652,7 @@ export default {
     Variety: "Synonymous with Chinese Broccoli",
     Size: "All Sizes",
     Botanical: "Brassica oleracea",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3161: {
     Plu: 3161,
@@ -2302,11 +1662,7 @@ export default {
     Variety: "Baby - Chinese or Indian Mustard",
     Size: "All Sizes",
     Botanical: "Brassica juncea",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3162: {
     Plu: 3162,
@@ -2316,11 +1672,7 @@ export default {
     Variety: "Synonymous with Water Spinach",
     Size: "All Sizes",
     Botanical: "Ipomoea aquatica",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3163: {
     Plu: 3163,
@@ -2330,11 +1682,7 @@ export default {
     Variety: "Shanghai",
     Size: "All Sizes",
     Botanical: "Brassica rapa",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3164: {
     Plu: 3164,
@@ -2343,11 +1691,7 @@ export default {
     Commodity: "YU CHOY",
     Size: "All Sizes",
     Botanical: "Brassica rapa",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3165: {
     Plu: 3165,
@@ -2357,11 +1701,7 @@ export default {
     Variety: "Treviso",
     Size: "All Sizes",
     Botanical: "Cichorium intybus",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3166: {
     Plu: 3166,
@@ -2373,11 +1713,7 @@ export default {
     Restrictions: "Identified lacinato kale and tuscan cabbage one and the same",
     Botanical: "Brassica oleracea",
     Aka: "Lacinato Kale",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2013-05-05 22:00:00",
-    Language: "EN"
   },
   3167: {
     Plu: 3167,
@@ -2386,11 +1722,7 @@ export default {
     Commodity: "FRISEE",
     Size: "All Sizes",
     Botanical: "Cichorium endivia",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3168: {
     Plu: 3168,
@@ -2400,11 +1732,7 @@ export default {
     Variety: "Castlefranco",
     Size: "All Sizes",
     Botanical: "Cichorium intybus",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3169: {
     Plu: 3169,
@@ -2414,11 +1742,7 @@ export default {
     Variety: "Catalogna",
     Size: "All Sizes",
     Botanical: "Lactuca sativa",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3170: {
     Plu: 3170,
@@ -2427,11 +1751,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3171: {
     Plu: 3171,
@@ -2440,11 +1760,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3172: {
     Plu: 3172,
@@ -2453,11 +1769,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3173: {
     Plu: 3173,
@@ -2466,11 +1778,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3174: {
     Plu: 3174,
@@ -2479,11 +1787,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3175: {
     Plu: 3175,
@@ -2492,11 +1796,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3176: {
     Plu: 3176,
@@ -2505,11 +1805,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3177: {
     Plu: 3177,
@@ -2518,11 +1814,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3178: {
     Plu: 3178,
@@ -2531,11 +1823,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3179: {
     Plu: 3179,
@@ -2544,11 +1832,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3180: {
     Plu: 3180,
@@ -2557,11 +1841,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3181: {
     Plu: 3181,
@@ -2570,11 +1850,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3182: {
     Plu: 3182,
@@ -2583,11 +1859,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3183: {
     Plu: 3183,
@@ -2596,11 +1868,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3184: {
     Plu: 3184,
@@ -2609,11 +1877,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3185: {
     Plu: 3185,
@@ -2622,11 +1886,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3186: {
     Plu: 3186,
@@ -2635,11 +1895,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3187: {
     Plu: 3187,
@@ -2648,11 +1904,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3188: {
     Plu: 3188,
@@ -2661,11 +1913,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3189: {
     Plu: 3189,
@@ -2674,11 +1922,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3190: {
     Plu: 3190,
@@ -2687,11 +1931,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3191: {
     Plu: 3191,
@@ -2700,11 +1940,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3192: {
     Plu: 3192,
@@ -2713,11 +1949,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3193: {
     Plu: 3193,
@@ -2726,11 +1958,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3194: {
     Plu: 3194,
@@ -2739,11 +1967,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3195: {
     Plu: 3195,
@@ -2752,11 +1976,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3196: {
     Plu: 3196,
@@ -2765,11 +1985,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3197: {
     Plu: 3197,
@@ -2778,11 +1994,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3198: {
     Plu: 3198,
@@ -2791,11 +2003,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3199: {
     Plu: 3199,
@@ -2804,11 +2012,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3200: {
     Plu: 3200,
@@ -2817,11 +2021,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3201: {
     Plu: 3201,
@@ -2830,11 +2030,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3202: {
     Plu: 3202,
@@ -2843,11 +2039,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3203: {
     Plu: 3203,
@@ -2856,11 +2048,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3204: {
     Plu: 3204,
@@ -2869,11 +2057,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3205: {
     Plu: 3205,
@@ -2882,11 +2066,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3206: {
     Plu: 3206,
@@ -2895,11 +2075,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3207: {
     Plu: 3207,
@@ -2908,11 +2084,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3208: {
     Plu: 3208,
@@ -2921,11 +2093,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3209: {
     Plu: 3209,
@@ -2934,11 +2102,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3210: {
     Plu: 3210,
@@ -2947,11 +2111,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3211: {
     Plu: 3211,
@@ -2960,11 +2120,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3212: {
     Plu: 3212,
@@ -2973,11 +2129,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3213: {
     Plu: 3213,
@@ -2986,11 +2138,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3214: {
     Plu: 3214,
@@ -2999,11 +2147,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3215: {
     Plu: 3215,
@@ -3012,11 +2156,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3216: {
     Plu: 3216,
@@ -3025,11 +2165,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3217: {
     Plu: 3217,
@@ -3038,11 +2174,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3218: {
     Plu: 3218,
@@ -3051,11 +2183,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3219: {
     Plu: 3219,
@@ -3064,11 +2192,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3220: {
     Plu: 3220,
@@ -3077,11 +2201,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3221: {
     Plu: 3221,
@@ -3090,11 +2210,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3222: {
     Plu: 3222,
@@ -3103,11 +2219,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3223: {
     Plu: 3223,
@@ -3116,11 +2228,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3224: {
     Plu: 3224,
@@ -3129,11 +2237,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3225: {
     Plu: 3225,
@@ -3142,11 +2246,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3226: {
     Plu: 3226,
@@ -3155,11 +2255,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3227: {
     Plu: 3227,
@@ -3168,11 +2264,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3228: {
     Plu: 3228,
@@ -3181,11 +2273,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3229: {
     Plu: 3229,
@@ -3194,11 +2282,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3230: {
     Plu: 3230,
@@ -3207,11 +2291,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3231: {
     Plu: 3231,
@@ -3220,11 +2300,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3232: {
     Plu: 3232,
@@ -3233,11 +2309,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3233: {
     Plu: 3233,
@@ -3246,11 +2318,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3234: {
     Plu: 3234,
@@ -3259,11 +2327,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3235: {
     Plu: 3235,
@@ -3272,11 +2336,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3236: {
     Plu: 3236,
@@ -3285,11 +2345,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3237: {
     Plu: 3237,
@@ -3298,11 +2354,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3238: {
     Plu: 3238,
@@ -3311,11 +2363,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3239: {
     Plu: 3239,
@@ -3324,11 +2372,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3240: {
     Plu: 3240,
@@ -3337,11 +2381,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3241: {
     Plu: 3241,
@@ -3350,11 +2390,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3242: {
     Plu: 3242,
@@ -3363,11 +2399,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3243: {
     Plu: 3243,
@@ -3376,11 +2408,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3244: {
     Plu: 3244,
@@ -3389,11 +2417,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3245: {
     Plu: 3245,
@@ -3402,11 +2426,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3246: {
     Plu: 3246,
@@ -3415,11 +2435,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3247: {
     Plu: 3247,
@@ -3428,11 +2444,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3248: {
     Plu: 3248,
@@ -3441,11 +2453,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3249: {
     Plu: 3249,
@@ -3454,11 +2462,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3250: {
     Plu: 3250,
@@ -3467,11 +2471,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3251: {
     Plu: 3251,
@@ -3480,11 +2480,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3252: {
     Plu: 3252,
@@ -3493,11 +2489,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3253: {
     Plu: 3253,
@@ -3506,11 +2498,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3254: {
     Plu: 3254,
@@ -3519,11 +2507,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3255: {
     Plu: 3255,
@@ -3532,11 +2516,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3256: {
     Plu: 3256,
@@ -3545,11 +2525,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3257: {
     Plu: 3257,
@@ -3558,11 +2534,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3258: {
     Plu: 3258,
@@ -3571,11 +2543,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3259: {
     Plu: 3259,
@@ -3584,11 +2552,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3260: {
     Plu: 3260,
@@ -3597,11 +2561,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3261: {
     Plu: 3261,
@@ -3610,11 +2570,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3262: {
     Plu: 3262,
@@ -3623,11 +2579,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3263: {
     Plu: 3263,
@@ -3636,11 +2588,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3264: {
     Plu: 3264,
@@ -3649,11 +2597,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3265: {
     Plu: 3265,
@@ -3662,11 +2606,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3266: {
     Plu: 3266,
@@ -3675,11 +2615,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3267: {
     Plu: 3267,
@@ -3688,11 +2624,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3268: {
     Plu: 3268,
@@ -3701,11 +2633,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3269: {
     Plu: 3269,
@@ -3714,11 +2642,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3270: {
     Plu: 3270,
@@ -3727,11 +2651,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3271: {
     Plu: 3271,
@@ -3741,11 +2661,7 @@ export default {
     Variety: "Virginia Gold",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3272: {
     Plu: 3272,
@@ -3755,11 +2671,7 @@ export default {
     Variety: "Sommerfeld",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3273: {
     Plu: 3273,
@@ -3769,11 +2681,7 @@ export default {
     Variety: "Golden",
     Size: "All Sizes",
     Botanical: "Beta vulgaris",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3274: {
     Plu: 3274,
@@ -3783,11 +2691,7 @@ export default {
     Variety: "Fresh",
     Size: "All Sizes",
     Botanical: "Prunus domestica",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3275: {
     Plu: 3275,
@@ -3797,11 +2701,7 @@ export default {
     Variety: "Yellow (nyAH-may)",
     Size: "All Sizes",
     Botanical: "Dioscorea trifidia",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3276: {
     Plu: 3276,
@@ -3811,11 +2711,7 @@ export default {
     Variety: "White (nyAH-may)",
     Size: "All Sizes",
     Botanical: "Dioscorea trifidia",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3277: {
     Plu: 3277,
@@ -3825,11 +2721,7 @@ export default {
     Variety: "Baby",
     Size: "All Sizes",
     Botanical: "Brassica oleracea",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3278: {
     Plu: 3278,
@@ -3840,11 +2732,7 @@ export default {
     Restrictions: "A hybrid of plum and other species of stone fruit (primarily apricot) exhibiting more plum-like characteristics.",
     Botanical: "Prunus spp.",
     Aka: "Pluot®",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2008-06-02 22:00:00",
-    Language: "EN"
   },
   3279: {
     Plu: 3279,
@@ -3854,11 +2742,7 @@ export default {
     Variety: "Golden",
     Size: "All Sizes",
     Botanical: "A.chinensis",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3280: {
     Plu: 3280,
@@ -3870,11 +2754,7 @@ export default {
     Measures_na: "22 size and larger",
     Measures_row: "Average Fruit Weight =  150g and above",
     Botanical: "Actinidia deliciosa",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3281: {
     Plu: 3281,
@@ -3884,11 +2764,7 @@ export default {
     Variety: "Watermelon - Orange, Seedless",
     Size: "All Sizes",
     Botanical: "Citrullus lanatus",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-31 23:00:00",
-    Language: "EN"
   },
   3282: {
     Plu: 3282,
@@ -3898,11 +2774,7 @@ export default {
     Variety: "Plum/Italian/Saladette/Roma on the vine - Red",
     Size: "All Sizes",
     Botanical: "Lycopersicon esculenta",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-31 23:00:00",
-    Language: "EN"
   },
   3283: {
     Plu: 3283,
@@ -3914,11 +2786,7 @@ export default {
     Measures_na: "88 size and larger",
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-31 23:00:00",
-    Language: "EN"
   },
   3284: {
     Plu: 3284,
@@ -3930,11 +2798,7 @@ export default {
     Measures_na: "64 size and larger",
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-31 23:00:00",
-    Language: "EN"
   },
   3285: {
     Plu: 3285,
@@ -3946,11 +2810,7 @@ export default {
     Measures_na: "64 size and larger",
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-31 23:00:00",
-    Language: "EN"
   },
   3286: {
     Plu: 3286,
@@ -3960,11 +2820,7 @@ export default {
     Variety: "Sweet red Italian - flat",
     Size: "All Sizes",
     Botanical: "Allium spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-31 23:00:00",
-    Language: "EN"
   },
   3287: {
     Plu: 3287,
@@ -3974,11 +2830,7 @@ export default {
     Variety: "Hawaiian plantain",
     Size: "All Sizes",
     Botanical: "Musa spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-31 23:00:00",
-    Language: "EN"
   },
   3288: {
     Plu: 3288,
@@ -3989,11 +2841,7 @@ export default {
     Size: "All Sizes",
     Restrictions: "Terminology used to include both sweet potato and yam",
     Botanical: "Ipomoea batato",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2009-06-09 22:00:00",
-    Language: "EN"
   },
   3289: {
     Plu: 3289,
@@ -4003,11 +2851,7 @@ export default {
     Variety: "Sprite",
     Size: "All Sizes",
     Botanical: "Cucumis melo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-05-01 22:00:00",
-    Language: "EN"
   },
   3290: {
     Plu: 3290,
@@ -4019,11 +2863,7 @@ export default {
     Measures_na: "88 size and larger",
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3291: {
     Plu: 3291,
@@ -4035,11 +2875,7 @@ export default {
     Measures_na: "100 size and smaller",
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3292: {
     Plu: 3292,
@@ -4051,11 +2887,7 @@ export default {
     Measures_na: "88 size and larger",
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3293: {
     Plu: 3293,
@@ -4068,11 +2900,7 @@ export default {
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
     Aka: "Jazz",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3294: {
     Plu: 3294,
@@ -4085,11 +2913,7 @@ export default {
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
     Aka: "Jazz",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3295: {
     Plu: 3295,
@@ -4102,11 +2926,7 @@ export default {
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
     Aka: "Pacific Beauty",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3296: {
     Plu: 3296,
@@ -4119,11 +2939,7 @@ export default {
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
     Aka: "Pacific Beauty",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3297: {
     Plu: 3297,
@@ -4134,11 +2950,7 @@ export default {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Aka: "Pacific Queen",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3298: {
     Plu: 3298,
@@ -4149,11 +2961,7 @@ export default {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Aka: "Mahana Red",
-    Status: "Approved",
-    Updated_by: "Netsetters Admin",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2012-12-20 23:00:00",
-    Language: "EN"
   },
   3299: {
     Plu: 3299,
@@ -4165,11 +2973,7 @@ export default {
     Measures_na: "100 size and smaller",
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3300: {
     Plu: 3300,
@@ -4181,11 +2985,7 @@ export default {
     Measures_na: "88 size and larger",
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3301: {
     Plu: 3301,
@@ -4198,11 +2998,7 @@ export default {
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
     Aka: "Sundowner",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3302: {
     Plu: 3302,
@@ -4213,11 +3009,7 @@ export default {
     Size: "Large",
     Measures_na: "Greater than or equal to 2-3/16 inch, Greater than or equal to 55 mm Average Fruit Dimensions",
     Botanical: "Prunus armeniaca",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3303: {
     Plu: 3303,
@@ -4225,11 +3017,7 @@ export default {
     Category: "Fruits",
     Commodity: "BABACO",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3304: {
     Plu: 3304,
@@ -4239,11 +3027,7 @@ export default {
     Variety: "Loganberries",
     Size: "All Sizes",
     Botanical: "Rubus loganobaccus",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3305: {
     Plu: 3305,
@@ -4253,11 +3037,7 @@ export default {
     Variety: "Black",
     Size: "All Sizes",
     Botanical: "Ribes nigrum",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3306: {
     Plu: 3306,
@@ -4267,11 +3047,7 @@ export default {
     Variety: "Charentais",
     Size: "Medium",
     Botanical: "Cucumis melo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3307: {
     Plu: 3307,
@@ -4281,11 +3057,7 @@ export default {
     Variety: "Charentais",
     Size: "Extra Large",
     Botanical: "Cucumis melo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3308: {
     Plu: 3308,
@@ -4295,11 +3067,7 @@ export default {
     Variety: "Watermelon - Orange, Seedless",
     Size: "All Sizes",
     Botanical: "Citrullus lanatus",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3309: {
     Plu: 3309,
@@ -4309,11 +3077,7 @@ export default {
     Variety: "Lima",
     Size: "All Sizes",
     Botanical: "Citrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3310: {
     Plu: 3310,
@@ -4323,11 +3087,7 @@ export default {
     Variety: "Pera",
     Size: "All Sizes",
     Botanical: "Citrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3311: {
     Plu: 3311,
@@ -4337,11 +3097,7 @@ export default {
     Variety: "Curuba/Banana",
     Size: "All Sizes",
     Botanical: "Passiflora mollissima",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3312: {
     Plu: 3312,
@@ -4351,11 +3107,7 @@ export default {
     Variety: "Granadilla - Yellow/Maracuja",
     Size: "All Sizes",
     Botanical: "Passiflorae.var. flavicarpa",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3313: {
     Plu: 3313,
@@ -4365,11 +3117,7 @@ export default {
     Variety: "White Flesh - Tree Ripened/ Ready-to-eat",
     Size: "Small",
     Botanical: "Prunus persica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3314: {
     Plu: 3314,
@@ -4379,11 +3127,7 @@ export default {
     Variety: "White Flesh - Tree Ripened/ Ready-to-eat",
     Size: "Large",
     Botanical: "Prunus persica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3315: {
     Plu: 3315,
@@ -4395,11 +3139,7 @@ export default {
     Measures_na: "100 size and smaller",
     Botanical: "Malus domestica",
     Aka: "ENVY",
-    Status: "Approved",
-    Updated_by: "Vicki Bonvetti",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2013-05-05 22:00:00",
-    Language: "EN"
   },
   3316: {
     Plu: 3316,
@@ -4409,11 +3149,7 @@ export default {
     Variety: "Carmen",
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
-    Status: "Approved",
-    Updated_by: "Vicki Bonvetti",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2013-05-05 22:00:00",
-    Language: "EN"
   },
   3317: {
     Plu: 3317,
@@ -4423,11 +3159,7 @@ export default {
     Variety: "Angelys",
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2013-08-20 22:00:00",
-    Language: "EN"
   },
   3318: {
     Plu: 3318,
@@ -4439,11 +3171,7 @@ export default {
     Measures_na: "100 size and larger",
     Measures_row: "Average Fruit Weight = 180g and above",
     Botanical: "Pyrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3319: {
     Plu: 3319,
@@ -4453,11 +3181,7 @@ export default {
     Variety: "Yellow (skin color)",
     Size: "All Sizes",
     Botanical: "Hylocereus lindatus",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3320: {
     Plu: 3320,
@@ -4467,11 +3191,7 @@ export default {
     Variety: "Romanesco/Broccoflower/Caulibroc",
     Size: "All Sizes",
     Botanical: "Brassica oleracea",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3321: {
     Plu: 3321,
@@ -4481,11 +3201,7 @@ export default {
     Variety: "With leaves attached",
     Size: "All Sizes",
     Botanical: "Apium graveolens",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3322: {
     Plu: 3322,
@@ -4494,11 +3210,7 @@ export default {
     Commodity: "CHOY SUM/PAK CHOI SUM",
     Size: "All Sizes",
     Botanical: "Brassica rapa",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3323: {
     Plu: 3323,
@@ -4508,11 +3220,7 @@ export default {
     Variety: "Baby",
     Size: "All Sizes",
     Botanical: "Brassica rapa",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3324: {
     Plu: 3324,
@@ -4522,11 +3230,7 @@ export default {
     Variety: "Red",
     Size: "All Sizes",
     Botanical: "Cichorium endivia",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3325: {
     Plu: 3325,
@@ -4536,11 +3240,7 @@ export default {
     Variety: "Lollo Bionda/Coral - Green",
     Size: "All Sizes",
     Botanical: "Lactuca sativa",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3326: {
     Plu: 3326,
@@ -4550,11 +3250,7 @@ export default {
     Variety: "Lollo Rossa/Coral - Red",
     Size: "All Sizes",
     Botanical: "Lactuca sativa",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3327: {
     Plu: 3327,
@@ -4564,11 +3260,7 @@ export default {
     Variety: "Mignonette (Compact red-tinged butterhead varieties)",
     Size: "All Sizes",
     Botanical: "Lactuca sativa",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3328: {
     Plu: 3328,
@@ -4578,11 +3270,7 @@ export default {
     Variety: "Mixed small-leaf salad (eg Sucrine, Mesclun, Rocket/Arugula)",
     Size: "All Sizes",
     Botanical: "Lactuca sativa",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3329: {
     Plu: 3329,
@@ -4592,11 +3280,7 @@ export default {
     Variety: "Oak Leaf - Green",
     Size: "All Sizes",
     Botanical: "Lactuca sativa",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3330: {
     Plu: 3330,
@@ -4606,11 +3290,7 @@ export default {
     Variety: "Oak Leaf - Reg",
     Size: "All Sizes",
     Botanical: "Lactuca sativa",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3331: {
     Plu: 3331,
@@ -4620,11 +3300,7 @@ export default {
     Variety: "Red Fresh - Bunch",
     Size: "All Sizes",
     Botanical: "Allium spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3332: {
     Plu: 3332,
@@ -4634,11 +3310,7 @@ export default {
     Variety: "Baby",
     Size: "All Sizes",
     Botanical: "Spinach oleracea",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3333: {
     Plu: 3333,
@@ -4648,11 +3320,7 @@ export default {
     Variety: "Red/Orangy White Flesh",
     Size: "Small",
     Botanical: "Ipomoea batato",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3334: {
     Plu: 3334,
@@ -4662,11 +3330,7 @@ export default {
     Variety: "Red/Orangy White Flesh",
     Size: "Large",
     Botanical: "Ipomoea batato",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3335: {
     Plu: 3335,
@@ -4676,11 +3340,7 @@ export default {
     Variety: "Cocktail/Intermediate - Red/On the Vine (Truss)",
     Size: "All Sizes",
     Botanical: "Lycopersicon esculenta",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3336: {
     Plu: 3336,
@@ -4690,11 +3350,7 @@ export default {
     Variety: "Cocktail/Intermediate - Red/Plum/Italian/Saladette/Roma/On the Vine (Truss)",
     Size: "All Sizes",
     Botanical: "Lycopersicon esculenta",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3337: {
     Plu: 3337,
@@ -4704,11 +3360,7 @@ export default {
     Variety: "(Dried Fruit)",
     Size: "All Sizes",
     Botanical: "Ficus carica",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3338: {
     Plu: 3338,
@@ -4716,11 +3368,7 @@ export default {
     Category: "Herbs",
     Commodity: "ANISE",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3339: {
     Plu: 3339,
@@ -4730,11 +3378,7 @@ export default {
     Variety: "Belchard - Chantecler",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2004-10-31 23:00:00",
-    Language: "EN"
   },
   3340: {
     Plu: 3340,
@@ -4744,11 +3388,7 @@ export default {
     Variety: "Bertanne/Golden Russet",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2004-10-31 23:00:00",
-    Language: "EN"
   },
   3341: {
     Plu: 3341,
@@ -4758,11 +3398,7 @@ export default {
     Variety: "Charles Ross",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2004-10-31 23:00:00",
-    Language: "EN"
   },
   3342: {
     Plu: 3342,
@@ -4773,11 +3409,7 @@ export default {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Aka: "Tentation",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2004-10-31 23:00:00",
-    Language: "EN"
   },
   3343: {
     Plu: 3343,
@@ -4787,11 +3419,7 @@ export default {
     Variety: "Dessert",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2004-10-31 23:00:00",
-    Language: "EN"
   },
   3344: {
     Plu: 3344,
@@ -4803,11 +3431,7 @@ export default {
     Measures_na: "100 size and smaller",
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2004-10-31 23:00:00",
-    Language: "EN"
   },
   3345: {
     Plu: 3345,
@@ -4819,11 +3443,7 @@ export default {
     Measures_na: "88 size and larger",
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2004-10-31 23:00:00",
-    Language: "EN"
   },
   3346: {
     Plu: 3346,
@@ -4833,11 +3453,7 @@ export default {
     Variety: "Holstein",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2004-10-31 23:00:00",
-    Language: "EN"
   },
   3347: {
     Plu: 3347,
@@ -4847,11 +3463,7 @@ export default {
     Variety: "Laxtons Fortune",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2004-10-31 23:00:00",
-    Language: "EN"
   },
   3348: {
     Plu: 3348,
@@ -4861,11 +3473,7 @@ export default {
     Variety: "Lord Lambourne",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2004-10-31 23:00:00",
-    Language: "EN"
   },
   3349: {
     Plu: 3349,
@@ -4875,11 +3483,7 @@ export default {
     Variety: "Michaelmas Red",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2004-10-31 23:00:00",
-    Language: "EN"
   },
   3350: {
     Plu: 3350,
@@ -4891,11 +3495,7 @@ export default {
     Measures_na: "100 size and smaller",
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2004-10-31 23:00:00",
-    Language: "EN"
   },
   3351: {
     Plu: 3351,
@@ -4907,11 +3507,7 @@ export default {
     Measures_na: "88 size and larger",
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2004-10-31 23:00:00",
-    Language: "EN"
   },
   3352: {
     Plu: 3352,
@@ -4921,11 +3517,7 @@ export default {
     Variety: "Reinettes and Heritage varieties - (incl Canada blanc Reinette du Mans, Armorique/du Vigan/Calville",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2004-10-31 23:00:00",
-    Language: "EN"
   },
   3353: {
     Plu: 3353,
@@ -4935,11 +3527,7 @@ export default {
     Variety: "St Edmunds Pippin",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2004-10-31 23:00:00",
-    Language: "EN"
   },
   3354: {
     Plu: 3354,
@@ -4950,11 +3538,7 @@ export default {
     Size: "All Sizes",
     Restrictions: "Restricted from ANY use in Canada or the U.S.",
     Botanical: "Persea americana",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3355: {
     Plu: 3355,
@@ -4965,11 +3549,7 @@ export default {
     Size: "All Sizes",
     Restrictions: "Restricted from ANY use in Canada or the U.S.",
     Botanical: "Fragaria ananassa",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3356: {
     Plu: 3356,
@@ -4980,11 +3560,7 @@ export default {
     Size: "All Sizes",
     Restrictions: "Restricted from ANY use in Canada or the U.S.",
     Botanical: "Fragaria ananassa",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3357: {
     Plu: 3357,
@@ -4995,11 +3571,7 @@ export default {
     Size: "Small",
     Restrictions: "Restricted from ANY use in Canada or the U.S.",
     Botanical: "Prunus avium",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3358: {
     Plu: 3358,
@@ -5010,11 +3582,7 @@ export default {
     Size: "Large",
     Restrictions: "Restricted from ANY use in Canada or the U.S.",
     Botanical: "Prunus avium",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3359: {
     Plu: 3359,
@@ -5024,11 +3592,7 @@ export default {
     Variety: "Chasselas",
     Size: "All Sizes",
     Botanical: "Vitis vinifera",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2004-10-31 23:00:00",
-    Language: "EN"
   },
   3360: {
     Plu: 3360,
@@ -5038,11 +3602,7 @@ export default {
     Variety: "Muscat de Hambourg",
     Size: "All Sizes",
     Botanical: "Vitis vinifera",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2004-10-31 23:00:00",
-    Language: "EN"
   },
   3361: {
     Plu: 3361,
@@ -5053,11 +3613,7 @@ export default {
     Size: "All Sizes",
     Restrictions: "Restricted from ANY use in Canada or the U.S.",
     Botanical: "Citrus paradisi",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3362: {
     Plu: 3362,
@@ -5068,11 +3624,7 @@ export default {
     Size: "All Sizes",
     Restrictions: "Restricted from ANY use in Canada or the U.S.",
     Botanical: "Citrus limon",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3363: {
     Plu: 3363,
@@ -5083,11 +3635,7 @@ export default {
     Size: "All Sizes",
     Botanical: "Mangifera indica",
     Aka: "Bowen",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3364: {
     Plu: 3364,
@@ -5097,11 +3645,7 @@ export default {
     Variety: "R2E2",
     Size: "All Sizes",
     Botanical: "Mangifera indica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3365: {
     Plu: 3365,
@@ -5112,11 +3656,7 @@ export default {
     Size: "All Sizes",
     Restrictions: "Restricted from ANY use in Canada or the U.S.",
     Botanical: "Mangifera indica",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3366: {
     Plu: 3366,
@@ -5125,11 +3665,7 @@ export default {
     Commodity: "MADROÑA",
     Size: "All Sizes",
     Botanical: "Arbutus unedo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3367: {
     Plu: 3367,
@@ -5140,11 +3676,7 @@ export default {
     Size: "All Sizes",
     Restrictions: "Restricted from ANY use in Canada or the U.S.",
     Botanical: "Cucumis melo",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3368: {
     Plu: 3368,
@@ -5154,11 +3686,7 @@ export default {
     Variety: "Ogen",
     Size: "All Sizes",
     Botanical: "Cucumis melo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2004-10-31 23:00:00",
-    Language: "EN"
   },
   3369: {
     Plu: 3369,
@@ -5168,11 +3696,7 @@ export default {
     Variety: "Nectavigne (Red Flesh)",
     Size: "All Sizes",
     Botanical: "Prunus persica",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2004-10-31 23:00:00",
-    Language: "EN"
   },
   3370: {
     Plu: 3370,
@@ -5182,11 +3706,7 @@ export default {
     Variety: "Maltaise",
     Size: "All Sizes",
     Botanical: "Citrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2004-10-31 23:00:00",
-    Language: "EN"
   },
   3371: {
     Plu: 3371,
@@ -5196,11 +3716,7 @@ export default {
     Variety: "Salustiana",
     Size: "All Sizes",
     Botanical: "Citrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2004-10-31 23:00:00",
-    Language: "EN"
   },
   3372: {
     Plu: 3372,
@@ -5210,11 +3726,7 @@ export default {
     Variety: "Navelate (and other late Navel varieties)",
     Size: "All Sizes",
     Botanical: "Citrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3373: {
     Plu: 3373,
@@ -5224,11 +3736,7 @@ export default {
     Variety: "Navelina (incl. Newhall)",
     Size: "All Sizes",
     Botanical: "Citrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2004-10-31 23:00:00",
-    Language: "EN"
   },
   3374: {
     Plu: 3374,
@@ -5239,11 +3747,7 @@ export default {
     Size: "All Sizes",
     Restrictions: "Restricted from ANY use in Canada or the U.S.",
     Botanical: "Citrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3375: {
     Plu: 3375,
@@ -5253,11 +3757,7 @@ export default {
     Variety: "de Vigne & Sanguine (Red Flesh)",
     Size: "All Sizes",
     Botanical: "Prunus persica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2004-10-31 23:00:00",
-    Language: "EN"
   },
   3376: {
     Plu: 3376,
@@ -5267,11 +3767,7 @@ export default {
     Variety: "Alexander Lucas",
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2004-10-31 23:00:00",
-    Language: "EN"
   },
   3377: {
     Plu: 3377,
@@ -5281,11 +3777,7 @@ export default {
     Variety: "Louise Bonne",
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2004-10-31 23:00:00",
-    Language: "EN"
   },
   3378: {
     Plu: 3378,
@@ -5295,11 +3787,7 @@ export default {
     Variety: "Santa Maria",
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2004-10-31 23:00:00",
-    Language: "EN"
   },
   3379: {
     Plu: 3379,
@@ -5310,11 +3798,7 @@ export default {
     Size: "All Sizes",
     Restrictions: "Sizes for pineapple based on two-layer lug.",
     Botanical: "Ananas comosus",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2004-10-31 23:00:00",
-    Language: "EN"
   },
   3380: {
     Plu: 3380,
@@ -5325,11 +3809,7 @@ export default {
     Size: "All Sizes",
     Restrictions: "Sizes for pineapple based on two-layer lug.",
     Botanical: "Ananas comosus",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2004-10-31 23:00:00",
-    Language: "EN"
   },
   3381: {
     Plu: 3381,
@@ -5338,11 +3818,7 @@ export default {
     Commodity: "SOURSOP",
     Size: "All Sizes",
     Botanical: "Annona muricata",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3382: {
     Plu: 3382,
@@ -5351,11 +3827,7 @@ export default {
     Commodity: "SUGAR APPLE",
     Size: "All Sizes",
     Botanical: "Annona squamosa",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3383: {
     Plu: 3383,
@@ -5366,11 +3838,7 @@ export default {
     Size: "Small",
     Restrictions: "Restricted from ANY use in Canada or the U.S.",
     Botanical: "Citrus reticulata",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3384: {
     Plu: 3384,
@@ -5381,11 +3849,7 @@ export default {
     Size: "Medium",
     Restrictions: "Restricted from ANY use in Canada or the U.S.",
     Botanical: "Citrus reticulata",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3385: {
     Plu: 3385,
@@ -5396,11 +3860,7 @@ export default {
     Size: "Large",
     Restrictions: "Restricted from ANY use in Canada or the U.S.",
     Botanical: "Citrus reticulata",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3386: {
     Plu: 3386,
@@ -5411,11 +3871,7 @@ export default {
     Size: "All Sizes",
     Restrictions: "Restricted from ANY use in Canada or the U.S.",
     Botanical: "Citrus reticulata",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3387: {
     Plu: 3387,
@@ -5426,11 +3882,7 @@ export default {
     Size: "All Sizes",
     Restrictions: "Restricted from ANY use in Canada or the U.S.",
     Botanical: "Citrus reticulata",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3388: {
     Plu: 3388,
@@ -5441,11 +3893,7 @@ export default {
     Size: "All Sizes",
     Restrictions: "Restricted from ANY use in Canada or the U.S.",
     Botanical: "Citrus unshiu",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3389: {
     Plu: 3389,
@@ -5456,11 +3904,7 @@ export default {
     Size: "All Sizes",
     Restrictions: "Restricted from ANY use in Canada or the U.S.",
     Botanical: "Citrus unshiu",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3390: {
     Plu: 3390,
@@ -5469,11 +3913,7 @@ export default {
     Commodity: "ARRACACH",
     Size: "All Sizes",
     Botanical: "Arracacia xanthorrhiza",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3391: {
     Plu: 3391,
@@ -5483,11 +3923,7 @@ export default {
     Variety: "Rouge Salambo (Red)",
     Size: "All Sizes",
     Botanical: "Cynara scolymus",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2004-10-31 23:00:00",
-    Language: "EN"
   },
   3392: {
     Plu: 3392,
@@ -5498,11 +3934,7 @@ export default {
     Size: "All Sizes",
     Restrictions: "Restricted from ANY use in Canada or the U.S.",
     Botanical: "Asparagus officinalis",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3393: {
     Plu: 3393,
@@ -5513,11 +3945,7 @@ export default {
     Size: "All Sizes",
     Restrictions: "Restricted from ANY use in Canada or the U.S.",
     Botanical: "Asparagus officinalis",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3394: {
     Plu: 3394,
@@ -5528,11 +3956,7 @@ export default {
     Size: "All Sizes",
     Restrictions: "Restricted from ANY use in Canada or the U.S.",
     Botanical: "Asparagus officinalis",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3395: {
     Plu: 3395,
@@ -5542,11 +3966,7 @@ export default {
     Variety: "Red",
     Size: "All Sizes",
     Botanical: "Cichorium intybus",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2004-10-31 23:00:00",
-    Language: "EN"
   },
   3396: {
     Plu: 3396,
@@ -5556,11 +3976,7 @@ export default {
     Variety: "Savoy, Red",
     Size: "All Sizes",
     Botanical: "Brassica oleracea",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2004-10-31 23:00:00",
-    Language: "EN"
   },
   3397: {
     Plu: 3397,
@@ -5570,11 +3986,7 @@ export default {
     Variety: "Summer Cabbage - Pointed type",
     Size: "All Sizes",
     Botanical: "Brassica oleracea",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3398: {
     Plu: 3398,
@@ -5584,11 +3996,7 @@ export default {
     Variety: "Chickpeas/Garbanzo",
     Size: "All Sizes",
     Botanical: "Cicer arientinum",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3399: {
     Plu: 3399,
@@ -5598,11 +4006,7 @@ export default {
     Variety: "Regular - Fresh/Semi-dried with leaves attached",
     Size: "All Sizes",
     Botanical: "Allium sativum",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3400: {
     Plu: 3400,
@@ -5612,11 +4016,7 @@ export default {
     Variety: "Regular - Smoked",
     Size: "All Sizes",
     Botanical: "Allium sativum",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3401: {
     Plu: 3401,
@@ -5626,11 +4026,7 @@ export default {
     Variety: "One-clove types",
     Size: "All Sizes",
     Botanical: "Allium sativum",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3402: {
     Plu: 3402,
@@ -5641,11 +4037,7 @@ export default {
     Size: "All Sizes",
     Restrictions: "Restricted from ANY use in Canada or the U.S.",
     Botanical: "Allium ampeloprasum",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3403: {
     Plu: 3403,
@@ -5656,11 +4048,7 @@ export default {
     Size: "All Sizes",
     Restrictions: "Restricted from ANY use in Canada or the U.S.",
     Botanical: "Allium ampeloprasum",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3404: {
     Plu: 3404,
@@ -5670,11 +4058,7 @@ export default {
     Variety: "Cep",
     Size: "All Sizes",
     Botanical: "Bolelus edulis",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2004-10-31 23:00:00",
-    Language: "EN"
   },
   3405: {
     Plu: 3405,
@@ -5684,11 +4068,7 @@ export default {
     Variety: "Fairy Ring Champignon",
     Size: "All Sizes",
     Botanical: "Marasmius oreades",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2004-10-31 23:00:00",
-    Language: "EN"
   },
   3406: {
     Plu: 3406,
@@ -5698,11 +4078,7 @@ export default {
     Variety: "Grey - Tricholoma",
     Size: "All Sizes",
     Botanical: "Tricholoma terreum",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2004-10-31 23:00:00",
-    Language: "EN"
   },
   3407: {
     Plu: 3407,
@@ -5712,11 +4088,7 @@ export default {
     Variety: "Grisette",
     Size: "All Sizes",
     Botanical: "Amanita vaginata",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2004-10-31 23:00:00",
-    Language: "EN"
   },
   3408: {
     Plu: 3408,
@@ -5726,11 +4098,7 @@ export default {
     Variety: "Horn of Plenty/Black Trumpet",
     Size: "All Sizes",
     Botanical: "Agaricus bisporus",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2004-10-31 23:00:00",
-    Language: "EN"
   },
   3409: {
     Plu: 3409,
@@ -5740,11 +4108,7 @@ export default {
     Variety: "Pioppino",
     Size: "All Sizes",
     Botanical: "Agaricus bisporus",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2004-10-31 23:00:00",
-    Language: "EN"
   },
   3410: {
     Plu: 3410,
@@ -5754,11 +4118,7 @@ export default {
     Variety: "Saffron Milk-Cap",
     Size: "All Sizes",
     Botanical: "Lactarius deliciosus",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2004-10-31 23:00:00",
-    Language: "EN"
   },
   3411: {
     Plu: 3411,
@@ -5768,11 +4128,7 @@ export default {
     Variety: "Sheep Polypore",
     Size: "All Sizes",
     Botanical: "Albatrellus ovinus (tbc)",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2004-10-31 23:00:00",
-    Language: "EN"
   },
   3412: {
     Plu: 3412,
@@ -5782,11 +4138,7 @@ export default {
     Variety: "Yellow/Brown Fresh - Bunch",
     Size: "All Sizes",
     Botanical: "Allium spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3413: {
     Plu: 3413,
@@ -5796,11 +4148,7 @@ export default {
     Variety: "Tabasco",
     Size: "All Sizes",
     Botanical: "Capsicum spp",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3414: {
     Plu: 3414,
@@ -5811,11 +4159,7 @@ export default {
     Size: "All Sizes",
     Restrictions: "Restricted from ANY use in Canada or the U.S.",
     Botanical: "Solanum tuberosum",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3415: {
     Plu: 3415,
@@ -5826,11 +4170,7 @@ export default {
     Size: "All Sizes",
     Restrictions: "Restricted from ANY use in Canada or the U.S.",
     Botanical: "Solanum tuberosum",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3416: {
     Plu: 3416,
@@ -5841,11 +4181,7 @@ export default {
     Size: "All Sizes",
     Restrictions: "Restricted from ANY use in Canada or the U.S.",
     Botanical: "Rheum x rhabarbarum",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2004-10-31 23:00:00",
-    Language: "EN"
   },
   3417: {
     Plu: 3417,
@@ -5856,11 +4192,7 @@ export default {
     Size: "All Sizes",
     Restrictions: "Restricted from ANY use in Canada or the U.S.",
     Botanical: "Tetragonia tetragonioides",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3418: {
     Plu: 3418,
@@ -5870,11 +4202,7 @@ export default {
     Variety: "Zucchini/Courgette - Round",
     Size: "All Sizes",
     Botanical: "C.pepo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2004-10-31 23:00:00",
-    Language: "EN"
   },
   3419: {
     Plu: 3419,
@@ -5883,11 +4211,7 @@ export default {
     Commodity: "BORAGE",
     Size: "All Sizes",
     Botanical: "Borago officinalis",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2004-10-31 23:00:00",
-    Language: "EN"
   },
   3420: {
     Plu: 3420,
@@ -5898,11 +4222,7 @@ export default {
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
     Aka: "Honey Belle",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2014-01-28 23:00:00",
-    Language: "EN"
   },
   3421: {
     Plu: 3421,
@@ -5912,11 +4232,7 @@ export default {
     Variety: "Watermelon - Mini Seedless",
     Size: "3-7 LBS",
     Botanical: "Citrullus lanatus",
-    Status: "Approved",
-    Updated_by: "Vicki Bonvetti",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2003-08-04 22:00:00",
-    Language: "EN"
   },
   3422: {
     Plu: 3422,
@@ -5927,11 +4243,7 @@ export default {
     Size: "All Sizes",
     Restrictions: "A hybrid of apricot and plum varieties exhibiting more apricot-like characteristics.",
     Botanical: "Prunus armeniaca",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2003-08-04 22:00:00",
-    Language: "EN"
   },
   3423: {
     Plu: 3423,
@@ -5942,11 +4254,7 @@ export default {
     Size: "All Sizes",
     Botanical: "Lycopersicon esculenta",
     Aka: "Varieties include but are not limited to: Amish Salad, Anna Russian, Aunt Ruby's Yellow Cherry, Big Italian Plum, Black Plum, Black Prince, Black Zebra, Brandywine, Dr. Caroline, Earl of Edgecomb, Eva Purple Ball, Flamme, Green Zebra, Hawaiian Pineapple",
-    Status: "Approved",
-    Updated_by: "Netsetters Admin",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2003-08-04 22:00:00",
-    Language: "EN"
   },
   3424: {
     Plu: 3424,
@@ -5956,11 +4264,7 @@ export default {
     Variety: "Purple/Red - Beta Sweet",
     Size: "All Sizes",
     Botanical: "Daucus carota",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3425: {
     Plu: 3425,
@@ -5971,11 +4275,7 @@ export default {
     Size: "Small",
     Restrictions: "Restricted from ANY use in Canada or the U.S.",
     Botanical: "Citrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2003-10-02 22:00:00",
-    Language: "EN"
   },
   3426: {
     Plu: 3426,
@@ -5986,11 +4286,7 @@ export default {
     Size: "Medium",
     Restrictions: "Restricted from ANY use in Canada or the U.S.",
     Botanical: "Citrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2003-10-02 22:00:00",
-    Language: "EN"
   },
   3427: {
     Plu: 3427,
@@ -6001,11 +4297,7 @@ export default {
     Size: "Large",
     Restrictions: "Restricted from ANY use in Canada or the U.S.",
     Botanical: "Citrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2003-10-02 22:00:00",
-    Language: "EN"
   },
   3428: {
     Plu: 3428,
@@ -6016,11 +4308,7 @@ export default {
     Size: "Small",
     Restrictions: "Restricted from ANY use in Canada or the U.S.",
     Botanical: "Citrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2003-10-02 22:00:00",
-    Language: "EN"
   },
   3429: {
     Plu: 3429,
@@ -6031,11 +4319,7 @@ export default {
     Size: "Medium",
     Restrictions: "Restricted from ANY use in Canada or the U.S.",
     Botanical: "Citrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2003-10-02 22:00:00",
-    Language: "EN"
   },
   3430: {
     Plu: 3430,
@@ -6046,11 +4330,7 @@ export default {
     Size: "Large",
     Restrictions: "Restricted from ANY use in Canada or the U.S.",
     Botanical: "Citrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2003-10-02 22:00:00",
-    Language: "EN"
   },
   3431: {
     Plu: 3431,
@@ -6061,11 +4341,7 @@ export default {
     Size: "Small",
     Restrictions: "Restricted from ANY use in Canada or the U.S.",
     Botanical: "Citrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2003-10-02 22:00:00",
-    Language: "EN"
   },
   3432: {
     Plu: 3432,
@@ -6076,11 +4352,7 @@ export default {
     Size: "Medium",
     Restrictions: "Restricted from ANY use in Canada or the U.S.",
     Botanical: "Citrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2003-10-02 22:00:00",
-    Language: "EN"
   },
   3433: {
     Plu: 3433,
@@ -6091,11 +4363,7 @@ export default {
     Size: "Large",
     Restrictions: "Restricted from ANY use in Canada or the U.S.",
     Botanical: "Citrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2003-10-02 22:00:00",
-    Language: "EN"
   },
   3434: {
     Plu: 3434,
@@ -6105,11 +4373,7 @@ export default {
     Variety: "Tosca",
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2006-05-23 22:00:00",
-    Language: "EN"
   },
   3435: {
     Plu: 3435,
@@ -6119,11 +4383,7 @@ export default {
     Variety: "Pinova",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2006-05-23 22:00:00",
-    Language: "EN"
   },
   3436: {
     Plu: 3436,
@@ -6133,11 +4393,7 @@ export default {
     Variety: "Orange",
     Size: "All Sizes",
     Botanical: "Brassica oleracea",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2006-05-23 22:00:00",
-    Language: "EN"
   },
   3437: {
     Plu: 3437,
@@ -6147,11 +4403,7 @@ export default {
     Variety: "Flat Yellow",
     Size: "All Sizes",
     Botanical: "Prunus persica",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2006-05-23 22:00:00",
-    Language: "EN"
   },
   3438: {
     Plu: 3438,
@@ -6161,11 +4413,7 @@ export default {
     Variety: "Ambrosia",
     Size: "All other sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2006-05-23 22:00:00",
-    Language: "EN"
   },
   3439: {
     Plu: 3439,
@@ -6175,11 +4423,7 @@ export default {
     Variety: "White Flesh Flat",
     Size: "All Sizes",
     Botanical: "Prunus persica",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2007-10-22 22:00:00",
-    Language: "EN"
   },
   3440: {
     Plu: 3440,
@@ -6190,11 +4434,7 @@ export default {
     Measures_na: "24 size and larger",
     Measures_row: "Average Fruit Dimensions = 4.25 and larger",
     Botanical: "Punica granatum",
-    Status: "Approved",
-    Updated_by: "Vicki Bonvetti",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2007-10-29 23:00:00",
-    Language: "EN"
   },
   3441: {
     Plu: 3441,
@@ -6204,11 +4444,7 @@ export default {
     Variety: "Butterkin",
     Size: "All Sizes",
     Botanical: "Cucurbita moshata",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2014-05-14 22:00:00",
-    Language: "EN"
   },
   3442: {
     Plu: 3442,
@@ -6219,11 +4455,7 @@ export default {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Aka: "SnapDragon",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2014-09-04 22:00:00",
-    Language: "EN"
   },
   3443: {
     Plu: 3443,
@@ -6234,11 +4466,7 @@ export default {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Aka: "RubyFrost",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2014-09-04 22:00:00",
-    Language: "EN"
   },
   3444: {
     Plu: 3444,
@@ -6249,11 +4477,7 @@ export default {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Aka: "Chin Loung",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2014-09-04 22:00:00",
-    Language: "EN"
   },
   3445: {
     Plu: 3445,
@@ -6264,11 +4488,7 @@ export default {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Aka: "Pazazz",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2014-09-04 22:00:00",
-    Language: "EN"
   },
   3446: {
     Plu: 3446,
@@ -6277,11 +4497,7 @@ export default {
     Commodity: "KALE SPROUTS",
     Size: "All Sizes",
     Botanical: "Brassica Oleracea",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2014-12-01 23:00:00",
-    Language: "EN"
   },
   3447: {
     Plu: 3447,
@@ -6292,11 +4508,7 @@ export default {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Aka: "Riverbelle",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2014-12-01 23:00:00",
-    Language: "EN"
   },
   3448: {
     Plu: 3448,
@@ -6307,11 +4519,7 @@ export default {
     Size: "All Sizes",
     Botanical: "Prunus avium",
     Aka: "Skylar Rae",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2015-01-28 23:00:00",
-    Language: "EN"
   },
   3449: {
     Plu: 3449,
@@ -6322,11 +4530,7 @@ export default {
     Size: "All Sizes",
     Botanical: "Vitis Vinifera I.",
     Aka: "MIDNIGHT BEAUTY® brand",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2015-03-26 23:00:00",
-    Language: "EN"
   },
   3450: {
     Plu: 3450,
@@ -6337,11 +4541,7 @@ export default {
     Size: "All Sizes",
     Botanical: "Vitis Vinifera I.",
     Aka: "SCARLOTTA SEEDLESS® brand",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2015-03-26 23:00:00",
-    Language: "EN"
   },
   3451: {
     Plu: 3451,
@@ -6352,11 +4552,7 @@ export default {
     Size: "All Sizes",
     Botanical: "Vitis Vinifera",
     Aka: "ADORA SEEDLESS® brand",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2015-03-26 23:00:00",
-    Language: "EN"
   },
   3452: {
     Plu: 3452,
@@ -6367,11 +4563,7 @@ export default {
     Size: "All Sizes",
     Botanical: "Vitis Vinifera",
     Aka: "AUTUMNCRISP® brand",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2015-03-26 23:00:00",
-    Language: "EN"
   },
   3453: {
     Plu: 3453,
@@ -6380,11 +4572,7 @@ export default {
     Commodity: "GALANGAL ROOT",
     Size: "All Sizes",
     Botanical: "Alpinia officinarum",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2015-03-26 23:00:00",
-    Language: "EN"
   },
   3454: {
     Plu: 3454,
@@ -6394,11 +4582,7 @@ export default {
     Variety: "Green",
     Size: "All Sizes",
     Botanical: "Artocarpus heterophylus",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2015-03-26 23:00:00",
-    Language: "EN"
   },
   3455: {
     Plu: 3455,
@@ -6408,11 +4592,7 @@ export default {
     Variety: "Yellow",
     Size: "All Sizes",
     Botanical: "Artocarpus heterophylus",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2015-03-26 23:00:00",
-    Language: "EN"
   },
   3456: {
     Plu: 3456,
@@ -6422,11 +4602,7 @@ export default {
     Variety: "Winter",
     Size: "All Sizes",
     Botanical: "Cucumis melo",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2015-03-26 23:00:00",
-    Language: "EN"
   },
   3457: {
     Plu: 3457,
@@ -6436,11 +4612,7 @@ export default {
     Variety: "President",
     Size: "All Sizes",
     Botanical: "Prunus spp.",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2015-03-26 23:00:00",
-    Language: "EN"
   },
   3458: {
     Plu: 3458,
@@ -6450,11 +4622,7 @@ export default {
     Variety: "Cherry - Orange",
     Size: "All Sizes",
     Botanical: "Lycopersicon esculenta",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2015-03-26 23:00:00",
-    Language: "EN"
   },
   3600: {
     Plu: 3600,
@@ -6464,11 +4632,7 @@ export default {
     Variety: "Antares",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2008-06-02 22:00:00",
-    Language: "EN"
   },
   3601: {
     Plu: 3601,
@@ -6479,11 +4643,7 @@ export default {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Aka: "Autumn Glory",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2008-06-02 22:00:00",
-    Language: "EN"
   },
   3602: {
     Plu: 3602,
@@ -6493,11 +4653,7 @@ export default {
     Variety: "Belgica",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2008-11-25 23:00:00",
-    Language: "EN"
   },
   3603: {
     Plu: 3603,
@@ -6507,11 +4663,7 @@ export default {
     Variety: "Minneiska",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Vicki Bonvetti",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2008-11-25 23:00:00",
-    Language: "EN"
   },
   3604: {
     Plu: 3604,
@@ -6521,11 +4673,7 @@ export default {
     Variety: "Emmons",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2008-11-25 23:00:00",
-    Language: "EN"
   },
   3605: {
     Plu: 3605,
@@ -6535,11 +4683,7 @@ export default {
     Variety: "Nicoter",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2009-05-12 22:00:00",
-    Language: "EN"
   },
   3606: {
     Plu: 3606,
@@ -6549,11 +4693,7 @@ export default {
     Variety: "Sweet Sensation",
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
-    Status: "Approved",
-    Updated_by: "Vicki Bonvetti",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2009-05-12 22:00:00",
-    Language: "EN"
   },
   3607: {
     Plu: 3607,
@@ -6563,11 +4703,7 @@ export default {
     Variety: "Mariri Red",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2007-10-22 22:00:00",
-    Language: "EN"
   },
   3608: {
     Plu: 3608,
@@ -6580,11 +4716,7 @@ export default {
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
     Aka: "Pacific Rose",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2002-10-15 22:00:00",
-    Language: "EN"
   },
   3609: {
     Plu: 3609,
@@ -6594,11 +4726,7 @@ export default {
     Variety: "Red",
     Size: "All Sizes",
     Botanical: "Prunus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2008-06-02 22:00:00",
-    Language: "EN"
   },
   3610: {
     Plu: 3610,
@@ -6608,11 +4736,7 @@ export default {
     Variety: "Green",
     Size: "All Sizes",
     Botanical: "Prunus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2008-06-02 22:00:00",
-    Language: "EN"
   },
   3611: {
     Plu: 3611,
@@ -6622,11 +4746,7 @@ export default {
     Variety: "Black",
     Size: "All Sizes",
     Botanical: "Prunus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2008-06-02 22:00:00",
-    Language: "EN"
   },
   3612: {
     Plu: 3612,
@@ -6636,11 +4756,7 @@ export default {
     Variety: "Nicogreen",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2009-05-12 22:00:00",
-    Language: "EN"
   },
   3613: {
     Plu: 3613,
@@ -6650,11 +4766,7 @@ export default {
     Variety: "Fuji Brak",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2009-05-12 22:00:00",
-    Language: "EN"
   },
   3614: {
     Plu: 3614,
@@ -6664,11 +4776,7 @@ export default {
     Variety: "Red",
     Size: "All Sizes",
     Botanical: "Prunus armeniaca",
-    Status: "Approved",
-    Updated_by: "Vicki Bonvetti",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2009-10-14 22:00:00",
-    Language: "EN"
   },
   3615: {
     Plu: 3615,
@@ -6678,11 +4786,7 @@ export default {
     Variety: "Civni",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2009-10-28 23:00:00",
-    Language: "EN"
   },
   3616: {
     Plu: 3616,
@@ -6694,11 +4798,7 @@ export default {
     Measures_na: "88 size and larger",
     Botanical: "Malus domestica",
     Aka: "ENVY",
-    Status: "Approved",
-    Updated_by: "Vicki Bonvetti",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2013-05-05 22:00:00",
-    Language: "EN"
   },
   3617: {
     Plu: 3617,
@@ -6707,11 +4807,7 @@ export default {
     Commodity: "LEMONS",
     Variety: "Seedless",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Vicki Bonvetti",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2010-06-27 22:00:00",
-    Language: "EN"
   },
   3618: {
     Plu: 3618,
@@ -6721,11 +4817,7 @@ export default {
     Variety: "Opal",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2007-10-18 22:00:00",
-    Language: "EN"
   },
   3619: {
     Plu: 3619,
@@ -6735,11 +4827,7 @@ export default {
     Variety: "Milwa",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2011-06-08 22:00:00",
-    Language: "EN"
   },
   3620: {
     Plu: 3620,
@@ -6749,11 +4837,7 @@ export default {
     Variety: "Plumac",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2011-06-08 22:00:00",
-    Language: "EN"
   },
   3621: {
     Plu: 3621,
@@ -6764,11 +4848,7 @@ export default {
     Size: "All Sizes",
     Botanical: "Mangifera Indica",
     Aka: "Madame Francis, Francine",
-    Status: "Approved",
-    Updated_by: "Vicki Bonvetti",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2011-10-23 22:00:00",
-    Language: "EN"
   },
   3622: {
     Plu: 3622,
@@ -6779,11 +4859,7 @@ export default {
     Size: "All Sizes",
     Botanical: "Cucumis melo",
     Aka: "Papaya Melon",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2011-10-23 22:00:00",
-    Language: "EN"
   },
   3623: {
     Plu: 3623,
@@ -6794,11 +4870,7 @@ export default {
     Size: "All Sizes",
     Botanical: "Cucumis melo",
     Aka: "Chinese Hami or Snow Melon",
-    Status: "Approved",
-    Updated_by: "Vicki Bonvetti",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2011-10-23 22:00:00",
-    Language: "EN"
   },
   3624: {
     Plu: 3624,
@@ -6808,11 +4880,7 @@ export default {
     Variety: "Korean",
     Size: "All Sizes",
     Botanical: "Cucumis melo",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2011-10-23 22:00:00",
-    Language: "EN"
   },
   3625: {
     Plu: 3625,
@@ -6823,11 +4891,7 @@ export default {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Aka: "Zestar",
-    Status: "Approved",
-    Updated_by: "Vicki Bonvetti",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2011-10-23 22:00:00",
-    Language: "EN"
   },
   3626: {
     Plu: 3626,
@@ -6837,11 +4901,7 @@ export default {
     Variety: "Meyer",
     Size: "All Sizes",
     Botanical: "Citrus limon",
-    Status: "Approved",
-    Updated_by: "Vicki Bonvetti",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2012-01-24 23:00:00",
-    Language: "EN"
   },
   3627: {
     Plu: 3627,
@@ -6851,11 +4911,7 @@ export default {
     Variety: "PremA17",
     Size: "Large",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2012-01-24 23:00:00",
-    Language: "EN"
   },
   3628: {
     Plu: 3628,
@@ -6865,11 +4921,7 @@ export default {
     Variety: "PremA280",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2012-01-24 23:00:00",
-    Language: "EN"
   },
   3629: {
     Plu: 3629,
@@ -6879,11 +4931,7 @@ export default {
     Variety: "CIVG198",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2012-01-24 23:00:00",
-    Language: "EN"
   },
   3630: {
     Plu: 3630,
@@ -6893,11 +4941,7 @@ export default {
     Variety: "Co-op 43",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Vicki Bonvetti",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2012-04-24 22:00:00",
-    Language: "EN"
   },
   3631: {
     Plu: 3631,
@@ -6909,11 +4953,7 @@ export default {
     Measures_na: "22 to 25 lbs",
     Botanical: "Eucurbita maxima",
     Aka: "Porcelain Doll Pumpkin",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2012-07-25 22:00:00",
-    Language: "EN"
   },
   3632: {
     Plu: 3632,
@@ -6924,11 +4964,7 @@ export default {
     Size: "All Sizes",
     Botanical: "Citrus reticulata siranui",
     Aka: "Shiranui/Hallabong/Sumo Citrus®",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "2012-10-16 22:00:00",
-    Language: "EN"
   },
   4011: {
     Plu: 4011,
@@ -6938,11 +4974,7 @@ export default {
     Variety: "Yellow (includes Cavendish)",
     Size: "All Sizes",
     Botanical: "Musa spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4012: {
     Plu: 4012,
@@ -6954,11 +4986,7 @@ export default {
     Measures_na: "56 size and larger",
     Measures_row: "Average Fruit Dimensions = 84mm and above",
     Botanical: "Citrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4013: {
     Plu: 4013,
@@ -6970,11 +4998,7 @@ export default {
     Measures_na: "113 size and smaller",
     Measures_row: "Average Fruit Dimensions = less than 66mm",
     Botanical: "Citrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4014: {
     Plu: 4014,
@@ -6986,11 +5010,7 @@ export default {
     Measures_na: "113 size and smaller",
     Measures_row: "Average Fruit Dimensions = less than 66mm",
     Botanical: "Citrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4015: {
     Plu: 4015,
@@ -7002,11 +5022,7 @@ export default {
     Measures_na: "100 size and smaller",
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4016: {
     Plu: 4016,
@@ -7018,11 +5034,7 @@ export default {
     Measures_na: "88 size and larger",
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4017: {
     Plu: 4017,
@@ -7034,11 +5046,7 @@ export default {
     Measures_na: "88 size and larger",
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4018: {
     Plu: 4018,
@@ -7051,11 +5059,7 @@ export default {
     Measures_row: "Average Fruit Weight = 205g and above",
     Restrictions: "Restricted for items grown in all states east of Colorado, New Mexico, Wyoming and Montana in the U.S. and east of the Ontario/Manitoba border in Canada.",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4019: {
     Plu: 4019,
@@ -7068,11 +5072,7 @@ export default {
     Measures_row: "Average Fruit Weight = 205g and above",
     Restrictions: "Restricted for items grown in all states east of Colorado, New Mexico, Wyoming and Montana in the U.S. and east of the Ontario/Manitoba border in Canada.",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4020: {
     Plu: 4020,
@@ -7084,11 +5084,7 @@ export default {
     Measures_na: "88 size and larger",
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4021: {
     Plu: 4021,
@@ -7100,11 +5096,7 @@ export default {
     Measures_na: "100 size and smaller",
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4022: {
     Plu: 4022,
@@ -7114,11 +5106,7 @@ export default {
     Variety: "White/Green Seedless - Peerlette Seedless/Thompson Seedless",
     Size: "All Sizes",
     Botanical: "Vitis vinifera",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4023: {
     Plu: 4023,
@@ -7128,11 +5116,7 @@ export default {
     Variety: "Red Seedless - Flame/Ruby/Emperatriz",
     Size: "All Sizes",
     Botanical: "Vitis vinifera",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4024: {
     Plu: 4024,
@@ -7144,11 +5128,7 @@ export default {
     Measures_na: "110 size and smaller",
     Measures_row: "Average Fruit Weight =  less than 180g",
     Botanical: "Pyrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:55",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4025: {
     Plu: 4025,
@@ -7160,11 +5140,7 @@ export default {
     Measures_na: "110 size and smaller",
     Measures_row: "Average Fruit Weight =  less than 180g",
     Botanical: "Pyrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4026: {
     Plu: 4026,
@@ -7176,11 +5152,7 @@ export default {
     Measures_na: "110 size and smaller",
     Measures_row: "Average Fruit Weight =  less than 180g",
     Botanical: "Pyrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4027: {
     Plu: 4027,
@@ -7192,11 +5164,7 @@ export default {
     Measures_na: "40 size and smaller",
     Restrictions: "Restricted for items grown east of the Mississippi River in the U.S or east of the Ontario/Manitoba border in Canada.",
     Botanical: "Citrus paradisi",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4028: {
     Plu: 4028,
@@ -7206,11 +5174,7 @@ export default {
     Variety: "Strawberries",
     Size: "Pint",
     Botanical: "Fragaria ananassa",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4029: {
     Plu: 4029,
@@ -7221,11 +5185,7 @@ export default {
     Measures_na: "12 size and smaller",
     Restrictions: "Sizes for pineapple based on two-layer lug.",
     Botanical: "Ananas comosus",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4030: {
     Plu: 4030,
@@ -7235,11 +5195,7 @@ export default {
     Variety: "Regular",
     Size: "All Sizes",
     Botanical: "Actinidia deliciosa",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "2004-06-29 22:00:00",
-    Language: "EN"
   },
   4031: {
     Plu: 4031,
@@ -7249,11 +5205,7 @@ export default {
     Variety: "Watermelon - Red",
     Size: "All Sizes",
     Botanical: "Citrullus lanatus",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4032: {
     Plu: 4032,
@@ -7263,11 +5215,7 @@ export default {
     Variety: "Watermelon - Red, Seedless",
     Size: "All Sizes",
     Botanical: "Citrullus lanatus",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4033: {
     Plu: 4033,
@@ -7278,11 +5226,7 @@ export default {
     Measures_na: "200 size and smaller",
     Measures_row: "Average Fruit Dimensions = less than 54mm",
     Botanical: "Citrus limon",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4034: {
     Plu: 4034,
@@ -7294,11 +5238,7 @@ export default {
     Measures_na: "5 size and larger",
     Measures_row: "Average Fruit Weight =  2040g and above",
     Botanical: "Cucumis melo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4035: {
     Plu: 4035,
@@ -7310,11 +5250,7 @@ export default {
     Measures_na: "70 size and smaller",
     Measures_row: "Average Fruit Weight =  less than 185g",
     Botanical: "Prunus persica",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4036: {
     Plu: 4036,
@@ -7326,11 +5262,7 @@ export default {
     Measures_na: "66 size and larger",
     Measures_row: "Average Fruit Weight =  185g and above",
     Botanical: "Prunus persica",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4037: {
     Plu: 4037,
@@ -7342,11 +5274,7 @@ export default {
     Measures_na: "70 size and smaller",
     Measures_row: "Average Fruit Weight =  less than 185g",
     Botanical: "Prunus persica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4038: {
     Plu: 4038,
@@ -7358,11 +5286,7 @@ export default {
     Measures_na: "66 size and larger",
     Measures_row: "Average Fruit Weight =  185g and above",
     Botanical: "Prunus persica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4039: {
     Plu: 4039,
@@ -7374,11 +5298,7 @@ export default {
     Measures_na: "60 size and smaller",
     Measures_row: "Average Fruit Dimensions < 50MM",
     Botanical: "Prunus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4040: {
     Plu: 4040,
@@ -7390,11 +5310,7 @@ export default {
     Measures_na: "55 size and larger",
     Measures_row: "Average Fruit Dimensions 50MM & ABOVE",
     Botanical: "Prunus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4041: {
     Plu: 4041,
@@ -7406,11 +5322,7 @@ export default {
     Measures_na: "60 size and smaller",
     Measures_row: "Average Fruit Dimensions < 50MM",
     Botanical: "Prunus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4042: {
     Plu: 4042,
@@ -7422,11 +5334,7 @@ export default {
     Measures_na: "55 size and larger",
     Measures_row: "Average Fruit Dimensions 50MM & ABOVE",
     Botanical: "Prunus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4043: {
     Plu: 4043,
@@ -7438,11 +5346,7 @@ export default {
     Measures_na: "70 size and smaller",
     Measures_row: "Average Fruit Weight =  less than 185g",
     Botanical: "Prunus persica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4044: {
     Plu: 4044,
@@ -7454,11 +5358,7 @@ export default {
     Measures_na: "66 size and larger",
     Measures_row: "Average Fruit Weight =  185g and above",
     Botanical: "Prunus persica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4045: {
     Plu: 4045,
@@ -7469,11 +5369,7 @@ export default {
     Size: "All Sizes",
     Restrictions: "This code can be used anyplace in the globe; however, there are other codes for this item that can be used outside of North America.",
     Botanical: "Prunus avium",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4046: {
     Plu: 4046,
@@ -7485,11 +5381,7 @@ export default {
     Measures_na: "60 size and smaller",
     Measures_row: "Average Fruit Weight = less than 190g",
     Botanical: "Persea americana",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4047: {
     Plu: 4047,
@@ -7501,11 +5393,7 @@ export default {
     Measures_na: "40 size and smaller",
     Measures_row: "Average Fruit Dimensions = less than 97mm",
     Botanical: "Citrus paradisi",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "2002-06-01 22:00:00",
-    Language: "EN"
   },
   4048: {
     Plu: 4048,
@@ -7515,11 +5403,7 @@ export default {
     Variety: "Regular (incl. Persian, Tahiti & Bearss)",
     Size: "All Sizes",
     Botanical: "Citrus latifolia",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4049: {
     Plu: 4049,
@@ -7531,11 +5415,7 @@ export default {
     Measures_na: "15 size and smaller (Original size break was 18 size and smaller) 2 year transition period for this change to be official. New size official as of 5/2007.",
     Measures_row: "Average Fruit Weight =  less than 1135g",
     Botanical: "Cucumis melo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "2005-05-22 22:00:00",
-    Language: "EN"
   },
   4050: {
     Plu: 4050,
@@ -7547,11 +5427,7 @@ export default {
     Measures_na: "12 size and larger  (Original size break was 15 size and larger) 2 year transition period for this change to be official. New size official as of 5/2007.",
     Measures_row: "Average Fruit Weight =  1135g and above",
     Botanical: "Cucumis melo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "2005-05-22 22:00:00",
-    Language: "EN"
   },
   4051: {
     Plu: 4051,
@@ -7562,11 +5438,7 @@ export default {
     Size: "Small",
     Measures_na: "12 size and smaller",
     Botanical: "Mangifera indica",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4052: {
     Plu: 4052,
@@ -7577,11 +5449,7 @@ export default {
     Size: "Small",
     Measures_na: "10 size and smaller",
     Botanical: "Carica papaya",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4053: {
     Plu: 4053,
@@ -7592,11 +5460,7 @@ export default {
     Measures_na: "115 size and larger",
     Measures_row: "Average Fruit Dimensions = 65mm and above",
     Botanical: "Citrus limon",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4054: {
     Plu: 4054,
@@ -7606,11 +5470,7 @@ export default {
     Variety: "Raspberries - Red",
     Size: "All Sizes",
     Botanical: "Rubus idaeus",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4055: {
     Plu: 4055,
@@ -7619,11 +5479,7 @@ export default {
     Commodity: "TANGERINES/MANDARINS",
     Size: "All Sizes",
     Botanical: "Citrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4056: {
     Plu: 4056,
@@ -7633,11 +5489,7 @@ export default {
     Variety: "Blue/Black Seedless (All other varieties not listed above including Beauty and Autumn Royal)",
     Size: "All Sizes",
     Botanical: "Vitis vinifera",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4057: {
     Plu: 4057,
@@ -7649,11 +5501,7 @@ export default {
     Measures_na: "100 size and smaller",
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4058: {
     Plu: 4058,
@@ -7665,11 +5513,7 @@ export default {
     Measures_na: "88 size and larger",
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4060: {
     Plu: 4060,
@@ -7678,11 +5522,7 @@ export default {
     Commodity: "BROCCOLI",
     Size: "All Sizes",
     Botanical: "Brassica oleracea",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4061: {
     Plu: 4061,
@@ -7692,11 +5532,7 @@ export default {
     Variety: "Iceberg",
     Size: "All Sizes",
     Botanical: "Lactuca sativa",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4062: {
     Plu: 4062,
@@ -7706,11 +5542,7 @@ export default {
     Variety: "Green/Ridge/Short",
     Size: "All Sizes",
     Botanical: "Cucumis sativus",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4063: {
     Plu: 4063,
@@ -7722,11 +5554,7 @@ export default {
     Measures_na: "6x6 size and smaller",
     Measures_row: "Less than 70mm diameter",
     Botanical: "Lycopersicon esculenta",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4064: {
     Plu: 4064,
@@ -7738,11 +5566,7 @@ export default {
     Measures_na: "5x6 size and larger",
     Measures_row: "Diameter 70mm and above",
     Botanical: "Lycopersicon esculenta",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4065: {
     Plu: 4065,
@@ -7754,11 +5578,7 @@ export default {
     Measures_na: "large size and larger",
     Measures_row: "Min diameter 65mm and above",
     Botanical: "Capsicum spp",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4066: {
     Plu: 4066,
@@ -7768,11 +5588,7 @@ export default {
     Variety: "Green/French",
     Size: "All Sizes",
     Botanical: "Phaseolus vulgaris",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4067: {
     Plu: 4067,
@@ -7782,11 +5598,7 @@ export default {
     Variety: "Zucchini/Courgette",
     Size: "All Sizes",
     Botanical: "C.pepo",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4068: {
     Plu: 4068,
@@ -7796,11 +5608,7 @@ export default {
     Variety: "Green (Scallions)/Spring",
     Size: "All Sizes",
     Botanical: "Allium spp.",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4069: {
     Plu: 4069,
@@ -7810,11 +5618,7 @@ export default {
     Variety: "Green",
     Size: "All Sizes",
     Botanical: "Brassica oleracea",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4070: {
     Plu: 4070,
@@ -7824,11 +5628,7 @@ export default {
     Variety: "Bunch",
     Size: "Small",
     Measures_na: "30 size and smaller",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4071: {
     Plu: 4071,
@@ -7839,11 +5639,7 @@ export default {
     Size: "Small",
     Measures_na: "30 size and smaller",
     Restrictions: "Restricted for items grown east of the Mississippi River in the U.S. or east of the Ontario/Manitoba border in Canada.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4072: {
     Plu: 4072,
@@ -7853,11 +5649,7 @@ export default {
     Variety: "Russet",
     Size: "All Sizes",
     Botanical: "Solanum tuberosum",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4073: {
     Plu: 4073,
@@ -7867,11 +5659,7 @@ export default {
     Variety: "Red",
     Size: "All Sizes",
     Botanical: "Solanum tuberosum",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4074: {
     Plu: 4074,
@@ -7883,11 +5671,7 @@ export default {
     Measures_na: "large size and smaller",
     Restrictions: "Terminology changed to include both sweet potato and yam to avoid confusion in marketplace.",
     Botanical: "Ipomoea batato",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "2009-06-09 22:00:00",
-    Language: "EN"
   },
   4075: {
     Plu: 4075,
@@ -7897,11 +5681,7 @@ export default {
     Variety: "Red Leaf",
     Size: "All Sizes",
     Botanical: "Lactuca sativa",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4076: {
     Plu: 4076,
@@ -7911,11 +5691,7 @@ export default {
     Variety: "Green Leaf",
     Size: "All Sizes",
     Botanical: "Lactuca sativa",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4077: {
     Plu: 4077,
@@ -7925,11 +5701,7 @@ export default {
     Variety: "Sweet Corn, White",
     Size: "All Sizes",
     Botanical: "Zea mays",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4078: {
     Plu: 4078,
@@ -7939,11 +5711,7 @@ export default {
     Variety: "Sweet Corn, Yellow",
     Size: "All Sizes",
     Botanical: "Zea mays",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4079: {
     Plu: 4079,
@@ -7953,11 +5721,7 @@ export default {
     Size: "Small",
     Measures_na: "12 size and smaller",
     Botanical: "Brassica oleracea",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4080: {
     Plu: 4080,
@@ -7969,11 +5733,7 @@ export default {
     Measures_na: "standard and large size",
     Restrictions: "This code can be used anyplace in the globe; however, there are other codes for this item that can be used outside of North America.",
     Botanical: "Asparagus officinalis",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4081: {
     Plu: 4081,
@@ -7983,11 +5743,7 @@ export default {
     Variety: "Regular",
     Size: "All Sizes",
     Botanical: "Solanum melongena",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4082: {
     Plu: 4082,
@@ -7997,11 +5753,7 @@ export default {
     Variety: "Red",
     Size: "All Sizes",
     Botanical: "Allium spp.",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4083: {
     Plu: 4083,
@@ -8011,11 +5763,7 @@ export default {
     Variety: "White",
     Size: "All Sizes",
     Botanical: "Solanum tuberosum",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4084: {
     Plu: 4084,
@@ -8025,11 +5773,7 @@ export default {
     Size: "Large",
     Measures_na: "30-36 size",
     Botanical: "Cynara scolymus",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4085: {
     Plu: 4085,
@@ -8040,11 +5784,7 @@ export default {
     Size: "Large",
     Measures_row: "40mm diameter and above",
     Botanical: "Agaricus bisporus",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4086: {
     Plu: 4086,
@@ -8054,11 +5794,7 @@ export default {
     Variety: "Yellow Zucchini/Gold Bar/Yellow Courgette",
     Size: "All Sizes",
     Botanical: "C. pepo/C. maxima",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4087: {
     Plu: 4087,
@@ -8068,11 +5804,7 @@ export default {
     Variety: "Plum/Italian/Saladette/Roma - Red",
     Size: "All Sizes",
     Botanical: "Lycopersicon esculenta",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4088: {
     Plu: 4088,
@@ -8082,11 +5814,7 @@ export default {
     Variety: "Bell, Field Grown - Red",
     Size: "All Sizes",
     Botanical: "Capsicum spp",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4089: {
     Plu: 4089,
@@ -8096,11 +5824,7 @@ export default {
     Variety: "Bunched Red",
     Size: "All Sizes",
     Botanical: "Raphanus sativus",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4090: {
     Plu: 4090,
@@ -8109,11 +5833,7 @@ export default {
     Commodity: "SPINACH",
     Variety: "Regular/Bunched",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4091: {
     Plu: 4091,
@@ -8124,11 +5844,7 @@ export default {
     Size: "All Sizes",
     Restrictions: "Terminology changed to include both sweet potato and yam to avoid confusion in marketplace",
     Botanical: "Ipomoea batato",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "2009-06-09 22:00:00",
-    Language: "EN"
   },
   4092: {
     Plu: 4092,
@@ -8138,11 +5854,7 @@ export default {
     Variety: "Chinese Snow Pea/Pea Pod/Mange Tout",
     Size: "All Sizes",
     Botanical: "Pisum sativum",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4093: {
     Plu: 4093,
@@ -8154,11 +5866,7 @@ export default {
     Measures_na: "3 size and larger",
     Measures_row: "Min diameter 75mm and above",
     Botanical: "Allium spp.",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4094: {
     Plu: 4094,
@@ -8168,11 +5876,7 @@ export default {
     Variety: "Bunch",
     Size: "All Sizes",
     Botanical: "Daucus carota",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4095: {
     Plu: 4095,
@@ -8182,11 +5886,7 @@ export default {
     Variety: "Yellow",
     Size: "All Sizes",
     Botanical: "Brassica rapa",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4096: {
     Plu: 4096,
@@ -8198,11 +5898,7 @@ export default {
     Measures_na: "88 size and larger",
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4097: {
     Plu: 4097,
@@ -8214,11 +5910,7 @@ export default {
     Measures_na: "100 size and smaller",
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4098: {
     Plu: 4098,
@@ -8230,11 +5922,7 @@ export default {
     Measures_na: "100 size and smaller",
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4099: {
     Plu: 4099,
@@ -8246,11 +5934,7 @@ export default {
     Measures_na: "88 size and larger",
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4100: {
     Plu: 4100,
@@ -8262,11 +5946,7 @@ export default {
     Measures_na: "100 size and smaller",
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4101: {
     Plu: 4101,
@@ -8278,11 +5958,7 @@ export default {
     Measures_na: "100 size and smaller",
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4102: {
     Plu: 4102,
@@ -8294,11 +5970,7 @@ export default {
     Measures_na: "88 size and larger",
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4103: {
     Plu: 4103,
@@ -8310,11 +5982,7 @@ export default {
     Measures_na: "88 size and larger",
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4104: {
     Plu: 4104,
@@ -8326,11 +5994,7 @@ export default {
     Measures_na: "100 size and smaller",
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4105: {
     Plu: 4105,
@@ -8340,11 +6004,7 @@ export default {
     Variety: "Cox Orange Pippin",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4106: {
     Plu: 4106,
@@ -8356,11 +6016,7 @@ export default {
     Measures_na: "88 size and larger",
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4107: {
     Plu: 4107,
@@ -8370,11 +6026,7 @@ export default {
     Variety: "Crab",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4108: {
     Plu: 4108,
@@ -8387,11 +6039,7 @@ export default {
     Measures_row: "Average Fruit Weight = less than 205g",
     Restrictions: "Restricted for items grown in all states east of Colorado, New Mexico, Wyoming and Montana in the U.S. and east of the Ontario/Manitoba border in Canada.",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4109: {
     Plu: 4109,
@@ -8403,11 +6051,7 @@ export default {
     Measures_na: "100 size and smaller",
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4110: {
     Plu: 4110,
@@ -8420,11 +6064,7 @@ export default {
     Measures_row: "Average Fruit Weight = 205g and above",
     Restrictions: "Restricted for items grown in all states east of Colorado, New Mexico, Wyoming and Montana in the U.S. and east of the Ontario/Manitoba border in Canada.",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4111: {
     Plu: 4111,
@@ -8436,11 +6076,7 @@ export default {
     Measures_na: "88 size and larger",
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4112: {
     Plu: 4112,
@@ -8452,11 +6088,7 @@ export default {
     Measures_na: "100 size and smaller",
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4113: {
     Plu: 4113,
@@ -8468,11 +6100,7 @@ export default {
     Measures_na: "100 size and smaller",
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4114: {
     Plu: 4114,
@@ -8484,11 +6112,7 @@ export default {
     Measures_na: "88 size and larger",
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4115: {
     Plu: 4115,
@@ -8500,11 +6124,7 @@ export default {
     Measures_na: "88 size and larger",
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4116: {
     Plu: 4116,
@@ -8517,11 +6137,7 @@ export default {
     Measures_row: "Average Fruit Weight = less than 205g",
     Restrictions: "Restricted for items grown in all states east of Colorado, New Mexico, Wyoming and Montana in the U.S. and east of the Ontario/Manitoba border in Canada.",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4117: {
     Plu: 4117,
@@ -8533,11 +6149,7 @@ export default {
     Measures_na: "100 size and smaller",
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4118: {
     Plu: 4118,
@@ -8550,11 +6162,7 @@ export default {
     Measures_row: "Average Fruit Weight = 205g and above",
     Restrictions: "Restricted for items grown in all states east of Colorado, New Mexico, Wyoming and Montana in the U.S. and east of the Ontario/Manitoba border in Canada.",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4119: {
     Plu: 4119,
@@ -8566,11 +6174,7 @@ export default {
     Measures_na: "88 size and larger",
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4120: {
     Plu: 4120,
@@ -8580,11 +6184,7 @@ export default {
     Variety: "Fiesta",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4121: {
     Plu: 4121,
@@ -8596,11 +6196,7 @@ export default {
     Measures_na: "100 size and smaller",
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4122: {
     Plu: 4122,
@@ -8613,11 +6209,7 @@ export default {
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
     Aka: "Pacific Rose",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4123: {
     Plu: 4123,
@@ -8629,11 +6221,7 @@ export default {
     Measures_na: "88 size and larger",
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4124: {
     Plu: 4124,
@@ -8646,11 +6234,7 @@ export default {
     Measures_row: "Average Fruit Weight = less than 205g",
     Restrictions: "Restricted for items grown in all states east of Colorado, New Mexico, Wyoming and Montana in the U.S. and east of the Ontario/Manitoba border in Canada.",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4125: {
     Plu: 4125,
@@ -8662,11 +6246,7 @@ export default {
     Measures_na: "100 size and smaller",
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4126: {
     Plu: 4126,
@@ -8679,11 +6259,7 @@ export default {
     Measures_row: "Average Fruit Weight = 205g and above",
     Restrictions: "Restricted for items grown in all states east of Colorado, New Mexico, Wyoming and Montana in the U.S. and east of the Ontario/Manitoba border in Canada.",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4127: {
     Plu: 4127,
@@ -8695,11 +6271,7 @@ export default {
     Measures_na: "88 size and larger",
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4128: {
     Plu: 4128,
@@ -8712,11 +6284,7 @@ export default {
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
     Aka: "Pink Lady",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "2002-05-31 22:00:00",
-    Language: "EN"
   },
   4129: {
     Plu: 4129,
@@ -8728,11 +6296,7 @@ export default {
     Measures_na: "100 size and smaller",
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4130: {
     Plu: 4130,
@@ -8745,11 +6309,7 @@ export default {
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
     Aka: "Pink Lady",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "2002-05-31 22:00:00",
-    Language: "EN"
   },
   4131: {
     Plu: 4131,
@@ -8761,11 +6321,7 @@ export default {
     Measures_na: "88 size and larger",
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4132: {
     Plu: 4132,
@@ -8778,11 +6334,7 @@ export default {
     Measures_row: "Average Fruit Weight = less than 205g",
     Restrictions: "Restricted for items grown in all states east of Colorado, New Mexico, Wyoming and Montana in the U.S. and east of the Ontario/Manitoba border in Canada.",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4133: {
     Plu: 4133,
@@ -8794,11 +6346,7 @@ export default {
     Measures_na: "100 size and smaller",
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4134: {
     Plu: 4134,
@@ -8811,11 +6359,7 @@ export default {
     Measures_row: "Average Fruit Weight = 205g and above",
     Restrictions: "Restricted for items grown in all states east of Colorado, New Mexico, Wyoming and Montana in the U.S. and east of the Ontario/Manitoba border in Canada.",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4135: {
     Plu: 4135,
@@ -8827,11 +6371,7 @@ export default {
     Measures_na: "88 size and larger",
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4136: {
     Plu: 4136,
@@ -8844,11 +6384,7 @@ export default {
     Measures_row: "Average Fruit Weight = less than 205g",
     Restrictions: "Restricted for items grown in all states east of Colorado, New Mexico, Wyoming and Montana in the U.S. and east of the Ontario/Manitoba border in Canada.",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4137: {
     Plu: 4137,
@@ -8861,11 +6397,7 @@ export default {
     Measures_row: "Average Fruit Weight = 205g and above",
     Restrictions: "Restricted for items grown in all states east of Colorado, New Mexico, Wyoming and Montana in the U.S. and east of the Ontario/Manitoba border in Canada.",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4138: {
     Plu: 4138,
@@ -8878,11 +6410,7 @@ export default {
     Measures_row: "Average Fruit Weight = less than 205g",
     Restrictions: "Restricted for items grown in all states east of Colorado, New Mexico, Wyoming and Montana in the U.S. and east of the Ontario/Manitoba border in Canada.",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4139: {
     Plu: 4139,
@@ -8894,11 +6422,7 @@ export default {
     Measures_na: "100 size and smaller",
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4140: {
     Plu: 4140,
@@ -8910,11 +6434,7 @@ export default {
     Measures_na: "100 size and smaller",
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4141: {
     Plu: 4141,
@@ -8926,11 +6446,7 @@ export default {
     Measures_na: "100 size and smaller",
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4142: {
     Plu: 4142,
@@ -8942,11 +6458,7 @@ export default {
     Measures_na: "88 size and larger",
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4143: {
     Plu: 4143,
@@ -8958,11 +6470,7 @@ export default {
     Measures_na: "88 size and larger",
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4144: {
     Plu: 4144,
@@ -8975,11 +6483,7 @@ export default {
     Measures_row: "Average Fruit Weight = less than 205g",
     Restrictions: "Restricted for items grown in all states east of Colorado, New Mexico, Wyoming and Montana in the U.S. and east of the Ontario/Manitoba border in Canada.",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4145: {
     Plu: 4145,
@@ -8991,11 +6495,7 @@ export default {
     Measures_na: "100 size and smaller",
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4146: {
     Plu: 4146,
@@ -9008,11 +6508,7 @@ export default {
     Measures_row: "Average Fruit Weight = 205g and above",
     Restrictions: "Restricted for items grown in all states east of Colorado, New Mexico, Wyoming and Montana in the U.S. and east of the Ontario/Manitoba border in Canada.",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4147: {
     Plu: 4147,
@@ -9024,11 +6520,7 @@ export default {
     Measures_na: "88 size and larger",
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4148: {
     Plu: 4148,
@@ -9041,11 +6533,7 @@ export default {
     Measures_row: "Average Fruit Weight = less than 205g",
     Restrictions: "Restricted for items grown in all states east of Colorado, New Mexico, Wyoming and Montana in the U.S. and east of the Ontario/Manitoba border in Canada.",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4149: {
     Plu: 4149,
@@ -9057,11 +6545,7 @@ export default {
     Measures_na: "100 size and smaller",
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4150: {
     Plu: 4150,
@@ -9074,11 +6558,7 @@ export default {
     Measures_row: "Average Fruit Weight = 205g and above",
     Restrictions: "Restricted for items grown in all states east of Colorado, New Mexico, Wyoming and Montana in the U.S. and east of the Ontario/Manitoba border in Canada.",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4151: {
     Plu: 4151,
@@ -9090,11 +6570,7 @@ export default {
     Measures_na: "88 size and larger",
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4152: {
     Plu: 4152,
@@ -9107,11 +6583,7 @@ export default {
     Measures_row: "Average Fruit Weight = less than 205g",
     Restrictions: "Restricted for items grown in all states east of Colorado, New Mexico, Wyoming and Montana in the U.S. and east of the Ontario/Manitoba border in Canada.",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4153: {
     Plu: 4153,
@@ -9123,11 +6595,7 @@ export default {
     Measures_na: "100 size and smaller",
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4154: {
     Plu: 4154,
@@ -9139,11 +6607,7 @@ export default {
     Measures_na: "88 size and larger",
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4155: {
     Plu: 4155,
@@ -9155,11 +6619,7 @@ export default {
     Measures_na: "100 size and smaller",
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4156: {
     Plu: 4156,
@@ -9171,11 +6631,7 @@ export default {
     Measures_na: "100 size and smaller",
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4157: {
     Plu: 4157,
@@ -9187,11 +6643,7 @@ export default {
     Measures_na: "88 size and larger",
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4158: {
     Plu: 4158,
@@ -9203,11 +6655,7 @@ export default {
     Measures_na: "88 size and larger",
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4159: {
     Plu: 4159,
@@ -9217,11 +6665,7 @@ export default {
     Variety: "Vidalia",
     Size: "All Sizes",
     Botanical: "Allium spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4160: {
     Plu: 4160,
@@ -9233,11 +6677,7 @@ export default {
     Measures_na: "100 size and smaller",
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4161: {
     Plu: 4161,
@@ -9247,11 +6687,7 @@ export default {
     Variety: "Texas Sweet",
     Size: "All Sizes",
     Botanical: "Allium spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4162: {
     Plu: 4162,
@@ -9263,11 +6699,7 @@ export default {
     Measures_na: "88 size and larger",
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4163: {
     Plu: 4163,
@@ -9277,11 +6709,7 @@ export default {
     Variety: "Walla Walla",
     Size: "All Sizes",
     Botanical: "Allium spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4164: {
     Plu: 4164,
@@ -9291,11 +6719,7 @@ export default {
     Variety: "Maui",
     Size: "All Sizes",
     Botanical: "Allium spp.",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4165: {
     Plu: 4165,
@@ -9305,11 +6729,7 @@ export default {
     Variety: "California Sweet",
     Size: "All Sizes",
     Botanical: "Allium spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4166: {
     Plu: 4166,
@@ -9319,11 +6739,7 @@ export default {
     Variety: "Other Sweet",
     Size: "All Sizes",
     Botanical: "Allium spp.",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4167: {
     Plu: 4167,
@@ -9336,11 +6752,7 @@ export default {
     Measures_row: "Average Fruit Weight = less than 205g",
     Restrictions: "Restricted for items grown in all states east of Colorado, New Mexico, Wyoming and Montana in the U.S. and east of the Ontario/Manitoba border in Canada.",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4168: {
     Plu: 4168,
@@ -9353,11 +6765,7 @@ export default {
     Measures_row: "Average Fruit Weight = 205g and above",
     Restrictions: "Restricted for items grown in all states east of Colorado, New Mexico, Wyoming and Montana in the U.S. and east of the Ontario/Manitoba border in Canada.",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4169: {
     Plu: 4169,
@@ -9370,11 +6778,7 @@ export default {
     Measures_row: "Average Fruit Weight = less than 205g",
     Restrictions: "Restricted for items grown in all states east of Colorado, New Mexico, Wyoming and Montana in the U.S. and east of the Ontario/Manitoba border in Canada.",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4170: {
     Plu: 4170,
@@ -9386,11 +6790,7 @@ export default {
     Measures_na: "100 size and smaller",
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4171: {
     Plu: 4171,
@@ -9403,11 +6803,7 @@ export default {
     Measures_row: "Average Fruit Weight = 205g and above",
     Restrictions: "Restricted for items grown in all states east of Colorado, New Mexico, Wyoming and Montana in the U.S. and east of the Ontario/Manitoba border in Canada.",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4172: {
     Plu: 4172,
@@ -9419,11 +6815,7 @@ export default {
     Measures_na: "88 size and larger",
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4173: {
     Plu: 4173,
@@ -9435,11 +6827,7 @@ export default {
     Measures_na: "100 size and smaller",
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4174: {
     Plu: 4174,
@@ -9451,11 +6839,7 @@ export default {
     Measures_na: "88 size and larger",
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4176: {
     Plu: 4176,
@@ -9465,11 +6849,7 @@ export default {
     Variety: "Southern Snap",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4177: {
     Plu: 4177,
@@ -9482,11 +6862,7 @@ export default {
     Measures_row: "Average Fruit Weight = less than 205g",
     Restrictions: "Restricted for items grown in all states east of Colorado, New Mexico, Wyoming and Montana in the U.S. and east of the Ontario/Manitoba border in Canada.",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4178: {
     Plu: 4178,
@@ -9498,11 +6874,7 @@ export default {
     Measures_na: "100 size and smaller",
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4179: {
     Plu: 4179,
@@ -9515,11 +6887,7 @@ export default {
     Measures_row: "Average Fruit Weight = 205g and above",
     Restrictions: "Restricted for items grown in all states east of Colorado, New Mexico, Wyoming and Montana in the U.S. and east of the Ontario/Manitoba border in Canada.",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4180: {
     Plu: 4180,
@@ -9531,11 +6899,7 @@ export default {
     Measures_na: "88 size and larger",
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4181: {
     Plu: 4181,
@@ -9547,11 +6911,7 @@ export default {
     Measures_na: "100 size and smaller",
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4182: {
     Plu: 4182,
@@ -9561,11 +6921,7 @@ export default {
     Variety: "Sturmer Pippin",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4183: {
     Plu: 4183,
@@ -9577,11 +6933,7 @@ export default {
     Measures_na: "88 size and larger",
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4185: {
     Plu: 4185,
@@ -9593,11 +6945,7 @@ export default {
     Measures_na: "100 size and smaller",
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4186: {
     Plu: 4186,
@@ -9608,11 +6956,7 @@ export default {
     Size: "Small",
     Measures_na: "Size: 7 ½ (19cm) maximum with pulp length measured over convex fruit surface",
     Botanical: "Musa spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4187: {
     Plu: 4187,
@@ -9624,11 +6968,7 @@ export default {
     Measures_na: "88 size and larger",
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4188: {
     Plu: 4188,
@@ -9640,11 +6980,7 @@ export default {
     Measures_na: "70 size and smaller",
     Measures_row: "Average Fruit Weight =  less than 185g",
     Botanical: "Prunus persica",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4189: {
     Plu: 4189,
@@ -9657,11 +6993,7 @@ export default {
     Measures_row: "Average Fruit Weight = less than 205g",
     Restrictions: "Restricted for items grown in all states east of Colorado, New Mexico, Wyoming and Montana in the U.S. and east of the Ontario/Manitoba border in Canada.",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4190: {
     Plu: 4190,
@@ -9673,11 +7005,7 @@ export default {
     Measures_na: "100 size and smaller",
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4191: {
     Plu: 4191,
@@ -9690,11 +7018,7 @@ export default {
     Measures_row: "Average Fruit Weight = 205g and above",
     Restrictions: "Restricted for items grown in all states east of Colorado, New Mexico, Wyoming and Montana in the U.S. and east of the Ontario/Manitoba border in Canada.",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4192: {
     Plu: 4192,
@@ -9706,11 +7030,7 @@ export default {
     Measures_na: "88 size and larger",
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4193: {
     Plu: 4193,
@@ -9720,11 +7040,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4194: {
     Plu: 4194,
@@ -9734,11 +7050,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4195: {
     Plu: 4195,
@@ -9748,11 +7060,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4196: {
     Plu: 4196,
@@ -9762,11 +7070,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4197: {
     Plu: 4197,
@@ -9776,11 +7080,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4198: {
     Plu: 4198,
@@ -9790,11 +7090,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4199: {
     Plu: 4199,
@@ -9804,11 +7100,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4200: {
     Plu: 4200,
@@ -9818,11 +7110,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4201: {
     Plu: 4201,
@@ -9832,11 +7120,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4202: {
     Plu: 4202,
@@ -9846,11 +7130,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4203: {
     Plu: 4203,
@@ -9860,11 +7140,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4204: {
     Plu: 4204,
@@ -9874,11 +7150,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4205: {
     Plu: 4205,
@@ -9888,11 +7160,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4206: {
     Plu: 4206,
@@ -9902,11 +7170,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4207: {
     Plu: 4207,
@@ -9916,11 +7180,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4208: {
     Plu: 4208,
@@ -9930,11 +7190,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4209: {
     Plu: 4209,
@@ -9944,11 +7200,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4210: {
     Plu: 4210,
@@ -9958,11 +7210,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4211: {
     Plu: 4211,
@@ -9972,11 +7220,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4212: {
     Plu: 4212,
@@ -9986,11 +7230,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4213: {
     Plu: 4213,
@@ -10000,11 +7240,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4214: {
     Plu: 4214,
@@ -10014,11 +7250,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4215: {
     Plu: 4215,
@@ -10028,11 +7260,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4216: {
     Plu: 4216,
@@ -10042,11 +7270,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4217: {
     Plu: 4217,
@@ -10056,11 +7280,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4218: {
     Plu: 4218,
@@ -10071,11 +7291,7 @@ export default {
     Size: "Small",
     Measures_na: "Less than 2-3/16 inch,Less than 55 mm Average Fruit Dimensions",
     Botanical: "Prunus armeniaca",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4219: {
     Plu: 4219,
@@ -10085,11 +7301,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Prunus armeniaca",
-    Status: "Approved",
-    Updated_by: "Vicki Bonvetti",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4220: {
     Plu: 4220,
@@ -10098,11 +7310,7 @@ export default {
     Commodity: "ATEMOYAS",
     Size: "All Sizes",
     Botanical: "Annona spp.",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4221: {
     Plu: 4221,
@@ -10114,11 +7322,7 @@ export default {
     Measures_na: "32 size and smaller",
     Restrictions: "Restricted for items grown east of the Mississippi River in the U.S. or east of the Ontario/Manitoba border in Canada.",
     Botanical: "Persea americana",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4222: {
     Plu: 4222,
@@ -10130,11 +7334,7 @@ export default {
     Measures_na: "48 size and smaller",
     Measures_row: "Average Fruit Weight = less than 280g",
     Botanical: "Persea americana",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4223: {
     Plu: 4223,
@@ -10146,11 +7346,7 @@ export default {
     Measures_na: "18 size and larger",
     Restrictions: "Restricted for items grown east of the Mississippi River in the U.S. or east of the Ontario/Manitoba border in Canada.",
     Botanical: "Persea americana",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4224: {
     Plu: 4224,
@@ -10162,11 +7358,7 @@ export default {
     Measures_na: "40 size and larger",
     Measures_row: "Average Fruit Weight = 280g and above",
     Botanical: "Persea americana",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4225: {
     Plu: 4225,
@@ -10178,11 +7370,7 @@ export default {
     Measures_na: "48 and 40 size",
     Measures_row: "Average Fruit Weight = 190g - under 315g",
     Botanical: "Persea americana",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4226: {
     Plu: 4226,
@@ -10192,11 +7380,7 @@ export default {
     Variety: "Cocktail/Seedless",
     Size: "All Sizes",
     Botanical: "Musa spp.",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4227: {
     Plu: 4227,
@@ -10206,11 +7390,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Persea americana",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4228: {
     Plu: 4228,
@@ -10220,11 +7400,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Persea americana",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4229: {
     Plu: 4229,
@@ -10234,11 +7410,7 @@ export default {
     Variety: "Burro",
     Size: "All Sizes",
     Botanical: "Musa spp",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4230: {
     Plu: 4230,
@@ -10248,11 +7420,7 @@ export default {
     Variety: "Dominique",
     Size: "All Sizes",
     Botanical: "Musa spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4231: {
     Plu: 4231,
@@ -10262,11 +7430,7 @@ export default {
     Variety: "Green",
     Size: "All Sizes",
     Botanical: "Musa spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4232: {
     Plu: 4232,
@@ -10276,11 +7440,7 @@ export default {
     Variety: "Leaves",
     Size: "All Sizes",
     Botanical: "Musa spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4233: {
     Plu: 4233,
@@ -10290,11 +7450,7 @@ export default {
     Variety: "Apple/Manzano",
     Size: "All Sizes",
     Botanical: "Musa spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4234: {
     Plu: 4234,
@@ -10304,11 +7460,7 @@ export default {
     Variety: "baby/Nino",
     Size: "All Sizes",
     Botanical: "Musa spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4235: {
     Plu: 4235,
@@ -10318,11 +7470,7 @@ export default {
     Variety: "Plantain/Macho",
     Size: "All Sizes",
     Botanical: "Musa ssp",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4236: {
     Plu: 4236,
@@ -10332,11 +7480,7 @@ export default {
     Variety: "Red",
     Size: "All Sizes",
     Botanical: "Musa spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4237: {
     Plu: 4237,
@@ -10346,11 +7490,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Musa spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4238: {
     Plu: 4238,
@@ -10360,11 +7500,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Musa spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4239: {
     Plu: 4239,
@@ -10374,11 +7510,7 @@ export default {
     Variety: "Blackberries",
     Size: "All Sizes",
     Botanical: "Rubus fruticosus",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4240: {
     Plu: 4240,
@@ -10388,11 +7520,7 @@ export default {
     Variety: "Blueberries",
     Size: "All Sizes",
     Botanical: "Vaccinium spp.",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4241: {
     Plu: 4241,
@@ -10402,11 +7530,7 @@ export default {
     Variety: "Boysenberries",
     Size: "All Sizes",
     Botanical: "Rubus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4242: {
     Plu: 4242,
@@ -10416,11 +7540,7 @@ export default {
     Variety: "Cranberries",
     Size: "All Sizes",
     Botanical: "Vaccinium macrocarpon",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4243: {
     Plu: 4243,
@@ -10430,11 +7550,7 @@ export default {
     Variety: "Gooseberries",
     Size: "All Sizes",
     Botanical: "Ribes uva-crispa",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4244: {
     Plu: 4244,
@@ -10444,11 +7560,7 @@ export default {
     Variety: "Raspberries - Black",
     Size: "All Sizes",
     Botanical: "R.occidentalis",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4245: {
     Plu: 4245,
@@ -10458,11 +7570,7 @@ export default {
     Variety: "Raspberries - Golden",
     Size: "All Sizes",
     Botanical: "Rubus idaeus",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4246: {
     Plu: 4246,
@@ -10473,11 +7581,7 @@ export default {
     Size: "Pint",
     Restrictions: "Restricted for items grown east of the Mississippi River in the U.S. or east of the Ontario/Manitoba border in Canada.",
     Botanical: "Fragaria ananassa",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4247: {
     Plu: 4247,
@@ -10488,11 +7592,7 @@ export default {
     Size: "Quart",
     Restrictions: "Restricted for items grown east of the Mississippi River in the U.S. or east of the Ontario/Manitoba border in Canada.",
     Botanical: "Fragaria ananassa",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4248: {
     Plu: 4248,
@@ -10502,11 +7602,7 @@ export default {
     Variety: "Strawberries",
     Size: "Quart",
     Botanical: "Fragaria ananassa",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4249: {
     Plu: 4249,
@@ -10517,11 +7613,7 @@ export default {
     Size: "Bulk 3-pack (3 pints)",
     Restrictions: "Restricted for items grown east of the Mississippi River in the U.S. or east of the Ontario/Manitoba border in Canada.",
     Botanical: "Fragaria ananassa",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4250: {
     Plu: 4250,
@@ -10531,11 +7623,7 @@ export default {
     Variety: "Strawberries",
     Size: "Bulk 3-pack (3 pints)",
     Botanical: "Fragaria ananassa",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4251: {
     Plu: 4251,
@@ -10545,11 +7633,7 @@ export default {
     Variety: "Long-stemmed Strawberries",
     Size: "All Sizes",
     Botanical: "Fragaria ananassa",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4252: {
     Plu: 4252,
@@ -10559,11 +7643,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Rubus spp.",
-    Status: "Approved",
-    Updated_by: "Vicki Bonvetti",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4253: {
     Plu: 4253,
@@ -10573,11 +7653,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Rubus spp.",
-    Status: "Approved",
-    Updated_by: "Vicki Bonvetti",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4254: {
     Plu: 4254,
@@ -10586,11 +7662,7 @@ export default {
     Commodity: "BREADFRUIT",
     Size: "All Sizes",
     Botanical: "Artocarpus altilis",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4255: {
     Plu: 4255,
@@ -10599,11 +7671,7 @@ export default {
     Commodity: "CACTUS PEAR (PRICKLY PEAR)",
     Size: "All Sizes",
     Botanical: "Opuntia spp.",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4256: {
     Plu: 4256,
@@ -10612,11 +7680,7 @@ export default {
     Commodity: "CARAMBOLA (STARFRUIT)",
     Size: "All Sizes",
     Botanical: "Averrhoa carambola",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4257: {
     Plu: 4257,
@@ -10625,11 +7689,7 @@ export default {
     Commodity: "CHERIMOYA",
     Size: "All Sizes",
     Botanical: "Annona cherimola",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4258: {
     Plu: 4258,
@@ -10639,11 +7699,7 @@ export default {
     Variety: "Golden/Rainier/White",
     Size: "All Sizes",
     Botanical: "Prunus avium",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4259: {
     Plu: 4259,
@@ -10653,11 +7709,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Prunus avium",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4260: {
     Plu: 4260,
@@ -10667,11 +7719,7 @@ export default {
     Variety: "In Husk/Waternut",
     Size: "All Sizes",
     Botanical: "Cocos nucifera",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4261: {
     Plu: 4261,
@@ -10681,11 +7729,7 @@ export default {
     Variety: "Husked",
     Size: "All Sizes",
     Botanical: "Cocos nucifera",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4262: {
     Plu: 4262,
@@ -10695,11 +7739,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Cocos nucifera",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4263: {
     Plu: 4263,
@@ -10709,11 +7749,7 @@ export default {
     Variety: "Fresh - Regular",
     Size: "All Sizes",
     Botanical: "Phoenix dactylifera",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4264: {
     Plu: 4264,
@@ -10723,11 +7759,7 @@ export default {
     Variety: "Fresh - Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Phoenix dactylifera",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4265: {
     Plu: 4265,
@@ -10736,11 +7768,7 @@ export default {
     Commodity: "FEIJOA",
     Size: "All Sizes",
     Botanical: "Acca sellowiana",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4266: {
     Plu: 4266,
@@ -10750,11 +7778,7 @@ export default {
     Variety: "Black",
     Size: "All Sizes",
     Botanical: "Ficus carica",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4267: {
     Plu: 4267,
@@ -10764,11 +7788,7 @@ export default {
     Variety: "Brown",
     Size: "All Sizes",
     Botanical: "Ficus carica",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4268: {
     Plu: 4268,
@@ -10778,11 +7798,7 @@ export default {
     Variety: "White/Green",
     Size: "All Sizes",
     Botanical: "Ficus carica",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4269: {
     Plu: 4269,
@@ -10792,11 +7808,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Ficus carica",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4270: {
     Plu: 4270,
@@ -10806,11 +7818,7 @@ export default {
     Variety: "Blue/Black Seeded (Ribier/Exotic/Niabel)",
     Size: "All Sizes",
     Botanical: "Vitis vinifera",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4271: {
     Plu: 4271,
@@ -10820,11 +7828,7 @@ export default {
     Variety: "Champagne",
     Size: "All Sizes",
     Botanical: "Vitis vinifera",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4272: {
     Plu: 4272,
@@ -10834,11 +7838,7 @@ export default {
     Variety: "Concord",
     Size: "All Sizes",
     Botanical: "V.labrusca",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4273: {
     Plu: 4273,
@@ -10848,11 +7848,7 @@ export default {
     Variety: "Red Seeded (Cardinal/Emperor/Queen/Christmas Rose)",
     Size: "All Sizes",
     Botanical: "Vitis vinifera",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4274: {
     Plu: 4274,
@@ -10862,11 +7858,7 @@ export default {
     Variety: "White/Green Seeded (All others not listed)",
     Size: "All Sizes",
     Botanical: "Vitis vinifera",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4275: {
     Plu: 4275,
@@ -10876,11 +7868,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Vitis vinifera",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4276: {
     Plu: 4276,
@@ -10890,11 +7878,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Vitis vinifera",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4277: {
     Plu: 4277,
@@ -10904,11 +7888,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Vitis vinifera",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4278: {
     Plu: 4278,
@@ -10918,11 +7898,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Vitis vinifera",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4279: {
     Plu: 4279,
@@ -10932,11 +7908,7 @@ export default {
     Variety: "Pummelo - White",
     Size: "All Sizes",
     Botanical: "C.grandis",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4280: {
     Plu: 4280,
@@ -10948,11 +7920,7 @@ export default {
     Measures_na: "40 size and smaller",
     Restrictions: "Restricted for items grown in Texas, Arizona and New Mexico in the U.S.",
     Botanical: "Citrus paradisi",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4281: {
     Plu: 4281,
@@ -10964,11 +7932,7 @@ export default {
     Measures_na: "32 and 36 size",
     Restrictions: "Restricted for items grown east of the Mississippi River in the U.S or east of the Ontario/Manitoba border in Canada.",
     Botanical: "Citrus paradisi",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "2002-05-01 22:00:00",
-    Language: "EN"
   },
   4282: {
     Plu: 4282,
@@ -10980,11 +7944,7 @@ export default {
     Measures_na: "32 and 36 size",
     Measures_row: "Average Fruit Dimensions = 97 - under 108mm",
     Botanical: "Citrus paradisi",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "2002-06-01 22:00:00",
-    Language: "EN"
   },
   4283: {
     Plu: 4283,
@@ -10996,11 +7956,7 @@ export default {
     Measures_na: "36 and 32 size",
     Restrictions: "Restricted for items grown in Texas, Arizona and New Mexico in the U.S.",
     Botanical: "Citrus paradisi",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4284: {
     Plu: 4284,
@@ -11012,11 +7968,7 @@ export default {
     Measures_na: "40 size and smaller",
     Restrictions: "Restricted for items grown east of the Mississippi River in the U.S or east of the Ontario/Manitoba border in Canada.",
     Botanical: "Citrus paradisi",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4285: {
     Plu: 4285,
@@ -11028,11 +7980,7 @@ export default {
     Measures_na: "40 size and smaller",
     Measures_row: "Average Fruit Dimensions = less than 97mm",
     Botanical: "Citrus paradisi",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "2002-06-01 22:00:00",
-    Language: "EN"
   },
   4286: {
     Plu: 4286,
@@ -11044,11 +7992,7 @@ export default {
     Measures_na: "40 size and smaller",
     Restrictions: "Restricted for items grown in Texas, Arizona and New Mexico in the U.S.",
     Botanical: "Citrus paradisi",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4287: {
     Plu: 4287,
@@ -11060,11 +8004,7 @@ export default {
     Measures_na: "32 and 36 size",
     Restrictions: "Restricted for items grown east of the Mississippi River in the U.S or east of the Ontario/Manitoba border in Canada.",
     Botanical: "Citrus paradisi",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "2002-05-01 22:00:00",
-    Language: "EN"
   },
   4288: {
     Plu: 4288,
@@ -11076,11 +8016,7 @@ export default {
     Measures_na: "32 and 36 size",
     Measures_row: "Average Fruit Dimensions = 97-under 108mm",
     Botanical: "Citrus paradisi",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "2002-06-01 22:00:00",
-    Language: "EN"
   },
   4289: {
     Plu: 4289,
@@ -11092,11 +8028,7 @@ export default {
     Measures_na: "36 and 32 size",
     Restrictions: "Restricted for items grown in Texas, Arizona and New Mexico in the U.S.",
     Botanical: "Citrus paradisi",
-    Status: "Approved",
-    Updated_by: "Bob Oudenaarden",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4290: {
     Plu: 4290,
@@ -11108,11 +8040,7 @@ export default {
     Measures_na: "40 size and smaller",
     Restrictions: "Restricted for items grown east of the Mississippi River in the U.S or east of the Ontario/Manitoba border in Canada.",
     Botanical: "Citrus paradisi",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4291: {
     Plu: 4291,
@@ -11124,11 +8052,7 @@ export default {
     Measures_na: "40 size and smaller",
     Measures_row: "Average Fruit Dimensions = less than 97mm",
     Botanical: "Citrus paradisi",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "2002-06-01 22:00:00",
-    Language: "EN"
   },
   4292: {
     Plu: 4292,
@@ -11140,11 +8064,7 @@ export default {
     Measures_na: "40 size and smaller",
     Restrictions: "Restricted for items grown in Texas, Arizona and New Mexico in the U.S.",
     Botanical: "Citrus paradisi",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4293: {
     Plu: 4293,
@@ -11157,11 +8077,7 @@ export default {
     Measures_row: "32 and 36 size",
     Restrictions: "Restricted for items grown east of the Mississippi River in the U.S or east of the Ontario/Manitoba border in Canada.",
     Botanical: "Citrus paradisi",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "2002-05-01 22:00:00",
-    Language: "EN"
   },
   4294: {
     Plu: 4294,
@@ -11173,11 +8089,7 @@ export default {
     Measures_na: "32 and 36 size",
     Measures_row: "Average Fruit Dimensions = 97-under 108mm",
     Botanical: "Citrus paradisi",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "2002-06-01 22:00:00",
-    Language: "EN"
   },
   4295: {
     Plu: 4295,
@@ -11189,11 +8101,7 @@ export default {
     Measures_na: "36 and 32 size",
     Restrictions: "Restricted for items grown in Texas, Arizona and New Mexico in the U.S.",
     Botanical: "Citrus paradisi",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4296: {
     Plu: 4296,
@@ -11203,11 +8111,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Citrus paradisi",
-    Status: "Approved",
-    Updated_by: "Vicki Bonvetti",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4297: {
     Plu: 4297,
@@ -11217,11 +8121,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Citrus paradisi",
-    Status: "Approved",
-    Updated_by: "Vicki Bonvetti",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4298: {
     Plu: 4298,
@@ -11231,11 +8131,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Citrus paradisi",
-    Status: "Approved",
-    Updated_by: "Vicki Bonvetti",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4299: {
     Plu: 4299,
@@ -11244,11 +8140,7 @@ export default {
     Commodity: "GUAVA",
     Size: "All Sizes",
     Botanical: "Psidium guajava",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4300: {
     Plu: 4300,
@@ -11256,11 +8148,7 @@ export default {
     Category: "Fruits",
     Commodity: "HOMLI FRUIT",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4301: {
     Plu: 4301,
@@ -11270,11 +8158,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Actinidia deliciosa",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4302: {
     Plu: 4302,
@@ -11283,11 +8167,7 @@ export default {
     Commodity: "KIWANO (HORNED MELON)",
     Size: "All Sizes",
     Botanical: "Cucumis metuliferus",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4303: {
     Plu: 4303,
@@ -11296,11 +8176,7 @@ export default {
     Commodity: "KUMQUAT",
     Size: "All Sizes",
     Botanical: "Fortunella spp.",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4304: {
     Plu: 4304,
@@ -11310,11 +8186,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Citrus limon",
-    Status: "Approved",
-    Updated_by: "Vicki Bonvetti",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4305: {
     Plu: 4305,
@@ -11324,11 +8196,7 @@ export default {
     Variety: "Key (incl. Mexican & West Indian)",
     Size: "All Sizes",
     Botanical: "Citrus aurantifolia",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4306: {
     Plu: 4306,
@@ -11337,11 +8205,7 @@ export default {
     Commodity: "LIMES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4307: {
     Plu: 4307,
@@ -11350,11 +8214,7 @@ export default {
     Commodity: "LONGAN",
     Size: "All Sizes",
     Botanical: "Dimocarpus longan",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4308: {
     Plu: 4308,
@@ -11363,11 +8223,7 @@ export default {
     Commodity: "LOQUATS",
     Size: "All Sizes",
     Botanical: "Eribotyra japonica",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4309: {
     Plu: 4309,
@@ -11376,11 +8232,7 @@ export default {
     Commodity: "LYCHEES",
     Size: "All Sizes",
     Botanical: "Litchi chinensis",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4310: {
     Plu: 4310,
@@ -11389,11 +8241,7 @@ export default {
     Commodity: "MAMEY",
     Size: "All Sizes",
     Botanical: "Pouteria sapota",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4311: {
     Plu: 4311,
@@ -11405,11 +8253,7 @@ export default {
     Measures_na: "12 size and smaller",
     Botanical: "Mangifera indica",
     Aka: "(Includes Keitt and Francis varieties)",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "2007-05-14 22:00:00",
-    Language: "EN"
   },
   4312: {
     Plu: 4312,
@@ -11420,11 +8264,7 @@ export default {
     Size: "Small",
     Measures_na: "18 size and smaller",
     Botanical: "Mangifera indica",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4313: {
     Plu: 4313,
@@ -11434,11 +8274,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Mangifera indica",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4314: {
     Plu: 4314,
@@ -11448,11 +8284,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Mangifera indica",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4315: {
     Plu: 4315,
@@ -11462,11 +8294,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Mangifera indica",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4316: {
     Plu: 4316,
@@ -11476,11 +8304,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Mangifera indica",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4317: {
     Plu: 4317,
@@ -11490,11 +8314,7 @@ export default {
     Variety: "Canary/Yellow Honeydew",
     Size: "All Sizes",
     Botanical: "Cucumis melo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4318: {
     Plu: 4318,
@@ -11507,11 +8327,7 @@ export default {
     Measures_row: "Average Fruit Weight =  less than 1135g",
     Restrictions: "Restricted for items grown east of the Mississippi River in the U.S or east of the Ontario/Manitoba border in Canada.",
     Botanical: "Cucumis melo",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4319: {
     Plu: 4319,
@@ -11524,11 +8340,7 @@ export default {
     Measures_row: "Average Fruit Weight =  1135g and above",
     Restrictions: "Restricted for items grown east of the Mississippi River in the U.S or east of the Ontario/Manitoba border in Canada.",
     Botanical: "Cucumis melo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4320: {
     Plu: 4320,
@@ -11538,11 +8350,7 @@ export default {
     Variety: "Casaba",
     Size: "All Sizes",
     Botanical: "Cucumis melo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4321: {
     Plu: 4321,
@@ -11552,11 +8360,7 @@ export default {
     Variety: "Cinnabar",
     Size: "All Sizes",
     Botanical: "Cucumis melo",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4322: {
     Plu: 4322,
@@ -11566,11 +8370,7 @@ export default {
     Variety: "Crenshaw",
     Size: "All Sizes",
     Botanical: "Cucumis melo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4323: {
     Plu: 4323,
@@ -11580,11 +8380,7 @@ export default {
     Variety: "Strawberries",
     Size: "Bulk",
     Botanical: "Fragaria ananassa",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4324: {
     Plu: 4324,
@@ -11594,11 +8390,7 @@ export default {
     Variety: "French Afternoon",
     Size: "All Sizes",
     Botanical: "Cucumis melo",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4325: {
     Plu: 4325,
@@ -11608,11 +8400,7 @@ export default {
     Variety: "French Breakfast",
     Size: "All Sizes",
     Botanical: "Cucumis melo",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4326: {
     Plu: 4326,
@@ -11622,11 +8410,7 @@ export default {
     Variety: "Galia",
     Size: "All Sizes",
     Botanical: "Cucumis melo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4327: {
     Plu: 4327,
@@ -11636,11 +8420,7 @@ export default {
     Variety: "Orange Flesh/Cantaline",
     Size: "All Sizes",
     Botanical: "Cucumis melo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4328: {
     Plu: 4328,
@@ -11649,11 +8429,7 @@ export default {
     Commodity: "LIMEQUATS",
     Size: "All Sizes",
     Botanical: "Citrus spp.",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4329: {
     Plu: 4329,
@@ -11665,11 +8441,7 @@ export default {
     Measures_na: "6 size and smaller",
     Measures_row: "Average Fruit Weight =  less than 2040g",
     Botanical: "Cucumis melo",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4330: {
     Plu: 4330,
@@ -11679,11 +8451,7 @@ export default {
     Variety: "Mayan",
     Size: "All Sizes",
     Botanical: "Cucumis melo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4331: {
     Plu: 4331,
@@ -11693,11 +8461,7 @@ export default {
     Variety: "Mickey Lee Watermelon/Sugarbaby",
     Size: "All Sizes",
     Botanical: "Cucumis melo",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4332: {
     Plu: 4332,
@@ -11707,11 +8471,7 @@ export default {
     Variety: "Muskmelon",
     Size: "All Sizes",
     Botanical: "Cucumis melo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4333: {
     Plu: 4333,
@@ -11721,11 +8481,7 @@ export default {
     Variety: "Pepino",
     Size: "All Sizes",
     Botanical: "Cucumis melo",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4334: {
     Plu: 4334,
@@ -11735,11 +8491,7 @@ export default {
     Variety: "Persian",
     Size: "All Sizes",
     Botanical: "Cucumis melo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4335: {
     Plu: 4335,
@@ -11749,11 +8501,7 @@ export default {
     Variety: "Prince",
     Size: "All Sizes",
     Botanical: "Cucumis melo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4336: {
     Plu: 4336,
@@ -11763,11 +8511,7 @@ export default {
     Variety: "Santa Claus",
     Size: "All Sizes",
     Botanical: "Cucumis melo",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4337: {
     Plu: 4337,
@@ -11777,11 +8521,7 @@ export default {
     Variety: "Saticoy",
     Size: "All Sizes",
     Botanical: "Cucumis melo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4338: {
     Plu: 4338,
@@ -11791,11 +8531,7 @@ export default {
     Variety: "Sharlin",
     Size: "All Sizes",
     Botanical: "Cucumis melo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4339: {
     Plu: 4339,
@@ -11805,11 +8541,7 @@ export default {
     Variety: "Spanish/Tendral",
     Size: "All Sizes",
     Botanical: "Cucumis melo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4340: {
     Plu: 4340,
@@ -11819,11 +8551,7 @@ export default {
     Variety: "Watermelon - Yellow",
     Size: "All Sizes",
     Botanical: "Citrullus lanatus",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4341: {
     Plu: 4341,
@@ -11833,11 +8561,7 @@ export default {
     Variety: "Watermelon - Yellow, Seedless",
     Size: "All Sizes",
     Botanical: "Citrullus lanatus",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4342: {
     Plu: 4342,
@@ -11847,11 +8571,7 @@ export default {
     Variety: "Retailer Assigned (includes pre-cut melons)",
     Size: "All Sizes",
     Botanical: "Cucumis melo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4343: {
     Plu: 4343,
@@ -11861,11 +8581,7 @@ export default {
     Variety: "Retailer Assigned (includes pre-cut melons)",
     Size: "All Sizes",
     Botanical: "Cucumis melo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4344: {
     Plu: 4344,
@@ -11875,11 +8591,7 @@ export default {
     Variety: "Retailer Assigned (includes pre-cut melons)",
     Size: "All Sizes",
     Botanical: "Cucumis melo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4345: {
     Plu: 4345,
@@ -11889,11 +8601,7 @@ export default {
     Variety: "Retailer Assigned (includes pre-cut melons)",
     Size: "All Sizes",
     Botanical: "Cucumis melo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4346: {
     Plu: 4346,
@@ -11903,11 +8611,7 @@ export default {
     Variety: "Retailer Assigned (includes pre-cut melons)",
     Size: "All Sizes",
     Botanical: "Cucumis melo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4347: {
     Plu: 4347,
@@ -11917,11 +8621,7 @@ export default {
     Variety: "Retailer Assigned (includes pre-cut melons)",
     Size: "All Sizes",
     Botanical: "Cucumis melo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4348: {
     Plu: 4348,
@@ -11931,11 +8631,7 @@ export default {
     Variety: "Retailer Assigned (includes pre-cut melons)",
     Size: "All Sizes",
     Botanical: "Cucumis melo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4349: {
     Plu: 4349,
@@ -11945,11 +8641,7 @@ export default {
     Variety: "Retailer Assigned (includes pre-cut melons)",
     Size: "All Sizes",
     Botanical: "Cucumis melo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4350: {
     Plu: 4350,
@@ -11959,11 +8651,7 @@ export default {
     Variety: "Retailer Assigned (includes pre-cut melons)",
     Size: "All Sizes",
     Botanical: "Cucumis melo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4351: {
     Plu: 4351,
@@ -11973,11 +8661,7 @@ export default {
     Variety: "Retailer Assigned (includes pre-cut melons)",
     Size: "All Sizes",
     Botanical: "Cucumis melo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4352: {
     Plu: 4352,
@@ -11987,11 +8671,7 @@ export default {
     Variety: "Retailer Assigned (includes pre-cut melons)",
     Size: "All Sizes",
     Botanical: "Cucumis melo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4353: {
     Plu: 4353,
@@ -12001,11 +8681,7 @@ export default {
     Variety: "Retailer Assigned (includes pre-cut melons)",
     Size: "All Sizes",
     Botanical: "Cucumis melo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4354: {
     Plu: 4354,
@@ -12015,11 +8691,7 @@ export default {
     Variety: "Retailer Assigned (includes pre-cut melons)",
     Size: "All Sizes",
     Botanical: "Cucumis melo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4355: {
     Plu: 4355,
@@ -12029,11 +8701,7 @@ export default {
     Variety: "Retailer Assigned (includes pre-cut melons)",
     Size: "All Sizes",
     Botanical: "Cucumis melo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4356: {
     Plu: 4356,
@@ -12043,11 +8711,7 @@ export default {
     Variety: "Retailer Assigned (includes pre-cut melons)",
     Size: "All Sizes",
     Botanical: "Cucumis melo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4357: {
     Plu: 4357,
@@ -12057,11 +8721,7 @@ export default {
     Variety: "Retailer Assigned (includes pre-cut melons)",
     Size: "All Sizes",
     Botanical: "Cucumis melo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4358: {
     Plu: 4358,
@@ -12071,11 +8731,7 @@ export default {
     Variety: "Retailer Assigned (includes pre-cut melons)",
     Size: "All Sizes",
     Botanical: "Cucumis melo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4359: {
     Plu: 4359,
@@ -12085,11 +8741,7 @@ export default {
     Variety: "Retailer Assigned (includes pre-cut melons)",
     Size: "All Sizes",
     Botanical: "Cucumis melo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4360: {
     Plu: 4360,
@@ -12099,11 +8751,7 @@ export default {
     Variety: "Retailer Assigned (includes pre-cut melons)",
     Size: "All Sizes",
     Botanical: "Cucumis melo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4361: {
     Plu: 4361,
@@ -12113,11 +8761,7 @@ export default {
     Variety: "Retailer Assigned (includes pre-cut melons)",
     Size: "All Sizes",
     Botanical: "Cucumis melo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4362: {
     Plu: 4362,
@@ -12127,11 +8771,7 @@ export default {
     Variety: "Retailer Assigned (includes pre-cut melons)",
     Size: "All Sizes",
     Botanical: "Cucumis melo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4363: {
     Plu: 4363,
@@ -12141,11 +8781,7 @@ export default {
     Variety: "Retailer Assigned (includes pre-cut melons)",
     Size: "All Sizes",
     Botanical: "Cucumis melo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4364: {
     Plu: 4364,
@@ -12155,11 +8791,7 @@ export default {
     Variety: "Retailer Assigned (includes pre-cut melons)",
     Size: "All Sizes",
     Botanical: "Cucumis melo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4365: {
     Plu: 4365,
@@ -12169,11 +8801,7 @@ export default {
     Variety: "Retailer Assigned (includes pre-cut melons)",
     Size: "All Sizes",
     Botanical: "Cucumis melo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4366: {
     Plu: 4366,
@@ -12183,11 +8811,7 @@ export default {
     Variety: "Retailer Assigned (includes pre-cut melons)",
     Size: "All Sizes",
     Botanical: "Cucumis melo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4367: {
     Plu: 4367,
@@ -12197,11 +8821,7 @@ export default {
     Variety: "Retailer Assigned (includes pre-cut melons)",
     Size: "All Sizes",
     Botanical: "Cucumis melo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4368: {
     Plu: 4368,
@@ -12211,11 +8831,7 @@ export default {
     Variety: "Retailer Assigned (includes pre-cut melons)",
     Size: "All Sizes",
     Botanical: "Cucumis melo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4369: {
     Plu: 4369,
@@ -12225,11 +8841,7 @@ export default {
     Variety: "Retailer Assigned (includes pre-cut melons)",
     Size: "All Sizes",
     Botanical: "Cucumis melo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4370: {
     Plu: 4370,
@@ -12239,11 +8851,7 @@ export default {
     Variety: "Retailer Assigned (includes pre-cut melons)",
     Size: "All Sizes",
     Botanical: "Cucumis melo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4371: {
     Plu: 4371,
@@ -12253,11 +8861,7 @@ export default {
     Variety: "Retailer Assigned (includes pre-cut melons)",
     Size: "All Sizes",
     Botanical: "Cucumis melo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4372: {
     Plu: 4372,
@@ -12267,11 +8871,7 @@ export default {
     Variety: "Retailer Assigned (includes pre-cut melons)",
     Size: "All Sizes",
     Botanical: "Cucumis melo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4373: {
     Plu: 4373,
@@ -12281,11 +8881,7 @@ export default {
     Variety: "Retailer Assigned (includes pre-cut melons)",
     Size: "All Sizes",
     Botanical: "Cucumis melo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4374: {
     Plu: 4374,
@@ -12295,11 +8891,7 @@ export default {
     Variety: "Retailer Assigned (includes pre-cut melons)",
     Size: "All Sizes",
     Botanical: "Cucumis melo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4375: {
     Plu: 4375,
@@ -12309,11 +8901,7 @@ export default {
     Variety: "Retailer Assigned (includes pre-cut melons)",
     Size: "All Sizes",
     Botanical: "Cucumis melo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4376: {
     Plu: 4376,
@@ -12323,11 +8911,7 @@ export default {
     Variety: "Retailer Assigned (includes pre-cut melons)",
     Size: "All Sizes",
     Botanical: "Cucumis melo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4377: {
     Plu: 4377,
@@ -12339,11 +8923,7 @@ export default {
     Measures_na: "70 size and smaller",
     Measures_row: "Average Fruit Weight =  less than 185g",
     Botanical: "Prunus persica",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4378: {
     Plu: 4378,
@@ -12355,11 +8935,7 @@ export default {
     Measures_na: "66 size and larger",
     Measures_row: "Average Fruit Weight =  185g and above",
     Botanical: "Prunus persica",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4379: {
     Plu: 4379,
@@ -12369,11 +8945,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Prunus persica",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4380: {
     Plu: 4380,
@@ -12383,11 +8955,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Prunus persica",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4381: {
     Plu: 4381,
@@ -12397,11 +8965,7 @@ export default {
     Variety: "Blood",
     Size: "All Sizes",
     Botanical: "Citrus spp.",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4382: {
     Plu: 4382,
@@ -12411,11 +8975,7 @@ export default {
     Variety: "Juice",
     Size: "All Sizes",
     Botanical: "Citrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4383: {
     Plu: 4383,
@@ -12425,11 +8985,7 @@ export default {
     Variety: "Minneola",
     Size: "All Sizes",
     Botanical: "Citro paradisi X",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4384: {
     Plu: 4384,
@@ -12442,11 +8998,7 @@ export default {
     Measures_row: "Average Fruit Dimensions = less than 77mm",
     Restrictions: "Restricted for items grown east of the Mississippi River in the U.S., east of the Ontario/Manitoba border in Canada and Texas, Arizona and New Mexico in the U.S.",
     Botanical: "Citrus spp.",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4385: {
     Plu: 4385,
@@ -12459,11 +9011,7 @@ export default {
     Measures_row: "Average Fruit Dimensions = 77mm and above",
     Restrictions: "Restricted for items grown east of the Mississippi River in the U.S., east of the Ontario/Manitoba border in Canada and Texas, Arizona and New Mexico in the U.S.",
     Botanical: "Citrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4386: {
     Plu: 4386,
@@ -12475,11 +9023,7 @@ export default {
     Measures_na: "125 size and smaller",
     Measures_row: "Average Fruit Dimensions = less than 65mm",
     Botanical: "Citrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4387: {
     Plu: 4387,
@@ -12491,11 +9035,7 @@ export default {
     Measures_na: "100 size and larger",
     Measures_row: "Average Fruit Dimensions = 65mm and above",
     Botanical: "Citrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4388: {
     Plu: 4388,
@@ -12507,11 +9047,7 @@ export default {
     Measures_na: "56 size and larger",
     Measures_row: "Average Fruit Dimensions = 84mm and above",
     Botanical: "Citrus spp.",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4389: {
     Plu: 4389,
@@ -12521,11 +9057,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Citrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4390: {
     Plu: 4390,
@@ -12535,11 +9067,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Citrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4391: {
     Plu: 4391,
@@ -12549,11 +9077,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Citrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4392: {
     Plu: 4392,
@@ -12563,11 +9087,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Citrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4393: {
     Plu: 4393,
@@ -12577,11 +9097,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Citrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4394: {
     Plu: 4394,
@@ -12592,11 +9108,7 @@ export default {
     Size: "Large",
     Measures_na: "9 size and larger",
     Botanical: "Carica papaya",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4395: {
     Plu: 4395,
@@ -12606,11 +9118,7 @@ export default {
     Variety: "Cooking/Mexican",
     Size: "All Sizes",
     Botanical: "Carica papaya",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4396: {
     Plu: 4396,
@@ -12620,11 +9128,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Carica papaya",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4397: {
     Plu: 4397,
@@ -12634,11 +9138,7 @@ export default {
     Variety: "Purple",
     Size: "All Sizes",
     Botanical: "Passiflora edulis",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4398: {
     Plu: 4398,
@@ -12648,11 +9148,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Passiflora spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4399: {
     Plu: 4399,
@@ -12662,11 +9158,7 @@ export default {
     Variety: "Indian",
     Size: "All Sizes",
     Botanical: "Prunus persica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4400: {
     Plu: 4400,
@@ -12678,11 +9170,7 @@ export default {
     Measures_na: "70 size and smaller",
     Measures_row: "Average Fruit Weight =  less than 185g",
     Botanical: "Prunus persica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4401: {
     Plu: 4401,
@@ -12694,11 +9182,7 @@ export default {
     Measures_na: "66 size and larger",
     Measures_row: "Average Fruit Weight =  185g and above",
     Botanical: "Prunus persica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4402: {
     Plu: 4402,
@@ -12711,11 +9195,7 @@ export default {
     Measures_row: "Average Fruit Weight =  less than 185g",
     Restrictions: "Restricted for items grown east of the Mississippi River in the U.S. or east of the Ontario/Manitoba border in Canada.",
     Botanical: "Prunus persica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4403: {
     Plu: 4403,
@@ -12728,11 +9208,7 @@ export default {
     Measures_row: "Average Fruit Weight =  185g and above",
     Restrictions: "Restricted for items grown east of the Mississippi River in the U.S. or east of the Ontario/Manitoba border in Canada.",
     Botanical: "Prunus persica",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4404: {
     Plu: 4404,
@@ -12742,11 +9218,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Prunus persica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4405: {
     Plu: 4405,
@@ -12756,11 +9228,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Prunus persica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4406: {
     Plu: 4406,
@@ -12770,11 +9238,7 @@ export default {
     Variety: "Asian/Nashi - White",
     Size: "All Sizes",
     Botanical: "Pyrus pyrifolia",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4407: {
     Plu: 4407,
@@ -12784,11 +9248,7 @@ export default {
     Variety: "Asian/Nashi - Yellow",
     Size: "All Sizes",
     Botanical: "Pyrus pyrifolia",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4408: {
     Plu: 4408,
@@ -12798,11 +9258,7 @@ export default {
     Variety: "Asian/Nashi - Brown",
     Size: "All Sizes",
     Botanical: "Pyrus pyrifolia",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4409: {
     Plu: 4409,
@@ -12814,11 +9270,7 @@ export default {
     Measures_na: "100 size and larger",
     Measures_row: "Average Fruit Weight =  180g and above",
     Botanical: "Pyrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4410: {
     Plu: 4410,
@@ -12828,11 +9280,7 @@ export default {
     Variety: "Bartlett - Red/Red Sensation",
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4411: {
     Plu: 4411,
@@ -12845,11 +9293,7 @@ export default {
     Measures_row: "Average Fruit Weight =  less than 180g",
     Restrictions: "Restricted for items grown east of the Mississippi River in the U.S. or east of the Ontario/Manitoba border in Canada.",
     Botanical: "Pyrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4412: {
     Plu: 4412,
@@ -12862,11 +9306,7 @@ export default {
     Measures_row: "Average Fruit Weight =  185g and above",
     Restrictions: "Restricted for items grown east of the Mississippi River in the U.S. or east of the Ontario/Manitoba border in Canada.",
     Botanical: "Pyrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4413: {
     Plu: 4413,
@@ -12878,11 +9318,7 @@ export default {
     Measures_na: "100 size and larger",
     Measures_row: "Average Fruit Weight =  185g and above",
     Botanical: "Pyrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4414: {
     Plu: 4414,
@@ -12892,11 +9328,7 @@ export default {
     Variety: "Comice/ Doyenne du Comice",
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "2009-06-15 22:00:00",
-    Language: "EN"
   },
   4415: {
     Plu: 4415,
@@ -12906,11 +9338,7 @@ export default {
     Variety: "Red",
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4416: {
     Plu: 4416,
@@ -12923,11 +9351,7 @@ export default {
     Measures_row: "Average Fruit Weight =  180g and above",
     Botanical: "Pyrus spp.",
     Aka: "D'Anjou",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4417: {
     Plu: 4417,
@@ -12938,11 +9362,7 @@ export default {
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
     Aka: "D'Anjou",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4418: {
     Plu: 4418,
@@ -12952,11 +9372,7 @@ export default {
     Variety: "Forelle/Corella",
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4419: {
     Plu: 4419,
@@ -12966,11 +9382,7 @@ export default {
     Variety: "French",
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4420: {
     Plu: 4420,
@@ -12980,11 +9392,7 @@ export default {
     Variety: "King Royal",
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4421: {
     Plu: 4421,
@@ -12994,11 +9402,7 @@ export default {
     Variety: "Packham/Packhams Triumph",
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "2009-06-15 22:00:00",
-    Language: "EN"
   },
   4422: {
     Plu: 4422,
@@ -13008,11 +9412,7 @@ export default {
     Variety: "Seckel",
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4423: {
     Plu: 4423,
@@ -13022,11 +9422,7 @@ export default {
     Variety: "Tree Ripened",
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4424: {
     Plu: 4424,
@@ -13036,11 +9432,7 @@ export default {
     Variety: "Winter Nelis/Honey",
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4425: {
     Plu: 4425,
@@ -13050,11 +9442,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4426: {
     Plu: 4426,
@@ -13064,11 +9452,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4427: {
     Plu: 4427,
@@ -13078,11 +9462,7 @@ export default {
     Variety: "Regular (American Persimmon)",
     Size: "All Sizes",
     Botanical: "Diospyros spp.",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4428: {
     Plu: 4428,
@@ -13092,11 +9472,7 @@ export default {
     Variety: "Japanese/Sharonfruit (Kaki)",
     Size: "All Sizes",
     Botanical: "Diospyros spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4429: {
     Plu: 4429,
@@ -13106,11 +9482,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Diospyros spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4430: {
     Plu: 4430,
@@ -13121,11 +9493,7 @@ export default {
     Measures_na: "10 size and larger",
     Restrictions: "Sizes for pineapple based on two-layer lug.",
     Botanical: "Ananas comosus",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4431: {
     Plu: 4431,
@@ -13137,11 +9505,7 @@ export default {
     Measures_na: "12 size and smaller",
     Restrictions: "Sizes for pineapple based on two-layer lug.",
     Botanical: "Ananas comosus",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4432: {
     Plu: 4432,
@@ -13153,11 +9517,7 @@ export default {
     Measures_na: "10 size and larger",
     Restrictions: "Sizes for pineapple based on two-layer lug.",
     Botanical: "Ananas comosus",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4433: {
     Plu: 4433,
@@ -13168,11 +9528,7 @@ export default {
     Size: "All Sizes",
     Restrictions: "Sizes for pineapple based on two-layer lug.",
     Botanical: "Ananas comosus",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4434: {
     Plu: 4434,
@@ -13184,11 +9540,7 @@ export default {
     Measures_na: "60 size and smaller",
     Measures_row: "Average Fruit Dimensions < 50MM",
     Botanical: "Prunus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4435: {
     Plu: 4435,
@@ -13200,11 +9552,7 @@ export default {
     Measures_na: "55 size and larger",
     Measures_row: "Average Fruit Dimensions 50MM & ABOVE",
     Botanical: "Prunus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4436: {
     Plu: 4436,
@@ -13214,11 +9562,7 @@ export default {
     Variety: "Italian Prune/Sugar",
     Size: "All Sizes",
     Botanical: "Prunus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4437: {
     Plu: 4437,
@@ -13230,11 +9574,7 @@ export default {
     Measures_na: "60 size and smaller",
     Measures_row: "Average Fruit Dimensions < 50MM",
     Botanical: "Prunus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4438: {
     Plu: 4438,
@@ -13246,11 +9586,7 @@ export default {
     Measures_na: "55 size and larger",
     Measures_row: "Average Fruit Dimensions 50MM & ABOVE",
     Botanical: "Prunus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4439: {
     Plu: 4439,
@@ -13262,11 +9598,7 @@ export default {
     Measures_na: "60 size and smaller",
     Measures_row: "Average Fruit Dimensions < 50MM",
     Botanical: "Prunus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4440: {
     Plu: 4440,
@@ -13278,11 +9610,7 @@ export default {
     Measures_na: "55 size and larger",
     Measures_row: "Average Fruit Dimensions 50MM & ABOVE",
     Botanical: "Prunus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4441: {
     Plu: 4441,
@@ -13294,11 +9622,7 @@ export default {
     Measures_na: "60 size and smaller",
     Measures_row: "Average Fruit Dimensions < 50MM",
     Botanical: "Prunus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4442: {
     Plu: 4442,
@@ -13310,11 +9634,7 @@ export default {
     Measures_na: "55 size and larger",
     Measures_row: "Average Fruit Dimensions 50MM & ABOVE",
     Botanical: "Prunus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4443: {
     Plu: 4443,
@@ -13324,11 +9644,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Prunus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4444: {
     Plu: 4444,
@@ -13338,11 +9654,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Prunus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4445: {
     Plu: 4445,
@@ -13353,11 +9665,7 @@ export default {
     Measures_na: "42 size and smaller",
     Measures_row: "Average Fruit Dimensions = less than 3 inch",
     Botanical: "Punica granatum",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "2007-10-29 23:00:00",
-    Language: "EN"
   },
   4447: {
     Plu: 4447,
@@ -13366,11 +9674,7 @@ export default {
     Commodity: "QUINCE",
     Size: "All Sizes",
     Botanical: "Cydonia oblonga",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4448: {
     Plu: 4448,
@@ -13379,11 +9683,7 @@ export default {
     Commodity: "TAMARIND",
     Size: "All Sizes",
     Botanical: "Tamarindus indica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4449: {
     Plu: 4449,
@@ -13393,11 +9693,7 @@ export default {
     Variety: "Sunburst",
     Size: "All Sizes",
     Botanical: "Citrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4450: {
     Plu: 4450,
@@ -13408,11 +9704,7 @@ export default {
     Size: "All Sizes",
     Restrictions: "This code can be used anyplace in the globe; however, there are other codes for this item that can be used outside of North America.",
     Botanical: "Citrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4451: {
     Plu: 4451,
@@ -13422,11 +9714,7 @@ export default {
     Variety: "Dancy",
     Size: "All Sizes",
     Botanical: "Citrus reticulata",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:56",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4452: {
     Plu: 4452,
@@ -13436,11 +9724,7 @@ export default {
     Variety: "Fairchild",
     Size: "All Sizes",
     Botanical: "Citrus spp. reticulata blanco",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4453: {
     Plu: 4453,
@@ -13451,11 +9735,7 @@ export default {
     Size: "All Sizes",
     Restrictions: "This code can be used anyplace in the globe; however, there are other codes for this item that can be used outside of North America.",
     Botanical: "Citrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4454: {
     Plu: 4454,
@@ -13465,11 +9745,7 @@ export default {
     Variety: "Kinnow",
     Size: "All Sizes",
     Botanical: "Citrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4455: {
     Plu: 4455,
@@ -13479,11 +9755,7 @@ export default {
     Variety: "Mandarin/Royal",
     Size: "All Sizes",
     Botanical: "Citrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4456: {
     Plu: 4456,
@@ -13492,11 +9764,7 @@ export default {
     Commodity: "TANGELO",
     Size: "All Sizes",
     Botanical: "Citro paradisi X",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4457: {
     Plu: 4457,
@@ -13506,11 +9774,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Citrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4458: {
     Plu: 4458,
@@ -13520,11 +9784,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Citrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4459: {
     Plu: 4459,
@@ -13535,11 +9795,7 @@ export default {
     Size: "All Sizes",
     Botanical: "Citro paradisi X",
     Aka: "Ugli®",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4460: {
     Plu: 4460,
@@ -13548,11 +9804,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4461: {
     Plu: 4461,
@@ -13561,11 +9813,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4462: {
     Plu: 4462,
@@ -13574,11 +9822,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4463: {
     Plu: 4463,
@@ -13587,11 +9831,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4464: {
     Plu: 4464,
@@ -13600,11 +9840,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4465: {
     Plu: 4465,
@@ -13613,11 +9849,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4466: {
     Plu: 4466,
@@ -13626,11 +9858,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4467: {
     Plu: 4467,
@@ -13639,11 +9867,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4468: {
     Plu: 4468,
@@ -13652,11 +9876,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4469: {
     Plu: 4469,
@@ -13665,11 +9885,7 @@ export default {
     Commodity: "FOR USE WITH ALL COMMODITIES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4470: {
     Plu: 4470,
@@ -13677,11 +9893,7 @@ export default {
     Category: "Fruits",
     Commodity: "SALAD BAR",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4471: {
     Plu: 4471,
@@ -13690,11 +9902,7 @@ export default {
     Commodity: "OTHER FRUITS",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4472: {
     Plu: 4472,
@@ -13703,11 +9911,7 @@ export default {
     Commodity: "OTHER FRUITS",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4473: {
     Plu: 4473,
@@ -13716,11 +9920,7 @@ export default {
     Commodity: "OTHER FRUITS",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4474: {
     Plu: 4474,
@@ -13729,11 +9929,7 @@ export default {
     Commodity: "OTHER FRUITS",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4475: {
     Plu: 4475,
@@ -13742,11 +9938,7 @@ export default {
     Commodity: "OTHER FRUITS",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4476: {
     Plu: 4476,
@@ -13755,11 +9947,7 @@ export default {
     Commodity: "OTHER FRUITS",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4477: {
     Plu: 4477,
@@ -13768,11 +9956,7 @@ export default {
     Commodity: "OTHER FRUITS",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4478: {
     Plu: 4478,
@@ -13781,11 +9965,7 @@ export default {
     Commodity: "OTHER FRUITS",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4479: {
     Plu: 4479,
@@ -13794,11 +9974,7 @@ export default {
     Commodity: "OTHER FRUITS",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4480: {
     Plu: 4480,
@@ -13807,11 +9983,7 @@ export default {
     Commodity: "OTHER FRUITS",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4481: {
     Plu: 4481,
@@ -13820,11 +9992,7 @@ export default {
     Commodity: "OTHER FRUITS",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4482: {
     Plu: 4482,
@@ -13833,11 +10001,7 @@ export default {
     Commodity: "OTHER FRUITS",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4483: {
     Plu: 4483,
@@ -13846,11 +10010,7 @@ export default {
     Commodity: "OTHER FRUITS",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4484: {
     Plu: 4484,
@@ -13859,11 +10019,7 @@ export default {
     Commodity: "OTHER FRUITS",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4485: {
     Plu: 4485,
@@ -13872,11 +10028,7 @@ export default {
     Commodity: "OTHER FRUITS",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4486: {
     Plu: 4486,
@@ -13885,11 +10037,7 @@ export default {
     Commodity: "OTHER FRUITS",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4487: {
     Plu: 4487,
@@ -13898,11 +10046,7 @@ export default {
     Commodity: "OTHER FRUITS",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4488: {
     Plu: 4488,
@@ -13911,11 +10055,7 @@ export default {
     Commodity: "OTHER FRUITS",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4489: {
     Plu: 4489,
@@ -13924,11 +10064,7 @@ export default {
     Commodity: "OTHER FRUITS",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4490: {
     Plu: 4490,
@@ -13937,11 +10073,7 @@ export default {
     Commodity: "OTHER FRUITS",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4491: {
     Plu: 4491,
@@ -13953,11 +10085,7 @@ export default {
     Measures_na: "27 size and larger",
     Restrictions: "Restricted for items grown east of the Mississippi River in the U.S or east of the Ontario/Manitoba border in Canada.",
     Botanical: "Citrus paradisi",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "2002-05-01 22:00:00",
-    Language: "EN"
   },
   4492: {
     Plu: 4492,
@@ -13969,11 +10097,7 @@ export default {
     Measures_na: "27 size and larger",
     Measures_row: "Average Fruit Dimensions = 108mm and above",
     Botanical: "Citrus paradisi",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "2002-06-01 22:00:00",
-    Language: "EN"
   },
   4493: {
     Plu: 4493,
@@ -13985,11 +10109,7 @@ export default {
     Measures_na: "27 size and larger",
     Restrictions: "Restricted for items grown in Texas, Arizona and New Mexico in the U.S.",
     Botanical: "Citrus paradisi",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4494: {
     Plu: 4494,
@@ -14001,11 +10121,7 @@ export default {
     Measures_na: "27 size and larger",
     Restrictions: "Restricted for items grown east of the Mississippi River in the U.S or east of the Ontario/Manitoba border in Canada.",
     Botanical: "Citrus paradisi",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "2002-05-01 22:00:00",
-    Language: "EN"
   },
   4495: {
     Plu: 4495,
@@ -14017,11 +10133,7 @@ export default {
     Measures_na: "27 size and larger",
     Measures_row: "Average Fruit Dimensions = 108mm and above",
     Botanical: "Citrus paradisi",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "2002-06-01 22:00:00",
-    Language: "EN"
   },
   4496: {
     Plu: 4496,
@@ -14033,11 +10145,7 @@ export default {
     Measures_na: "27 size and larger",
     Restrictions: "Restricted for items grown in Texas, Arizona and New Mexico in the U.S.",
     Botanical: "Citrus paradisi",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4497: {
     Plu: 4497,
@@ -14048,11 +10156,7 @@ export default {
     Size: "All Sizes",
     Botanical: "Vitis vinifera",
     Aka: "SUPERIOR SEEDLESS® brand",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4498: {
     Plu: 4498,
@@ -14062,11 +10166,7 @@ export default {
     Variety: "White/Green Seedless (All others not listed above (including Autumn King))",
     Size: "All Sizes",
     Botanical: "Vitis vinifera",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4499: {
     Plu: 4499,
@@ -14076,11 +10176,7 @@ export default {
     Variety: "Crimson/Majestic",
     Size: "All Sizes",
     Botanical: "Vitis vinifera",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4500: {
     Plu: 4500,
@@ -14089,11 +10185,7 @@ export default {
     Commodity: "OTHER VEGETABLES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4501: {
     Plu: 4501,
@@ -14102,11 +10194,7 @@ export default {
     Commodity: "OTHER VEGETABLES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4502: {
     Plu: 4502,
@@ -14115,11 +10203,7 @@ export default {
     Commodity: "OTHER VEGETABLES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4503: {
     Plu: 4503,
@@ -14128,11 +10212,7 @@ export default {
     Commodity: "OTHER VEGETABLES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4504: {
     Plu: 4504,
@@ -14141,11 +10221,7 @@ export default {
     Commodity: "OTHER VEGETABLES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4505: {
     Plu: 4505,
@@ -14154,11 +10230,7 @@ export default {
     Commodity: "OTHER VEGETABLES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4506: {
     Plu: 4506,
@@ -14167,11 +10239,7 @@ export default {
     Commodity: "OTHER VEGETABLES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4507: {
     Plu: 4507,
@@ -14180,11 +10248,7 @@ export default {
     Commodity: "OTHER VEGETABLES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4508: {
     Plu: 4508,
@@ -14193,11 +10257,7 @@ export default {
     Commodity: "OTHER VEGETABLES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4509: {
     Plu: 4509,
@@ -14206,11 +10266,7 @@ export default {
     Commodity: "OTHER VEGETABLES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4510: {
     Plu: 4510,
@@ -14219,11 +10275,7 @@ export default {
     Commodity: "OTHER VEGETABLES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4511: {
     Plu: 4511,
@@ -14232,11 +10284,7 @@ export default {
     Commodity: "OTHER VEGETABLES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4512: {
     Plu: 4512,
@@ -14245,11 +10293,7 @@ export default {
     Commodity: "OTHER VEGETABLES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4513: {
     Plu: 4513,
@@ -14258,11 +10302,7 @@ export default {
     Commodity: "OTHER VEGETABLES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4514: {
     Plu: 4514,
@@ -14271,11 +10311,7 @@ export default {
     Commodity: "ALFALFA SPROUTS",
     Size: "All Sizes",
     Botanical: "Medicago sativa",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4515: {
     Plu: 4515,
@@ -14285,11 +10321,7 @@ export default {
     Variety: "Florence/Sweet Fennel/Fennel Bulb",
     Size: "All Sizes",
     Botanical: "Foeniculum vulgare",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4516: {
     Plu: 4516,
@@ -14299,11 +10331,7 @@ export default {
     Size: "Small",
     Measures_na: "48 size and smaller",
     Botanical: "Cynara scolymus",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4517: {
     Plu: 4517,
@@ -14314,11 +10342,7 @@ export default {
     Size: "Small",
     Measures_na: "42 size and smaller",
     Botanical: "Cynara scolymus",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4518: {
     Plu: 4518,
@@ -14329,11 +10353,7 @@ export default {
     Size: "Large",
     Measures_na: "36 size and larger",
     Botanical: "Cynara scolymus",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4519: {
     Plu: 4519,
@@ -14343,11 +10363,7 @@ export default {
     Variety: "Baby/Cocktail",
     Size: "All Sizes",
     Botanical: "Cynara scolymus",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4520: {
     Plu: 4520,
@@ -14357,11 +10373,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Cynara scolymus",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4521: {
     Plu: 4521,
@@ -14373,11 +10385,7 @@ export default {
     Measures_na: "x-large and jumbo size",
     Restrictions: "This code can be used anyplace in the globe; however, there are other codes for this item that can be used outside of North America.",
     Botanical: "Asparagus officinalis",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4522: {
     Plu: 4522,
@@ -14389,11 +10397,7 @@ export default {
     Measures_na: "standard and large size",
     Restrictions: "This code can be used anyplace in the globe; however, there are other codes for this item that can be used outside of North America.",
     Botanical: "Asparagus officinalis",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4523: {
     Plu: 4523,
@@ -14405,11 +10409,7 @@ export default {
     Measures_na: "x-large and jumbo size",
     Restrictions: "This code can be used anyplace in the globe; however, there are other codes for this item that can be used outside of North America.",
     Botanical: "Asparagus officinalis",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4524: {
     Plu: 4524,
@@ -14419,11 +10419,7 @@ export default {
     Variety: "Tips",
     Size: "All Sizes",
     Botanical: "Asparagus officinalis",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4525: {
     Plu: 4525,
@@ -14433,11 +10429,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Asparagus officinalis",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4526: {
     Plu: 4526,
@@ -14447,11 +10439,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Asparagus officinalis",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4527: {
     Plu: 4527,
@@ -14461,11 +10449,7 @@ export default {
     Variety: "Chinese Long/Snake",
     Size: "All Sizes",
     Botanical: "Vigna sesquipedalis",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4528: {
     Plu: 4528,
@@ -14475,11 +10459,7 @@ export default {
     Variety: "Fava/Broad",
     Size: "All Sizes",
     Botanical: "Vicia faba",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4529: {
     Plu: 4529,
@@ -14489,11 +10469,7 @@ export default {
     Variety: "Lima",
     Size: "All Sizes",
     Botanical: "Phaseolus lunatus",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4530: {
     Plu: 4530,
@@ -14503,11 +10479,7 @@ export default {
     Variety: "Pole/Runner/Stick",
     Size: "All Sizes",
     Botanical: "Phaseolus coccineus",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4531: {
     Plu: 4531,
@@ -14517,11 +10489,7 @@ export default {
     Variety: "Purple Hull",
     Size: "All Sizes",
     Botanical: "Phaseolus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4532: {
     Plu: 4532,
@@ -14531,11 +10499,7 @@ export default {
     Variety: "Shell",
     Size: "All Sizes",
     Botanical: "Phaseolus vulgaris",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4533: {
     Plu: 4533,
@@ -14545,11 +10509,7 @@ export default {
     Variety: "Wax/Yellow",
     Size: "All Sizes",
     Botanical: "Phaseolus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4534: {
     Plu: 4534,
@@ -14559,11 +10519,7 @@ export default {
     Variety: "Winged",
     Size: "All Sizes",
     Botanical: "Psophocarpus      tetragonolobus",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4535: {
     Plu: 4535,
@@ -14573,11 +10529,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Phaseolus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4536: {
     Plu: 4536,
@@ -14587,11 +10539,7 @@ export default {
     Variety: "Mung Bean Sprouts",
     Size: "All Sizes",
     Botanical: "Vigna radiata",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4537: {
     Plu: 4537,
@@ -14601,11 +10549,7 @@ export default {
     Variety: "Baby Golden",
     Size: "All Sizes",
     Botanical: "Beta vulgaris",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4538: {
     Plu: 4538,
@@ -14615,11 +10559,7 @@ export default {
     Variety: "Baby Red",
     Size: "All Sizes",
     Botanical: "Beta vulgaris",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4539: {
     Plu: 4539,
@@ -14629,11 +10569,7 @@ export default {
     Variety: "Bunch",
     Size: "All Sizes",
     Botanical: "Beta vulgaris",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4540: {
     Plu: 4540,
@@ -14643,11 +10579,7 @@ export default {
     Variety: "Loose",
     Size: "All Sizes",
     Botanical: "Beta vulgaris",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4541: {
     Plu: 4541,
@@ -14657,11 +10589,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Beta vulgaris",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4542: {
     Plu: 4542,
@@ -14670,11 +10598,7 @@ export default {
     Commodity: "BEET GREENS",
     Size: "All Sizes",
     Botanical: "Beta vulgaris",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4543: {
     Plu: 4543,
@@ -14683,11 +10607,7 @@ export default {
     Commodity: "BELGIAN ENDIVE (WITLOOF CHICORY)",
     Size: "All Sizes",
     Botanical: "Cichorium intybus",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4544: {
     Plu: 4544,
@@ -14697,11 +10617,7 @@ export default {
     Variety: "Small/Baby",
     Size: "All Sizes",
     Botanical: "Brassica rapa",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4545: {
     Plu: 4545,
@@ -14710,11 +10626,7 @@ export default {
     Commodity: "BOK CHOY (PAK CHOI)",
     Size: "All Sizes",
     Botanical: "Brassica rapa",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4546: {
     Plu: 4546,
@@ -14724,11 +10636,7 @@ export default {
     Variety: "See also SWEET POTATO",
     Size: "All Sizes",
     Botanical: "Ipomoea batato",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4547: {
     Plu: 4547,
@@ -14738,11 +10646,7 @@ export default {
     Variety: "Broccoli Rabe (Italian Rapini)/ Chinese Broccoli (GAI LAN)",
     Size: "All Sizes",
     Botanical: "Brassica oleracea",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4548: {
     Plu: 4548,
@@ -14752,11 +10656,7 @@ export default {
     Variety: "Florettes",
     Size: "All Sizes",
     Botanical: "Brassica oleracea",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4549: {
     Plu: 4549,
@@ -14766,11 +10666,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Brassica oleracea",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4550: {
     Plu: 4550,
@@ -14779,11 +10675,7 @@ export default {
     Commodity: "BRUSSELS SPROUTS",
     Size: "All Sizes",
     Botanical: "Brassica olerace",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4551: {
     Plu: 4551,
@@ -14793,11 +10685,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Brassica olerace",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4552: {
     Plu: 4552,
@@ -14807,11 +10695,7 @@ export default {
     Variety: "Chinese/Napa/Wong Bok",
     Size: "All Sizes",
     Botanical: "Brassica rapa",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4553: {
     Plu: 4553,
@@ -14821,11 +10705,7 @@ export default {
     Variety: "Taylors Gold",
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4554: {
     Plu: 4554,
@@ -14835,11 +10715,7 @@ export default {
     Variety: "Red",
     Size: "All Sizes",
     Botanical: "Brassica oleracea",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4555: {
     Plu: 4555,
@@ -14849,11 +10725,7 @@ export default {
     Variety: "Savoy, Green",
     Size: "All Sizes",
     Botanical: "Brassica oleracea",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4556: {
     Plu: 4556,
@@ -14863,11 +10735,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Brassica oleracea",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4557: {
     Plu: 4557,
@@ -14877,11 +10745,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Brassica oleracea",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4558: {
     Plu: 4558,
@@ -14890,11 +10754,7 @@ export default {
     Commodity: "CACTUS LEAVES (Nopales/Cactus Pads)",
     Size: "All Sizes",
     Botanical: "Opuntia spp",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4559: {
     Plu: 4559,
@@ -14903,11 +10763,7 @@ export default {
     Commodity: "CARDOON (CARDONI)",
     Size: "All Sizes",
     Botanical: "Cynara cardunculus",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4560: {
     Plu: 4560,
@@ -14917,11 +10773,7 @@ export default {
     Variety: "Baby",
     Size: "All Sizes",
     Botanical: "Daucus carota",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4561: {
     Plu: 4561,
@@ -14931,11 +10783,7 @@ export default {
     Variety: "French",
     Size: "All Sizes",
     Botanical: "Daucus carota",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4562: {
     Plu: 4562,
@@ -14945,11 +10793,7 @@ export default {
     Variety: "Loose",
     Size: "All Sizes",
     Botanical: "Daucus carota",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4563: {
     Plu: 4563,
@@ -14959,11 +10803,7 @@ export default {
     Variety: "Carrot Sticks",
     Size: "All Sizes",
     Botanical: "Daucus carota",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4564: {
     Plu: 4564,
@@ -14973,11 +10813,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Daucus carota",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4565: {
     Plu: 4565,
@@ -14987,11 +10823,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Daucus carota",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4566: {
     Plu: 4566,
@@ -15001,11 +10833,7 @@ export default {
     Variety: "Florettes",
     Size: "All Sizes",
     Botanical: "Brassica oleracea",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4567: {
     Plu: 4567,
@@ -15015,11 +10843,7 @@ export default {
     Variety: "Green",
     Size: "All Sizes",
     Botanical: "Brassica oleracea",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4568: {
     Plu: 4568,
@@ -15029,11 +10853,7 @@ export default {
     Variety: "Purple",
     Size: "All Sizes",
     Botanical: "Brassica oleracea",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4569: {
     Plu: 4569,
@@ -15043,11 +10863,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Brassica oleracea",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4570: {
     Plu: 4570,
@@ -15057,11 +10873,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Brassica oleracea",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4571: {
     Plu: 4571,
@@ -15071,11 +10883,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Brassica oleracea",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4572: {
     Plu: 4572,
@@ -15085,11 +10893,7 @@ export default {
     Size: "Large",
     Measures_na: "9 size and larger",
     Botanical: "Brassica oleracea",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4573: {
     Plu: 4573,
@@ -15099,11 +10903,7 @@ export default {
     Variety: "Baby",
     Size: "All Sizes",
     Botanical: "Brassica oleracea",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4575: {
     Plu: 4575,
@@ -15112,11 +10912,7 @@ export default {
     Commodity: "CELERY",
     Variety: "Hearts",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4576: {
     Plu: 4576,
@@ -15125,11 +10921,7 @@ export default {
     Commodity: "CELERY",
     Variety: "Celery Sticks",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4577: {
     Plu: 4577,
@@ -15138,11 +10930,7 @@ export default {
     Commodity: "CELERY",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4578: {
     Plu: 4578,
@@ -15151,11 +10939,7 @@ export default {
     Commodity: "CELERY",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4579: {
     Plu: 4579,
@@ -15164,11 +10948,7 @@ export default {
     Commodity: "CELERY",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4580: {
     Plu: 4580,
@@ -15177,11 +10957,7 @@ export default {
     Commodity: "CELERY",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4581: {
     Plu: 4581,
@@ -15190,11 +10966,7 @@ export default {
     Commodity: "CELERY",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4582: {
     Plu: 4582,
@@ -15205,11 +10977,7 @@ export default {
     Size: "Large",
     Measures_na: "24 size and larger",
     Restrictions: "Restricted for items grown east of the Mississippi River in the U.S. or east of the Ontario/Manitoba border in Canada.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4583: {
     Plu: 4583,
@@ -15219,11 +10987,7 @@ export default {
     Variety: "Bunch",
     Size: "Large",
     Measures_na: "24 size and larger",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4584: {
     Plu: 4584,
@@ -15236,11 +11000,7 @@ export default {
     Restrictions: "Changed size break based on industry review and plu app approval for xl green mango",
     Botanical: "Mangifera indica",
     Aka: "Keitt and Francis varieties",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "2009-01-28 23:00:00",
-    Language: "EN"
   },
   4585: {
     Plu: 4585,
@@ -15249,11 +11009,7 @@ export default {
     Commodity: "CELERY ROOT/CELERIAC",
     Size: "All Sizes",
     Botanical: "Apium graveolens",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4586: {
     Plu: 4586,
@@ -15263,11 +11019,7 @@ export default {
     Variety: "Green",
     Size: "All Sizes",
     Botanical: "Beta vulgaris",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4587: {
     Plu: 4587,
@@ -15277,11 +11029,7 @@ export default {
     Variety: "Red",
     Size: "All Sizes",
     Botanical: "Beta vulgaris",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4588: {
     Plu: 4588,
@@ -15291,11 +11039,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Beta vulgaris",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4589: {
     Plu: 4589,
@@ -15305,11 +11049,7 @@ export default {
     Variety: "Sweet Corn, Baby",
     Size: "All Sizes",
     Botanical: "Zea mays",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4590: {
     Plu: 4590,
@@ -15319,11 +11059,7 @@ export default {
     Variety: "Sweet Corn, Bi-Color",
     Size: "All Sizes",
     Botanical: "Zea mays",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4591: {
     Plu: 4591,
@@ -15333,11 +11069,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Zea mays",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4592: {
     Plu: 4592,
@@ -15347,11 +11079,7 @@ export default {
     Variety: "Armenian",
     Size: "All Sizes",
     Botanical: "Cucumis sativus",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4593: {
     Plu: 4593,
@@ -15361,11 +11089,7 @@ export default {
     Variety: "English/Hot House/Long Seedless/Telegraph/Continental",
     Size: "All Sizes",
     Botanical: "Cucumis sativus",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4594: {
     Plu: 4594,
@@ -15375,11 +11099,7 @@ export default {
     Variety: "Japanese/White",
     Size: "All Sizes",
     Botanical: "Cucumis sativus",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4595: {
     Plu: 4595,
@@ -15389,11 +11109,7 @@ export default {
     Variety: "Lemon",
     Size: "All Sizes",
     Botanical: "Cucumis sativus",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4596: {
     Plu: 4596,
@@ -15403,11 +11119,7 @@ export default {
     Variety: "Pickling/Gherkin",
     Size: "All Sizes",
     Botanical: "Cucumis sativus",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4597: {
     Plu: 4597,
@@ -15417,11 +11129,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Cucumis sativus",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4598: {
     Plu: 4598,
@@ -15431,11 +11139,7 @@ export default {
     Variety: "(See also RADISH)",
     Size: "All Sizes",
     Botanical: "Raphanus sativus",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4599: {
     Plu: 4599,
@@ -15445,11 +11149,7 @@ export default {
     Variety: "Baby",
     Size: "All Sizes",
     Botanical: "Solanum melongena",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4600: {
     Plu: 4600,
@@ -15459,11 +11159,7 @@ export default {
     Variety: "Baby White",
     Size: "All Sizes",
     Botanical: "Solanum melongena",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4601: {
     Plu: 4601,
@@ -15473,11 +11169,7 @@ export default {
     Variety: "Japanese",
     Size: "All Sizes",
     Botanical: "Solanum melongena",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4602: {
     Plu: 4602,
@@ -15487,11 +11179,7 @@ export default {
     Variety: "White",
     Size: "All Sizes",
     Botanical: "Solanum melongena",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4603: {
     Plu: 4603,
@@ -15501,11 +11189,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Solanum melongena",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4604: {
     Plu: 4604,
@@ -15514,11 +11198,7 @@ export default {
     Commodity: "ENDIVE/CHICORY",
     Size: "All Sizes",
     Botanical: "Cichorium intybus",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4605: {
     Plu: 4605,
@@ -15528,11 +11208,7 @@ export default {
     Variety: "Green",
     Size: "All Sizes",
     Botanical: "Cichorium endivia",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4606: {
     Plu: 4606,
@@ -15541,11 +11217,7 @@ export default {
     Commodity: "FIDDLEHEAD FERNS",
     Size: "All Sizes",
     Botanical: "Matteauccia struthiopteris",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4607: {
     Plu: 4607,
@@ -15555,11 +11227,7 @@ export default {
     Variety: "Chinese or Indian Mustard",
     Size: "All Sizes",
     Botanical: "Brassica juncea",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4608: {
     Plu: 4608,
@@ -15569,11 +11237,7 @@ export default {
     Variety: "Regular",
     Size: "All Sizes",
     Botanical: "Allium sativum",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4609: {
     Plu: 4609,
@@ -15583,11 +11247,7 @@ export default {
     Variety: "Elephant",
     Size: "All Sizes",
     Botanical: "Allium ampeloprasum",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4610: {
     Plu: 4610,
@@ -15597,11 +11257,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Allium sativum",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4611: {
     Plu: 4611,
@@ -15611,11 +11267,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Allium sativum",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4612: {
     Plu: 4612,
@@ -15625,11 +11277,7 @@ export default {
     Variety: "Regular",
     Size: "All Sizes",
     Botanical: "Zingiber officinale",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4613: {
     Plu: 4613,
@@ -15639,11 +11287,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Zingiber officinale",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4614: {
     Plu: 4614,
@@ -15653,11 +11297,7 @@ export default {
     Variety: "Collard",
     Size: "All Sizes",
     Botanical: "Brassica oleracea",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4615: {
     Plu: 4615,
@@ -15667,11 +11307,7 @@ export default {
     Variety: "Dandelion",
     Size: "All Sizes",
     Botanical: "Taraxacum official",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4616: {
     Plu: 4616,
@@ -15681,11 +11317,7 @@ export default {
     Variety: "Mustard (Synonymous with Gai (Gui) Choy)",
     Size: "All Sizes",
     Botanical: "Braccia juncea",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4617: {
     Plu: 4617,
@@ -15695,11 +11327,7 @@ export default {
     Variety: "Polk Greens",
     Size: "All Sizes",
     Botanical: "Brassica spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4618: {
     Plu: 4618,
@@ -15709,11 +11337,7 @@ export default {
     Variety: "Texas Mustard",
     Size: "All Sizes",
     Botanical: "Brassica carinato",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4619: {
     Plu: 4619,
@@ -15723,11 +11347,7 @@ export default {
     Variety: "Turnip",
     Size: "All Sizes",
     Botanical: "Brassica rapa",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4620: {
     Plu: 4620,
@@ -15737,11 +11357,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Brassica spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4621: {
     Plu: 4621,
@@ -15751,11 +11367,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Brassica spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4622: {
     Plu: 4622,
@@ -15765,11 +11377,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Brassica spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4623: {
     Plu: 4623,
@@ -15779,11 +11387,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Brassica spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4624: {
     Plu: 4624,
@@ -15793,11 +11397,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Brassica spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4625: {
     Plu: 4625,
@@ -15806,11 +11406,7 @@ export default {
     Commodity: "HORSERADISH ROOT",
     Size: "All Sizes",
     Botanical: "Armoracia rusticana",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4626: {
     Plu: 4626,
@@ -15819,11 +11415,7 @@ export default {
     Commodity: "JICAMA/YAM BEAN",
     Size: "All Sizes",
     Botanical: "Pachyrhizus erosus",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4627: {
     Plu: 4627,
@@ -15832,11 +11424,7 @@ export default {
     Commodity: "KALE",
     Size: "All Sizes",
     Botanical: "Brassica oleracea",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4628: {
     Plu: 4628,
@@ -15845,11 +11433,7 @@ export default {
     Commodity: "KOHLRABI",
     Size: "All Sizes",
     Botanical: "Brassica oleracea",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4629: {
     Plu: 4629,
@@ -15860,11 +11444,7 @@ export default {
     Size: "All Sizes",
     Restrictions: "This code can be used anyplace in the globe; however, there are other codes for this item that can be used outside of North America.",
     Botanical: "Allium ampeloprasum",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4630: {
     Plu: 4630,
@@ -15875,11 +11455,7 @@ export default {
     Size: "All Sizes",
     Restrictions: "This code can be used anyplace in the globe; however, there are other codes for this item that can be used outside of North America.",
     Botanical: "Allium ampeloprasum",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4631: {
     Plu: 4631,
@@ -15889,11 +11465,7 @@ export default {
     Variety: "Bibb/Flat/Round",
     Size: "All Sizes",
     Botanical: "Lactuca sativa",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4632: {
     Plu: 4632,
@@ -15903,11 +11475,7 @@ export default {
     Variety: "Boston/Butter",
     Size: "All Sizes",
     Botanical: "Lactuca sativa",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4633: {
     Plu: 4633,
@@ -15917,11 +11485,7 @@ export default {
     Variety: "Hydroponic",
     Size: "All Sizes",
     Botanical: "Lactuca sativa",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4634: {
     Plu: 4634,
@@ -15932,11 +11496,7 @@ export default {
     Size: "All Sizes",
     Restrictions: "Restricted for items grown east of the Mississippi River in the U.S or east of the Ontario/Manitoba border in Canada.",
     Botanical: "Lactuca sativa",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4635: {
     Plu: 4635,
@@ -15946,11 +11506,7 @@ export default {
     Variety: "Red Seedless (All others not listed under red seedless)",
     Size: "All Sizes",
     Botanical: "Vitis vinifera",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4636: {
     Plu: 4636,
@@ -15960,11 +11516,7 @@ export default {
     Variety: "Red Globe",
     Size: "All Sizes",
     Botanical: "Vitis vinifera",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4637: {
     Plu: 4637,
@@ -15974,11 +11526,7 @@ export default {
     Variety: "Red Seeded (All others not listed above)",
     Size: "All Sizes",
     Botanical: "Vitis vinifera",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4638: {
     Plu: 4638,
@@ -15988,11 +11536,7 @@ export default {
     Variety: "Fantasy/Marroo",
     Size: "All Sizes",
     Botanical: "Vitis vinifera",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4639: {
     Plu: 4639,
@@ -16002,11 +11546,7 @@ export default {
     Variety: "Mache",
     Size: "All Sizes",
     Botanical: "Lactuca sativa",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4640: {
     Plu: 4640,
@@ -16016,11 +11556,7 @@ export default {
     Variety: "Romaine/Cos",
     Size: "All Sizes",
     Botanical: "Lactuca sativa",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4641: {
     Plu: 4641,
@@ -16030,11 +11566,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Lactuca sativa",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4642: {
     Plu: 4642,
@@ -16044,11 +11576,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Lactuca sativa",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4643: {
     Plu: 4643,
@@ -16058,11 +11586,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Lactuca sativa",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4644: {
     Plu: 4644,
@@ -16071,11 +11595,7 @@ export default {
     Commodity: "MALANGA",
     Size: "All Sizes",
     Botanical: "Xanthosoma spp",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4645: {
     Plu: 4645,
@@ -16086,11 +11606,7 @@ export default {
     Size: "Small",
     Measures_row: "Less than 40mm diameter",
     Botanical: "Agaricus bisporus",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4646: {
     Plu: 4646,
@@ -16100,11 +11616,7 @@ export default {
     Variety: "Black Forest",
     Size: "All Sizes",
     Botanical: "Agaricus bisporus",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4647: {
     Plu: 4647,
@@ -16114,11 +11626,7 @@ export default {
     Variety: "Chanterelle",
     Size: "All Sizes",
     Botanical: "Chanterella cibarius",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4648: {
     Plu: 4648,
@@ -16128,11 +11636,7 @@ export default {
     Variety: "Cremini/Brown/Swiss Brown",
     Size: "All Sizes",
     Botanical: "Agaricus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4649: {
     Plu: 4649,
@@ -16142,11 +11646,7 @@ export default {
     Variety: "Oyster",
     Size: "All Sizes",
     Botanical: "Pleuotus ostreatus",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4650: {
     Plu: 4650,
@@ -16156,11 +11656,7 @@ export default {
     Variety: "Portabella (Synonymous with Cremini, Brown, Swiss Brown Mushrooms)",
     Size: "All Sizes",
     Botanical: "Agaricus bisporus",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4651: {
     Plu: 4651,
@@ -16170,11 +11666,7 @@ export default {
     Variety: "Shiitake",
     Size: "All Sizes",
     Botanical: "Lentinus edodes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4652: {
     Plu: 4652,
@@ -16184,11 +11676,7 @@ export default {
     Variety: "Wood Ear",
     Size: "All Sizes",
     Botanical: "Auricularia auricula",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4653: {
     Plu: 4653,
@@ -16198,11 +11686,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Agaricus bisporus",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4654: {
     Plu: 4654,
@@ -16212,11 +11696,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Agaricus bisporus",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4655: {
     Plu: 4655,
@@ -16226,11 +11706,7 @@ export default {
     Variety: "Regular (Green)",
     Size: "All Sizes",
     Botanical: "Abelmoschus esculentus",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4656: {
     Plu: 4656,
@@ -16240,11 +11716,7 @@ export default {
     Variety: "Chinese",
     Size: "All Sizes",
     Botanical: "Luffa acutangula",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4657: {
     Plu: 4657,
@@ -16254,11 +11726,7 @@ export default {
     Variety: "Red",
     Size: "All Sizes",
     Botanical: "A.esculentus",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4658: {
     Plu: 4658,
@@ -16268,11 +11736,7 @@ export default {
     Variety: "Boiling",
     Size: "All Sizes",
     Botanical: "Allium spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4659: {
     Plu: 4659,
@@ -16282,11 +11746,7 @@ export default {
     Variety: "Bulb",
     Size: "All Sizes",
     Botanical: "Allium spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4660: {
     Plu: 4660,
@@ -16296,11 +11756,7 @@ export default {
     Variety: "Pearl",
     Size: "All Sizes",
     Botanical: "Allium spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4661: {
     Plu: 4661,
@@ -16310,11 +11766,7 @@ export default {
     Variety: "Pickling, White",
     Size: "All Sizes",
     Botanical: "Allium spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4662: {
     Plu: 4662,
@@ -16324,11 +11776,7 @@ export default {
     Variety: "Shallots",
     Size: "All Sizes",
     Botanical: "Allium spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4663: {
     Plu: 4663,
@@ -16338,11 +11786,7 @@ export default {
     Variety: "White",
     Size: "All Sizes",
     Botanical: "Allium spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4664: {
     Plu: 4664,
@@ -16352,11 +11796,7 @@ export default {
     Variety: "Regular - Red, On the Vine (Truss)",
     Size: "All Sizes",
     Botanical: "Lycopersicon esculenta",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4665: {
     Plu: 4665,
@@ -16368,11 +11808,7 @@ export default {
     Measures_na: "2 3/4 size and smaller",
     Measures_row: "Min diameter less than 75mm",
     Botanical: "Allium spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4666: {
     Plu: 4666,
@@ -16382,11 +11818,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Allium spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4667: {
     Plu: 4667,
@@ -16396,11 +11828,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Allium spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4668: {
     Plu: 4668,
@@ -16410,11 +11838,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Allium spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4669: {
     Plu: 4669,
@@ -16424,11 +11848,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Allium spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4670: {
     Plu: 4670,
@@ -16438,11 +11858,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Allium spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4671: {
     Plu: 4671,
@@ -16451,11 +11867,7 @@ export default {
     Commodity: "PARSLEY ROOT(HAMBURG PARSLEY)",
     Size: "All Sizes",
     Botanical: "Petroselinum crispum",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4672: {
     Plu: 4672,
@@ -16464,11 +11876,7 @@ export default {
     Commodity: "PARSNIP",
     Size: "All Sizes",
     Botanical: "Pastinaca sativa",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4673: {
     Plu: 4673,
@@ -16478,11 +11886,7 @@ export default {
     Variety: "Blackeyed",
     Size: "All Sizes",
     Botanical: "Vigna unguiculata",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4674: {
     Plu: 4674,
@@ -16492,11 +11896,7 @@ export default {
     Variety: "Green",
     Size: "All Sizes",
     Botanical: "Pisum sativum",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4675: {
     Plu: 4675,
@@ -16505,11 +11905,7 @@ export default {
     Commodity: "PEAS",
     Variety: "Sugar Snap",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4676: {
     Plu: 4676,
@@ -16518,11 +11914,7 @@ export default {
     Commodity: "PEAS",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4677: {
     Plu: 4677,
@@ -16532,11 +11924,7 @@ export default {
     Variety: "Anaheim (Green and Red)",
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4678: {
     Plu: 4678,
@@ -16546,11 +11934,7 @@ export default {
     Variety: "Banana (Yellow Long)",
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4679: {
     Plu: 4679,
@@ -16560,11 +11944,7 @@ export default {
     Variety: "Bell, Field Grown - Brown",
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4680: {
     Plu: 4680,
@@ -16574,11 +11954,7 @@ export default {
     Variety: "Bell, Field Grown - Golden (Yellow)",
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4681: {
     Plu: 4681,
@@ -16590,11 +11966,7 @@ export default {
     Measures_na: "med. size and smaller",
     Measures_row: "Min diameter less than 65mm",
     Botanical: "Capsicum spp.",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4682: {
     Plu: 4682,
@@ -16604,11 +11976,7 @@ export default {
     Variety: "Bell, Field Grown - Orange",
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4683: {
     Plu: 4683,
@@ -16618,11 +11986,7 @@ export default {
     Variety: "Bell, Field Grown - Purple",
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4684: {
     Plu: 4684,
@@ -16632,11 +11996,7 @@ export default {
     Variety: "Bell, Field Grown - White",
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4685: {
     Plu: 4685,
@@ -16646,11 +12006,7 @@ export default {
     Variety: "Chili - Dried",
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4686: {
     Plu: 4686,
@@ -16660,11 +12016,7 @@ export default {
     Variety: "Chili - Green",
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4687: {
     Plu: 4687,
@@ -16674,11 +12026,7 @@ export default {
     Variety: "Cubanelle",
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4688: {
     Plu: 4688,
@@ -16688,11 +12036,7 @@ export default {
     Variety: "Bell, Greenhouse - Red",
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4689: {
     Plu: 4689,
@@ -16702,11 +12046,7 @@ export default {
     Variety: "Bell, Greenhouse - Yellow",
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4690: {
     Plu: 4690,
@@ -16716,11 +12056,7 @@ export default {
     Variety: "Hot (Hungarian Hot)",
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4691: {
     Plu: 4691,
@@ -16730,11 +12066,7 @@ export default {
     Variety: "Hot Mixed",
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4692: {
     Plu: 4692,
@@ -16744,11 +12076,7 @@ export default {
     Variety: "Hungarian Wax",
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4693: {
     Plu: 4693,
@@ -16758,11 +12086,7 @@ export default {
     Variety: "Jalapeno - Green/Mexican Green",
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4694: {
     Plu: 4694,
@@ -16772,11 +12096,7 @@ export default {
     Variety: "Jalapeno - Red/Mexican Red",
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4695: {
     Plu: 4695,
@@ -16786,11 +12106,7 @@ export default {
     Variety: "Japanese - Red",
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4696: {
     Plu: 4696,
@@ -16800,11 +12116,7 @@ export default {
     Variety: "Long Hot - Green",
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4697: {
     Plu: 4697,
@@ -16814,11 +12126,7 @@ export default {
     Variety: "Long Hot - Red",
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4698: {
     Plu: 4698,
@@ -16828,11 +12136,7 @@ export default {
     Variety: "Morita Chili",
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4699: {
     Plu: 4699,
@@ -16842,11 +12146,7 @@ export default {
     Variety: "Negro",
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4700: {
     Plu: 4700,
@@ -16856,11 +12156,7 @@ export default {
     Variety: "New Mexico",
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4701: {
     Plu: 4701,
@@ -16870,11 +12166,7 @@ export default {
     Variety: "Pasilla - Green",
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4702: {
     Plu: 4702,
@@ -16884,11 +12176,7 @@ export default {
     Variety: "Pasilla - Red",
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4703: {
     Plu: 4703,
@@ -16898,11 +12186,7 @@ export default {
     Variety: "Pasilla Pod",
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4704: {
     Plu: 4704,
@@ -16912,11 +12196,7 @@ export default {
     Variety: "Pinole",
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4705: {
     Plu: 4705,
@@ -16926,11 +12206,7 @@ export default {
     Variety: "Poblano",
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4706: {
     Plu: 4706,
@@ -16940,11 +12216,7 @@ export default {
     Variety: "Red Cheese",
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4707: {
     Plu: 4707,
@@ -16954,11 +12226,7 @@ export default {
     Variety: "Red Finger",
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4708: {
     Plu: 4708,
@@ -16968,11 +12236,7 @@ export default {
     Variety: "Red Pimiento/ Red Sweet Long",
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4709: {
     Plu: 4709,
@@ -16982,11 +12246,7 @@ export default {
     Variety: "Serrano",
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4710: {
     Plu: 4710,
@@ -16996,11 +12256,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4711: {
     Plu: 4711,
@@ -17010,11 +12266,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4712: {
     Plu: 4712,
@@ -17024,11 +12276,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Capsicum spp",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4713: {
     Plu: 4713,
@@ -17038,11 +12286,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Capsicum spp",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4714: {
     Plu: 4714,
@@ -17052,11 +12296,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Capsicum spp",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4715: {
     Plu: 4715,
@@ -17066,11 +12306,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Capsicum spp",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4716: {
     Plu: 4716,
@@ -17080,11 +12316,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Capsicum spp",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4717: {
     Plu: 4717,
@@ -17094,11 +12326,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Capsicum spp",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4718: {
     Plu: 4718,
@@ -17108,11 +12336,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Capsicum spp",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4719: {
     Plu: 4719,
@@ -17122,11 +12346,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Capsicum spp",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4720: {
     Plu: 4720,
@@ -17136,11 +12356,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Capsicum spp",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4721: {
     Plu: 4721,
@@ -17150,11 +12366,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4722: {
     Plu: 4722,
@@ -17164,11 +12376,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4723: {
     Plu: 4723,
@@ -17178,11 +12386,7 @@ export default {
     Variety: "Creamer - Red",
     Size: "All Sizes",
     Botanical: "Solanum tuberosum",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4724: {
     Plu: 4724,
@@ -17192,11 +12396,7 @@ export default {
     Variety: "Creamer - White",
     Size: "All Sizes",
     Botanical: "Solanum tuberosum",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4725: {
     Plu: 4725,
@@ -17207,11 +12407,7 @@ export default {
     Size: "All Sizes",
     Restrictions: "Restricted for items grown east of the Mississippi River in the U.S. or east of the Ontario/Manitoba border in Canada.",
     Botanical: "Solanum tuberosum",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4726: {
     Plu: 4726,
@@ -17221,11 +12417,7 @@ export default {
     Variety: "Long - White",
     Size: "All Sizes",
     Botanical: "Solanum tuberosum",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4727: {
     Plu: 4727,
@@ -17235,11 +12427,7 @@ export default {
     Variety: "Yellow",
     Size: "All Sizes",
     Botanical: "Solanum tuberosum",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4728: {
     Plu: 4728,
@@ -17249,11 +12437,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Solanum tuberosum",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4729: {
     Plu: 4729,
@@ -17263,11 +12447,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Solanum tuberosum",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4730: {
     Plu: 4730,
@@ -17277,11 +12457,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Solanum tuberosum",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4731: {
     Plu: 4731,
@@ -17291,11 +12467,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Solanum tuberosum",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4732: {
     Plu: 4732,
@@ -17305,11 +12477,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Solanum tuberosum",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4733: {
     Plu: 4733,
@@ -17319,11 +12487,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Solanum tuberosum",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4734: {
     Plu: 4734,
@@ -17333,11 +12497,7 @@ export default {
     Variety: "Mini",
     Size: "All Sizes",
     Botanical: "Cucurbita pepo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4735: {
     Plu: 4735,
@@ -17347,11 +12507,7 @@ export default {
     Variety: "Regular",
     Size: "All Sizes",
     Botanical: "Cucurbita pepo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4736: {
     Plu: 4736,
@@ -17361,11 +12517,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Cucurbita pepo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4737: {
     Plu: 4737,
@@ -17375,11 +12527,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Cucurbita pepo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4738: {
     Plu: 4738,
@@ -17388,11 +12536,7 @@ export default {
     Commodity: "RADICCHIO",
     Size: "All Sizes",
     Botanical: "Cichorium intybus",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4739: {
     Plu: 4739,
@@ -17402,11 +12546,7 @@ export default {
     Variety: "Black",
     Size: "All Sizes",
     Botanical: "Raphanus sativus",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4740: {
     Plu: 4740,
@@ -17416,11 +12556,7 @@ export default {
     Variety: "Bunched White",
     Size: "All Sizes",
     Botanical: "Raphanus sativus",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4741: {
     Plu: 4741,
@@ -17430,11 +12566,7 @@ export default {
     Variety: "Italian Red",
     Size: "All Sizes",
     Botanical: "Raphanus sativus",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4742: {
     Plu: 4742,
@@ -17444,11 +12576,7 @@ export default {
     Variety: "Red",
     Size: "All Sizes",
     Botanical: "Raphanus sativus",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4743: {
     Plu: 4743,
@@ -17458,11 +12586,7 @@ export default {
     Variety: "White/Icicle",
     Size: "All Sizes",
     Botanical: "Raphanus sativus",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4744: {
     Plu: 4744,
@@ -17472,11 +12596,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Raphanus sativus",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4745: {
     Plu: 4745,
@@ -17486,11 +12606,7 @@ export default {
     Variety: "Regular",
     Size: "All Sizes",
     Botanical: "Rheum x rhabarbarum",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4746: {
     Plu: 4746,
@@ -17500,11 +12616,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Rheum x rhabarbarum",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4747: {
     Plu: 4747,
@@ -17514,11 +12626,7 @@ export default {
     Variety: "Regular",
     Size: "All Sizes",
     Botanical: "Brassica napus",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4748: {
     Plu: 4748,
@@ -17528,11 +12636,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Brassica napus",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4749: {
     Plu: 4749,
@@ -17541,11 +12645,7 @@ export default {
     Commodity: "SPINACH",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4750: {
     Plu: 4750,
@@ -17555,11 +12655,7 @@ export default {
     Variety: "Acorn/Table Queen",
     Size: "All Sizes",
     Botanical: "C. pepo/C. maxima",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4751: {
     Plu: 4751,
@@ -17569,11 +12665,7 @@ export default {
     Variety: "Acorn - Golden",
     Size: "All Sizes",
     Botanical: "C.pepo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4752: {
     Plu: 4752,
@@ -17583,11 +12675,7 @@ export default {
     Variety: "Acorn - Swan White Table Queen",
     Size: "All Sizes",
     Botanical: "C.pepo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4753: {
     Plu: 4753,
@@ -17597,11 +12685,7 @@ export default {
     Variety: "Australian Blue",
     Size: "All Sizes",
     Botanical: "C.maxima",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4754: {
     Plu: 4754,
@@ -17611,11 +12695,7 @@ export default {
     Variety: "Baby Scallopini",
     Size: "All Sizes",
     Botanical: "C.pepo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4755: {
     Plu: 4755,
@@ -17625,11 +12705,7 @@ export default {
     Variety: "Baby Summer (Green)",
     Size: "All Sizes",
     Botanical: "C.pepo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4756: {
     Plu: 4756,
@@ -17639,11 +12715,7 @@ export default {
     Variety: "Baby Green Zucchini/Courgette",
     Size: "All Sizes",
     Botanical: "C. pepo/C. maxima",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4757: {
     Plu: 4757,
@@ -17653,11 +12725,7 @@ export default {
     Variety: "Banana",
     Size: "All Sizes",
     Botanical: "C.maxima",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4758: {
     Plu: 4758,
@@ -17667,11 +12735,7 @@ export default {
     Variety: "Buttercup",
     Size: "All Sizes",
     Botanical: "C.maxima",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4759: {
     Plu: 4759,
@@ -17681,11 +12745,7 @@ export default {
     Variety: "Butternut",
     Size: "All Sizes",
     Botanical: "C.maxima",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4760: {
     Plu: 4760,
@@ -17695,11 +12755,7 @@ export default {
     Variety: "Calabaza",
     Size: "All Sizes",
     Botanical: "C.moschata",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4761: {
     Plu: 4761,
@@ -17709,11 +12765,7 @@ export default {
     Variety: "Chayote/Choko",
     Size: "All Sizes",
     Botanical: "Sechium edule",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4762: {
     Plu: 4762,
@@ -17723,11 +12775,7 @@ export default {
     Size: "Extra Large",
     Measures_na: "24 size and larger",
     Botanical: "Cynara scolymus",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4763: {
     Plu: 4763,
@@ -17737,11 +12785,7 @@ export default {
     Variety: "Delicata/Sweet Potato",
     Size: "All Sizes",
     Botanical: "C.maxima",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4764: {
     Plu: 4764,
@@ -17751,11 +12795,7 @@ export default {
     Variety: "(Sweet) Dumpling",
     Size: "All Sizes",
     Botanical: "C. pepo/C. maxima",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4765: {
     Plu: 4765,
@@ -17765,11 +12805,7 @@ export default {
     Variety: "Gem",
     Size: "All Sizes",
     Botanical: "C.pepo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4766: {
     Plu: 4766,
@@ -17779,11 +12815,7 @@ export default {
     Variety: "Golden Delicious",
     Size: "All Sizes",
     Botanical: "C. pepo/C. maxima",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4767: {
     Plu: 4767,
@@ -17793,11 +12825,7 @@ export default {
     Variety: "Golden Nugget",
     Size: "All Sizes",
     Botanical: "C. pepo/C. maxima",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4768: {
     Plu: 4768,
@@ -17807,11 +12835,7 @@ export default {
     Variety: "Hubbard",
     Size: "All Sizes",
     Botanical: "C. pepo/C. maxima",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4769: {
     Plu: 4769,
@@ -17821,11 +12845,7 @@ export default {
     Variety: "Kabocha",
     Size: "All Sizes",
     Botanical: "C. pepo/C. maxima",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4770: {
     Plu: 4770,
@@ -17837,11 +12857,7 @@ export default {
     Measures_na: "36 size and larger",
     Measures_row: "Average Fruit Weight = 315g and above",
     Botanical: "Persea americana",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4771: {
     Plu: 4771,
@@ -17853,11 +12869,7 @@ export default {
     Measures_na: "20 and 28 size",
     Restrictions: "Restricted for items grown east of the Mississippi River in the U.S. or east of the Ontario/Manitoba border in Canada.",
     Botanical: "Persea americana",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4772: {
     Plu: 4772,
@@ -17867,11 +12879,7 @@ export default {
     Variety: "Chili - Yellow",
     Size: "All Sizes",
     Botanical: "Capsicum spp",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4773: {
     Plu: 4773,
@@ -17881,11 +12889,7 @@ export default {
     Variety: "Patty Pan/Summer",
     Size: "All Sizes",
     Botanical: "C.pepo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4774: {
     Plu: 4774,
@@ -17895,11 +12899,7 @@ export default {
     Variety: "Red Kuri",
     Size: "All Sizes",
     Botanical: "C. pepo/C. maxima",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4775: {
     Plu: 4775,
@@ -17909,11 +12909,7 @@ export default {
     Variety: "Scallopini",
     Size: "All Sizes",
     Botanical: "C.pepo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4776: {
     Plu: 4776,
@@ -17923,11 +12919,7 @@ export default {
     Variety: "Spaghetti/Vegetable Spaghetti",
     Size: "All Sizes",
     Botanical: "C. pepo/C. maxima",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4777: {
     Plu: 4777,
@@ -17937,11 +12929,7 @@ export default {
     Variety: "Sunburst (Yellow)",
     Size: "All Sizes",
     Botanical: "C. pepo/C. maxima",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4778: {
     Plu: 4778,
@@ -17951,11 +12939,7 @@ export default {
     Variety: "Regular - Yellow",
     Size: "All Sizes",
     Botanical: "Lycopersicon esculenta",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4779: {
     Plu: 4779,
@@ -17965,11 +12949,7 @@ export default {
     Variety: "Sweet Mama",
     Size: "All Sizes",
     Botanical: "C.pepo x C.maxima",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4780: {
     Plu: 4780,
@@ -17979,11 +12959,7 @@ export default {
     Variety: "Turban",
     Size: "All Sizes",
     Botanical: "C.maxima",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4781: {
     Plu: 4781,
@@ -17993,11 +12969,7 @@ export default {
     Variety: "White",
     Size: "All Sizes",
     Botanical: "C.pepo",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4782: {
     Plu: 4782,
@@ -18007,11 +12979,7 @@ export default {
     Variety: "Yellow - Straightneck",
     Size: "All Sizes",
     Botanical: "C. pepo/C. maxima",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4783: {
     Plu: 4783,
@@ -18021,11 +12989,7 @@ export default {
     Variety: "Foo Qua",
     Size: "All Sizes",
     Botanical: "Momordica charantia",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4784: {
     Plu: 4784,
@@ -18035,11 +12999,7 @@ export default {
     Variety: "Yellow - Crookneck",
     Size: "All Sizes",
     Botanical: "C. pepo/C. maxima",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4785: {
     Plu: 4785,
@@ -18049,11 +13009,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "C. pepo/C. maxima",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4786: {
     Plu: 4786,
@@ -18063,11 +13019,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "C. pepo/C. maxima",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4787: {
     Plu: 4787,
@@ -18077,11 +13029,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "C. pepo/C. maxima",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4788: {
     Plu: 4788,
@@ -18091,11 +13039,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "C. pepo/C. maxima",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4789: {
     Plu: 4789,
@@ -18105,11 +13049,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "C. pepo/C. maxima",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4790: {
     Plu: 4790,
@@ -18118,11 +13058,7 @@ export default {
     Commodity: "SUGAR CANE",
     Size: "All Sizes",
     Botanical: "Saccharum officinarum",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4791: {
     Plu: 4791,
@@ -18131,11 +13067,7 @@ export default {
     Commodity: "SUNCHOKES (JERUSALEM ARTICHOKES)",
     Size: "All Sizes",
     Botanical: "Helianthus tuberosum",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4792: {
     Plu: 4792,
@@ -18145,11 +13077,7 @@ export default {
     Variety: "Golden",
     Size: "All Sizes",
     Botanical: "Cyphomandra betacea",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4793: {
     Plu: 4793,
@@ -18159,11 +13087,7 @@ export default {
     Variety: "Red",
     Size: "All Sizes",
     Botanical: "Cyphomandra betacea",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4794: {
     Plu: 4794,
@@ -18172,11 +13096,7 @@ export default {
     Commodity: "TARO ROOT (DASHEEN)",
     Size: "Small",
     Botanical: "Colocasia esculeta",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4795: {
     Plu: 4795,
@@ -18185,11 +13105,7 @@ export default {
     Commodity: "TARO ROOT (DASHEEN)",
     Size: "Large",
     Botanical: "Colocasia esculeta",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4796: {
     Plu: 4796,
@@ -18199,11 +13115,7 @@ export default {
     Variety: "Cherry - Red",
     Size: "All Sizes",
     Botanical: "Lycopersicon esculenta",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4797: {
     Plu: 4797,
@@ -18213,11 +13125,7 @@ export default {
     Variety: "Cherry - Yellow",
     Size: "All Sizes",
     Botanical: "Lycopersicon esculenta",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4798: {
     Plu: 4798,
@@ -18229,11 +13137,7 @@ export default {
     Measures_na: "6x6 size and smaller",
     Measures_row: "Less than 70mm diameter",
     Botanical: "Lycopersicon esculenta",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4799: {
     Plu: 4799,
@@ -18245,11 +13149,7 @@ export default {
     Measures_na: "5x6 size and larger",
     Measures_row: "Diameter 70mm and above",
     Botanical: "Lycopersicon esculenta",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4800: {
     Plu: 4800,
@@ -18259,11 +13159,7 @@ export default {
     Variety: "Native/Home Grown",
     Size: "All Sizes",
     Botanical: "Lycopersicon esculenta",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4801: {
     Plu: 4801,
@@ -18273,11 +13169,7 @@ export default {
     Variety: "Tomatillos/Husk Tomatoes",
     Size: "All Sizes",
     Botanical: "Lycopersicon esculenta",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4802: {
     Plu: 4802,
@@ -18287,11 +13179,7 @@ export default {
     Variety: "Dried",
     Size: "All Sizes",
     Botanical: "Lycopersicon esculenta",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4803: {
     Plu: 4803,
@@ -18301,11 +13189,7 @@ export default {
     Variety: "Teardrop/Pear - Red",
     Size: "All Sizes",
     Botanical: "Lycopersicon esculenta",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4804: {
     Plu: 4804,
@@ -18315,11 +13199,7 @@ export default {
     Variety: "Teardrop/Pear - Yellow",
     Size: "All Sizes",
     Botanical: "Lycopersicon esculenta",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4805: {
     Plu: 4805,
@@ -18331,11 +13211,7 @@ export default {
     Measures_na: "6X6 and smaller",
     Measures_row: "Less than 70mm diameter",
     Botanical: "Lycopersicon esculenta",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4806: {
     Plu: 4806,
@@ -18345,11 +13221,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Lycopersicon esculenta",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4807: {
     Plu: 4807,
@@ -18359,11 +13231,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Lycopersicon esculenta",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4808: {
     Plu: 4808,
@@ -18373,11 +13241,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Lycopersicon esculenta",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4809: {
     Plu: 4809,
@@ -18387,11 +13251,7 @@ export default {
     Variety: "Baby",
     Size: "All Sizes",
     Botanical: "Brassica rapa",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4810: {
     Plu: 4810,
@@ -18401,11 +13261,7 @@ export default {
     Variety: "Bunch/Banded",
     Size: "All Sizes",
     Botanical: "Brassica rapa",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4811: {
     Plu: 4811,
@@ -18415,11 +13271,7 @@ export default {
     Variety: "Purple Top",
     Size: "All Sizes",
     Botanical: "Brassica rapa",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4812: {
     Plu: 4812,
@@ -18429,11 +13281,7 @@ export default {
     Variety: "White",
     Size: "All Sizes",
     Botanical: "Brassica rapa",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4813: {
     Plu: 4813,
@@ -18443,11 +13291,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Brassica rapa",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4814: {
     Plu: 4814,
@@ -18456,11 +13300,7 @@ export default {
     Commodity: "WATER CHESTNUTS",
     Size: "All Sizes",
     Botanical: "Eleocharis dulcis",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4815: {
     Plu: 4815,
@@ -18469,11 +13309,7 @@ export default {
     Commodity: "WATERCRESS",
     Size: "All Sizes",
     Botanical: "Rorippa nasturtium-aquaticum",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4816: {
     Plu: 4816,
@@ -18484,11 +13320,7 @@ export default {
     Size: "All Sizes",
     Restrictions: "Terminology changed to include both sweet potato and yam to avoid confusion in marketplace",
     Botanical: "Ipomoea batato",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "2009-06-09 22:00:00",
-    Language: "EN"
   },
   4817: {
     Plu: 4817,
@@ -18500,11 +13332,7 @@ export default {
     Measures_na: "jumbo",
     Restrictions: "Terminology changed to include both sweet potato and yam to avoid confusion in marketplace",
     Botanical: "Ipomoea batato",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "2009-06-09 22:00:00",
-    Language: "EN"
   },
   4818: {
     Plu: 4818,
@@ -18514,11 +13342,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Dioscorea trifidia",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "2009-06-09 22:00:00",
-    Language: "EN"
   },
   4819: {
     Plu: 4819,
@@ -18527,11 +13351,7 @@ export default {
     Commodity: "YUCA ROOT/CASSAVA/MANIOC",
     Size: "All Sizes",
     Botanical: "Manihot esculenta",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "2011-06-08 22:00:00",
-    Language: "EN"
   },
   4820: {
     Plu: 4820,
@@ -18540,11 +13360,7 @@ export default {
     Commodity: "OTHER VEGETABLES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4821: {
     Plu: 4821,
@@ -18553,11 +13369,7 @@ export default {
     Commodity: "OTHER VEGETABLES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4822: {
     Plu: 4822,
@@ -18566,11 +13378,7 @@ export default {
     Commodity: "OTHER VEGETABLES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4823: {
     Plu: 4823,
@@ -18579,11 +13387,7 @@ export default {
     Commodity: "OTHER VEGETABLES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4824: {
     Plu: 4824,
@@ -18592,11 +13396,7 @@ export default {
     Commodity: "OTHER VEGETABLES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4825: {
     Plu: 4825,
@@ -18605,11 +13405,7 @@ export default {
     Commodity: "OTHER VEGETABLES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4826: {
     Plu: 4826,
@@ -18618,11 +13414,7 @@ export default {
     Commodity: "OTHER VEGETABLES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4827: {
     Plu: 4827,
@@ -18631,11 +13423,7 @@ export default {
     Commodity: "OTHER VEGETABLES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4828: {
     Plu: 4828,
@@ -18644,11 +13432,7 @@ export default {
     Commodity: "OTHER VEGETABLES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4829: {
     Plu: 4829,
@@ -18657,11 +13441,7 @@ export default {
     Commodity: "OTHER VEGETABLES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4830: {
     Plu: 4830,
@@ -18670,11 +13450,7 @@ export default {
     Commodity: "OTHER VEGETABLES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4831: {
     Plu: 4831,
@@ -18683,11 +13459,7 @@ export default {
     Commodity: "OTHER VEGETABLES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4832: {
     Plu: 4832,
@@ -18696,11 +13468,7 @@ export default {
     Commodity: "OTHER VEGETABLES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4833: {
     Plu: 4833,
@@ -18709,11 +13477,7 @@ export default {
     Commodity: "OTHER VEGETABLES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4834: {
     Plu: 4834,
@@ -18722,11 +13486,7 @@ export default {
     Commodity: "OTHER VEGETABLES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4835: {
     Plu: 4835,
@@ -18735,11 +13495,7 @@ export default {
     Commodity: "OTHER VEGETABLES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4836: {
     Plu: 4836,
@@ -18748,11 +13504,7 @@ export default {
     Commodity: "OTHER VEGETABLES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4837: {
     Plu: 4837,
@@ -18761,11 +13513,7 @@ export default {
     Commodity: "OTHER VEGETABLES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4838: {
     Plu: 4838,
@@ -18774,11 +13522,7 @@ export default {
     Commodity: "OTHER VEGETABLES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4839: {
     Plu: 4839,
@@ -18787,11 +13531,7 @@ export default {
     Commodity: "OTHER VEGETABLES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4840: {
     Plu: 4840,
@@ -18800,11 +13540,7 @@ export default {
     Commodity: "OTHER VEGETABLES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4841: {
     Plu: 4841,
@@ -18813,11 +13549,7 @@ export default {
     Commodity: "OTHER VEGETABLES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4842: {
     Plu: 4842,
@@ -18826,11 +13558,7 @@ export default {
     Commodity: "OTHER VEGETABLES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4843: {
     Plu: 4843,
@@ -18839,11 +13567,7 @@ export default {
     Commodity: "OTHER VEGETABLES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4844: {
     Plu: 4844,
@@ -18852,11 +13576,7 @@ export default {
     Commodity: "OTHER VEGETABLES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4845: {
     Plu: 4845,
@@ -18865,11 +13585,7 @@ export default {
     Commodity: "OTHER VEGETABLES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4846: {
     Plu: 4846,
@@ -18878,11 +13594,7 @@ export default {
     Commodity: "OTHER VEGETABLES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4847: {
     Plu: 4847,
@@ -18891,11 +13603,7 @@ export default {
     Commodity: "OTHER VEGETABLES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4848: {
     Plu: 4848,
@@ -18904,11 +13612,7 @@ export default {
     Commodity: "OTHER VEGETABLES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4849: {
     Plu: 4849,
@@ -18917,11 +13621,7 @@ export default {
     Commodity: "OTHER VEGETABLES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4850: {
     Plu: 4850,
@@ -18930,11 +13630,7 @@ export default {
     Commodity: "OTHER VEGETABLES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4851: {
     Plu: 4851,
@@ -18943,11 +13639,7 @@ export default {
     Commodity: "OTHER VEGETABLES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4852: {
     Plu: 4852,
@@ -18956,11 +13648,7 @@ export default {
     Commodity: "OTHER VEGETABLES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4853: {
     Plu: 4853,
@@ -18969,11 +13657,7 @@ export default {
     Commodity: "OTHER VEGETABLES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4854: {
     Plu: 4854,
@@ -18982,11 +13666,7 @@ export default {
     Commodity: "OTHER VEGETABLES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4855: {
     Plu: 4855,
@@ -18995,11 +13675,7 @@ export default {
     Commodity: "OTHER VEGETABLES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4856: {
     Plu: 4856,
@@ -19008,11 +13684,7 @@ export default {
     Commodity: "OTHER VEGETABLES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:57",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4857: {
     Plu: 4857,
@@ -19021,11 +13693,7 @@ export default {
     Commodity: "OTHER VEGETABLES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4858: {
     Plu: 4858,
@@ -19034,11 +13702,7 @@ export default {
     Commodity: "OTHER VEGETABLES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4859: {
     Plu: 4859,
@@ -19047,11 +13711,7 @@ export default {
     Commodity: "OTHER VEGETABLES",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4860: {
     Plu: 4860,
@@ -19060,11 +13720,7 @@ export default {
     Commodity: "APPLE SLICES",
     Variety: "Dried",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4861: {
     Plu: 4861,
@@ -19074,11 +13730,7 @@ export default {
     Variety: "Dried",
     Size: "All Sizes",
     Botanical: "Prunus armeniaca",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4862: {
     Plu: 4862,
@@ -19088,11 +13740,7 @@ export default {
     Variety: "Dried",
     Size: "All Sizes",
     Botanical: "Phoenix dactylifera",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4863: {
     Plu: 4863,
@@ -19102,11 +13750,7 @@ export default {
     Variety: "Retailer Assigned - Dried",
     Size: "All Sizes",
     Botanical: "Phoenix dactylifera",
-    Status: "Approved",
-    Updated_by: "Vicki Bonvetti",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4864: {
     Plu: 4864,
@@ -19117,11 +13761,7 @@ export default {
     Size: "All Sizes",
     Restrictions: "Sizes for pineapple based on two-layer lug.",
     Botanical: "Ananas comosus",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4865: {
     Plu: 4865,
@@ -19131,11 +13771,7 @@ export default {
     Variety: "Regular (Dried Fruit)",
     Size: "All Sizes",
     Botanical: "Prunus domestica",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4866: {
     Plu: 4866,
@@ -19145,11 +13781,7 @@ export default {
     Variety: "Pitted (Dried Fruit)",
     Size: "All Sizes",
     Botanical: "Prunus domestica",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4867: {
     Plu: 4867,
@@ -19159,11 +13791,7 @@ export default {
     Variety: "Retailer Assigned - Dried",
     Size: "All Sizes",
     Botanical: "Prunus domestica",
-    Status: "Approved",
-    Updated_by: "Vicki Bonvetti",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4868: {
     Plu: 4868,
@@ -19172,11 +13800,7 @@ export default {
     Commodity: "RAISINS",
     Variety: "Black (Dried Fruit)",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4869: {
     Plu: 4869,
@@ -19185,11 +13809,7 @@ export default {
     Commodity: "RAISINS",
     Variety: "Golden/Yellow (Dried Fruit)",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4870: {
     Plu: 4870,
@@ -19198,11 +13818,7 @@ export default {
     Commodity: "OTHER DRIED FRUITS",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4871: {
     Plu: 4871,
@@ -19211,11 +13827,7 @@ export default {
     Commodity: "OTHER DRIED FRUITS",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4872: {
     Plu: 4872,
@@ -19224,11 +13836,7 @@ export default {
     Commodity: "OTHER DRIED FRUITS",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4873: {
     Plu: 4873,
@@ -19237,11 +13845,7 @@ export default {
     Commodity: "OTHER DRIED FRUITS",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4874: {
     Plu: 4874,
@@ -19250,11 +13854,7 @@ export default {
     Commodity: "OTHER DRIED FRUITS",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4875: {
     Plu: 4875,
@@ -19263,11 +13863,7 @@ export default {
     Commodity: "OTHER DRIED FRUITS",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4876: {
     Plu: 4876,
@@ -19276,11 +13872,7 @@ export default {
     Commodity: "OTHER DRIED FRUITS",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4877: {
     Plu: 4877,
@@ -19289,11 +13881,7 @@ export default {
     Commodity: "OTHER DRIED FRUITS",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4878: {
     Plu: 4878,
@@ -19302,11 +13890,7 @@ export default {
     Commodity: "OTHER DRIED FRUITS",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4879: {
     Plu: 4879,
@@ -19315,11 +13899,7 @@ export default {
     Commodity: "OTHER DRIED FRUITS",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4880: {
     Plu: 4880,
@@ -19328,11 +13908,7 @@ export default {
     Commodity: "OTHER DRIED FRUITS",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4881: {
     Plu: 4881,
@@ -19341,11 +13917,7 @@ export default {
     Commodity: "OTHER DRIED FRUITS",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4882: {
     Plu: 4882,
@@ -19354,11 +13926,7 @@ export default {
     Commodity: "OTHER DRIED FRUITS",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4883: {
     Plu: 4883,
@@ -19367,11 +13935,7 @@ export default {
     Commodity: "OTHER DRIED FRUITS",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4884: {
     Plu: 4884,
@@ -19380,11 +13944,7 @@ export default {
     Commodity: "ARUGULA/ROCKET",
     Size: "All Sizes",
     Botanical: "Eruca versicara",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4885: {
     Plu: 4885,
@@ -19393,11 +13953,7 @@ export default {
     Commodity: "BASIL",
     Size: "All Sizes",
     Botanical: "Ocimum spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4886: {
     Plu: 4886,
@@ -19407,11 +13963,7 @@ export default {
     Variety: "Opal",
     Size: "All Sizes",
     Botanical: "Ocimum spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4887: {
     Plu: 4887,
@@ -19421,11 +13973,7 @@ export default {
     Variety: "Sweet",
     Size: "All Sizes",
     Botanical: "Ocimum spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4888: {
     Plu: 4888,
@@ -19434,11 +13982,7 @@ export default {
     Commodity: "CHIVES",
     Size: "All Sizes",
     Botanical: "Allium Tuberosum",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4889: {
     Plu: 4889,
@@ -19447,11 +13991,7 @@ export default {
     Commodity: "CILANTRO (CHINESE PARSLEY/CORIANDER)",
     Size: "All Sizes",
     Botanical: "Coriandrum sativum",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4890: {
     Plu: 4890,
@@ -19461,11 +14001,7 @@ export default {
     Variety: "Chinese Yali",
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4891: {
     Plu: 4891,
@@ -19474,11 +14010,7 @@ export default {
     Commodity: "DILL",
     Size: "All Sizes",
     Botanical: "Anethum graveolens",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4892: {
     Plu: 4892,
@@ -19488,11 +14020,7 @@ export default {
     Variety: "Baby",
     Size: "All Sizes",
     Botanical: "Anethum graveolens",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4893: {
     Plu: 4893,
@@ -19502,11 +14030,7 @@ export default {
     Variety: "Pickling",
     Size: "All Sizes",
     Botanical: "Anethum graveolens",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4894: {
     Plu: 4894,
@@ -19515,11 +14039,7 @@ export default {
     Commodity: "LEMONGRASS",
     Size: "All Sizes",
     Botanical: "Cymbopogon citratus",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4895: {
     Plu: 4895,
@@ -19528,11 +14048,7 @@ export default {
     Commodity: "MARJORAM",
     Size: "All Sizes",
     Botanical: "Origanum spp",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4896: {
     Plu: 4896,
@@ -19541,11 +14057,7 @@ export default {
     Commodity: "MINT",
     Size: "All Sizes",
     Botanical: "Mentha spp",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4897: {
     Plu: 4897,
@@ -19553,11 +14065,7 @@ export default {
     Category: "Herbs",
     Commodity: "OREGANO",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4898: {
     Plu: 4898,
@@ -19566,11 +14074,7 @@ export default {
     Commodity: "OYSTER PLANT/SALSIFY",
     Size: "All Sizes",
     Botanical: "Tragopogan porrifolius",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4899: {
     Plu: 4899,
@@ -19580,11 +14084,7 @@ export default {
     Variety: "Regular/Curly",
     Size: "All Sizes",
     Botanical: "Petroselinum crispum",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4901: {
     Plu: 4901,
@@ -19594,11 +14094,7 @@ export default {
     Variety: "Italian/Continental/French",
     Size: "All Sizes",
     Botanical: "Petroselinum crispum",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4902: {
     Plu: 4902,
@@ -19608,11 +14104,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Petroselinum crispum",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4903: {
     Plu: 4903,
@@ -19621,11 +14113,7 @@ export default {
     Commodity: "ROSEMARY",
     Size: "All Sizes",
     Botanical: "Rosemarinus officinalis",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4904: {
     Plu: 4904,
@@ -19634,11 +14122,7 @@ export default {
     Commodity: "SAGE",
     Size: "All Sizes",
     Botanical: "Salvia officinalis",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4905: {
     Plu: 4905,
@@ -19647,11 +14131,7 @@ export default {
     Commodity: "SORREL",
     Size: "All Sizes",
     Botanical: "Rumex spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4906: {
     Plu: 4906,
@@ -19660,11 +14140,7 @@ export default {
     Commodity: "TARRAGON",
     Size: "All Sizes",
     Botanical: "Artemisia dracunculus",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4907: {
     Plu: 4907,
@@ -19673,11 +14149,7 @@ export default {
     Commodity: "THYME",
     Size: "All Sizes",
     Botanical: "Thymus vulgaris",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4908: {
     Plu: 4908,
@@ -19686,11 +14158,7 @@ export default {
     Commodity: "VANILLA BEAN",
     Size: "All Sizes",
     Botanical: "Vanilla planifolia",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4909: {
     Plu: 4909,
@@ -19699,11 +14167,7 @@ export default {
     Commodity: "OTHER HERBS",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4910: {
     Plu: 4910,
@@ -19712,11 +14176,7 @@ export default {
     Commodity: "OTHER HERBS",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4911: {
     Plu: 4911,
@@ -19725,11 +14185,7 @@ export default {
     Commodity: "OTHER HERBS",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4912: {
     Plu: 4912,
@@ -19738,11 +14194,7 @@ export default {
     Commodity: "OTHER HERBS",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4913: {
     Plu: 4913,
@@ -19751,11 +14203,7 @@ export default {
     Commodity: "OTHER HERBS",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4914: {
     Plu: 4914,
@@ -19764,11 +14212,7 @@ export default {
     Commodity: "OTHER HERBS",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4915: {
     Plu: 4915,
@@ -19777,11 +14221,7 @@ export default {
     Commodity: "OTHER HERBS",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4916: {
     Plu: 4916,
@@ -19790,11 +14230,7 @@ export default {
     Commodity: "OTHER HERBS",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4917: {
     Plu: 4917,
@@ -19803,11 +14239,7 @@ export default {
     Commodity: "OTHER HERBS",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4918: {
     Plu: 4918,
@@ -19816,11 +14248,7 @@ export default {
     Commodity: "OTHER HERBS",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4919: {
     Plu: 4919,
@@ -19829,11 +14257,7 @@ export default {
     Commodity: "OTHER HERBS",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4920: {
     Plu: 4920,
@@ -19842,11 +14266,7 @@ export default {
     Commodity: "OTHER HERBS",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4921: {
     Plu: 4921,
@@ -19855,11 +14275,7 @@ export default {
     Commodity: "OTHER HERBS",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4922: {
     Plu: 4922,
@@ -19868,11 +14284,7 @@ export default {
     Commodity: "OTHER HERBS",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4923: {
     Plu: 4923,
@@ -19881,11 +14293,7 @@ export default {
     Commodity: "OTHER HERBS",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4924: {
     Plu: 4924,
@@ -19894,11 +14302,7 @@ export default {
     Commodity: "ALMONDS",
     Size: "All Sizes",
     Botanical: "Prunus dulcis",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4925: {
     Plu: 4925,
@@ -19908,11 +14312,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Prunus dulcis",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4926: {
     Plu: 4926,
@@ -19921,11 +14321,7 @@ export default {
     Commodity: "BRAZILNUTS",
     Size: "All Sizes",
     Botanical: "Berthollettia excelsa",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4927: {
     Plu: 4927,
@@ -19934,11 +14330,7 @@ export default {
     Commodity: "CHESTNUTS",
     Size: "All Sizes",
     Botanical: "Castanea sativa",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4928: {
     Plu: 4928,
@@ -19948,11 +14340,7 @@ export default {
     Variety: "Cobnut/Hazelnut",
     Size: "All Sizes",
     Botanical: "Corylus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4929: {
     Plu: 4929,
@@ -19960,11 +14348,7 @@ export default {
     Category: "Nuts",
     Commodity: "MIXED NUTS",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2012-05-31 22:00:00",
-    Language: "EN"
   },
   4930: {
     Plu: 4930,
@@ -19973,11 +14357,7 @@ export default {
     Commodity: "PEANUTS",
     Size: "All Sizes",
     Botanical: "Arachis hypogaea",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4931: {
     Plu: 4931,
@@ -19987,11 +14367,7 @@ export default {
     Variety: "Raw",
     Size: "All Sizes",
     Botanical: "Arachis hypogaea",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4932: {
     Plu: 4932,
@@ -20001,11 +14377,7 @@ export default {
     Variety: "Roasted - Salted",
     Size: "All Sizes",
     Botanical: "Arachis hypogaea",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4933: {
     Plu: 4933,
@@ -20015,11 +14387,7 @@ export default {
     Variety: "Roasted - Unsalted",
     Size: "All Sizes",
     Botanical: "Arachis hypogaea",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4934: {
     Plu: 4934,
@@ -20029,11 +14397,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Arachis hypogaea",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4935: {
     Plu: 4935,
@@ -20043,11 +14407,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Arachis hypogaea",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4936: {
     Plu: 4936,
@@ -20056,11 +14416,7 @@ export default {
     Commodity: "PECANS",
     Size: "All Sizes",
     Botanical: "Carya illinoiensis",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4937: {
     Plu: 4937,
@@ -20070,11 +14426,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Carya illinoiensis",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4938: {
     Plu: 4938,
@@ -20083,11 +14435,7 @@ export default {
     Commodity: "PINE NUTS (PIGNOLI)",
     Size: "All Sizes",
     Botanical: "Pinus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4939: {
     Plu: 4939,
@@ -20097,11 +14445,7 @@ export default {
     Variety: "Natural",
     Size: "All Sizes",
     Botanical: "Pistacia vera",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4940: {
     Plu: 4940,
@@ -20111,11 +14455,7 @@ export default {
     Variety: "Red",
     Size: "All Sizes",
     Botanical: "Pistacia vera",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4941: {
     Plu: 4941,
@@ -20125,11 +14465,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Pistacia vera",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4942: {
     Plu: 4942,
@@ -20138,11 +14474,7 @@ export default {
     Commodity: "SUNFLOWER SEEDS",
     Size: "All Sizes",
     Botanical: "Helianthus annus",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4943: {
     Plu: 4943,
@@ -20152,11 +14484,7 @@ export default {
     Variety: "Regular",
     Size: "All Sizes",
     Botanical: "Juglans spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4944: {
     Plu: 4944,
@@ -20166,11 +14494,7 @@ export default {
     Variety: "Black",
     Size: "All Sizes",
     Botanical: "Juglans spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4945: {
     Plu: 4945,
@@ -20180,11 +14504,7 @@ export default {
     Variety: "White",
     Size: "All Sizes",
     Botanical: "Juglans spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4946: {
     Plu: 4946,
@@ -20194,11 +14514,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Juglans spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4947: {
     Plu: 4947,
@@ -20207,11 +14523,7 @@ export default {
     Commodity: "OTHER NUTS",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4948: {
     Plu: 4948,
@@ -20220,11 +14532,7 @@ export default {
     Commodity: "OTHER NUTS",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4949: {
     Plu: 4949,
@@ -20233,11 +14541,7 @@ export default {
     Commodity: "OTHER NUTS",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4950: {
     Plu: 4950,
@@ -20246,11 +14550,7 @@ export default {
     Commodity: "OTHER NUTS",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Vicki Bonvetti",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4951: {
     Plu: 4951,
@@ -20259,11 +14559,7 @@ export default {
     Commodity: "OTHER NUTS",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4952: {
     Plu: 4952,
@@ -20272,11 +14568,7 @@ export default {
     Commodity: "OTHER NUTS",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4953: {
     Plu: 4953,
@@ -20285,11 +14577,7 @@ export default {
     Commodity: "OTHER NUTS",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4954: {
     Plu: 4954,
@@ -20298,11 +14586,7 @@ export default {
     Commodity: "OTHER NUTS",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4955: {
     Plu: 4955,
@@ -20311,11 +14595,7 @@ export default {
     Commodity: "OTHER NUTS",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4956: {
     Plu: 4956,
@@ -20324,11 +14604,7 @@ export default {
     Commodity: "OTHER NUTS",
     Variety: "Retailer Assigned",
     Size: "All Sizes",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4957: {
     Plu: 4957,
@@ -20338,11 +14614,7 @@ export default {
     Variety: "Blue/Black Seeded (All others not listed above)",
     Size: "All Sizes",
     Botanical: "Vitis vinifera",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4958: {
     Plu: 4958,
@@ -20353,11 +14625,7 @@ export default {
     Measures_na: "140/165 size",
     Measures_row: "Average Fruit Dimensions = 54mm - under 65mm",
     Botanical: "Citrus limon",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4959: {
     Plu: 4959,
@@ -20368,11 +14636,7 @@ export default {
     Size: "Large",
     Measures_na: "8 to 10 size",
     Botanical: "Mangifera indica",
-    Status: "Approved",
-    Updated_by: "Vicki Bonvetti",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4960: {
     Plu: 4960,
@@ -20382,11 +14646,7 @@ export default {
     Variety: "Fragrant",
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2007-05-03 22:00:00",
-    Language: "EN"
   },
   4961: {
     Plu: 4961,
@@ -20398,11 +14658,7 @@ export default {
     Measures_na: "16 size and larger",
     Botanical: "Mangifera indica",
     Aka: "(Includes Oro, Ataulfo/Honey Manila varieties)",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2024-02-07 18:08:04",
     Created_at: "2007-05-09 22:00:00",
-    Language: "EN"
   },
   3128: {
     Plu: 3128,
@@ -20412,11 +14668,7 @@ export default {
     Variety: "Purple",
     Size: "All Sizes",
     Botanical: "Solanum tuberosum",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   4446: {
     Plu: 4446,
@@ -20426,11 +14678,7 @@ export default {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Botanical: "Punica granatum",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "1999-12-30 23:00:00",
-    Language: "EN"
   },
   3460: {
     Plu: 3460,
@@ -20441,11 +14689,7 @@ export default {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Aka: "Red Prince",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2015-08-20 07:21:36",
-    Language: "EN"
   },
   3459: {
     Plu: 3459,
@@ -20455,11 +14699,7 @@ export default {
     Variety: "Shiny Red",
     Size: "All Sizes",
     Botanical: "Diospyros kaki",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2015-08-20 07:22:12",
-    Language: "EN"
   },
   3461: {
     Plu: 3461,
@@ -20469,11 +14709,7 @@ export default {
     Variety: "Lady Williams",
     Size: "All Sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2015-09-03 18:06:40",
-    Language: "EN"
   },
   3462: {
     Plu: 3462,
@@ -20483,11 +14719,7 @@ export default {
     Variety: "Garlic/Chinese",
     Size: "All Sizes",
     Botanical: "Allium tuberosum",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2015-09-03 18:07:41",
-    Language: "EN"
   },
   3464: {
     Plu: 3464,
@@ -20498,11 +14730,7 @@ export default {
     Size: "All Sizes",
     Botanical: "Mangifera",
     Aka: "Calypso™",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2016-02-08 15:12:13",
-    Language: "EN"
   },
   3465: {
     Plu: 3465,
@@ -20513,11 +14741,7 @@ export default {
     Size: "All Sizes",
     Botanical: "Capsicum",
     Aka: "Enjoya™",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2016-02-08 15:17:05",
-    Language: "EN"
   },
   3466: {
     Plu: 3466,
@@ -20528,11 +14752,7 @@ export default {
     Size: "All Sizes",
     Botanical: "Pyrus communis",
     Aka: "Cheeky®",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2016-02-08 15:18:37",
-    Language: "EN"
   },
   3467: {
     Plu: 3467,
@@ -20543,11 +14763,7 @@ export default {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Aka: "Juici™",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2016-02-08 15:20:16",
-    Language: "EN"
   },
   3463: {
     Plu: 3463,
@@ -20557,11 +14773,7 @@ export default {
     Size: "All Sizes",
     Botanical: "amaranthus spp.",
     Aka: "Chinese spinach, yin choy",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2016-02-12 16:14:46",
-    Language: "EN"
   },
   3468: {
     Plu: 3468,
@@ -20573,11 +14785,7 @@ export default {
     Measures_na: "100 size and smaller",
     Measures_row: "Average Fruit Weight less than 205g",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2016-03-01 19:51:58",
-    Language: "EN"
   },
   3469: {
     Plu: 3469,
@@ -20588,11 +14796,7 @@ export default {
     Size: "All Sizes",
     Botanical: "Vitis Vinifera I.",
     Aka: "SABLE SEEDLESS® brand",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2016-05-02 11:49:24",
-    Language: "EN"
   },
   3470: {
     Plu: 3470,
@@ -20602,11 +14806,7 @@ export default {
     Variety: "Watermelon - Red, Small Seeds",
     Size: "All Sizes",
     Botanical: "Citrullus lanatus",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2016-05-16 18:03:50",
-    Language: "EN"
   },
   3471: {
     Plu: 3471,
@@ -20616,11 +14816,7 @@ export default {
     Variety: "Baby",
     Size: "All Sizes",
     Botanical: "Opuntia sp",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2016-05-26 12:03:09",
-    Language: "EN"
   },
   3472: {
     Plu: 3472,
@@ -20630,11 +14826,7 @@ export default {
     Size: "All Sizes",
     Botanical: "Piper sanctum",
     Aka: "Sacred pepper leaf",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2016-05-26 12:04:21",
-    Language: "EN"
   },
   3473: {
     Plu: 3473,
@@ -20643,11 +14835,7 @@ export default {
     Commodity: "EPAZOTE",
     Size: "All Sizes",
     Botanical: "Chenopodium ambrosioides L.",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2016-05-26 12:05:59",
-    Language: "EN"
   },
   3474: {
     Plu: 3474,
@@ -20657,11 +14845,7 @@ export default {
     Variety: "Saffron",
     Size: "All Sizes",
     Botanical: "Escobedia linearis Schlecht",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2016-05-26 12:07:56",
-    Language: "EN"
   },
   3475: {
     Plu: 3475,
@@ -20671,11 +14855,7 @@ export default {
     Variety: "Peppermint",
     Size: "All Sizes",
     Botanical: "Mentha piperata",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2016-05-26 12:09:57",
-    Language: "EN"
   },
   3476: {
     Plu: 3476,
@@ -20684,11 +14864,7 @@ export default {
     Commodity: "ORANGE TREE LEAF",
     Size: "All Sizes",
     Botanical: "Citrus x sinensis (L.) Osbeck",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2016-05-26 12:11:17",
-    Language: "EN"
   },
   3477: {
     Plu: 3477,
@@ -20698,11 +14874,7 @@ export default {
     Size: "All Sizes",
     Botanical: "Porophyllum macrocephalum DC.",
     Aka: "Summer cilantro, Bolivian coriander",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2016-05-26 12:13:07",
-    Language: "EN"
   },
   3478: {
     Plu: 3478,
@@ -20711,11 +14883,7 @@ export default {
     Commodity: "QUELITES",
     Size: "All Sizes",
     Botanical: "Chenopodium spp.",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2016-05-26 12:14:32",
-    Language: "EN"
   },
   3479: {
     Plu: 3479,
@@ -20725,11 +14893,7 @@ export default {
     Size: "All Sizes",
     Botanical: "Crotalaria longirostrata",
     Aka: "Chepil",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2016-05-26 12:17:28",
-    Language: "EN"
   },
   3480: {
     Plu: 3480,
@@ -20739,11 +14903,7 @@ export default {
     Size: "All Sizes",
     Botanical: "Cucurbita pepo",
     Aka: "Pumpkin vine",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2016-05-26 12:18:41",
-    Language: "EN"
   },
   3481: {
     Plu: 3481,
@@ -20753,11 +14913,7 @@ export default {
     Size: "All Sizes",
     Botanical: "Phaseolus lunatus",
     Aka: "Xpelon bean",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2016-05-26 12:20:12",
-    Language: "EN"
   },
   3482: {
     Plu: 3482,
@@ -20766,11 +14922,7 @@ export default {
     Commodity: "RABBIT HERB",
     Size: "All Sizes",
     Botanical: "Porophyllum linaria (Cav.) DC.",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2016-05-26 12:21:29",
-    Language: "EN"
   },
   3483: {
     Plu: 3483,
@@ -20780,11 +14932,7 @@ export default {
     Size: "All Sizes",
     Botanical: "Solanum americanum Mill.",
     Aka: "Purple grass",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2016-05-26 12:22:31",
-    Language: "EN"
   },
   3484: {
     Plu: 3484,
@@ -20795,11 +14943,7 @@ export default {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Aka: "Choupette",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2016-07-18 15:35:37",
-    Language: "EN"
   },
   3486: {
     Plu: 3486,
@@ -20810,11 +14954,7 @@ export default {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Aka: "SugarBee™",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2016-10-31 17:44:09",
-    Language: "EN"
   },
   3487: {
     Plu: 3487,
@@ -20825,11 +14965,7 @@ export default {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Aka: "Rave™, First Kiss™",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2016-10-31 19:22:14",
-    Language: "EN"
   },
   3485: {
     Plu: 3485,
@@ -20840,11 +14976,7 @@ export default {
     Size: "All Sizes",
     Botanical: "Pyrus communis",
     Aka: "Cold Snap™",
-    Status: "Approved",
-    Updated_by: "Vicki Bonvetti",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2016-10-31 19:50:02",
-    Language: "EN"
   },
   3488: {
     Plu: 3488,
@@ -20855,11 +14987,7 @@ export default {
     Size: "Extra Large",
     Measures_na: "7 and Larger",
     Botanical: "Mangifera indica",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2017-01-18 18:06:37",
-    Language: "EN"
   },
   3489: {
     Plu: 3489,
@@ -20870,11 +14998,7 @@ export default {
     Size: "All Sizes",
     Botanical: "Pyrus communis",
     Aka: "Migo™",
-    Status: "Approved",
-    Updated_by: "Christina D'allarco",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2017-01-26 19:07:26",
-    Language: "EN"
   },
   3490: {
     Plu: 3490,
@@ -20885,11 +15009,7 @@ export default {
     Size: "All sizes",
     Botanical: "Malus domestica",
     Aka: "EverCrisp™",
-    Status: "Approved",
-    Updated_by: "Vicki Bonvetti",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2018-02-07 19:33:06",
-    Language: "EN"
   },
   3491: {
     Plu: 3491,
@@ -20900,11 +15020,7 @@ export default {
     Size: "All Sizes",
     Botanical: "Vitis vinifera",
     Aka: "Sweeties™",
-    Status: "Approved",
-    Updated_by: "Vicki Bonvetti",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2018-02-08 14:51:43",
-    Language: "EN"
   },
   3492: {
     Plu: 3492,
@@ -20915,11 +15031,7 @@ export default {
     Size: "All Sizes",
     Botanical: "Vitis vinifera",
     Aka: "Passion Fire™",
-    Status: "Approved",
-    Updated_by: "Vicki Bonvetti",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2018-02-08 15:09:57",
-    Language: "EN"
   },
   3493: {
     Plu: 3493,
@@ -20930,11 +15042,7 @@ export default {
     Size: "All Sizes",
     Botanical: "Allium cepa",
     Aka: "Sunions",
-    Status: "Approved",
-    Updated_by: "Vicki Bonvetti",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2018-05-08 15:05:16",
-    Language: "EN"
   },
   3495: {
     Plu: 3495,
@@ -20945,11 +15053,7 @@ export default {
     Size: "All Sizes",
     Botanical: "Pyrus communis",
     Aka: "QTee®",
-    Status: "Approved",
-    Updated_by: "Vicki Bonvetti",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2018-05-08 16:55:03",
-    Language: "EN"
   },
   3496: {
     Plu: 3496,
@@ -20960,12 +15064,8 @@ export default {
     Size: "All Sizes",
     Botanical: "Vitis vinifera",
     Aka: "IFG 68-175 (Sweet Celebration®), IFG Four (Sweet Romance®), IFG None (Jack's Salute®)",
-    Status: "Approved",
     Notes: "Image is representative of the PLU commodity type and does not show all varieties covered under this PLU code.",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2018-05-09 12:57:49",
-    Language: "EN"
   },
   3497: {
     Plu: 3497,
@@ -20976,11 +15076,7 @@ export default {
     Size: "All Sizes",
     Botanical: "Vitis vinifera",
     Aka: "IFG One (Sweet Surrender®), IFG Eight (Sweet Enchantment®), IFG Thirteen (Sweet Secrets®), IFG Fifteen (Sweet Surprise®), IFGSixteen (Sweet Surprise®), IFG Seventeen (Sweet Joy®), IFG Twenty-Five (Sweet Magic®), IFG Twenty-Six (Sweet Bond®)",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2018-05-09 12:59:58",
-    Language: "EN"
   },
   3498: {
     Plu: 3498,
@@ -20991,11 +15087,7 @@ export default {
     Size: "All Sizes",
     Botanical: "Vitis vinifera",
     Aka: "IFG Two (Sweet Sunshine®), IFG Ten (Sweet Globe®), IFG Eleven (Sugar Crisp®)",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2018-05-09 13:12:32",
-    Language: "EN"
   },
   3499: {
     Plu: 3499,
@@ -21006,11 +15098,7 @@ export default {
     Size: "All Sizes",
     Botanical: "Vitis vinifera",
     Aka: "IFG Fourteen (Sweet Mayabelle®), IFG Eighteen (Sweet Nectar®), IFG Nineteen (Candy Hearts®), IFG Twenty-One (Candy Snaps®), IFG Twenty-Three (Candy Drops®)",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2018-05-09 13:16:32",
-    Language: "EN"
   },
   3500: {
     Plu: 3500,
@@ -21021,11 +15109,7 @@ export default {
     Size: "All Sizes",
     Botanical: "Vitis vinifera",
     Aka: "IFG Six (Sweet Sapphire®). IFG Twelve (Funny Fingers®), IFG Twenty (Candy Crunch®), IFG Twenty-Two (Candy Dream®s)",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2018-05-09 13:36:51",
-    Language: "EN"
   },
   3501: {
     Plu: 3501,
@@ -21036,11 +15120,7 @@ export default {
     Size: "All Sizes",
     Botanical: "Vitis vinifera",
     Aka: "IFG Seven (Cotton Candy®)",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2018-05-09 13:38:39",
-    Language: "EN"
   },
   3502: {
     Plu: 3502,
@@ -21051,11 +15131,7 @@ export default {
     Size: "All Sizes",
     Botanical: "Vitis vinifera",
     Aka: "ARRA 27, Mystic Star",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2018-05-11 14:42:41",
-    Language: "EN"
   },
   3503: {
     Plu: 3503,
@@ -21066,11 +15142,7 @@ export default {
     Size: "All Sizes",
     Botanical: "Vitis vinifera",
     Aka: "Passion Punch™",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2018-05-11 14:46:05",
-    Language: "EN"
   },
   3504: {
     Plu: 3504,
@@ -21081,11 +15153,7 @@ export default {
     Size: "All Sizes",
     Botanical: "Vitis vinifera",
     Aka: "Sugardrop",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2018-05-11 14:47:28",
-    Language: "EN"
   },
   3505: {
     Plu: 3505,
@@ -21096,11 +15164,7 @@ export default {
     Size: "All Sizes",
     Botanical: "Vitis vinifera",
     Aka: "Mystic Dream",
-    Status: "Approved",
-    Updated_by: "Vicki Bonvetti",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2018-05-11 14:50:36",
-    Language: "EN"
   },
   3506: {
     Plu: 3506,
@@ -21111,11 +15175,7 @@ export default {
     Size: "All Sizes",
     Botanical: "Vitis vinifera",
     Aka: "Muscato Amore™",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2018-05-11 14:52:44",
-    Language: "EN"
   },
   3494: {
     Plu: 3494,
@@ -21126,11 +15186,7 @@ export default {
     Size: "3-7 LBS",
     Botanical: "Citullus lanatus",
     Aka: "Sunny Gold™",
-    Status: "Approved",
-    Updated_by: "Vicki Bonvetti",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2018-05-11 15:48:57",
-    Language: "EN"
   },
   3507: {
     Plu: 3507,
@@ -21141,11 +15197,7 @@ export default {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Aka: "Cosmic Crisp®",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2018-08-02 17:39:27",
-    Language: "EN"
   },
   3508: {
     Plu: 3508,
@@ -21156,11 +15208,7 @@ export default {
     Size: "All Sizes",
     Botanical: "Vitus vinifera",
     Aka: "Grape Jammers™, Jelly Drops™, California Thomcord™, A29-67",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2018-08-02 17:52:01",
-    Language: "EN"
   },
   3509: {
     Plu: 3509,
@@ -21170,11 +15218,7 @@ export default {
     Variety: "GEM",
     Size: "All Sizes",
     Botanical: "Persea americana",
-    Status: "Approved",
-    Updated_by: "Vincent Huston",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2018-10-31 14:43:01",
-    Language: "EN"
   },
   3510: {
     Plu: 3510,
@@ -21186,11 +15230,7 @@ export default {
     Measures_na: "100 size and smaller",
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2018-10-31 15:55:10",
-    Language: "EN"
   },
   3511: {
     Plu: 3511,
@@ -21201,11 +15241,7 @@ export default {
     Size: "All sizes",
     Botanical: "Malus domestica",
     Aka: "Crimson Delight™, Sunrise Magic®",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2019-02-01 17:16:17",
-    Language: "EN"
   },
   3512: {
     Plu: 3512,
@@ -21216,11 +15252,7 @@ export default {
     Size: "All sizes",
     Botanical: "Solanum Lycopersicum",
     Aka: "Tasti-Lee™",
-    Status: "Approved",
-    Updated_by: "Vicki Bonvetti",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2019-02-01 18:01:27",
-    Language: "EN"
   },
   3518: {
     Plu: 3518,
@@ -21231,11 +15263,7 @@ export default {
     Size: "All sizes",
     Botanical: "Pyrus communis",
     Aka: "Xenia",
-    Status: "Approved",
-    Updated_by: "Vicki Bonvetti",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2020-02-06 16:03:12",
-    Language: "EN"
   },
   3519: {
     Plu: 3519,
@@ -21246,11 +15274,7 @@ export default {
     Size: "All sizes",
     Botanical: "Malus domestica",
     Aka: "Wild Twist",
-    Status: "Approved",
-    Updated_by: "Vicki Bonvetti",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2020-02-06 16:04:39",
-    Language: "EN"
   },
   3520: {
     Plu: 3520,
@@ -21261,11 +15285,7 @@ export default {
     Size: "All sizes",
     Botanical: "Allium cepa",
     Aka: "Smileball, Goldies, Onique, SweetNothings, Loving’Onions",
-    Status: "Approved",
-    Updated_by: "Vicki Bonvetti",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2020-02-06 16:54:18",
-    Language: "EN"
   },
   3513: {
     Plu: 3513,
@@ -21276,11 +15296,7 @@ export default {
     Size: "All sizes",
     Botanical: "Malus domestica",
     Aka: "yello®",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2020-02-28 17:23:41",
-    Language: "EN"
   },
   3514: {
     Plu: 3514,
@@ -21291,11 +15307,7 @@ export default {
     Size: "All sizes",
     Botanical: "Malus domestica",
     Aka: "Tessa®",
-    Status: "Approved",
-    Updated_by: "Vicki Bonvetti",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2020-02-28 17:26:27",
-    Language: "EN"
   },
   3515: {
     Plu: 3515,
@@ -21308,11 +15320,7 @@ export default {
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
     Aka: "Lemonade®",
-    Status: "Approved",
-    Updated_by: "Vicki Bonvetti",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2020-02-28 17:28:15",
-    Language: "EN"
   },
   3516: {
     Plu: 3516,
@@ -21325,11 +15333,7 @@ export default {
     Measures_row: "Average fruit weight = 205g and above",
     Botanical: "Malus domestica",
     Aka: "Lemonade®",
-    Status: "Approved",
-    Updated_by: "Vicki Bonvetti",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2020-02-28 17:29:48",
-    Language: "EN"
   },
   3517: {
     Plu: 3517,
@@ -21339,11 +15343,7 @@ export default {
     Variety: "Retailer Assigned - Gold Derivative Varieties",
     Size: "All sizes",
     Botanical: "Actinidia chinensis",
-    Status: "Approved",
-    Updated_by: "Vicki Bonvetti",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2020-02-28 17:34:14",
-    Language: "EN"
   },
   3521: {
     Plu: 3521,
@@ -21354,11 +15354,7 @@ export default {
     Size: "All sizes",
     Botanical: "Malus domestica",
     Aka: "Karma®",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2020-08-03 14:21:21",
-    Language: "EN"
   },
   3522: {
     Plu: 3522,
@@ -21368,11 +15364,7 @@ export default {
     Variety: "HW624",
     Size: "All sizes",
     Botanical: "Pyrus communis",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2020-08-03 14:24:13",
-    Language: "EN"
   },
   3523: {
     Plu: 3523,
@@ -21383,11 +15375,7 @@ export default {
     Size: "All sizes",
     Botanical: "Malus domestica",
     Aka: "Magic Star, Natyra, Kentish Kiss, Sprank,",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2021-01-29 14:22:36",
-    Language: "EN"
   },
   3524: {
     Plu: 3524,
@@ -21398,11 +15386,7 @@ export default {
     Size: "All sizes",
     Botanical: "Citrus spp.",
     Aka: "Noble Juicy Crunch",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2021-07-30 13:21:48",
-    Language: "EN"
   },
   3525: {
     Plu: 3525,
@@ -21415,11 +15399,7 @@ export default {
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
     Aka: "SugarBee",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2021-07-30 13:25:21",
-    Language: "EN"
   },
   3526: {
     Plu: 3526,
@@ -21430,11 +15410,7 @@ export default {
     Size: "All sizes",
     Botanical: "Malus domestica",
     Aka: "LucyRose",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2021-07-30 13:27:01",
-    Language: "EN"
   },
   3527: {
     Plu: 3527,
@@ -21445,11 +15421,7 @@ export default {
     Size: "All sizes",
     Botanical: "Malus domestica",
     Aka: "LucyGlo",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2021-07-30 13:28:42",
-    Language: "EN"
   },
   3528: {
     Plu: 3528,
@@ -21460,11 +15432,7 @@ export default {
     Size: "All sizes",
     Botanical: "Malus domestica",
     Aka: "Hunnyz",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2021-10-28 14:37:42",
-    Language: "EN"
   },
   3529: {
     Plu: 3529,
@@ -21475,11 +15443,7 @@ export default {
     Size: "All sizes",
     Botanical: "Malus domestica",
     Aka: "Dazzle",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2022-01-28 19:34:48",
-    Language: "EN"
   },
   3530: {
     Plu: 3530,
@@ -21489,11 +15453,7 @@ export default {
     Variety: "Jupiter",
     Size: "All sizes",
     Botanical: "Vitis vinifera",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2022-01-28 19:40:07",
-    Language: "EN"
   },
   3531: {
     Plu: 3531,
@@ -21504,11 +15464,7 @@ export default {
     Size: "All sizes",
     Botanical: "Vitis vinifera",
     Aka: "Sugrafortynine",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2022-01-28 19:57:09",
-    Language: "EN"
   },
   3532: {
     Plu: 3532,
@@ -21519,11 +15475,7 @@ export default {
     Size: "All sizes",
     Botanical: "Vitis vinifera",
     Aka: "SugraFiftySix",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2022-01-28 20:01:09",
-    Language: "EN"
   },
   3533: {
     Plu: 3533,
@@ -21534,11 +15486,7 @@ export default {
     Size: "All sizes",
     Botanical: "Vitis vinifera",
     Aka: "SugraFiftyFour",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2022-01-28 20:09:27",
-    Language: "EN"
   },
   3534: {
     Plu: 3534,
@@ -21549,11 +15497,7 @@ export default {
     Size: "All sizes",
     Botanical: "Vitis vinifera",
     Aka: "SugraFiftyThree",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2022-01-28 20:15:37",
-    Language: "EN"
   },
   3535: {
     Plu: 3535,
@@ -21564,11 +15508,7 @@ export default {
     Size: "All sizes",
     Botanical: "Allium Cepa",
     Aka: "Wicked Sweet Tearless Red",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2022-07-28 19:10:48",
-    Language: "EN"
   },
   3536: {
     Plu: 3536,
@@ -21579,11 +15519,7 @@ export default {
     Size: "All sizes",
     Botanical: "Prunus spp.",
     Aka: "Verry Cherry",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2022-07-28 19:25:59",
-    Language: "EN"
   },
   3539: {
     Plu: 3539,
@@ -21594,11 +15530,7 @@ export default {
     Size: "All sizes",
     Botanical: "Malus domestica",
     Aka: "Y101, Y103",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2022-07-28 19:29:15",
-    Language: "EN"
   },
   3537: {
     Plu: 3537,
@@ -21609,11 +15541,7 @@ export default {
     Size: "All sizes",
     Botanical: "Malus domestica",
     Aka: "Ludacrisp",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2022-07-28 19:33:54",
-    Language: "EN"
   },
   3538: {
     Plu: 3538,
@@ -21624,11 +15552,7 @@ export default {
     Size: "All sizes",
     Botanical: "Malus domestica",
     Aka: "GIGA®",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2022-07-28 19:39:08",
-    Language: "EN"
   },
   3540: {
     Plu: 3540,
@@ -21639,11 +15563,7 @@ export default {
     Size: "All sizes",
     Botanical: "Malus domestica",
     Aka: "R201, R202, R203, R204",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2022-07-28 19:48:49",
-    Language: "EN"
   },
   3541: {
     Plu: 3541,
@@ -21654,11 +15574,7 @@ export default {
     Size: "All sizes",
     Botanical: "Malus domestica",
     Aka: "RedPop®",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-20 17:23:38",
     Created_at: "2022-11-04 13:39:02",
-    Language: "EN"
   },
   3542: {
     Plu: 3542,
@@ -21669,11 +15585,7 @@ export default {
     Size: "All sizes",
     Botanical: "Malus domestica",
     Aka: "Aura",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2022-11-04 13:44:22",
-    Language: "EN"
   },
   3543: {
     Plu: 3543,
@@ -21684,11 +15596,7 @@ export default {
     Size: "Small",
     Botanical: "Citrus limon",
     Aka: "Wonderful® Seedless",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2023-05-01 18:50:11",
-    Language: "EN"
   },
   3544: {
     Plu: 3544,
@@ -21699,11 +15607,7 @@ export default {
     Size: "Medium",
     Botanical: "Citrus limon",
     Aka: "Wonderful® Seedless",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2023-05-01 18:53:17",
-    Language: "EN"
   },
   3545: {
     Plu: 3545,
@@ -21714,11 +15618,7 @@ export default {
     Size: "Large",
     Botanical: "Citrus limon",
     Aka: "Wonderful® Seedless",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2023-05-01 18:56:07",
-    Language: "EN"
   },
   3546: {
     Plu: 3546,
@@ -21729,11 +15629,7 @@ export default {
     Size: "All sizes",
     Botanical: "Malus domestica",
     Aka: "Honeymoon™",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2023-05-01 18:58:35",
-    Language: "EN"
   },
   3547: {
     Plu: 3547,
@@ -21744,11 +15640,7 @@ export default {
     Size: "All sizes",
     Botanical: "Malus domestica",
     Aka: "Zingy®",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2023-05-02 11:30:18",
-    Language: "EN"
   },
   3548: {
     Plu: 3548,
@@ -21759,11 +15651,7 @@ export default {
     Size: "All sizes",
     Botanical: "Malus domestica",
     Aka: "Lolipop®",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2023-05-02 11:42:21",
-    Language: "EN"
   },
   3549: {
     Plu: 3549,
@@ -21774,11 +15662,7 @@ export default {
     Size: "All sizes",
     Botanical: "Prunus avium",
     Aka: "Timberline",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2023-12-19 19:08:58",
     Created_at: "2023-05-02 11:58:40",
-    Language: "EN"
   },
   3550: {
     Plu: 3550,
@@ -21789,11 +15673,7 @@ export default {
     Size: "All sizes",
     Botanical: "Prunus avium",
     Aka: "Audra Rose",
-    Status: "Approved",
-    Updated_by: "Wendy Logan",
-    Updated_at: "2024-02-02 15:51:32",
     Created_at: "2023-05-02 12:10:13",
-    Language: "EN"
   },
   3551: {
     Plu: 3551,
@@ -21804,11 +15684,7 @@ export default {
     Size: "All sizes",
     Botanical: "Hylocereus lindatus",
     Aka: "Fire Dragons",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2024-05-09 13:47:32",
     Created_at: "2024-02-02 15:32:14",
-    Language: "EN"
   },
   3552: {
     Plu: 3552,
@@ -21819,11 +15695,7 @@ export default {
     Size: "All sizes",
     Botanical: "Vitus vinifera",
     Aka: "ARRA Cherry Crush",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2024-05-08 20:45:44",
     Created_at: "2024-05-08 20:45:44",
-    Language: "EN"
   },
   3553: {
     Plu: 3553,
@@ -21834,11 +15706,7 @@ export default {
     Size: "All sizes",
     Botanical: "Citrus spp.",
     Aka: "Dulce Navels ™",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2024-05-09 18:29:37",
     Created_at: "2024-05-08 21:03:55",
-    Language: "EN"
   },
   3554: {
     Plu: 3554,
@@ -21848,11 +15716,7 @@ export default {
     Variety: "Orléans",
     Size: "All sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2024-05-09 13:46:25",
     Created_at: "2024-05-08 21:06:12",
-    Language: "EN"
   },
   3555: {
     Plu: 3555,
@@ -21862,11 +15726,7 @@ export default {
     Variety: "Rosinette",
     Size: "All sizes",
     Botanical: "Malus domestica",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2024-07-30 13:46:47",
     Created_at: "2024-07-30 13:46:47",
-    Language: "EN"
   },
   3556: {
     Plu: 3556,
@@ -21877,11 +15737,7 @@ export default {
     Size: "All sizes",
     Botanical: "Citrus spp.",
     Aka: "Tangold",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2024-07-30 15:02:04",
     Created_at: "2024-07-30 14:23:06",
-    Language: "EN"
   },
   3557: {
     Plu: 3557,
@@ -21892,10 +15748,6 @@ export default {
     Size: "All sizes",
     Botanical: "Malus domestica",
     Aka: "Bloss®",
-    Status: "Approved",
-    Updated_by: "Webmaster2015",
-    Updated_at: "2024-07-30 14:43:07",
     Created_at: "2024-07-30 14:43:07",
-    Language: "EN"
   }
 } as const;
