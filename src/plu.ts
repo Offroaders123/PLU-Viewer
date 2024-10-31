@@ -8,13 +8,19 @@ export type Commodity = "ALFALFA SPROUTS" | "ALMONDS" | "ALOE VERA LEAVES" | "AN
 
 export type Size = "All Sizes" | "All other sizes" | "Mini" | "Small" | "Medium" | "Large" | "Extra Large" | "Jumbo" | "Pint" | "Quart" | "Bulk" | "Bulk 3-pack (3 pints)" | "3-7 LBS";
 
-export interface PLU {
-  Plu: number;
-  Type: Type;
-  Category: Category;
-  Commodity: Commodity;
+export interface PLULike<
+  P extends number,
+  T extends Type,
+  Cat extends Category,
+  Com extends Commodity,
+  S extends Size
+> {
+  Plu: P;
+  Type: T;
+  Category: Cat;
+  Commodity: Com;
   Variety?: string;
-  Size: Size;
+  Size: S;
   Measures_na?: string;
   Measures_row?: string;
   Restrictions?: string;
@@ -24,8 +30,60 @@ export interface PLU {
   Created_at: string;
 }
 
-export const PLU = {
-  3000: {
+export class PLU<
+  const P extends number = number,
+  const T extends Type = Type,
+  const Cat extends Category = Category,
+  const Com extends Commodity = Commodity,
+  const S extends Size = Size
+> implements PLULike<P, T, Cat, Com, S> {
+  readonly Plu: P;
+  readonly Type: T;
+  readonly Category: Cat;
+  readonly Commodity: Com;
+  readonly Variety?: string;
+  readonly Size: S;
+  readonly Measures_na?: string;
+  readonly Measures_row?: string;
+  readonly Restrictions?: string;
+  readonly Botanical?: string;
+  readonly Aka?: string;
+  readonly Notes?: string;
+  readonly Created_at: string;
+
+  constructor({
+    Plu,
+    Type,
+    Category,
+    Commodity,
+    Variety,
+    Size,
+    Measures_na,
+    Measures_row,
+    Restrictions,
+    Botanical,
+    Aka,
+    Notes,
+    Created_at
+  }: PLULike<P, T, Cat, Com, S>) {
+    this.Plu = Plu;
+    this.Type = Type;
+    this.Category = Category;
+    this.Commodity = Commodity;
+    this.Variety = Variety;
+    this.Size = Size;
+    this.Measures_na = Measures_na;
+    this.Measures_row = Measures_row;
+    this.Restrictions = Restrictions;
+    this.Botanical = Botanical;
+    this.Aka = Aka;
+    this.Notes = Notes;
+    this.Created_at = Created_at;
+  }
+}
+
+export const pluLookup = {
+  3000: new PLU({
     Plu: 3000,
     Type: "Global",
     Category: "Fruits",
@@ -34,8 +92,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3001: {
+  }),
+  3001: new PLU({
     Plu: 3001,
     Type: "Global",
     Category: "Fruits",
@@ -46,8 +104,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3002: {
+  }),
+  3002: new PLU({
     Plu: 3002,
     Type: "Global",
     Category: "Fruits",
@@ -56,8 +114,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3003: {
+  }),
+  3003: new PLU({
     Plu: 3003,
     Type: "Global",
     Category: "Fruits",
@@ -66,8 +124,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3004: {
+  }),
+  3004: new PLU({
     Plu: 3004,
     Type: "Global",
     Category: "Fruits",
@@ -76,8 +134,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3005: {
+  }),
+  3005: new PLU({
     Plu: 3005,
     Type: "Global",
     Category: "Fruits",
@@ -86,8 +144,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3006: {
+  }),
+  3006: new PLU({
     Plu: 3006,
     Type: "Global",
     Category: "Fruits",
@@ -96,8 +154,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3007: {
+  }),
+  3007: new PLU({
     Plu: 3007,
     Type: "Global",
     Category: "Fruits",
@@ -106,8 +164,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3008: {
+  }),
+  3008: new PLU({
     Plu: 3008,
     Type: "Global",
     Category: "Fruits",
@@ -116,8 +174,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3009: {
+  }),
+  3009: new PLU({
     Plu: 3009,
     Type: "Global",
     Category: "Fruits",
@@ -126,8 +184,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3010: {
+  }),
+  3010: new PLU({
     Plu: 3010,
     Type: "Global",
     Category: "Fruits",
@@ -139,8 +197,8 @@ export const PLU = {
     Botanical: "Malus domestica",
     Aka: "Sundowner",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3011: {
+  }),
+  3011: new PLU({
     Plu: 3011,
     Type: "Global",
     Category: "Fruits",
@@ -149,8 +207,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3012: {
+  }),
+  3012: new PLU({
     Plu: 3012,
     Type: "Global",
     Category: "Fruits",
@@ -159,8 +217,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3013: {
+  }),
+  3013: new PLU({
     Plu: 3013,
     Type: "Global",
     Category: "Fruits",
@@ -169,8 +227,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3014: {
+  }),
+  3014: new PLU({
     Plu: 3014,
     Type: "Global",
     Category: "Fruits",
@@ -179,8 +237,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3015: {
+  }),
+  3015: new PLU({
     Plu: 3015,
     Type: "Global",
     Category: "Fruits",
@@ -189,8 +247,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3016: {
+  }),
+  3016: new PLU({
     Plu: 3016,
     Type: "Global",
     Category: "Fruits",
@@ -199,8 +257,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3017: {
+  }),
+  3017: new PLU({
     Plu: 3017,
     Type: "Global",
     Category: "Fruits",
@@ -209,8 +267,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3018: {
+  }),
+  3018: new PLU({
     Plu: 3018,
     Type: "Global",
     Category: "Fruits",
@@ -219,8 +277,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3019: {
+  }),
+  3019: new PLU({
     Plu: 3019,
     Type: "Global",
     Category: "Fruits",
@@ -229,8 +287,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3020: {
+  }),
+  3020: new PLU({
     Plu: 3020,
     Type: "Global",
     Category: "Fruits",
@@ -239,8 +297,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3021: {
+  }),
+  3021: new PLU({
     Plu: 3021,
     Type: "Global",
     Category: "Fruits",
@@ -249,8 +307,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3022: {
+  }),
+  3022: new PLU({
     Plu: 3022,
     Type: "Global",
     Category: "Fruits",
@@ -259,8 +317,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3023: {
+  }),
+  3023: new PLU({
     Plu: 3023,
     Type: "Global",
     Category: "Fruits",
@@ -271,8 +329,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = less than 180g",
     Botanical: "Pyrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3024: {
+  }),
+  3024: new PLU({
     Plu: 3024,
     Type: "Global",
     Category: "Fruits",
@@ -281,8 +339,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3025: {
+  }),
+  3025: new PLU({
     Plu: 3025,
     Type: "Global",
     Category: "Fruits",
@@ -291,8 +349,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3026: {
+  }),
+  3026: new PLU({
     Plu: 3026,
     Type: "Global",
     Category: "Fruits",
@@ -301,8 +359,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3027: {
+  }),
+  3027: new PLU({
     Plu: 3027,
     Type: "Global",
     Category: "Fruits",
@@ -311,8 +369,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Citrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3028: {
+  }),
+  3028: new PLU({
     Plu: 3028,
     Type: "Global",
     Category: "Fruits",
@@ -323,8 +381,8 @@ export const PLU = {
     Measures_row: "Average Fruit Dimensions = less than 66mm",
     Botanical: "Citrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3029: {
+  }),
+  3029: new PLU({
     Plu: 3029,
     Type: "Global",
     Category: "Fruits",
@@ -334,8 +392,8 @@ export const PLU = {
     Restrictions: "This code can be used anyplace in the globe; however, there are other codes for this item that can be used outside of North America.",
     Botanical: "Citrus unshiu",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3030: {
+  }),
+  3030: new PLU({
     Plu: 3030,
     Type: "Global",
     Category: "Fruits",
@@ -344,8 +402,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Citrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3031: {
+  }),
+  3031: new PLU({
     Plu: 3031,
     Type: "Global",
     Category: "Fruits",
@@ -354,8 +412,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Citrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3032: {
+  }),
+  3032: new PLU({
     Plu: 3032,
     Type: "Global",
     Category: "Fruits",
@@ -365,8 +423,8 @@ export const PLU = {
     Restrictions: "This code can be used anyplace in the globe; however, there are other codes for this item that can be used outside of North America.",
     Botanical: "Citrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3033: {
+  }),
+  3033: new PLU({
     Plu: 3033,
     Type: "Global",
     Category: "Fruits",
@@ -376,8 +434,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight =  less than 625g",
     Botanical: "Cucumis melo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3034: {
+  }),
+  3034: new PLU({
     Plu: 3034,
     Type: "Global",
     Category: "Fruits",
@@ -387,8 +445,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight =  625g and above",
     Botanical: "Cucumis melo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3035: {
+  }),
+  3035: new PLU({
     Plu: 3035,
     Type: "Global",
     Category: "Fruits",
@@ -399,8 +457,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight =  185g and above",
     Botanical: "Prunus persica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3036: {
+  }),
+  3036: new PLU({
     Plu: 3036,
     Type: "Global",
     Category: "Fruits",
@@ -411,8 +469,8 @@ export const PLU = {
     Measures_row: "Average Fruit Dimensions = less than 66mm",
     Botanical: "Citrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3037: {
+  }),
+  3037: new PLU({
     Plu: 3037,
     Type: "Global",
     Category: "Fruits",
@@ -422,8 +480,8 @@ export const PLU = {
     Restrictions: "Sizes for pineapple based on two-layer lug.",
     Botanical: "Ananas comosus",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3038: {
+  }),
+  3038: new PLU({
     Plu: 3038,
     Type: "Global",
     Category: "Fruits",
@@ -432,8 +490,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Passiflorae.var. flavicarpa",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3039: {
+  }),
+  3039: new PLU({
     Plu: 3039,
     Type: "Global",
     Category: "Fruits",
@@ -441,8 +499,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Physalis spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3040: {
+  }),
+  3040: new PLU({
     Plu: 3040,
     Type: "Global",
     Category: "Fruits",
@@ -451,8 +509,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Hylocereus lindatus",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3041: {
+  }),
+  3041: new PLU({
     Plu: 3041,
     Type: "Global",
     Category: "Fruits",
@@ -460,8 +518,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Nephelium lappaceum",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3042: {
+  }),
+  3042: new PLU({
     Plu: 3042,
     Type: "Global",
     Category: "Fruits",
@@ -469,8 +527,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Garcinia mangostana",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3043: {
+  }),
+  3043: new PLU({
     Plu: 3043,
     Type: "Global",
     Category: "Fruits",
@@ -479,8 +537,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Vitis vinifera",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3044: {
+  }),
+  3044: new PLU({
     Plu: 3044,
     Type: "Global",
     Category: "Fruits",
@@ -489,8 +547,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Prunus armeniaca",
     Created_at: "2006-11-14 23:00:00",
-  },
-  3045: {
+  }),
+  3045: new PLU({
     Plu: 3045,
     Type: "Global",
     Category: "Fruits",
@@ -499,8 +557,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Phoenix dactylifera",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3046: {
+  }),
+  3046: new PLU({
     Plu: 3046,
     Type: "Global",
     Category: "Fruits",
@@ -509,8 +567,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Phoenix dactylifera",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3047: {
+  }),
+  3047: new PLU({
     Plu: 3047,
     Type: "Global",
     Category: "Fruits",
@@ -519,8 +577,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Phoenix dactylifera",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3048: {
+  }),
+  3048: new PLU({
     Plu: 3048,
     Type: "Global",
     Category: "Vegetables",
@@ -529,8 +587,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Phaseolus vulgaris",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3049: {
+  }),
+  3049: new PLU({
     Plu: 3049,
     Type: "Global",
     Category: "Vegetables",
@@ -539,8 +597,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Phaseolus vulgaris",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3050: {
+  }),
+  3050: new PLU({
     Plu: 3050,
     Type: "Global",
     Category: "Vegetables",
@@ -549,8 +607,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Brassica oleracea",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3051: {
+  }),
+  3051: new PLU({
     Plu: 3051,
     Type: "Global",
     Category: "Vegetables",
@@ -559,8 +617,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Brassica oleracea",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3052: {
+  }),
+  3052: new PLU({
     Plu: 3052,
     Type: "Global",
     Category: "Vegetables",
@@ -569,8 +627,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Allium sativum",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3053: {
+  }),
+  3053: new PLU({
     Plu: 3053,
     Type: "Global",
     Category: "Vegetables",
@@ -579,8 +637,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Pastinaca sativa",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3054: {
+  }),
+  3054: new PLU({
     Plu: 3054,
     Type: "Global",
     Category: "Vegetables",
@@ -589,8 +647,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3055: {
+  }),
+  3055: new PLU({
     Plu: 3055,
     Type: "Global",
     Category: "Vegetables",
@@ -599,8 +657,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3056: {
+  }),
+  3056: new PLU({
     Plu: 3056,
     Type: "Global",
     Category: "Vegetables",
@@ -609,8 +667,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3057: {
+  }),
+  3057: new PLU({
     Plu: 3057,
     Type: "Global",
     Category: "Vegetables",
@@ -619,8 +677,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3058: {
+  }),
+  3058: new PLU({
     Plu: 3058,
     Type: "Global",
     Category: "Vegetables",
@@ -629,8 +687,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3059: {
+  }),
+  3059: new PLU({
     Plu: 3059,
     Type: "Global",
     Category: "Vegetables",
@@ -639,8 +697,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "C.maxima",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3060: {
+  }),
+  3060: new PLU({
     Plu: 3060,
     Type: "Global",
     Category: "Vegetables",
@@ -649,8 +707,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "C.pepo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3061: {
+  }),
+  3061: new PLU({
     Plu: 3061,
     Type: "Global",
     Category: "Vegetables",
@@ -659,8 +717,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Lycopersicon esculenta",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3062: {
+  }),
+  3062: new PLU({
     Plu: 3062,
     Type: "Global",
     Category: "Herbs",
@@ -668,8 +726,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Laurus nobilis",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3063: {
+  }),
+  3063: new PLU({
     Plu: 3063,
     Type: "Global",
     Category: "Herbs",
@@ -677,8 +735,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Foeniculum vulgare",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3064: {
+  }),
+  3064: new PLU({
     Plu: 3064,
     Type: "Global",
     Category: "Herbs",
@@ -686,8 +744,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Aloe Vera",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3065: {
+  }),
+  3065: new PLU({
     Plu: 3065,
     Type: "Global",
     Category: "Fruits",
@@ -698,8 +756,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3066: {
+  }),
+  3066: new PLU({
     Plu: 3066,
     Type: "Global",
     Category: "Fruits",
@@ -710,8 +768,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3067: {
+  }),
+  3067: new PLU({
     Plu: 3067,
     Type: "Global",
     Category: "Fruits",
@@ -722,8 +780,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3068: {
+  }),
+  3068: new PLU({
     Plu: 3068,
     Type: "Global",
     Category: "Fruits",
@@ -734,8 +792,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3069: {
+  }),
+  3069: new PLU({
     Plu: 3069,
     Type: "Global",
     Category: "Fruits",
@@ -746,8 +804,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3070: {
+  }),
+  3070: new PLU({
     Plu: 3070,
     Type: "Global",
     Category: "Fruits",
@@ -758,8 +816,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3071: {
+  }),
+  3071: new PLU({
     Plu: 3071,
     Type: "Global",
     Category: "Fruits",
@@ -768,8 +826,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3072: {
+  }),
+  3072: new PLU({
     Plu: 3072,
     Type: "Global",
     Category: "Fruits",
@@ -778,8 +836,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3073: {
+  }),
+  3073: new PLU({
     Plu: 3073,
     Type: "Global",
     Category: "Fruits",
@@ -788,8 +846,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3074: {
+  }),
+  3074: new PLU({
     Plu: 3074,
     Type: "Global",
     Category: "Fruits",
@@ -798,8 +856,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3075: {
+  }),
+  3075: new PLU({
     Plu: 3075,
     Type: "Global",
     Category: "Fruits",
@@ -808,8 +866,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3076: {
+  }),
+  3076: new PLU({
     Plu: 3076,
     Type: "Global",
     Category: "Fruits",
@@ -818,8 +876,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3077: {
+  }),
+  3077: new PLU({
     Plu: 3077,
     Type: "Global",
     Category: "Fruits",
@@ -828,8 +886,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3078: {
+  }),
+  3078: new PLU({
     Plu: 3078,
     Type: "Global",
     Category: "Fruits",
@@ -838,8 +896,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3079: {
+  }),
+  3079: new PLU({
     Plu: 3079,
     Type: "Global",
     Category: "Vegetables",
@@ -849,8 +907,8 @@ export const PLU = {
     Restrictions: "This code can be used anyplace in the globe; however, there are other codes for this item that can be used outside of North America.",
     Botanical: "Asparagus officinalis",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3080: {
+  }),
+  3080: new PLU({
     Plu: 3080,
     Type: "Global",
     Category: "Fruits",
@@ -859,8 +917,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Persea americana",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3081: {
+  }),
+  3081: new PLU({
     Plu: 3081,
     Type: "Global",
     Category: "Fruits",
@@ -869,8 +927,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Amelanchier alnifolia",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3082: {
+  }),
+  3082: new PLU({
     Plu: 3082,
     Type: "Global",
     Category: "Vegetables",
@@ -879,8 +937,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Brassica oleracea",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3083: {
+  }),
+  3083: new PLU({
     Plu: 3083,
     Type: "Global",
     Category: "Vegetables",
@@ -889,8 +947,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Brassica olerace",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3084: {
+  }),
+  3084: new PLU({
     Plu: 3084,
     Type: "Global",
     Category: "Herbs",
@@ -898,8 +956,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Anthriscus cerefolium",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3085: {
+  }),
+  3085: new PLU({
     Plu: 3085,
     Type: "Global",
     Category: "Vegetables",
@@ -908,8 +966,8 @@ export const PLU = {
     Size: "Large",
     Botanical: "Zea mays",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3086: {
+  }),
+  3086: new PLU({
     Plu: 3086,
     Type: "Global",
     Category: "Vegetables",
@@ -918,8 +976,8 @@ export const PLU = {
     Size: "Mini",
     Botanical: "Zea mays",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3087: {
+  }),
+  3087: new PLU({
     Plu: 3087,
     Type: "Global",
     Category: "Vegetables",
@@ -928,8 +986,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Zea mays",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3088: {
+  }),
+  3088: new PLU({
     Plu: 3088,
     Type: "Global",
     Category: "Fruits",
@@ -938,8 +996,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Ribes sativum",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3089: {
+  }),
+  3089: new PLU({
     Plu: 3089,
     Type: "Global",
     Category: "Vegetables",
@@ -948,8 +1006,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Solanum melongena",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3090: {
+  }),
+  3090: new PLU({
     Plu: 3090,
     Type: "Global",
     Category: "Vegetables",
@@ -958,8 +1016,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Solanum melongena",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3091: {
+  }),
+  3091: new PLU({
     Plu: 3091,
     Type: "Global",
     Category: "Vegetables",
@@ -967,8 +1025,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Arctium lappa",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3092: {
+  }),
+  3092: new PLU({
     Plu: 3092,
     Type: "Global",
     Category: "Fruits",
@@ -977,8 +1035,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Citrus paradisi",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3093: {
+  }),
+  3093: new PLU({
     Plu: 3093,
     Type: "Global",
     Category: "Fruits",
@@ -987,8 +1045,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Vitis vinifera",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3094: {
+  }),
+  3094: new PLU({
     Plu: 3094,
     Type: "Global",
     Category: "Fruits",
@@ -997,8 +1055,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Vitis vinifera",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3095: {
+  }),
+  3095: new PLU({
     Plu: 3095,
     Type: "Global",
     Category: "Vegetables",
@@ -1007,8 +1065,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Brassica oleracea",
     Created_at: "2003-10-28 23:00:00",
-  },
-  3096: {
+  }),
+  3096: new PLU({
     Plu: 3096,
     Type: "Global",
     Category: "Vegetables",
@@ -1017,8 +1075,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Brassica oleracea",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3097: {
+  }),
+  3097: new PLU({
     Plu: 3097,
     Type: "Global",
     Category: "Vegetables",
@@ -1027,8 +1085,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Lactuca sativa",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3098: {
+  }),
+  3098: new PLU({
     Plu: 3098,
     Type: "Global",
     Category: "Vegetables",
@@ -1037,8 +1095,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Lactuca sativa",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3099: {
+  }),
+  3099: new PLU({
     Plu: 3099,
     Type: "Global",
     Category: "Vegetables",
@@ -1046,8 +1104,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Nelumbo nucifera",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3100: {
+  }),
+  3100: new PLU({
     Plu: 3100,
     Type: "Global",
     Category: "Fruits",
@@ -1056,8 +1114,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucumis melo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3101: {
+  }),
+  3101: new PLU({
     Plu: 3101,
     Type: "Global",
     Category: "Fruits",
@@ -1066,8 +1124,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucumis melo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3102: {
+  }),
+  3102: new PLU({
     Plu: 3102,
     Type: "Global",
     Category: "Vegetables",
@@ -1076,8 +1134,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Morchella angusticeps",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3103: {
+  }),
+  3103: new PLU({
     Plu: 3103,
     Type: "Global",
     Category: "Vegetables",
@@ -1086,8 +1144,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Flammulina velutipe",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3104: {
+  }),
+  3104: new PLU({
     Plu: 3104,
     Type: "Global",
     Category: "Fruits",
@@ -1097,8 +1155,8 @@ export const PLU = {
     Botanical: "Malus domestica",
     Aka: "Evelina",
     Created_at: "2012-12-10 23:00:00",
-  },
-  3105: {
+  }),
+  3105: new PLU({
     Plu: 3105,
     Type: "Global",
     Category: "Nuts",
@@ -1106,8 +1164,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Anacardium occidental",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3106: {
+  }),
+  3106: new PLU({
     Plu: 3106,
     Type: "Global",
     Category: "Nuts",
@@ -1115,8 +1173,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Macadamia integrifolia",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3107: {
+  }),
+  3107: new PLU({
     Plu: 3107,
     Type: "Global",
     Category: "Fruits",
@@ -1127,8 +1185,8 @@ export const PLU = {
     Measures_row: "Average Fruit Dimensions = 66mm - under 84mm",
     Botanical: "Citrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3108: {
+  }),
+  3108: new PLU({
     Plu: 3108,
     Type: "Global",
     Category: "Fruits",
@@ -1139,8 +1197,8 @@ export const PLU = {
     Measures_row: "Average Fruit Dimensions = 66mm - under 84mm",
     Botanical: "Citrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3109: {
+  }),
+  3109: new PLU({
     Plu: 3109,
     Type: "Global",
     Category: "Fruits",
@@ -1149,8 +1207,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Citrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3110: {
+  }),
+  3110: new PLU({
     Plu: 3110,
     Type: "Global",
     Category: "Fruits",
@@ -1159,8 +1217,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Citrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3111: {
+  }),
+  3111: new PLU({
     Plu: 3111,
     Type: "Global",
     Category: "Fruits",
@@ -1169,8 +1227,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Carica papaya",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3112: {
+  }),
+  3112: new PLU({
     Plu: 3112,
     Type: "Global",
     Category: "Fruits",
@@ -1179,8 +1237,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Carica papaya",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3113: {
+  }),
+  3113: new PLU({
     Plu: 3113,
     Type: "Global",
     Category: "Fruits",
@@ -1189,8 +1247,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Prunus persica",
     Created_at: "2008-11-25 23:00:00",
-  },
-  3114: {
+  }),
+  3114: new PLU({
     Plu: 3114,
     Type: "Global",
     Category: "Fruits",
@@ -1201,8 +1259,8 @@ export const PLU = {
     Botanical: "Magnifera Indica",
     Aka: "Keitt and Francis varieties",
     Created_at: "2008-11-25 23:00:00",
-  },
-  3115: {
+  }),
+  3115: new PLU({
     Plu: 3115,
     Type: "Global",
     Category: "Fruits",
@@ -1211,8 +1269,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Prunus persica",
     Created_at: "2008-11-25 23:00:00",
-  },
-  3116: {
+  }),
+  3116: new PLU({
     Plu: 3116,
     Type: "Global",
     Category: "Fruits",
@@ -1224,8 +1282,8 @@ export const PLU = {
     Restrictions: "Restricted for items grown east of the Mississippi River in the U.S. or east of the Ontario/Manitoba border in Canada.",
     Botanical: "Prunus persica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3117: {
+  }),
+  3117: new PLU({
     Plu: 3117,
     Type: "Global",
     Category: "Fruits",
@@ -1237,8 +1295,8 @@ export const PLU = {
     Restrictions: "Restricted for items grown east of the Mississippi River in the U.S. or east of the Ontario/Manitoba border in Canada.",
     Botanical: "Prunus persica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3118: {
+  }),
+  3118: new PLU({
     Plu: 3118,
     Type: "Global",
     Category: "Fruits",
@@ -1247,8 +1305,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3119: {
+  }),
+  3119: new PLU({
     Plu: 3119,
     Type: "Global",
     Category: "Vegetables",
@@ -1259,8 +1317,8 @@ export const PLU = {
     Measures_row: "Min diameter less than 65mm",
     Botanical: "Capsicum spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3120: {
+  }),
+  3120: new PLU({
     Plu: 3120,
     Type: "Global",
     Category: "Vegetables",
@@ -1271,8 +1329,8 @@ export const PLU = {
     Measures_row: "Min diameter 65mm and above",
     Botanical: "Capsicum spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3121: {
+  }),
+  3121: new PLU({
     Plu: 3121,
     Type: "Global",
     Category: "Vegetables",
@@ -1281,8 +1339,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3122: {
+  }),
+  3122: new PLU({
     Plu: 3122,
     Type: "Global",
     Category: "Vegetables",
@@ -1291,8 +1349,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3123: {
+  }),
+  3123: new PLU({
     Plu: 3123,
     Type: "Global",
     Category: "Vegetables",
@@ -1301,8 +1359,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3124: {
+  }),
+  3124: new PLU({
     Plu: 3124,
     Type: "Global",
     Category: "Vegetables",
@@ -1311,8 +1369,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3125: {
+  }),
+  3125: new PLU({
     Plu: 3125,
     Type: "Global",
     Category: "Vegetables",
@@ -1321,8 +1379,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3126: {
+  }),
+  3126: new PLU({
     Plu: 3126,
     Type: "Global",
     Category: "Fruits",
@@ -1331,8 +1389,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Prunus armeniaca hybrid",
     Created_at: "2008-06-02 22:00:00",
-  },
-  3127: {
+  }),
+  3127: new PLU({
     Plu: 3127,
     Type: "Global",
     Category: "Fruits",
@@ -1342,8 +1400,8 @@ export const PLU = {
     Measures_row: "Average Fruit Dimensions = 3.375 - 3.875 inch",
     Botanical: "Punica granatum",
     Created_at: "2007-10-29 23:00:00",
-  },
-  3129: {
+  }),
+  3129: new PLU({
     Plu: 3129,
     Type: "Global",
     Category: "Fruits",
@@ -1352,8 +1410,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "C.grandis",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3130: {
+  }),
+  3130: new PLU({
     Plu: 3130,
     Type: "Global",
     Category: "Vegetables",
@@ -1362,8 +1420,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucurbita pepo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3131: {
+  }),
+  3131: new PLU({
     Plu: 3131,
     Type: "Global",
     Category: "Vegetables",
@@ -1372,8 +1430,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucurbita pepo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3132: {
+  }),
+  3132: new PLU({
     Plu: 3132,
     Type: "Global",
     Category: "Vegetables",
@@ -1382,8 +1440,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucurbita pepo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3133: {
+  }),
+  3133: new PLU({
     Plu: 3133,
     Type: "Global",
     Category: "Vegetables",
@@ -1392,8 +1450,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucurbita pepo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3134: {
+  }),
+  3134: new PLU({
     Plu: 3134,
     Type: "Global",
     Category: "Vegetables",
@@ -1402,8 +1460,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucurbita pepo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3135: {
+  }),
+  3135: new PLU({
     Plu: 3135,
     Type: "Global",
     Category: "Vegetables",
@@ -1412,8 +1470,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Trichosarthes cucumerina",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3136: {
+  }),
+  3136: new PLU({
     Plu: 3136,
     Type: "Global",
     Category: "Fruits",
@@ -1421,8 +1479,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Manilkara zapote",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3137: {
+  }),
+  3137: new PLU({
     Plu: 3137,
     Type: "Global",
     Category: "Fruits",
@@ -1431,8 +1489,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Casimiroa edulis",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3138: {
+  }),
+  3138: new PLU({
     Plu: 3138,
     Type: "Global",
     Category: "Fruits",
@@ -1441,8 +1499,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Diospyros digyna",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3139: {
+  }),
+  3139: new PLU({
     Plu: 3139,
     Type: "Global",
     Category: "Herbs",
@@ -1450,8 +1508,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Satureja spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3140: {
+  }),
+  3140: new PLU({
     Plu: 3140,
     Type: "Global",
     Category: "Vegetables",
@@ -1460,8 +1518,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "C.pepo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3141: {
+  }),
+  3141: new PLU({
     Plu: 3141,
     Type: "Global",
     Category: "Vegetables",
@@ -1470,8 +1528,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Langenaria siceraria",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3142: {
+  }),
+  3142: new PLU({
     Plu: 3142,
     Type: "Global",
     Category: "Vegetables",
@@ -1480,8 +1538,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "C.pepo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3143: {
+  }),
+  3143: new PLU({
     Plu: 3143,
     Type: "Global",
     Category: "Vegetables",
@@ -1490,8 +1548,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "C.pepo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3144: {
+  }),
+  3144: new PLU({
     Plu: 3144,
     Type: "Global",
     Category: "Fruits",
@@ -1500,8 +1558,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Citrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3145: {
+  }),
+  3145: new PLU({
     Plu: 3145,
     Type: "Global",
     Category: "Vegetables",
@@ -1510,8 +1568,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Lycopersicon esculenta",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3146: {
+  }),
+  3146: new PLU({
     Plu: 3146,
     Type: "Global",
     Category: "Vegetables",
@@ -1521,8 +1579,8 @@ export const PLU = {
     Measures_row: "Up to and including 35mm diam",
     Botanical: "Lycopersicon esculenta",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3147: {
+  }),
+  3147: new PLU({
     Plu: 3147,
     Type: "Global",
     Category: "Vegetables",
@@ -1532,8 +1590,8 @@ export const PLU = {
     Measures_row: "Up to and including 35mm diam",
     Botanical: "Lycopersicon esculenta",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3148: {
+  }),
+  3148: new PLU({
     Plu: 3148,
     Type: "Global",
     Category: "Vegetables",
@@ -1542,8 +1600,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Lycopersicon esculenta",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3149: {
+  }),
+  3149: new PLU({
     Plu: 3149,
     Type: "Global",
     Category: "Vegetables",
@@ -1552,8 +1610,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Lycopersicon esculenta",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3150: {
+  }),
+  3150: new PLU({
     Plu: 3150,
     Type: "Global",
     Category: "Vegetables",
@@ -1563,8 +1621,8 @@ export const PLU = {
     Measures_row: "35 - 40mm diameter",
     Botanical: "Lycopersicon esculenta",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3151: {
+  }),
+  3151: new PLU({
     Plu: 3151,
     Type: "Global",
     Category: "Vegetables",
@@ -1575,8 +1633,8 @@ export const PLU = {
     Measures_row: "Diameter 70mm and above",
     Botanical: "Lycopersicon esculenta",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3152: {
+  }),
+  3152: new PLU({
     Plu: 3152,
     Type: "Global",
     Category: "Fruits",
@@ -1585,8 +1643,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "C.grandis",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3153: {
+  }),
+  3153: new PLU({
     Plu: 3153,
     Type: "Global",
     Category: "Fruits",
@@ -1597,8 +1655,8 @@ export const PLU = {
     Measures_row: "Average Fruit Dimensions = 66mm - under 84mm",
     Botanical: "Citrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3154: {
+  }),
+  3154: new PLU({
     Plu: 3154,
     Type: "Global",
     Category: "Fruits",
@@ -1609,8 +1667,8 @@ export const PLU = {
     Measures_row: "Average Fruit Dimensions = 84mm and above",
     Botanical: "Citrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3155: {
+  }),
+  3155: new PLU({
     Plu: 3155,
     Type: "Global",
     Category: "Fruits",
@@ -1621,8 +1679,8 @@ export const PLU = {
     Measures_row: "Average Fruit Dimensions = 66mm - under 84mm",
     Botanical: "Citrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3156: {
+  }),
+  3156: new PLU({
     Plu: 3156,
     Type: "Global",
     Category: "Fruits",
@@ -1633,8 +1691,8 @@ export const PLU = {
     Measures_row: "Average Fruit Dimensions = 84mm and above",
     Botanical: "Citrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3157: {
+  }),
+  3157: new PLU({
     Plu: 3157,
     Type: "Global",
     Category: "Fruits",
@@ -1645,8 +1703,8 @@ export const PLU = {
     Restrictions: "Restricted for items grown east of the Mississippi River in the U.S or east of the Ontario/Manitoba border in Canada.",
     Botanical: "Citrus paradisi",
     Created_at: "2002-05-01 22:00:00",
-  },
-  3158: {
+  }),
+  3158: new PLU({
     Plu: 3158,
     Type: "Global",
     Category: "Fruits",
@@ -1657,8 +1715,8 @@ export const PLU = {
     Restrictions: "Restricted for items grown in Texas, Arizona and New Mexico in the U.S.",
     Botanical: "Citrus paradisi",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3159: {
+  }),
+  3159: new PLU({
     Plu: 3159,
     Type: "Global",
     Category: "Fruits",
@@ -1669,8 +1727,8 @@ export const PLU = {
     Measures_row: "Average Fruit Dimensions = 108mm and above",
     Botanical: "Citrus paradisi",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3160: {
+  }),
+  3160: new PLU({
     Plu: 3160,
     Type: "Global",
     Category: "Vegetables",
@@ -1679,8 +1737,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Brassica oleracea",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3161: {
+  }),
+  3161: new PLU({
     Plu: 3161,
     Type: "Global",
     Category: "Vegetables",
@@ -1689,8 +1747,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Brassica juncea",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3162: {
+  }),
+  3162: new PLU({
     Plu: 3162,
     Type: "Global",
     Category: "Vegetables",
@@ -1699,8 +1757,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Ipomoea aquatica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3163: {
+  }),
+  3163: new PLU({
     Plu: 3163,
     Type: "Global",
     Category: "Vegetables",
@@ -1709,8 +1767,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Brassica rapa",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3164: {
+  }),
+  3164: new PLU({
     Plu: 3164,
     Type: "Global",
     Category: "Vegetables",
@@ -1718,8 +1776,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Brassica rapa",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3165: {
+  }),
+  3165: new PLU({
     Plu: 3165,
     Type: "Global",
     Category: "Vegetables",
@@ -1728,8 +1786,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cichorium intybus",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3166: {
+  }),
+  3166: new PLU({
     Plu: 3166,
     Type: "Global",
     Category: "Vegetables",
@@ -1740,8 +1798,8 @@ export const PLU = {
     Botanical: "Brassica oleracea",
     Aka: "Lacinato Kale",
     Created_at: "2013-05-05 22:00:00",
-  },
-  3167: {
+  }),
+  3167: new PLU({
     Plu: 3167,
     Type: "Global",
     Category: "Vegetables",
@@ -1749,8 +1807,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cichorium endivia",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3168: {
+  }),
+  3168: new PLU({
     Plu: 3168,
     Type: "Global",
     Category: "Vegetables",
@@ -1759,8 +1817,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cichorium intybus",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3169: {
+  }),
+  3169: new PLU({
     Plu: 3169,
     Type: "Global",
     Category: "Vegetables",
@@ -1769,8 +1827,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Lactuca sativa",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3170: {
+  }),
+  3170: new PLU({
     Plu: 3170,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -1778,8 +1836,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3171: {
+  }),
+  3171: new PLU({
     Plu: 3171,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -1787,8 +1845,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3172: {
+  }),
+  3172: new PLU({
     Plu: 3172,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -1796,8 +1854,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3173: {
+  }),
+  3173: new PLU({
     Plu: 3173,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -1805,8 +1863,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3174: {
+  }),
+  3174: new PLU({
     Plu: 3174,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -1814,8 +1872,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3175: {
+  }),
+  3175: new PLU({
     Plu: 3175,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -1823,8 +1881,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3176: {
+  }),
+  3176: new PLU({
     Plu: 3176,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -1832,8 +1890,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3177: {
+  }),
+  3177: new PLU({
     Plu: 3177,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -1841,8 +1899,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3178: {
+  }),
+  3178: new PLU({
     Plu: 3178,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -1850,8 +1908,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3179: {
+  }),
+  3179: new PLU({
     Plu: 3179,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -1859,8 +1917,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3180: {
+  }),
+  3180: new PLU({
     Plu: 3180,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -1868,8 +1926,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3181: {
+  }),
+  3181: new PLU({
     Plu: 3181,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -1877,8 +1935,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3182: {
+  }),
+  3182: new PLU({
     Plu: 3182,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -1886,8 +1944,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3183: {
+  }),
+  3183: new PLU({
     Plu: 3183,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -1895,8 +1953,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3184: {
+  }),
+  3184: new PLU({
     Plu: 3184,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -1904,8 +1962,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3185: {
+  }),
+  3185: new PLU({
     Plu: 3185,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -1913,8 +1971,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3186: {
+  }),
+  3186: new PLU({
     Plu: 3186,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -1922,8 +1980,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3187: {
+  }),
+  3187: new PLU({
     Plu: 3187,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -1931,8 +1989,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3188: {
+  }),
+  3188: new PLU({
     Plu: 3188,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -1940,8 +1998,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3189: {
+  }),
+  3189: new PLU({
     Plu: 3189,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -1949,8 +2007,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3190: {
+  }),
+  3190: new PLU({
     Plu: 3190,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -1958,8 +2016,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3191: {
+  }),
+  3191: new PLU({
     Plu: 3191,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -1967,8 +2025,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3192: {
+  }),
+  3192: new PLU({
     Plu: 3192,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -1976,8 +2034,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3193: {
+  }),
+  3193: new PLU({
     Plu: 3193,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -1985,8 +2043,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3194: {
+  }),
+  3194: new PLU({
     Plu: 3194,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -1994,8 +2052,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3195: {
+  }),
+  3195: new PLU({
     Plu: 3195,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2003,8 +2061,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3196: {
+  }),
+  3196: new PLU({
     Plu: 3196,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2012,8 +2070,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3197: {
+  }),
+  3197: new PLU({
     Plu: 3197,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2021,8 +2079,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3198: {
+  }),
+  3198: new PLU({
     Plu: 3198,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2030,8 +2088,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3199: {
+  }),
+  3199: new PLU({
     Plu: 3199,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2039,8 +2097,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3200: {
+  }),
+  3200: new PLU({
     Plu: 3200,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2048,8 +2106,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3201: {
+  }),
+  3201: new PLU({
     Plu: 3201,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2057,8 +2115,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3202: {
+  }),
+  3202: new PLU({
     Plu: 3202,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2066,8 +2124,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3203: {
+  }),
+  3203: new PLU({
     Plu: 3203,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2075,8 +2133,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3204: {
+  }),
+  3204: new PLU({
     Plu: 3204,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2084,8 +2142,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3205: {
+  }),
+  3205: new PLU({
     Plu: 3205,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2093,8 +2151,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3206: {
+  }),
+  3206: new PLU({
     Plu: 3206,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2102,8 +2160,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3207: {
+  }),
+  3207: new PLU({
     Plu: 3207,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2111,8 +2169,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3208: {
+  }),
+  3208: new PLU({
     Plu: 3208,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2120,8 +2178,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3209: {
+  }),
+  3209: new PLU({
     Plu: 3209,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2129,8 +2187,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3210: {
+  }),
+  3210: new PLU({
     Plu: 3210,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2138,8 +2196,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3211: {
+  }),
+  3211: new PLU({
     Plu: 3211,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2147,8 +2205,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3212: {
+  }),
+  3212: new PLU({
     Plu: 3212,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2156,8 +2214,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3213: {
+  }),
+  3213: new PLU({
     Plu: 3213,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2165,8 +2223,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3214: {
+  }),
+  3214: new PLU({
     Plu: 3214,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2174,8 +2232,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3215: {
+  }),
+  3215: new PLU({
     Plu: 3215,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2183,8 +2241,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3216: {
+  }),
+  3216: new PLU({
     Plu: 3216,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2192,8 +2250,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3217: {
+  }),
+  3217: new PLU({
     Plu: 3217,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2201,8 +2259,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3218: {
+  }),
+  3218: new PLU({
     Plu: 3218,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2210,8 +2268,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3219: {
+  }),
+  3219: new PLU({
     Plu: 3219,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2219,8 +2277,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3220: {
+  }),
+  3220: new PLU({
     Plu: 3220,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2228,8 +2286,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3221: {
+  }),
+  3221: new PLU({
     Plu: 3221,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2237,8 +2295,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3222: {
+  }),
+  3222: new PLU({
     Plu: 3222,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2246,8 +2304,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3223: {
+  }),
+  3223: new PLU({
     Plu: 3223,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2255,8 +2313,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3224: {
+  }),
+  3224: new PLU({
     Plu: 3224,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2264,8 +2322,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3225: {
+  }),
+  3225: new PLU({
     Plu: 3225,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2273,8 +2331,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3226: {
+  }),
+  3226: new PLU({
     Plu: 3226,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2282,8 +2340,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3227: {
+  }),
+  3227: new PLU({
     Plu: 3227,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2291,8 +2349,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3228: {
+  }),
+  3228: new PLU({
     Plu: 3228,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2300,8 +2358,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3229: {
+  }),
+  3229: new PLU({
     Plu: 3229,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2309,8 +2367,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3230: {
+  }),
+  3230: new PLU({
     Plu: 3230,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2318,8 +2376,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3231: {
+  }),
+  3231: new PLU({
     Plu: 3231,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2327,8 +2385,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3232: {
+  }),
+  3232: new PLU({
     Plu: 3232,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2336,8 +2394,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3233: {
+  }),
+  3233: new PLU({
     Plu: 3233,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2345,8 +2403,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3234: {
+  }),
+  3234: new PLU({
     Plu: 3234,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2354,8 +2412,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3235: {
+  }),
+  3235: new PLU({
     Plu: 3235,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2363,8 +2421,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3236: {
+  }),
+  3236: new PLU({
     Plu: 3236,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2372,8 +2430,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3237: {
+  }),
+  3237: new PLU({
     Plu: 3237,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2381,8 +2439,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3238: {
+  }),
+  3238: new PLU({
     Plu: 3238,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2390,8 +2448,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3239: {
+  }),
+  3239: new PLU({
     Plu: 3239,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2399,8 +2457,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3240: {
+  }),
+  3240: new PLU({
     Plu: 3240,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2408,8 +2466,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3241: {
+  }),
+  3241: new PLU({
     Plu: 3241,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2417,8 +2475,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3242: {
+  }),
+  3242: new PLU({
     Plu: 3242,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2426,8 +2484,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3243: {
+  }),
+  3243: new PLU({
     Plu: 3243,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2435,8 +2493,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3244: {
+  }),
+  3244: new PLU({
     Plu: 3244,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2444,8 +2502,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3245: {
+  }),
+  3245: new PLU({
     Plu: 3245,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2453,8 +2511,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3246: {
+  }),
+  3246: new PLU({
     Plu: 3246,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2462,8 +2520,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3247: {
+  }),
+  3247: new PLU({
     Plu: 3247,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2471,8 +2529,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3248: {
+  }),
+  3248: new PLU({
     Plu: 3248,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2480,8 +2538,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3249: {
+  }),
+  3249: new PLU({
     Plu: 3249,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2489,8 +2547,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3250: {
+  }),
+  3250: new PLU({
     Plu: 3250,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2498,8 +2556,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3251: {
+  }),
+  3251: new PLU({
     Plu: 3251,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2507,8 +2565,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3252: {
+  }),
+  3252: new PLU({
     Plu: 3252,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2516,8 +2574,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3253: {
+  }),
+  3253: new PLU({
     Plu: 3253,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2525,8 +2583,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3254: {
+  }),
+  3254: new PLU({
     Plu: 3254,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2534,8 +2592,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3255: {
+  }),
+  3255: new PLU({
     Plu: 3255,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2543,8 +2601,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3256: {
+  }),
+  3256: new PLU({
     Plu: 3256,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2552,8 +2610,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3257: {
+  }),
+  3257: new PLU({
     Plu: 3257,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2561,8 +2619,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3258: {
+  }),
+  3258: new PLU({
     Plu: 3258,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2570,8 +2628,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3259: {
+  }),
+  3259: new PLU({
     Plu: 3259,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2579,8 +2637,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3260: {
+  }),
+  3260: new PLU({
     Plu: 3260,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2588,8 +2646,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3261: {
+  }),
+  3261: new PLU({
     Plu: 3261,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2597,8 +2655,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3262: {
+  }),
+  3262: new PLU({
     Plu: 3262,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2606,8 +2664,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3263: {
+  }),
+  3263: new PLU({
     Plu: 3263,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2615,8 +2673,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3264: {
+  }),
+  3264: new PLU({
     Plu: 3264,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2624,8 +2682,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3265: {
+  }),
+  3265: new PLU({
     Plu: 3265,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2633,8 +2691,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3266: {
+  }),
+  3266: new PLU({
     Plu: 3266,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2642,8 +2700,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3267: {
+  }),
+  3267: new PLU({
     Plu: 3267,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2651,8 +2709,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3268: {
+  }),
+  3268: new PLU({
     Plu: 3268,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2660,8 +2718,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3269: {
+  }),
+  3269: new PLU({
     Plu: 3269,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2669,8 +2727,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3270: {
+  }),
+  3270: new PLU({
     Plu: 3270,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -2678,8 +2736,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3271: {
+  }),
+  3271: new PLU({
     Plu: 3271,
     Type: "Global",
     Category: "Fruits",
@@ -2688,8 +2746,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3272: {
+  }),
+  3272: new PLU({
     Plu: 3272,
     Type: "Global",
     Category: "Fruits",
@@ -2698,8 +2756,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3273: {
+  }),
+  3273: new PLU({
     Plu: 3273,
     Type: "Global",
     Category: "Vegetables",
@@ -2708,8 +2766,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Beta vulgaris",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3274: {
+  }),
+  3274: new PLU({
     Plu: 3274,
     Type: "Global",
     Category: "Fruits",
@@ -2718,8 +2776,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Prunus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3275: {
+  }),
+  3275: new PLU({
     Plu: 3275,
     Type: "Global",
     Category: "Vegetables",
@@ -2728,8 +2786,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Dioscorea trifidia",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3276: {
+  }),
+  3276: new PLU({
     Plu: 3276,
     Type: "Global",
     Category: "Vegetables",
@@ -2738,8 +2796,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Dioscorea trifidia",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3277: {
+  }),
+  3277: new PLU({
     Plu: 3277,
     Type: "Global",
     Category: "Vegetables",
@@ -2748,8 +2806,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Brassica oleracea",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3278: {
+  }),
+  3278: new PLU({
     Plu: 3278,
     Type: "Global",
     Category: "Fruits",
@@ -2759,8 +2817,8 @@ export const PLU = {
     Botanical: "Prunus spp.",
     Aka: "Pluot®",
     Created_at: "2008-06-02 22:00:00",
-  },
-  3279: {
+  }),
+  3279: new PLU({
     Plu: 3279,
     Type: "Global",
     Category: "Fruits",
@@ -2769,8 +2827,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "A.chinensis",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3280: {
+  }),
+  3280: new PLU({
     Plu: 3280,
     Type: "Global",
     Category: "Fruits",
@@ -2781,8 +2839,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight =  150g and above",
     Botanical: "Actinidia deliciosa",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3281: {
+  }),
+  3281: new PLU({
     Plu: 3281,
     Type: "Global",
     Category: "Fruits",
@@ -2791,8 +2849,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Citrullus lanatus",
     Created_at: "1999-12-31 23:00:00",
-  },
-  3282: {
+  }),
+  3282: new PLU({
     Plu: 3282,
     Type: "Global",
     Category: "Vegetables",
@@ -2801,8 +2859,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Lycopersicon esculenta",
     Created_at: "1999-12-31 23:00:00",
-  },
-  3283: {
+  }),
+  3283: new PLU({
     Plu: 3283,
     Type: "Global",
     Category: "Fruits",
@@ -2813,8 +2871,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
     Created_at: "1999-12-31 23:00:00",
-  },
-  3284: {
+  }),
+  3284: new PLU({
     Plu: 3284,
     Type: "Global",
     Category: "Fruits",
@@ -2825,8 +2883,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
     Created_at: "1999-12-31 23:00:00",
-  },
-  3285: {
+  }),
+  3285: new PLU({
     Plu: 3285,
     Type: "Global",
     Category: "Fruits",
@@ -2837,8 +2895,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
     Created_at: "1999-12-31 23:00:00",
-  },
-  3286: {
+  }),
+  3286: new PLU({
     Plu: 3286,
     Type: "Global",
     Category: "Vegetables",
@@ -2847,8 +2905,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Allium spp.",
     Created_at: "1999-12-31 23:00:00",
-  },
-  3287: {
+  }),
+  3287: new PLU({
     Plu: 3287,
     Type: "Global",
     Category: "Fruits",
@@ -2857,8 +2915,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Musa spp.",
     Created_at: "1999-12-31 23:00:00",
-  },
-  3288: {
+  }),
+  3288: new PLU({
     Plu: 3288,
     Type: "Global",
     Category: "Vegetables",
@@ -2868,8 +2926,8 @@ export const PLU = {
     Restrictions: "Terminology used to include both sweet potato and yam",
     Botanical: "Ipomoea batato",
     Created_at: "2009-06-09 22:00:00",
-  },
-  3289: {
+  }),
+  3289: new PLU({
     Plu: 3289,
     Type: "Global",
     Category: "Fruits",
@@ -2878,8 +2936,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucumis melo",
     Created_at: "2002-05-01 22:00:00",
-  },
-  3290: {
+  }),
+  3290: new PLU({
     Plu: 3290,
     Type: "Global",
     Category: "Fruits",
@@ -2890,8 +2948,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3291: {
+  }),
+  3291: new PLU({
     Plu: 3291,
     Type: "Global",
     Category: "Fruits",
@@ -2902,8 +2960,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3292: {
+  }),
+  3292: new PLU({
     Plu: 3292,
     Type: "Global",
     Category: "Fruits",
@@ -2914,8 +2972,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3293: {
+  }),
+  3293: new PLU({
     Plu: 3293,
     Type: "Global",
     Category: "Fruits",
@@ -2927,8 +2985,8 @@ export const PLU = {
     Botanical: "Malus domestica",
     Aka: "Jazz",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3294: {
+  }),
+  3294: new PLU({
     Plu: 3294,
     Type: "Global",
     Category: "Fruits",
@@ -2940,8 +2998,8 @@ export const PLU = {
     Botanical: "Malus domestica",
     Aka: "Jazz",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3295: {
+  }),
+  3295: new PLU({
     Plu: 3295,
     Type: "Global",
     Category: "Fruits",
@@ -2953,8 +3011,8 @@ export const PLU = {
     Botanical: "Malus domestica",
     Aka: "Pacific Beauty",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3296: {
+  }),
+  3296: new PLU({
     Plu: 3296,
     Type: "Global",
     Category: "Fruits",
@@ -2966,8 +3024,8 @@ export const PLU = {
     Botanical: "Malus domestica",
     Aka: "Pacific Beauty",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3297: {
+  }),
+  3297: new PLU({
     Plu: 3297,
     Type: "Global",
     Category: "Fruits",
@@ -2977,8 +3035,8 @@ export const PLU = {
     Botanical: "Malus domestica",
     Aka: "Pacific Queen",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3298: {
+  }),
+  3298: new PLU({
     Plu: 3298,
     Type: "Global",
     Category: "Fruits",
@@ -2988,8 +3046,8 @@ export const PLU = {
     Botanical: "Malus domestica",
     Aka: "Mahana Red",
     Created_at: "2012-12-20 23:00:00",
-  },
-  3299: {
+  }),
+  3299: new PLU({
     Plu: 3299,
     Type: "Global",
     Category: "Fruits",
@@ -3000,8 +3058,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3300: {
+  }),
+  3300: new PLU({
     Plu: 3300,
     Type: "Global",
     Category: "Fruits",
@@ -3012,8 +3070,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3301: {
+  }),
+  3301: new PLU({
     Plu: 3301,
     Type: "Global",
     Category: "Fruits",
@@ -3025,8 +3083,8 @@ export const PLU = {
     Botanical: "Malus domestica",
     Aka: "Sundowner",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3302: {
+  }),
+  3302: new PLU({
     Plu: 3302,
     Type: "Global",
     Category: "Fruits",
@@ -3036,16 +3094,16 @@ export const PLU = {
     Measures_na: "Greater than or equal to 2-3/16 inch, Greater than or equal to 55 mm Average Fruit Dimensions",
     Botanical: "Prunus armeniaca",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3303: {
+  }),
+  3303: new PLU({
     Plu: 3303,
     Type: "Global",
     Category: "Fruits",
     Commodity: "BABACO",
     Size: "All Sizes",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3304: {
+  }),
+  3304: new PLU({
     Plu: 3304,
     Type: "Global",
     Category: "Fruits",
@@ -3054,8 +3112,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Rubus loganobaccus",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3305: {
+  }),
+  3305: new PLU({
     Plu: 3305,
     Type: "Global",
     Category: "Fruits",
@@ -3064,8 +3122,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Ribes nigrum",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3306: {
+  }),
+  3306: new PLU({
     Plu: 3306,
     Type: "Global",
     Category: "Fruits",
@@ -3074,8 +3132,8 @@ export const PLU = {
     Size: "Medium",
     Botanical: "Cucumis melo",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3307: {
+  }),
+  3307: new PLU({
     Plu: 3307,
     Type: "Global",
     Category: "Fruits",
@@ -3084,8 +3142,8 @@ export const PLU = {
     Size: "Extra Large",
     Botanical: "Cucumis melo",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3308: {
+  }),
+  3308: new PLU({
     Plu: 3308,
     Type: "Global",
     Category: "Fruits",
@@ -3094,8 +3152,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Citrullus lanatus",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3309: {
+  }),
+  3309: new PLU({
     Plu: 3309,
     Type: "Global",
     Category: "Fruits",
@@ -3104,8 +3162,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Citrus spp.",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3310: {
+  }),
+  3310: new PLU({
     Plu: 3310,
     Type: "Global",
     Category: "Fruits",
@@ -3114,8 +3172,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Citrus spp.",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3311: {
+  }),
+  3311: new PLU({
     Plu: 3311,
     Type: "Global",
     Category: "Fruits",
@@ -3124,8 +3182,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Passiflora mollissima",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3312: {
+  }),
+  3312: new PLU({
     Plu: 3312,
     Type: "Global",
     Category: "Fruits",
@@ -3134,8 +3192,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Passiflorae.var. flavicarpa",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3313: {
+  }),
+  3313: new PLU({
     Plu: 3313,
     Type: "Global",
     Category: "Fruits",
@@ -3144,8 +3202,8 @@ export const PLU = {
     Size: "Small",
     Botanical: "Prunus persica",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3314: {
+  }),
+  3314: new PLU({
     Plu: 3314,
     Type: "Global",
     Category: "Fruits",
@@ -3154,8 +3212,8 @@ export const PLU = {
     Size: "Large",
     Botanical: "Prunus persica",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3315: {
+  }),
+  3315: new PLU({
     Plu: 3315,
     Type: "Global",
     Category: "Fruits",
@@ -3166,8 +3224,8 @@ export const PLU = {
     Botanical: "Malus domestica",
     Aka: "ENVY",
     Created_at: "2013-05-05 22:00:00",
-  },
-  3316: {
+  }),
+  3316: new PLU({
     Plu: 3316,
     Type: "Global",
     Category: "Fruits",
@@ -3176,8 +3234,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
     Created_at: "2013-05-05 22:00:00",
-  },
-  3317: {
+  }),
+  3317: new PLU({
     Plu: 3317,
     Type: "Global",
     Category: "Fruits",
@@ -3186,8 +3244,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
     Created_at: "2013-08-20 22:00:00",
-  },
-  3318: {
+  }),
+  3318: new PLU({
     Plu: 3318,
     Type: "Global",
     Category: "Fruits",
@@ -3198,8 +3256,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = 180g and above",
     Botanical: "Pyrus spp.",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3319: {
+  }),
+  3319: new PLU({
     Plu: 3319,
     Type: "Global",
     Category: "Fruits",
@@ -3208,8 +3266,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Hylocereus lindatus",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3320: {
+  }),
+  3320: new PLU({
     Plu: 3320,
     Type: "Global",
     Category: "Vegetables",
@@ -3218,8 +3276,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Brassica oleracea",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3321: {
+  }),
+  3321: new PLU({
     Plu: 3321,
     Type: "Global",
     Category: "Vegetables",
@@ -3228,8 +3286,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Apium graveolens",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3322: {
+  }),
+  3322: new PLU({
     Plu: 3322,
     Type: "Global",
     Category: "Vegetables",
@@ -3237,8 +3295,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Brassica rapa",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3323: {
+  }),
+  3323: new PLU({
     Plu: 3323,
     Type: "Global",
     Category: "Vegetables",
@@ -3247,8 +3305,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Brassica rapa",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3324: {
+  }),
+  3324: new PLU({
     Plu: 3324,
     Type: "Global",
     Category: "Vegetables",
@@ -3257,8 +3315,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cichorium endivia",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3325: {
+  }),
+  3325: new PLU({
     Plu: 3325,
     Type: "Global",
     Category: "Vegetables",
@@ -3267,8 +3325,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Lactuca sativa",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3326: {
+  }),
+  3326: new PLU({
     Plu: 3326,
     Type: "Global",
     Category: "Vegetables",
@@ -3277,8 +3335,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Lactuca sativa",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3327: {
+  }),
+  3327: new PLU({
     Plu: 3327,
     Type: "Global",
     Category: "Vegetables",
@@ -3287,8 +3345,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Lactuca sativa",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3328: {
+  }),
+  3328: new PLU({
     Plu: 3328,
     Type: "Global",
     Category: "Vegetables",
@@ -3297,8 +3355,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Lactuca sativa",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3329: {
+  }),
+  3329: new PLU({
     Plu: 3329,
     Type: "Global",
     Category: "Vegetables",
@@ -3307,8 +3365,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Lactuca sativa",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3330: {
+  }),
+  3330: new PLU({
     Plu: 3330,
     Type: "Global",
     Category: "Vegetables",
@@ -3317,8 +3375,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Lactuca sativa",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3331: {
+  }),
+  3331: new PLU({
     Plu: 3331,
     Type: "Global",
     Category: "Vegetables",
@@ -3327,8 +3385,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Allium spp.",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3332: {
+  }),
+  3332: new PLU({
     Plu: 3332,
     Type: "Global",
     Category: "Vegetables",
@@ -3337,8 +3395,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Spinach oleracea",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3333: {
+  }),
+  3333: new PLU({
     Plu: 3333,
     Type: "Global",
     Category: "Vegetables",
@@ -3347,8 +3405,8 @@ export const PLU = {
     Size: "Small",
     Botanical: "Ipomoea batato",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3334: {
+  }),
+  3334: new PLU({
     Plu: 3334,
     Type: "Global",
     Category: "Vegetables",
@@ -3357,8 +3415,8 @@ export const PLU = {
     Size: "Large",
     Botanical: "Ipomoea batato",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3335: {
+  }),
+  3335: new PLU({
     Plu: 3335,
     Type: "Global",
     Category: "Vegetables",
@@ -3367,8 +3425,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Lycopersicon esculenta",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3336: {
+  }),
+  3336: new PLU({
     Plu: 3336,
     Type: "Global",
     Category: "Vegetables",
@@ -3377,8 +3435,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Lycopersicon esculenta",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3337: {
+  }),
+  3337: new PLU({
     Plu: 3337,
     Type: "Global",
     Category: "Dried Fruits",
@@ -3387,16 +3445,16 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Ficus carica",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3338: {
+  }),
+  3338: new PLU({
     Plu: 3338,
     Type: "Global",
     Category: "Herbs",
     Commodity: "ANISE",
     Size: "All Sizes",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3339: {
+  }),
+  3339: new PLU({
     Plu: 3339,
     Type: "Global",
     Category: "Fruits",
@@ -3405,8 +3463,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "2004-10-31 23:00:00",
-  },
-  3340: {
+  }),
+  3340: new PLU({
     Plu: 3340,
     Type: "Global",
     Category: "Fruits",
@@ -3415,8 +3473,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "2004-10-31 23:00:00",
-  },
-  3341: {
+  }),
+  3341: new PLU({
     Plu: 3341,
     Type: "Global",
     Category: "Fruits",
@@ -3425,8 +3483,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "2004-10-31 23:00:00",
-  },
-  3342: {
+  }),
+  3342: new PLU({
     Plu: 3342,
     Type: "Global",
     Category: "Fruits",
@@ -3436,8 +3494,8 @@ export const PLU = {
     Botanical: "Malus domestica",
     Aka: "Tentation",
     Created_at: "2004-10-31 23:00:00",
-  },
-  3343: {
+  }),
+  3343: new PLU({
     Plu: 3343,
     Type: "Global",
     Category: "Fruits",
@@ -3446,8 +3504,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "2004-10-31 23:00:00",
-  },
-  3344: {
+  }),
+  3344: new PLU({
     Plu: 3344,
     Type: "Global",
     Category: "Fruits",
@@ -3458,8 +3516,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
     Created_at: "2004-10-31 23:00:00",
-  },
-  3345: {
+  }),
+  3345: new PLU({
     Plu: 3345,
     Type: "Global",
     Category: "Fruits",
@@ -3470,8 +3528,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
     Created_at: "2004-10-31 23:00:00",
-  },
-  3346: {
+  }),
+  3346: new PLU({
     Plu: 3346,
     Type: "Global",
     Category: "Fruits",
@@ -3480,8 +3538,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "2004-10-31 23:00:00",
-  },
-  3347: {
+  }),
+  3347: new PLU({
     Plu: 3347,
     Type: "Global",
     Category: "Fruits",
@@ -3490,8 +3548,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "2004-10-31 23:00:00",
-  },
-  3348: {
+  }),
+  3348: new PLU({
     Plu: 3348,
     Type: "Global",
     Category: "Fruits",
@@ -3500,8 +3558,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "2004-10-31 23:00:00",
-  },
-  3349: {
+  }),
+  3349: new PLU({
     Plu: 3349,
     Type: "Global",
     Category: "Fruits",
@@ -3510,8 +3568,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "2004-10-31 23:00:00",
-  },
-  3350: {
+  }),
+  3350: new PLU({
     Plu: 3350,
     Type: "Global",
     Category: "Fruits",
@@ -3522,8 +3580,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
     Created_at: "2004-10-31 23:00:00",
-  },
-  3351: {
+  }),
+  3351: new PLU({
     Plu: 3351,
     Type: "Global",
     Category: "Fruits",
@@ -3534,8 +3592,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
     Created_at: "2004-10-31 23:00:00",
-  },
-  3352: {
+  }),
+  3352: new PLU({
     Plu: 3352,
     Type: "Global",
     Category: "Fruits",
@@ -3544,8 +3602,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "2004-10-31 23:00:00",
-  },
-  3353: {
+  }),
+  3353: new PLU({
     Plu: 3353,
     Type: "Global",
     Category: "Fruits",
@@ -3554,8 +3612,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "2004-10-31 23:00:00",
-  },
-  3354: {
+  }),
+  3354: new PLU({
     Plu: 3354,
     Type: "Global",
     Category: "Fruits",
@@ -3565,8 +3623,8 @@ export const PLU = {
     Restrictions: "Restricted from ANY use in Canada or the U.S.",
     Botanical: "Persea americana",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3355: {
+  }),
+  3355: new PLU({
     Plu: 3355,
     Type: "Global",
     Category: "Fruits",
@@ -3576,8 +3634,8 @@ export const PLU = {
     Restrictions: "Restricted from ANY use in Canada or the U.S.",
     Botanical: "Fragaria ananassa",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3356: {
+  }),
+  3356: new PLU({
     Plu: 3356,
     Type: "Global",
     Category: "Fruits",
@@ -3587,8 +3645,8 @@ export const PLU = {
     Restrictions: "Restricted from ANY use in Canada or the U.S.",
     Botanical: "Fragaria ananassa",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3357: {
+  }),
+  3357: new PLU({
     Plu: 3357,
     Type: "Global",
     Category: "Fruits",
@@ -3598,8 +3656,8 @@ export const PLU = {
     Restrictions: "Restricted from ANY use in Canada or the U.S.",
     Botanical: "Prunus avium",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3358: {
+  }),
+  3358: new PLU({
     Plu: 3358,
     Type: "Global",
     Category: "Fruits",
@@ -3609,8 +3667,8 @@ export const PLU = {
     Restrictions: "Restricted from ANY use in Canada or the U.S.",
     Botanical: "Prunus avium",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3359: {
+  }),
+  3359: new PLU({
     Plu: 3359,
     Type: "Global",
     Category: "Fruits",
@@ -3619,8 +3677,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Vitis vinifera",
     Created_at: "2004-10-31 23:00:00",
-  },
-  3360: {
+  }),
+  3360: new PLU({
     Plu: 3360,
     Type: "Global",
     Category: "Fruits",
@@ -3629,8 +3687,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Vitis vinifera",
     Created_at: "2004-10-31 23:00:00",
-  },
-  3361: {
+  }),
+  3361: new PLU({
     Plu: 3361,
     Type: "Global",
     Category: "Fruits",
@@ -3640,8 +3698,8 @@ export const PLU = {
     Restrictions: "Restricted from ANY use in Canada or the U.S.",
     Botanical: "Citrus paradisi",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3362: {
+  }),
+  3362: new PLU({
     Plu: 3362,
     Type: "Global",
     Category: "Fruits",
@@ -3651,8 +3709,8 @@ export const PLU = {
     Restrictions: "Restricted from ANY use in Canada or the U.S.",
     Botanical: "Citrus limon",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3363: {
+  }),
+  3363: new PLU({
     Plu: 3363,
     Type: "Global",
     Category: "Fruits",
@@ -3662,8 +3720,8 @@ export const PLU = {
     Botanical: "Mangifera indica",
     Aka: "Bowen",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3364: {
+  }),
+  3364: new PLU({
     Plu: 3364,
     Type: "Global",
     Category: "Fruits",
@@ -3672,8 +3730,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Mangifera indica",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3365: {
+  }),
+  3365: new PLU({
     Plu: 3365,
     Type: "Global",
     Category: "Fruits",
@@ -3683,8 +3741,8 @@ export const PLU = {
     Restrictions: "Restricted from ANY use in Canada or the U.S.",
     Botanical: "Mangifera indica",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3366: {
+  }),
+  3366: new PLU({
     Plu: 3366,
     Type: "LA",
     Category: "Fruits",
@@ -3692,8 +3750,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Arbutus unedo",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3367: {
+  }),
+  3367: new PLU({
     Plu: 3367,
     Type: "Global",
     Category: "Fruits",
@@ -3703,8 +3761,8 @@ export const PLU = {
     Restrictions: "Restricted from ANY use in Canada or the U.S.",
     Botanical: "Cucumis melo",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3368: {
+  }),
+  3368: new PLU({
     Plu: 3368,
     Type: "Global",
     Category: "Fruits",
@@ -3713,8 +3771,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucumis melo",
     Created_at: "2004-10-31 23:00:00",
-  },
-  3369: {
+  }),
+  3369: new PLU({
     Plu: 3369,
     Type: "Global",
     Category: "Fruits",
@@ -3723,8 +3781,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Prunus persica",
     Created_at: "2004-10-31 23:00:00",
-  },
-  3370: {
+  }),
+  3370: new PLU({
     Plu: 3370,
     Type: "Global",
     Category: "Fruits",
@@ -3733,8 +3791,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Citrus spp.",
     Created_at: "2004-10-31 23:00:00",
-  },
-  3371: {
+  }),
+  3371: new PLU({
     Plu: 3371,
     Type: "Global",
     Category: "Fruits",
@@ -3743,8 +3801,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Citrus spp.",
     Created_at: "2004-10-31 23:00:00",
-  },
-  3372: {
+  }),
+  3372: new PLU({
     Plu: 3372,
     Type: "EMEA",
     Category: "Fruits",
@@ -3753,8 +3811,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Citrus spp.",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3373: {
+  }),
+  3373: new PLU({
     Plu: 3373,
     Type: "Global",
     Category: "Fruits",
@@ -3763,8 +3821,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Citrus spp.",
     Created_at: "2004-10-31 23:00:00",
-  },
-  3374: {
+  }),
+  3374: new PLU({
     Plu: 3374,
     Type: "Global",
     Category: "Fruits",
@@ -3774,8 +3832,8 @@ export const PLU = {
     Restrictions: "Restricted from ANY use in Canada or the U.S.",
     Botanical: "Citrus spp.",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3375: {
+  }),
+  3375: new PLU({
     Plu: 3375,
     Type: "Global",
     Category: "Fruits",
@@ -3784,8 +3842,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Prunus persica",
     Created_at: "2004-10-31 23:00:00",
-  },
-  3376: {
+  }),
+  3376: new PLU({
     Plu: 3376,
     Type: "Global",
     Category: "Fruits",
@@ -3794,8 +3852,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
     Created_at: "2004-10-31 23:00:00",
-  },
-  3377: {
+  }),
+  3377: new PLU({
     Plu: 3377,
     Type: "Global",
     Category: "Fruits",
@@ -3804,8 +3862,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
     Created_at: "2004-10-31 23:00:00",
-  },
-  3378: {
+  }),
+  3378: new PLU({
     Plu: 3378,
     Type: "Global",
     Category: "Fruits",
@@ -3814,8 +3872,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
     Created_at: "2004-10-31 23:00:00",
-  },
-  3379: {
+  }),
+  3379: new PLU({
     Plu: 3379,
     Type: "Global",
     Category: "Fruits",
@@ -3825,8 +3883,8 @@ export const PLU = {
     Restrictions: "Sizes for pineapple based on two-layer lug.",
     Botanical: "Ananas comosus",
     Created_at: "2004-10-31 23:00:00",
-  },
-  3380: {
+  }),
+  3380: new PLU({
     Plu: 3380,
     Type: "Global",
     Category: "Fruits",
@@ -3836,8 +3894,8 @@ export const PLU = {
     Restrictions: "Sizes for pineapple based on two-layer lug.",
     Botanical: "Ananas comosus",
     Created_at: "2004-10-31 23:00:00",
-  },
-  3381: {
+  }),
+  3381: new PLU({
     Plu: 3381,
     Type: "LA",
     Category: "Fruits",
@@ -3845,8 +3903,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Annona muricata",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3382: {
+  }),
+  3382: new PLU({
     Plu: 3382,
     Type: "LA",
     Category: "Fruits",
@@ -3854,8 +3912,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Annona squamosa",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3383: {
+  }),
+  3383: new PLU({
     Plu: 3383,
     Type: "Global",
     Category: "Fruits",
@@ -3865,8 +3923,8 @@ export const PLU = {
     Restrictions: "Restricted from ANY use in Canada or the U.S.",
     Botanical: "Citrus reticulata",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3384: {
+  }),
+  3384: new PLU({
     Plu: 3384,
     Type: "Global",
     Category: "Fruits",
@@ -3876,8 +3934,8 @@ export const PLU = {
     Restrictions: "Restricted from ANY use in Canada or the U.S.",
     Botanical: "Citrus reticulata",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3385: {
+  }),
+  3385: new PLU({
     Plu: 3385,
     Type: "Global",
     Category: "Fruits",
@@ -3887,8 +3945,8 @@ export const PLU = {
     Restrictions: "Restricted from ANY use in Canada or the U.S.",
     Botanical: "Citrus reticulata",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3386: {
+  }),
+  3386: new PLU({
     Plu: 3386,
     Type: "Global",
     Category: "Fruits",
@@ -3898,8 +3956,8 @@ export const PLU = {
     Restrictions: "Restricted from ANY use in Canada or the U.S.",
     Botanical: "Citrus reticulata",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3387: {
+  }),
+  3387: new PLU({
     Plu: 3387,
     Type: "Global",
     Category: "Fruits",
@@ -3909,8 +3967,8 @@ export const PLU = {
     Restrictions: "Restricted from ANY use in Canada or the U.S.",
     Botanical: "Citrus reticulata",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3388: {
+  }),
+  3388: new PLU({
     Plu: 3388,
     Type: "Global",
     Category: "Fruits",
@@ -3920,8 +3978,8 @@ export const PLU = {
     Restrictions: "Restricted from ANY use in Canada or the U.S.",
     Botanical: "Citrus unshiu",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3389: {
+  }),
+  3389: new PLU({
     Plu: 3389,
     Type: "Global",
     Category: "Fruits",
@@ -3931,8 +3989,8 @@ export const PLU = {
     Restrictions: "Restricted from ANY use in Canada or the U.S.",
     Botanical: "Citrus unshiu",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3390: {
+  }),
+  3390: new PLU({
     Plu: 3390,
     Type: "LA",
     Category: "Vegetables",
@@ -3940,8 +3998,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Arracacia xanthorrhiza",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3391: {
+  }),
+  3391: new PLU({
     Plu: 3391,
     Type: "Global",
     Category: "Vegetables",
@@ -3950,8 +4008,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cynara scolymus",
     Created_at: "2004-10-31 23:00:00",
-  },
-  3392: {
+  }),
+  3392: new PLU({
     Plu: 3392,
     Type: "Global",
     Category: "Vegetables",
@@ -3961,8 +4019,8 @@ export const PLU = {
     Restrictions: "Restricted from ANY use in Canada or the U.S.",
     Botanical: "Asparagus officinalis",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3393: {
+  }),
+  3393: new PLU({
     Plu: 3393,
     Type: "Global",
     Category: "Vegetables",
@@ -3972,8 +4030,8 @@ export const PLU = {
     Restrictions: "Restricted from ANY use in Canada or the U.S.",
     Botanical: "Asparagus officinalis",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3394: {
+  }),
+  3394: new PLU({
     Plu: 3394,
     Type: "Global",
     Category: "Vegetables",
@@ -3983,8 +4041,8 @@ export const PLU = {
     Restrictions: "Restricted from ANY use in Canada or the U.S.",
     Botanical: "Asparagus officinalis",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3395: {
+  }),
+  3395: new PLU({
     Plu: 3395,
     Type: "Global",
     Category: "Vegetables",
@@ -3993,8 +4051,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cichorium intybus",
     Created_at: "2004-10-31 23:00:00",
-  },
-  3396: {
+  }),
+  3396: new PLU({
     Plu: 3396,
     Type: "Global",
     Category: "Vegetables",
@@ -4003,8 +4061,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Brassica oleracea",
     Created_at: "2004-10-31 23:00:00",
-  },
-  3397: {
+  }),
+  3397: new PLU({
     Plu: 3397,
     Type: "Global",
     Category: "Vegetables",
@@ -4013,8 +4071,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Brassica oleracea",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3398: {
+  }),
+  3398: new PLU({
     Plu: 3398,
     Type: "LA",
     Category: "Vegetables",
@@ -4023,8 +4081,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cicer arientinum",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3399: {
+  }),
+  3399: new PLU({
     Plu: 3399,
     Type: "Global",
     Category: "Vegetables",
@@ -4033,8 +4091,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Allium sativum",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3400: {
+  }),
+  3400: new PLU({
     Plu: 3400,
     Type: "Global",
     Category: "Vegetables",
@@ -4043,8 +4101,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Allium sativum",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3401: {
+  }),
+  3401: new PLU({
     Plu: 3401,
     Type: "Global",
     Category: "Vegetables",
@@ -4053,8 +4111,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Allium sativum",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3402: {
+  }),
+  3402: new PLU({
     Plu: 3402,
     Type: "Global",
     Category: "Vegetables",
@@ -4064,8 +4122,8 @@ export const PLU = {
     Restrictions: "Restricted from ANY use in Canada or the U.S.",
     Botanical: "Allium ampeloprasum",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3403: {
+  }),
+  3403: new PLU({
     Plu: 3403,
     Type: "Global",
     Category: "Vegetables",
@@ -4075,8 +4133,8 @@ export const PLU = {
     Restrictions: "Restricted from ANY use in Canada or the U.S.",
     Botanical: "Allium ampeloprasum",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3404: {
+  }),
+  3404: new PLU({
     Plu: 3404,
     Type: "Global",
     Category: "Vegetables",
@@ -4085,8 +4143,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Bolelus edulis",
     Created_at: "2004-10-31 23:00:00",
-  },
-  3405: {
+  }),
+  3405: new PLU({
     Plu: 3405,
     Type: "Global",
     Category: "Vegetables",
@@ -4095,8 +4153,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Marasmius oreades",
     Created_at: "2004-10-31 23:00:00",
-  },
-  3406: {
+  }),
+  3406: new PLU({
     Plu: 3406,
     Type: "Global",
     Category: "Vegetables",
@@ -4105,8 +4163,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Tricholoma terreum",
     Created_at: "2004-10-31 23:00:00",
-  },
-  3407: {
+  }),
+  3407: new PLU({
     Plu: 3407,
     Type: "Global",
     Category: "Vegetables",
@@ -4115,8 +4173,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Amanita vaginata",
     Created_at: "2004-10-31 23:00:00",
-  },
-  3408: {
+  }),
+  3408: new PLU({
     Plu: 3408,
     Type: "Global",
     Category: "Vegetables",
@@ -4125,8 +4183,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Agaricus bisporus",
     Created_at: "2004-10-31 23:00:00",
-  },
-  3409: {
+  }),
+  3409: new PLU({
     Plu: 3409,
     Type: "Global",
     Category: "Vegetables",
@@ -4135,8 +4193,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Agaricus bisporus",
     Created_at: "2004-10-31 23:00:00",
-  },
-  3410: {
+  }),
+  3410: new PLU({
     Plu: 3410,
     Type: "Global",
     Category: "Vegetables",
@@ -4145,8 +4203,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Lactarius deliciosus",
     Created_at: "2004-10-31 23:00:00",
-  },
-  3411: {
+  }),
+  3411: new PLU({
     Plu: 3411,
     Type: "Global",
     Category: "Vegetables",
@@ -4155,8 +4213,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Albatrellus ovinus (tbc)",
     Created_at: "2004-10-31 23:00:00",
-  },
-  3412: {
+  }),
+  3412: new PLU({
     Plu: 3412,
     Type: "Global",
     Category: "Vegetables",
@@ -4165,8 +4223,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Allium spp.",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3413: {
+  }),
+  3413: new PLU({
     Plu: 3413,
     Type: "LA",
     Category: "Vegetables",
@@ -4175,8 +4233,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Capsicum spp",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3414: {
+  }),
+  3414: new PLU({
     Plu: 3414,
     Type: "Global",
     Category: "Vegetables",
@@ -4186,8 +4244,8 @@ export const PLU = {
     Restrictions: "Restricted from ANY use in Canada or the U.S.",
     Botanical: "Solanum tuberosum",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3415: {
+  }),
+  3415: new PLU({
     Plu: 3415,
     Type: "Global",
     Category: "Vegetables",
@@ -4197,8 +4255,8 @@ export const PLU = {
     Restrictions: "Restricted from ANY use in Canada or the U.S.",
     Botanical: "Solanum tuberosum",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3416: {
+  }),
+  3416: new PLU({
     Plu: 3416,
     Type: "Global",
     Category: "Vegetables",
@@ -4208,8 +4266,8 @@ export const PLU = {
     Restrictions: "Restricted from ANY use in Canada or the U.S.",
     Botanical: "Rheum x rhabarbarum",
     Created_at: "2004-10-31 23:00:00",
-  },
-  3417: {
+  }),
+  3417: new PLU({
     Plu: 3417,
     Type: "Global",
     Category: "Vegetables",
@@ -4219,8 +4277,8 @@ export const PLU = {
     Restrictions: "Restricted from ANY use in Canada or the U.S.",
     Botanical: "Tetragonia tetragonioides",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3418: {
+  }),
+  3418: new PLU({
     Plu: 3418,
     Type: "Global",
     Category: "Vegetables",
@@ -4229,8 +4287,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "C.pepo",
     Created_at: "2004-10-31 23:00:00",
-  },
-  3419: {
+  }),
+  3419: new PLU({
     Plu: 3419,
     Type: "Global",
     Category: "Herbs",
@@ -4238,8 +4296,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Borago officinalis",
     Created_at: "2004-10-31 23:00:00",
-  },
-  3420: {
+  }),
+  3420: new PLU({
     Plu: 3420,
     Type: "Global",
     Category: "Fruits",
@@ -4249,8 +4307,8 @@ export const PLU = {
     Botanical: "Pyrus spp.",
     Aka: "Honey Belle",
     Created_at: "2014-01-28 23:00:00",
-  },
-  3421: {
+  }),
+  3421: new PLU({
     Plu: 3421,
     Type: "Global",
     Category: "Fruits",
@@ -4259,8 +4317,8 @@ export const PLU = {
     Size: "3-7 LBS",
     Botanical: "Citrullus lanatus",
     Created_at: "2003-08-04 22:00:00",
-  },
-  3422: {
+  }),
+  3422: new PLU({
     Plu: 3422,
     Type: "Global",
     Category: "Fruits",
@@ -4270,8 +4328,8 @@ export const PLU = {
     Restrictions: "A hybrid of apricot and plum varieties exhibiting more apricot-like characteristics.",
     Botanical: "Prunus armeniaca",
     Created_at: "2003-08-04 22:00:00",
-  },
-  3423: {
+  }),
+  3423: new PLU({
     Plu: 3423,
     Type: "Global",
     Category: "Vegetables",
@@ -4281,8 +4339,8 @@ export const PLU = {
     Botanical: "Lycopersicon esculenta",
     Aka: "Varieties include but are not limited to: Amish Salad, Anna Russian, Aunt Ruby's Yellow Cherry, Big Italian Plum, Black Plum, Black Prince, Black Zebra, Brandywine, Dr. Caroline, Earl of Edgecomb, Eva Purple Ball, Flamme, Green Zebra, Hawaiian Pineapple",
     Created_at: "2003-08-04 22:00:00",
-  },
-  3424: {
+  }),
+  3424: new PLU({
     Plu: 3424,
     Type: "Global",
     Category: "Vegetables",
@@ -4291,8 +4349,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Daucus carota",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3425: {
+  }),
+  3425: new PLU({
     Plu: 3425,
     Type: "Global",
     Category: "Fruits",
@@ -4302,8 +4360,8 @@ export const PLU = {
     Restrictions: "Restricted from ANY use in Canada or the U.S.",
     Botanical: "Citrus spp.",
     Created_at: "2003-10-02 22:00:00",
-  },
-  3426: {
+  }),
+  3426: new PLU({
     Plu: 3426,
     Type: "Global",
     Category: "Fruits",
@@ -4313,8 +4371,8 @@ export const PLU = {
     Restrictions: "Restricted from ANY use in Canada or the U.S.",
     Botanical: "Citrus spp.",
     Created_at: "2003-10-02 22:00:00",
-  },
-  3427: {
+  }),
+  3427: new PLU({
     Plu: 3427,
     Type: "Global",
     Category: "Fruits",
@@ -4324,8 +4382,8 @@ export const PLU = {
     Restrictions: "Restricted from ANY use in Canada or the U.S.",
     Botanical: "Citrus spp.",
     Created_at: "2003-10-02 22:00:00",
-  },
-  3428: {
+  }),
+  3428: new PLU({
     Plu: 3428,
     Type: "Global",
     Category: "Fruits",
@@ -4335,8 +4393,8 @@ export const PLU = {
     Restrictions: "Restricted from ANY use in Canada or the U.S.",
     Botanical: "Citrus spp.",
     Created_at: "2003-10-02 22:00:00",
-  },
-  3429: {
+  }),
+  3429: new PLU({
     Plu: 3429,
     Type: "Global",
     Category: "Fruits",
@@ -4346,8 +4404,8 @@ export const PLU = {
     Restrictions: "Restricted from ANY use in Canada or the U.S.",
     Botanical: "Citrus spp.",
     Created_at: "2003-10-02 22:00:00",
-  },
-  3430: {
+  }),
+  3430: new PLU({
     Plu: 3430,
     Type: "Global",
     Category: "Fruits",
@@ -4357,8 +4415,8 @@ export const PLU = {
     Restrictions: "Restricted from ANY use in Canada or the U.S.",
     Botanical: "Citrus spp.",
     Created_at: "2003-10-02 22:00:00",
-  },
-  3431: {
+  }),
+  3431: new PLU({
     Plu: 3431,
     Type: "Global",
     Category: "Fruits",
@@ -4368,8 +4426,8 @@ export const PLU = {
     Restrictions: "Restricted from ANY use in Canada or the U.S.",
     Botanical: "Citrus spp.",
     Created_at: "2003-10-02 22:00:00",
-  },
-  3432: {
+  }),
+  3432: new PLU({
     Plu: 3432,
     Type: "Global",
     Category: "Fruits",
@@ -4379,8 +4437,8 @@ export const PLU = {
     Restrictions: "Restricted from ANY use in Canada or the U.S.",
     Botanical: "Citrus spp.",
     Created_at: "2003-10-02 22:00:00",
-  },
-  3433: {
+  }),
+  3433: new PLU({
     Plu: 3433,
     Type: "Global",
     Category: "Fruits",
@@ -4390,8 +4448,8 @@ export const PLU = {
     Restrictions: "Restricted from ANY use in Canada or the U.S.",
     Botanical: "Citrus spp.",
     Created_at: "2003-10-02 22:00:00",
-  },
-  3434: {
+  }),
+  3434: new PLU({
     Plu: 3434,
     Type: "Global",
     Category: "Fruits",
@@ -4400,8 +4458,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
     Created_at: "2006-05-23 22:00:00",
-  },
-  3435: {
+  }),
+  3435: new PLU({
     Plu: 3435,
     Type: "Global",
     Category: "Fruits",
@@ -4410,8 +4468,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "2006-05-23 22:00:00",
-  },
-  3436: {
+  }),
+  3436: new PLU({
     Plu: 3436,
     Type: "Global",
     Category: "Vegetables",
@@ -4420,8 +4478,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Brassica oleracea",
     Created_at: "2006-05-23 22:00:00",
-  },
-  3437: {
+  }),
+  3437: new PLU({
     Plu: 3437,
     Type: "Global",
     Category: "Fruits",
@@ -4430,8 +4488,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Prunus persica",
     Created_at: "2006-05-23 22:00:00",
-  },
-  3438: {
+  }),
+  3438: new PLU({
     Plu: 3438,
     Type: "Global",
     Category: "Fruits",
@@ -4440,8 +4498,8 @@ export const PLU = {
     Size: "All other sizes",
     Botanical: "Malus domestica",
     Created_at: "2006-05-23 22:00:00",
-  },
-  3439: {
+  }),
+  3439: new PLU({
     Plu: 3439,
     Type: "Global",
     Category: "Fruits",
@@ -4450,8 +4508,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Prunus persica",
     Created_at: "2007-10-22 22:00:00",
-  },
-  3440: {
+  }),
+  3440: new PLU({
     Plu: 3440,
     Type: "Global",
     Category: "Fruits",
@@ -4461,8 +4519,8 @@ export const PLU = {
     Measures_row: "Average Fruit Dimensions = 4.25 and larger",
     Botanical: "Punica granatum",
     Created_at: "2007-10-29 23:00:00",
-  },
-  3441: {
+  }),
+  3441: new PLU({
     Plu: 3441,
     Type: "Global",
     Category: "Vegetables",
@@ -4471,8 +4529,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucurbita moshata",
     Created_at: "2014-05-14 22:00:00",
-  },
-  3442: {
+  }),
+  3442: new PLU({
     Plu: 3442,
     Type: "Global",
     Category: "Fruits",
@@ -4482,8 +4540,8 @@ export const PLU = {
     Botanical: "Malus domestica",
     Aka: "SnapDragon",
     Created_at: "2014-09-04 22:00:00",
-  },
-  3443: {
+  }),
+  3443: new PLU({
     Plu: 3443,
     Type: "Global",
     Category: "Fruits",
@@ -4493,8 +4551,8 @@ export const PLU = {
     Botanical: "Malus domestica",
     Aka: "RubyFrost",
     Created_at: "2014-09-04 22:00:00",
-  },
-  3444: {
+  }),
+  3444: new PLU({
     Plu: 3444,
     Type: "Global",
     Category: "Fruits",
@@ -4504,8 +4562,8 @@ export const PLU = {
     Botanical: "Malus domestica",
     Aka: "Chin Loung",
     Created_at: "2014-09-04 22:00:00",
-  },
-  3445: {
+  }),
+  3445: new PLU({
     Plu: 3445,
     Type: "Global",
     Category: "Fruits",
@@ -4515,8 +4573,8 @@ export const PLU = {
     Botanical: "Malus domestica",
     Aka: "Pazazz",
     Created_at: "2014-09-04 22:00:00",
-  },
-  3446: {
+  }),
+  3446: new PLU({
     Plu: 3446,
     Type: "Global",
     Category: "Vegetables",
@@ -4524,8 +4582,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Brassica Oleracea",
     Created_at: "2014-12-01 23:00:00",
-  },
-  3447: {
+  }),
+  3447: new PLU({
     Plu: 3447,
     Type: "Global",
     Category: "Fruits",
@@ -4535,8 +4593,8 @@ export const PLU = {
     Botanical: "Malus domestica",
     Aka: "Riverbelle",
     Created_at: "2014-12-01 23:00:00",
-  },
-  3448: {
+  }),
+  3448: new PLU({
     Plu: 3448,
     Type: "Global",
     Category: "Fruits",
@@ -4546,8 +4604,8 @@ export const PLU = {
     Botanical: "Prunus avium",
     Aka: "Skylar Rae",
     Created_at: "2015-01-28 23:00:00",
-  },
-  3449: {
+  }),
+  3449: new PLU({
     Plu: 3449,
     Type: "Global",
     Category: "Fruits",
@@ -4557,8 +4615,8 @@ export const PLU = {
     Botanical: "Vitis Vinifera I.",
     Aka: "MIDNIGHT BEAUTY® brand",
     Created_at: "2015-03-26 23:00:00",
-  },
-  3450: {
+  }),
+  3450: new PLU({
     Plu: 3450,
     Type: "Global",
     Category: "Fruits",
@@ -4568,8 +4626,8 @@ export const PLU = {
     Botanical: "Vitis Vinifera I.",
     Aka: "SCARLOTTA SEEDLESS® brand",
     Created_at: "2015-03-26 23:00:00",
-  },
-  3451: {
+  }),
+  3451: new PLU({
     Plu: 3451,
     Type: "Global",
     Category: "Fruits",
@@ -4579,8 +4637,8 @@ export const PLU = {
     Botanical: "Vitis Vinifera",
     Aka: "ADORA SEEDLESS® brand",
     Created_at: "2015-03-26 23:00:00",
-  },
-  3452: {
+  }),
+  3452: new PLU({
     Plu: 3452,
     Type: "Global",
     Category: "Fruits",
@@ -4590,8 +4648,8 @@ export const PLU = {
     Botanical: "Vitis Vinifera",
     Aka: "AUTUMNCRISP® brand",
     Created_at: "2015-03-26 23:00:00",
-  },
-  3453: {
+  }),
+  3453: new PLU({
     Plu: 3453,
     Type: "Global",
     Category: "Vegetables",
@@ -4599,8 +4657,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Alpinia officinarum",
     Created_at: "2015-03-26 23:00:00",
-  },
-  3454: {
+  }),
+  3454: new PLU({
     Plu: 3454,
     Type: "Global",
     Category: "Fruits",
@@ -4609,8 +4667,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Artocarpus heterophylus",
     Created_at: "2015-03-26 23:00:00",
-  },
-  3455: {
+  }),
+  3455: new PLU({
     Plu: 3455,
     Type: "Global",
     Category: "Fruits",
@@ -4619,8 +4677,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Artocarpus heterophylus",
     Created_at: "2015-03-26 23:00:00",
-  },
-  3456: {
+  }),
+  3456: new PLU({
     Plu: 3456,
     Type: "Global",
     Category: "Fruits",
@@ -4629,8 +4687,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucumis melo",
     Created_at: "2015-03-26 23:00:00",
-  },
-  3457: {
+  }),
+  3457: new PLU({
     Plu: 3457,
     Type: "Global",
     Category: "Fruits",
@@ -4639,8 +4697,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Prunus spp.",
     Created_at: "2015-03-26 23:00:00",
-  },
-  3458: {
+  }),
+  3458: new PLU({
     Plu: 3458,
     Type: "Global",
     Category: "Vegetables",
@@ -4649,8 +4707,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Lycopersicon esculenta",
     Created_at: "2015-03-26 23:00:00",
-  },
-  3600: {
+  }),
+  3600: new PLU({
     Plu: 3600,
     Type: "Global",
     Category: "Fruits",
@@ -4659,8 +4717,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "2008-06-02 22:00:00",
-  },
-  3601: {
+  }),
+  3601: new PLU({
     Plu: 3601,
     Type: "Global",
     Category: "Fruits",
@@ -4670,8 +4728,8 @@ export const PLU = {
     Botanical: "Malus domestica",
     Aka: "Autumn Glory",
     Created_at: "2008-06-02 22:00:00",
-  },
-  3602: {
+  }),
+  3602: new PLU({
     Plu: 3602,
     Type: "Global",
     Category: "Fruits",
@@ -4680,8 +4738,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "2008-11-25 23:00:00",
-  },
-  3603: {
+  }),
+  3603: new PLU({
     Plu: 3603,
     Type: "Global",
     Category: "Fruits",
@@ -4690,8 +4748,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "2008-11-25 23:00:00",
-  },
-  3604: {
+  }),
+  3604: new PLU({
     Plu: 3604,
     Type: "Global",
     Category: "Fruits",
@@ -4700,8 +4758,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "2008-11-25 23:00:00",
-  },
-  3605: {
+  }),
+  3605: new PLU({
     Plu: 3605,
     Type: "Global",
     Category: "Fruits",
@@ -4710,8 +4768,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "2009-05-12 22:00:00",
-  },
-  3606: {
+  }),
+  3606: new PLU({
     Plu: 3606,
     Type: "Global",
     Category: "Fruits",
@@ -4720,8 +4778,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
     Created_at: "2009-05-12 22:00:00",
-  },
-  3607: {
+  }),
+  3607: new PLU({
     Plu: 3607,
     Type: "Global",
     Category: "Fruits",
@@ -4730,8 +4788,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "2007-10-22 22:00:00",
-  },
-  3608: {
+  }),
+  3608: new PLU({
     Plu: 3608,
     Type: "Global",
     Category: "Fruits",
@@ -4743,8 +4801,8 @@ export const PLU = {
     Botanical: "Malus domestica",
     Aka: "Pacific Rose",
     Created_at: "2002-10-15 22:00:00",
-  },
-  3609: {
+  }),
+  3609: new PLU({
     Plu: 3609,
     Type: "Global",
     Category: "Fruits",
@@ -4753,8 +4811,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Prunus spp.",
     Created_at: "2008-06-02 22:00:00",
-  },
-  3610: {
+  }),
+  3610: new PLU({
     Plu: 3610,
     Type: "Global",
     Category: "Fruits",
@@ -4763,8 +4821,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Prunus spp.",
     Created_at: "2008-06-02 22:00:00",
-  },
-  3611: {
+  }),
+  3611: new PLU({
     Plu: 3611,
     Type: "Global",
     Category: "Fruits",
@@ -4773,8 +4831,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Prunus spp.",
     Created_at: "2008-06-02 22:00:00",
-  },
-  3612: {
+  }),
+  3612: new PLU({
     Plu: 3612,
     Type: "Global",
     Category: "Fruits",
@@ -4783,8 +4841,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "2009-05-12 22:00:00",
-  },
-  3613: {
+  }),
+  3613: new PLU({
     Plu: 3613,
     Type: "Global",
     Category: "Fruits",
@@ -4793,8 +4851,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "2009-05-12 22:00:00",
-  },
-  3614: {
+  }),
+  3614: new PLU({
     Plu: 3614,
     Type: "Global",
     Category: "Fruits",
@@ -4803,8 +4861,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Prunus armeniaca",
     Created_at: "2009-10-14 22:00:00",
-  },
-  3615: {
+  }),
+  3615: new PLU({
     Plu: 3615,
     Type: "Global",
     Category: "Fruits",
@@ -4813,8 +4871,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "2009-10-28 23:00:00",
-  },
-  3616: {
+  }),
+  3616: new PLU({
     Plu: 3616,
     Type: "Global",
     Category: "Fruits",
@@ -4825,8 +4883,8 @@ export const PLU = {
     Botanical: "Malus domestica",
     Aka: "ENVY",
     Created_at: "2013-05-05 22:00:00",
-  },
-  3617: {
+  }),
+  3617: new PLU({
     Plu: 3617,
     Type: "Global",
     Category: "Fruits",
@@ -4834,8 +4892,8 @@ export const PLU = {
     Variety: "Seedless",
     Size: "All Sizes",
     Created_at: "2010-06-27 22:00:00",
-  },
-  3618: {
+  }),
+  3618: new PLU({
     Plu: 3618,
     Type: "Global",
     Category: "Fruits",
@@ -4844,8 +4902,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "2007-10-18 22:00:00",
-  },
-  3619: {
+  }),
+  3619: new PLU({
     Plu: 3619,
     Type: "Global",
     Category: "Fruits",
@@ -4854,8 +4912,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "2011-06-08 22:00:00",
-  },
-  3620: {
+  }),
+  3620: new PLU({
     Plu: 3620,
     Type: "Global",
     Category: "Fruits",
@@ -4864,8 +4922,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "2011-06-08 22:00:00",
-  },
-  3621: {
+  }),
+  3621: new PLU({
     Plu: 3621,
     Type: "Global",
     Category: "Fruits",
@@ -4875,8 +4933,8 @@ export const PLU = {
     Botanical: "Mangifera Indica",
     Aka: "Madame Francis, Francine",
     Created_at: "2011-10-23 22:00:00",
-  },
-  3622: {
+  }),
+  3622: new PLU({
     Plu: 3622,
     Type: "Global",
     Category: "Fruits",
@@ -4886,8 +4944,8 @@ export const PLU = {
     Botanical: "Cucumis melo",
     Aka: "Papaya Melon",
     Created_at: "2011-10-23 22:00:00",
-  },
-  3623: {
+  }),
+  3623: new PLU({
     Plu: 3623,
     Type: "Global",
     Category: "Fruits",
@@ -4897,8 +4955,8 @@ export const PLU = {
     Botanical: "Cucumis melo",
     Aka: "Chinese Hami or Snow Melon",
     Created_at: "2011-10-23 22:00:00",
-  },
-  3624: {
+  }),
+  3624: new PLU({
     Plu: 3624,
     Type: "Global",
     Category: "Fruits",
@@ -4907,8 +4965,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucumis melo",
     Created_at: "2011-10-23 22:00:00",
-  },
-  3625: {
+  }),
+  3625: new PLU({
     Plu: 3625,
     Type: "Global",
     Category: "Fruits",
@@ -4918,8 +4976,8 @@ export const PLU = {
     Botanical: "Malus domestica",
     Aka: "Zestar",
     Created_at: "2011-10-23 22:00:00",
-  },
-  3626: {
+  }),
+  3626: new PLU({
     Plu: 3626,
     Type: "Global",
     Category: "Fruits",
@@ -4928,8 +4986,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Citrus limon",
     Created_at: "2012-01-24 23:00:00",
-  },
-  3627: {
+  }),
+  3627: new PLU({
     Plu: 3627,
     Type: "Global",
     Category: "Fruits",
@@ -4938,8 +4996,8 @@ export const PLU = {
     Size: "Large",
     Botanical: "Malus domestica",
     Created_at: "2012-01-24 23:00:00",
-  },
-  3628: {
+  }),
+  3628: new PLU({
     Plu: 3628,
     Type: "Global",
     Category: "Fruits",
@@ -4948,8 +5006,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "2012-01-24 23:00:00",
-  },
-  3629: {
+  }),
+  3629: new PLU({
     Plu: 3629,
     Type: "Global",
     Category: "Fruits",
@@ -4958,8 +5016,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "2012-01-24 23:00:00",
-  },
-  3630: {
+  }),
+  3630: new PLU({
     Plu: 3630,
     Type: "Global",
     Category: "Fruits",
@@ -4968,8 +5026,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "2012-04-24 22:00:00",
-  },
-  3631: {
+  }),
+  3631: new PLU({
     Plu: 3631,
     Type: "Global",
     Category: "Vegetables",
@@ -4980,8 +5038,8 @@ export const PLU = {
     Botanical: "Eucurbita maxima",
     Aka: "Porcelain Doll Pumpkin",
     Created_at: "2012-07-25 22:00:00",
-  },
-  3632: {
+  }),
+  3632: new PLU({
     Plu: 3632,
     Type: "Global",
     Category: "Fruits",
@@ -4991,8 +5049,8 @@ export const PLU = {
     Botanical: "Citrus reticulata siranui",
     Aka: "Shiranui/Hallabong/Sumo Citrus®",
     Created_at: "2012-10-16 22:00:00",
-  },
-  4011: {
+  }),
+  4011: new PLU({
     Plu: 4011,
     Type: "Global",
     Category: "Fruits",
@@ -5001,8 +5059,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Musa spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4012: {
+  }),
+  4012: new PLU({
     Plu: 4012,
     Type: "Global",
     Category: "Fruits",
@@ -5013,8 +5071,8 @@ export const PLU = {
     Measures_row: "Average Fruit Dimensions = 84mm and above",
     Botanical: "Citrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4013: {
+  }),
+  4013: new PLU({
     Plu: 4013,
     Type: "Global",
     Category: "Fruits",
@@ -5025,8 +5083,8 @@ export const PLU = {
     Measures_row: "Average Fruit Dimensions = less than 66mm",
     Botanical: "Citrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4014: {
+  }),
+  4014: new PLU({
     Plu: 4014,
     Type: "Global",
     Category: "Fruits",
@@ -5037,8 +5095,8 @@ export const PLU = {
     Measures_row: "Average Fruit Dimensions = less than 66mm",
     Botanical: "Citrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4015: {
+  }),
+  4015: new PLU({
     Plu: 4015,
     Type: "Global",
     Category: "Fruits",
@@ -5049,8 +5107,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4016: {
+  }),
+  4016: new PLU({
     Plu: 4016,
     Type: "Global",
     Category: "Fruits",
@@ -5061,8 +5119,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4017: {
+  }),
+  4017: new PLU({
     Plu: 4017,
     Type: "Global",
     Category: "Fruits",
@@ -5073,8 +5131,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4018: {
+  }),
+  4018: new PLU({
     Plu: 4018,
     Type: "Global",
     Category: "Fruits",
@@ -5086,8 +5144,8 @@ export const PLU = {
     Restrictions: "Restricted for items grown in all states east of Colorado, New Mexico, Wyoming and Montana in the U.S. and east of the Ontario/Manitoba border in Canada.",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4019: {
+  }),
+  4019: new PLU({
     Plu: 4019,
     Type: "Global",
     Category: "Fruits",
@@ -5099,8 +5157,8 @@ export const PLU = {
     Restrictions: "Restricted for items grown in all states east of Colorado, New Mexico, Wyoming and Montana in the U.S. and east of the Ontario/Manitoba border in Canada.",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4020: {
+  }),
+  4020: new PLU({
     Plu: 4020,
     Type: "Global",
     Category: "Fruits",
@@ -5111,8 +5169,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4021: {
+  }),
+  4021: new PLU({
     Plu: 4021,
     Type: "Global",
     Category: "Fruits",
@@ -5123,8 +5181,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4022: {
+  }),
+  4022: new PLU({
     Plu: 4022,
     Type: "Global",
     Category: "Fruits",
@@ -5133,8 +5191,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Vitis vinifera",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4023: {
+  }),
+  4023: new PLU({
     Plu: 4023,
     Type: "Global",
     Category: "Fruits",
@@ -5143,8 +5201,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Vitis vinifera",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4024: {
+  }),
+  4024: new PLU({
     Plu: 4024,
     Type: "Global",
     Category: "Fruits",
@@ -5155,8 +5213,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight =  less than 180g",
     Botanical: "Pyrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4025: {
+  }),
+  4025: new PLU({
     Plu: 4025,
     Type: "Global",
     Category: "Fruits",
@@ -5167,8 +5225,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight =  less than 180g",
     Botanical: "Pyrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4026: {
+  }),
+  4026: new PLU({
     Plu: 4026,
     Type: "Global",
     Category: "Fruits",
@@ -5179,8 +5237,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight =  less than 180g",
     Botanical: "Pyrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4027: {
+  }),
+  4027: new PLU({
     Plu: 4027,
     Type: "Global",
     Category: "Fruits",
@@ -5191,8 +5249,8 @@ export const PLU = {
     Restrictions: "Restricted for items grown east of the Mississippi River in the U.S or east of the Ontario/Manitoba border in Canada.",
     Botanical: "Citrus paradisi",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4028: {
+  }),
+  4028: new PLU({
     Plu: 4028,
     Type: "Global",
     Category: "Fruits",
@@ -5201,8 +5259,8 @@ export const PLU = {
     Size: "Pint",
     Botanical: "Fragaria ananassa",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4029: {
+  }),
+  4029: new PLU({
     Plu: 4029,
     Type: "Global",
     Category: "Fruits",
@@ -5212,8 +5270,8 @@ export const PLU = {
     Restrictions: "Sizes for pineapple based on two-layer lug.",
     Botanical: "Ananas comosus",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4030: {
+  }),
+  4030: new PLU({
     Plu: 4030,
     Type: "Global",
     Category: "Fruits",
@@ -5222,8 +5280,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Actinidia deliciosa",
     Created_at: "2004-06-29 22:00:00",
-  },
-  4031: {
+  }),
+  4031: new PLU({
     Plu: 4031,
     Type: "Global",
     Category: "Fruits",
@@ -5232,8 +5290,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Citrullus lanatus",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4032: {
+  }),
+  4032: new PLU({
     Plu: 4032,
     Type: "Global",
     Category: "Fruits",
@@ -5242,8 +5300,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Citrullus lanatus",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4033: {
+  }),
+  4033: new PLU({
     Plu: 4033,
     Type: "Global",
     Category: "Fruits",
@@ -5253,8 +5311,8 @@ export const PLU = {
     Measures_row: "Average Fruit Dimensions = less than 54mm",
     Botanical: "Citrus limon",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4034: {
+  }),
+  4034: new PLU({
     Plu: 4034,
     Type: "Global",
     Category: "Fruits",
@@ -5265,8 +5323,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight =  2040g and above",
     Botanical: "Cucumis melo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4035: {
+  }),
+  4035: new PLU({
     Plu: 4035,
     Type: "Global",
     Category: "Fruits",
@@ -5277,8 +5335,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight =  less than 185g",
     Botanical: "Prunus persica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4036: {
+  }),
+  4036: new PLU({
     Plu: 4036,
     Type: "Global",
     Category: "Fruits",
@@ -5289,8 +5347,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight =  185g and above",
     Botanical: "Prunus persica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4037: {
+  }),
+  4037: new PLU({
     Plu: 4037,
     Type: "Global",
     Category: "Fruits",
@@ -5301,8 +5359,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight =  less than 185g",
     Botanical: "Prunus persica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4038: {
+  }),
+  4038: new PLU({
     Plu: 4038,
     Type: "Global",
     Category: "Fruits",
@@ -5313,8 +5371,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight =  185g and above",
     Botanical: "Prunus persica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4039: {
+  }),
+  4039: new PLU({
     Plu: 4039,
     Type: "Global",
     Category: "Fruits",
@@ -5325,8 +5383,8 @@ export const PLU = {
     Measures_row: "Average Fruit Dimensions < 50MM",
     Botanical: "Prunus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4040: {
+  }),
+  4040: new PLU({
     Plu: 4040,
     Type: "Global",
     Category: "Fruits",
@@ -5337,8 +5395,8 @@ export const PLU = {
     Measures_row: "Average Fruit Dimensions 50MM & ABOVE",
     Botanical: "Prunus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4041: {
+  }),
+  4041: new PLU({
     Plu: 4041,
     Type: "Global",
     Category: "Fruits",
@@ -5349,8 +5407,8 @@ export const PLU = {
     Measures_row: "Average Fruit Dimensions < 50MM",
     Botanical: "Prunus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4042: {
+  }),
+  4042: new PLU({
     Plu: 4042,
     Type: "Global",
     Category: "Fruits",
@@ -5361,8 +5419,8 @@ export const PLU = {
     Measures_row: "Average Fruit Dimensions 50MM & ABOVE",
     Botanical: "Prunus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4043: {
+  }),
+  4043: new PLU({
     Plu: 4043,
     Type: "Global",
     Category: "Fruits",
@@ -5373,8 +5431,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight =  less than 185g",
     Botanical: "Prunus persica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4044: {
+  }),
+  4044: new PLU({
     Plu: 4044,
     Type: "Global",
     Category: "Fruits",
@@ -5385,8 +5443,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight =  185g and above",
     Botanical: "Prunus persica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4045: {
+  }),
+  4045: new PLU({
     Plu: 4045,
     Type: "Global",
     Category: "Fruits",
@@ -5396,8 +5454,8 @@ export const PLU = {
     Restrictions: "This code can be used anyplace in the globe; however, there are other codes for this item that can be used outside of North America.",
     Botanical: "Prunus avium",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4046: {
+  }),
+  4046: new PLU({
     Plu: 4046,
     Type: "Global",
     Category: "Fruits",
@@ -5408,8 +5466,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = less than 190g",
     Botanical: "Persea americana",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4047: {
+  }),
+  4047: new PLU({
     Plu: 4047,
     Type: "Global",
     Category: "Fruits",
@@ -5420,8 +5478,8 @@ export const PLU = {
     Measures_row: "Average Fruit Dimensions = less than 97mm",
     Botanical: "Citrus paradisi",
     Created_at: "2002-06-01 22:00:00",
-  },
-  4048: {
+  }),
+  4048: new PLU({
     Plu: 4048,
     Type: "Global",
     Category: "Fruits",
@@ -5430,8 +5488,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Citrus latifolia",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4049: {
+  }),
+  4049: new PLU({
     Plu: 4049,
     Type: "Global",
     Category: "Fruits",
@@ -5442,8 +5500,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight =  less than 1135g",
     Botanical: "Cucumis melo",
     Created_at: "2005-05-22 22:00:00",
-  },
-  4050: {
+  }),
+  4050: new PLU({
     Plu: 4050,
     Type: "Global",
     Category: "Fruits",
@@ -5454,8 +5512,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight =  1135g and above",
     Botanical: "Cucumis melo",
     Created_at: "2005-05-22 22:00:00",
-  },
-  4051: {
+  }),
+  4051: new PLU({
     Plu: 4051,
     Type: "Global",
     Category: "Fruits",
@@ -5465,8 +5523,8 @@ export const PLU = {
     Measures_na: "12 size and smaller",
     Botanical: "Mangifera indica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4052: {
+  }),
+  4052: new PLU({
     Plu: 4052,
     Type: "Global",
     Category: "Fruits",
@@ -5476,8 +5534,8 @@ export const PLU = {
     Measures_na: "10 size and smaller",
     Botanical: "Carica papaya",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4053: {
+  }),
+  4053: new PLU({
     Plu: 4053,
     Type: "Global",
     Category: "Fruits",
@@ -5487,8 +5545,8 @@ export const PLU = {
     Measures_row: "Average Fruit Dimensions = 65mm and above",
     Botanical: "Citrus limon",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4054: {
+  }),
+  4054: new PLU({
     Plu: 4054,
     Type: "Global",
     Category: "Fruits",
@@ -5497,8 +5555,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Rubus idaeus",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4055: {
+  }),
+  4055: new PLU({
     Plu: 4055,
     Type: "Global",
     Category: "Fruits",
@@ -5506,8 +5564,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Citrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4056: {
+  }),
+  4056: new PLU({
     Plu: 4056,
     Type: "Global",
     Category: "Fruits",
@@ -5516,8 +5574,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Vitis vinifera",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4057: {
+  }),
+  4057: new PLU({
     Plu: 4057,
     Type: "Global",
     Category: "Fruits",
@@ -5528,8 +5586,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4058: {
+  }),
+  4058: new PLU({
     Plu: 4058,
     Type: "Global",
     Category: "Fruits",
@@ -5540,8 +5598,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4060: {
+  }),
+  4060: new PLU({
     Plu: 4060,
     Type: "Global",
     Category: "Vegetables",
@@ -5549,8 +5607,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Brassica oleracea",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4061: {
+  }),
+  4061: new PLU({
     Plu: 4061,
     Type: "Global",
     Category: "Vegetables",
@@ -5559,8 +5617,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Lactuca sativa",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4062: {
+  }),
+  4062: new PLU({
     Plu: 4062,
     Type: "Global",
     Category: "Vegetables",
@@ -5569,8 +5627,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucumis sativus",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4063: {
+  }),
+  4063: new PLU({
     Plu: 4063,
     Type: "Global",
     Category: "Vegetables",
@@ -5581,8 +5639,8 @@ export const PLU = {
     Measures_row: "Less than 70mm diameter",
     Botanical: "Lycopersicon esculenta",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4064: {
+  }),
+  4064: new PLU({
     Plu: 4064,
     Type: "Global",
     Category: "Vegetables",
@@ -5593,8 +5651,8 @@ export const PLU = {
     Measures_row: "Diameter 70mm and above",
     Botanical: "Lycopersicon esculenta",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4065: {
+  }),
+  4065: new PLU({
     Plu: 4065,
     Type: "Global",
     Category: "Vegetables",
@@ -5605,8 +5663,8 @@ export const PLU = {
     Measures_row: "Min diameter 65mm and above",
     Botanical: "Capsicum spp",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4066: {
+  }),
+  4066: new PLU({
     Plu: 4066,
     Type: "Global",
     Category: "Vegetables",
@@ -5615,8 +5673,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Phaseolus vulgaris",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4067: {
+  }),
+  4067: new PLU({
     Plu: 4067,
     Type: "Global",
     Category: "Vegetables",
@@ -5625,8 +5683,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "C.pepo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4068: {
+  }),
+  4068: new PLU({
     Plu: 4068,
     Type: "Global",
     Category: "Vegetables",
@@ -5635,8 +5693,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Allium spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4069: {
+  }),
+  4069: new PLU({
     Plu: 4069,
     Type: "Global",
     Category: "Vegetables",
@@ -5645,8 +5703,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Brassica oleracea",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4070: {
+  }),
+  4070: new PLU({
     Plu: 4070,
     Type: "Global",
     Category: "Vegetables",
@@ -5655,8 +5713,8 @@ export const PLU = {
     Size: "Small",
     Measures_na: "30 size and smaller",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4071: {
+  }),
+  4071: new PLU({
     Plu: 4071,
     Type: "Global",
     Category: "Vegetables",
@@ -5666,8 +5724,8 @@ export const PLU = {
     Measures_na: "30 size and smaller",
     Restrictions: "Restricted for items grown east of the Mississippi River in the U.S. or east of the Ontario/Manitoba border in Canada.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4072: {
+  }),
+  4072: new PLU({
     Plu: 4072,
     Type: "Global",
     Category: "Vegetables",
@@ -5676,8 +5734,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Solanum tuberosum",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4073: {
+  }),
+  4073: new PLU({
     Plu: 4073,
     Type: "Global",
     Category: "Vegetables",
@@ -5686,8 +5744,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Solanum tuberosum",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4074: {
+  }),
+  4074: new PLU({
     Plu: 4074,
     Type: "Global",
     Category: "Vegetables",
@@ -5698,8 +5756,8 @@ export const PLU = {
     Restrictions: "Terminology changed to include both sweet potato and yam to avoid confusion in marketplace.",
     Botanical: "Ipomoea batato",
     Created_at: "2009-06-09 22:00:00",
-  },
-  4075: {
+  }),
+  4075: new PLU({
     Plu: 4075,
     Type: "Global",
     Category: "Vegetables",
@@ -5708,8 +5766,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Lactuca sativa",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4076: {
+  }),
+  4076: new PLU({
     Plu: 4076,
     Type: "Global",
     Category: "Vegetables",
@@ -5718,8 +5776,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Lactuca sativa",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4077: {
+  }),
+  4077: new PLU({
     Plu: 4077,
     Type: "Global",
     Category: "Vegetables",
@@ -5728,8 +5786,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Zea mays",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4078: {
+  }),
+  4078: new PLU({
     Plu: 4078,
     Type: "Global",
     Category: "Vegetables",
@@ -5738,8 +5796,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Zea mays",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4079: {
+  }),
+  4079: new PLU({
     Plu: 4079,
     Type: "Global",
     Category: "Vegetables",
@@ -5748,8 +5806,8 @@ export const PLU = {
     Measures_na: "12 size and smaller",
     Botanical: "Brassica oleracea",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4080: {
+  }),
+  4080: new PLU({
     Plu: 4080,
     Type: "Global",
     Category: "Vegetables",
@@ -5760,8 +5818,8 @@ export const PLU = {
     Restrictions: "This code can be used anyplace in the globe; however, there are other codes for this item that can be used outside of North America.",
     Botanical: "Asparagus officinalis",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4081: {
+  }),
+  4081: new PLU({
     Plu: 4081,
     Type: "Global",
     Category: "Vegetables",
@@ -5770,8 +5828,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Solanum melongena",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4082: {
+  }),
+  4082: new PLU({
     Plu: 4082,
     Type: "Global",
     Category: "Vegetables",
@@ -5780,8 +5838,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Allium spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4083: {
+  }),
+  4083: new PLU({
     Plu: 4083,
     Type: "Global",
     Category: "Vegetables",
@@ -5790,8 +5848,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Solanum tuberosum",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4084: {
+  }),
+  4084: new PLU({
     Plu: 4084,
     Type: "Global",
     Category: "Vegetables",
@@ -5800,8 +5858,8 @@ export const PLU = {
     Measures_na: "30-36 size",
     Botanical: "Cynara scolymus",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4085: {
+  }),
+  4085: new PLU({
     Plu: 4085,
     Type: "Global",
     Category: "Vegetables",
@@ -5811,8 +5869,8 @@ export const PLU = {
     Measures_row: "40mm diameter and above",
     Botanical: "Agaricus bisporus",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4086: {
+  }),
+  4086: new PLU({
     Plu: 4086,
     Type: "Global",
     Category: "Vegetables",
@@ -5821,8 +5879,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "C. pepo/C. maxima",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4087: {
+  }),
+  4087: new PLU({
     Plu: 4087,
     Type: "Global",
     Category: "Vegetables",
@@ -5831,8 +5889,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Lycopersicon esculenta",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4088: {
+  }),
+  4088: new PLU({
     Plu: 4088,
     Type: "Global",
     Category: "Vegetables",
@@ -5841,8 +5899,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Capsicum spp",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4089: {
+  }),
+  4089: new PLU({
     Plu: 4089,
     Type: "Global",
     Category: "Vegetables",
@@ -5851,8 +5909,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Raphanus sativus",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4090: {
+  }),
+  4090: new PLU({
     Plu: 4090,
     Type: "Global",
     Category: "Vegetables",
@@ -5860,8 +5918,8 @@ export const PLU = {
     Variety: "Regular/Bunched",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4091: {
+  }),
+  4091: new PLU({
     Plu: 4091,
     Type: "Global",
     Category: "Vegetables",
@@ -5871,8 +5929,8 @@ export const PLU = {
     Restrictions: "Terminology changed to include both sweet potato and yam to avoid confusion in marketplace",
     Botanical: "Ipomoea batato",
     Created_at: "2009-06-09 22:00:00",
-  },
-  4092: {
+  }),
+  4092: new PLU({
     Plu: 4092,
     Type: "Global",
     Category: "Vegetables",
@@ -5881,8 +5939,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Pisum sativum",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4093: {
+  }),
+  4093: new PLU({
     Plu: 4093,
     Type: "Global",
     Category: "Vegetables",
@@ -5893,8 +5951,8 @@ export const PLU = {
     Measures_row: "Min diameter 75mm and above",
     Botanical: "Allium spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4094: {
+  }),
+  4094: new PLU({
     Plu: 4094,
     Type: "Global",
     Category: "Vegetables",
@@ -5903,8 +5961,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Daucus carota",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4095: {
+  }),
+  4095: new PLU({
     Plu: 4095,
     Type: "Global",
     Category: "Vegetables",
@@ -5913,8 +5971,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Brassica rapa",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4096: {
+  }),
+  4096: new PLU({
     Plu: 4096,
     Type: "Global",
     Category: "Fruits",
@@ -5925,8 +5983,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4097: {
+  }),
+  4097: new PLU({
     Plu: 4097,
     Type: "Global",
     Category: "Fruits",
@@ -5937,8 +5995,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4098: {
+  }),
+  4098: new PLU({
     Plu: 4098,
     Type: "Global",
     Category: "Fruits",
@@ -5949,8 +6007,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4099: {
+  }),
+  4099: new PLU({
     Plu: 4099,
     Type: "Global",
     Category: "Fruits",
@@ -5961,8 +6019,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4100: {
+  }),
+  4100: new PLU({
     Plu: 4100,
     Type: "Global",
     Category: "Fruits",
@@ -5973,8 +6031,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4101: {
+  }),
+  4101: new PLU({
     Plu: 4101,
     Type: "Global",
     Category: "Fruits",
@@ -5985,8 +6043,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4102: {
+  }),
+  4102: new PLU({
     Plu: 4102,
     Type: "Global",
     Category: "Fruits",
@@ -5997,8 +6055,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4103: {
+  }),
+  4103: new PLU({
     Plu: 4103,
     Type: "Global",
     Category: "Fruits",
@@ -6009,8 +6067,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4104: {
+  }),
+  4104: new PLU({
     Plu: 4104,
     Type: "Global",
     Category: "Fruits",
@@ -6021,8 +6079,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4105: {
+  }),
+  4105: new PLU({
     Plu: 4105,
     Type: "Global",
     Category: "Fruits",
@@ -6031,8 +6089,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4106: {
+  }),
+  4106: new PLU({
     Plu: 4106,
     Type: "Global",
     Category: "Fruits",
@@ -6043,8 +6101,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4107: {
+  }),
+  4107: new PLU({
     Plu: 4107,
     Type: "Global",
     Category: "Fruits",
@@ -6053,8 +6111,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4108: {
+  }),
+  4108: new PLU({
     Plu: 4108,
     Type: "Global",
     Category: "Fruits",
@@ -6066,8 +6124,8 @@ export const PLU = {
     Restrictions: "Restricted for items grown in all states east of Colorado, New Mexico, Wyoming and Montana in the U.S. and east of the Ontario/Manitoba border in Canada.",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4109: {
+  }),
+  4109: new PLU({
     Plu: 4109,
     Type: "Global",
     Category: "Fruits",
@@ -6078,8 +6136,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4110: {
+  }),
+  4110: new PLU({
     Plu: 4110,
     Type: "Global",
     Category: "Fruits",
@@ -6091,8 +6149,8 @@ export const PLU = {
     Restrictions: "Restricted for items grown in all states east of Colorado, New Mexico, Wyoming and Montana in the U.S. and east of the Ontario/Manitoba border in Canada.",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4111: {
+  }),
+  4111: new PLU({
     Plu: 4111,
     Type: "Global",
     Category: "Fruits",
@@ -6103,8 +6161,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4112: {
+  }),
+  4112: new PLU({
     Plu: 4112,
     Type: "Global",
     Category: "Fruits",
@@ -6115,8 +6173,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4113: {
+  }),
+  4113: new PLU({
     Plu: 4113,
     Type: "Global",
     Category: "Fruits",
@@ -6127,8 +6185,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4114: {
+  }),
+  4114: new PLU({
     Plu: 4114,
     Type: "Global",
     Category: "Fruits",
@@ -6139,8 +6197,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4115: {
+  }),
+  4115: new PLU({
     Plu: 4115,
     Type: "Global",
     Category: "Fruits",
@@ -6151,8 +6209,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4116: {
+  }),
+  4116: new PLU({
     Plu: 4116,
     Type: "Global",
     Category: "Fruits",
@@ -6164,8 +6222,8 @@ export const PLU = {
     Restrictions: "Restricted for items grown in all states east of Colorado, New Mexico, Wyoming and Montana in the U.S. and east of the Ontario/Manitoba border in Canada.",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4117: {
+  }),
+  4117: new PLU({
     Plu: 4117,
     Type: "Global",
     Category: "Fruits",
@@ -6176,8 +6234,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4118: {
+  }),
+  4118: new PLU({
     Plu: 4118,
     Type: "Global",
     Category: "Fruits",
@@ -6189,8 +6247,8 @@ export const PLU = {
     Restrictions: "Restricted for items grown in all states east of Colorado, New Mexico, Wyoming and Montana in the U.S. and east of the Ontario/Manitoba border in Canada.",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4119: {
+  }),
+  4119: new PLU({
     Plu: 4119,
     Type: "Global",
     Category: "Fruits",
@@ -6201,8 +6259,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4120: {
+  }),
+  4120: new PLU({
     Plu: 4120,
     Type: "Global",
     Category: "Fruits",
@@ -6211,8 +6269,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4121: {
+  }),
+  4121: new PLU({
     Plu: 4121,
     Type: "Global",
     Category: "Fruits",
@@ -6223,8 +6281,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4122: {
+  }),
+  4122: new PLU({
     Plu: 4122,
     Type: "Global",
     Category: "Fruits",
@@ -6236,8 +6294,8 @@ export const PLU = {
     Botanical: "Malus domestica",
     Aka: "Pacific Rose",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4123: {
+  }),
+  4123: new PLU({
     Plu: 4123,
     Type: "Global",
     Category: "Fruits",
@@ -6248,8 +6306,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4124: {
+  }),
+  4124: new PLU({
     Plu: 4124,
     Type: "Global",
     Category: "Fruits",
@@ -6261,8 +6319,8 @@ export const PLU = {
     Restrictions: "Restricted for items grown in all states east of Colorado, New Mexico, Wyoming and Montana in the U.S. and east of the Ontario/Manitoba border in Canada.",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4125: {
+  }),
+  4125: new PLU({
     Plu: 4125,
     Type: "Global",
     Category: "Fruits",
@@ -6273,8 +6331,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4126: {
+  }),
+  4126: new PLU({
     Plu: 4126,
     Type: "Global",
     Category: "Fruits",
@@ -6286,8 +6344,8 @@ export const PLU = {
     Restrictions: "Restricted for items grown in all states east of Colorado, New Mexico, Wyoming and Montana in the U.S. and east of the Ontario/Manitoba border in Canada.",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4127: {
+  }),
+  4127: new PLU({
     Plu: 4127,
     Type: "Global",
     Category: "Fruits",
@@ -6298,8 +6356,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4128: {
+  }),
+  4128: new PLU({
     Plu: 4128,
     Type: "Global",
     Category: "Fruits",
@@ -6311,8 +6369,8 @@ export const PLU = {
     Botanical: "Malus domestica",
     Aka: "Pink Lady",
     Created_at: "2002-05-31 22:00:00",
-  },
-  4129: {
+  }),
+  4129: new PLU({
     Plu: 4129,
     Type: "Global",
     Category: "Fruits",
@@ -6323,8 +6381,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4130: {
+  }),
+  4130: new PLU({
     Plu: 4130,
     Type: "Global",
     Category: "Fruits",
@@ -6336,8 +6394,8 @@ export const PLU = {
     Botanical: "Malus domestica",
     Aka: "Pink Lady",
     Created_at: "2002-05-31 22:00:00",
-  },
-  4131: {
+  }),
+  4131: new PLU({
     Plu: 4131,
     Type: "Global",
     Category: "Fruits",
@@ -6348,8 +6406,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4132: {
+  }),
+  4132: new PLU({
     Plu: 4132,
     Type: "Global",
     Category: "Fruits",
@@ -6361,8 +6419,8 @@ export const PLU = {
     Restrictions: "Restricted for items grown in all states east of Colorado, New Mexico, Wyoming and Montana in the U.S. and east of the Ontario/Manitoba border in Canada.",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4133: {
+  }),
+  4133: new PLU({
     Plu: 4133,
     Type: "Global",
     Category: "Fruits",
@@ -6373,8 +6431,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4134: {
+  }),
+  4134: new PLU({
     Plu: 4134,
     Type: "Global",
     Category: "Fruits",
@@ -6386,8 +6444,8 @@ export const PLU = {
     Restrictions: "Restricted for items grown in all states east of Colorado, New Mexico, Wyoming and Montana in the U.S. and east of the Ontario/Manitoba border in Canada.",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4135: {
+  }),
+  4135: new PLU({
     Plu: 4135,
     Type: "Global",
     Category: "Fruits",
@@ -6398,8 +6456,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4136: {
+  }),
+  4136: new PLU({
     Plu: 4136,
     Type: "Global",
     Category: "Fruits",
@@ -6411,8 +6469,8 @@ export const PLU = {
     Restrictions: "Restricted for items grown in all states east of Colorado, New Mexico, Wyoming and Montana in the U.S. and east of the Ontario/Manitoba border in Canada.",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4137: {
+  }),
+  4137: new PLU({
     Plu: 4137,
     Type: "Global",
     Category: "Fruits",
@@ -6424,8 +6482,8 @@ export const PLU = {
     Restrictions: "Restricted for items grown in all states east of Colorado, New Mexico, Wyoming and Montana in the U.S. and east of the Ontario/Manitoba border in Canada.",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4138: {
+  }),
+  4138: new PLU({
     Plu: 4138,
     Type: "Global",
     Category: "Fruits",
@@ -6437,8 +6495,8 @@ export const PLU = {
     Restrictions: "Restricted for items grown in all states east of Colorado, New Mexico, Wyoming and Montana in the U.S. and east of the Ontario/Manitoba border in Canada.",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4139: {
+  }),
+  4139: new PLU({
     Plu: 4139,
     Type: "Global",
     Category: "Fruits",
@@ -6449,8 +6507,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4140: {
+  }),
+  4140: new PLU({
     Plu: 4140,
     Type: "Global",
     Category: "Fruits",
@@ -6461,8 +6519,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4141: {
+  }),
+  4141: new PLU({
     Plu: 4141,
     Type: "Global",
     Category: "Fruits",
@@ -6473,8 +6531,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4142: {
+  }),
+  4142: new PLU({
     Plu: 4142,
     Type: "Global",
     Category: "Fruits",
@@ -6485,8 +6543,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4143: {
+  }),
+  4143: new PLU({
     Plu: 4143,
     Type: "Global",
     Category: "Fruits",
@@ -6497,8 +6555,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4144: {
+  }),
+  4144: new PLU({
     Plu: 4144,
     Type: "Global",
     Category: "Fruits",
@@ -6510,8 +6568,8 @@ export const PLU = {
     Restrictions: "Restricted for items grown in all states east of Colorado, New Mexico, Wyoming and Montana in the U.S. and east of the Ontario/Manitoba border in Canada.",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4145: {
+  }),
+  4145: new PLU({
     Plu: 4145,
     Type: "Global",
     Category: "Fruits",
@@ -6522,8 +6580,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4146: {
+  }),
+  4146: new PLU({
     Plu: 4146,
     Type: "Global",
     Category: "Fruits",
@@ -6535,8 +6593,8 @@ export const PLU = {
     Restrictions: "Restricted for items grown in all states east of Colorado, New Mexico, Wyoming and Montana in the U.S. and east of the Ontario/Manitoba border in Canada.",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4147: {
+  }),
+  4147: new PLU({
     Plu: 4147,
     Type: "Global",
     Category: "Fruits",
@@ -6547,8 +6605,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4148: {
+  }),
+  4148: new PLU({
     Plu: 4148,
     Type: "Global",
     Category: "Fruits",
@@ -6560,8 +6618,8 @@ export const PLU = {
     Restrictions: "Restricted for items grown in all states east of Colorado, New Mexico, Wyoming and Montana in the U.S. and east of the Ontario/Manitoba border in Canada.",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4149: {
+  }),
+  4149: new PLU({
     Plu: 4149,
     Type: "Global",
     Category: "Fruits",
@@ -6572,8 +6630,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4150: {
+  }),
+  4150: new PLU({
     Plu: 4150,
     Type: "Global",
     Category: "Fruits",
@@ -6585,8 +6643,8 @@ export const PLU = {
     Restrictions: "Restricted for items grown in all states east of Colorado, New Mexico, Wyoming and Montana in the U.S. and east of the Ontario/Manitoba border in Canada.",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4151: {
+  }),
+  4151: new PLU({
     Plu: 4151,
     Type: "Global",
     Category: "Fruits",
@@ -6597,8 +6655,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4152: {
+  }),
+  4152: new PLU({
     Plu: 4152,
     Type: "Global",
     Category: "Fruits",
@@ -6610,8 +6668,8 @@ export const PLU = {
     Restrictions: "Restricted for items grown in all states east of Colorado, New Mexico, Wyoming and Montana in the U.S. and east of the Ontario/Manitoba border in Canada.",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4153: {
+  }),
+  4153: new PLU({
     Plu: 4153,
     Type: "Global",
     Category: "Fruits",
@@ -6622,8 +6680,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4154: {
+  }),
+  4154: new PLU({
     Plu: 4154,
     Type: "Global",
     Category: "Fruits",
@@ -6634,8 +6692,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4155: {
+  }),
+  4155: new PLU({
     Plu: 4155,
     Type: "Global",
     Category: "Fruits",
@@ -6646,8 +6704,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4156: {
+  }),
+  4156: new PLU({
     Plu: 4156,
     Type: "Global",
     Category: "Fruits",
@@ -6658,8 +6716,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4157: {
+  }),
+  4157: new PLU({
     Plu: 4157,
     Type: "Global",
     Category: "Fruits",
@@ -6670,8 +6728,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4158: {
+  }),
+  4158: new PLU({
     Plu: 4158,
     Type: "Global",
     Category: "Fruits",
@@ -6682,8 +6740,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4159: {
+  }),
+  4159: new PLU({
     Plu: 4159,
     Type: "Global",
     Category: "Vegetables",
@@ -6692,8 +6750,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Allium spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4160: {
+  }),
+  4160: new PLU({
     Plu: 4160,
     Type: "Global",
     Category: "Fruits",
@@ -6704,8 +6762,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4161: {
+  }),
+  4161: new PLU({
     Plu: 4161,
     Type: "Global",
     Category: "Vegetables",
@@ -6714,8 +6772,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Allium spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4162: {
+  }),
+  4162: new PLU({
     Plu: 4162,
     Type: "Global",
     Category: "Fruits",
@@ -6726,8 +6784,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4163: {
+  }),
+  4163: new PLU({
     Plu: 4163,
     Type: "Global",
     Category: "Vegetables",
@@ -6736,8 +6794,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Allium spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4164: {
+  }),
+  4164: new PLU({
     Plu: 4164,
     Type: "Global",
     Category: "Vegetables",
@@ -6746,8 +6804,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Allium spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4165: {
+  }),
+  4165: new PLU({
     Plu: 4165,
     Type: "Global",
     Category: "Vegetables",
@@ -6756,8 +6814,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Allium spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4166: {
+  }),
+  4166: new PLU({
     Plu: 4166,
     Type: "Global",
     Category: "Vegetables",
@@ -6766,8 +6824,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Allium spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4167: {
+  }),
+  4167: new PLU({
     Plu: 4167,
     Type: "Global",
     Category: "Fruits",
@@ -6779,8 +6837,8 @@ export const PLU = {
     Restrictions: "Restricted for items grown in all states east of Colorado, New Mexico, Wyoming and Montana in the U.S. and east of the Ontario/Manitoba border in Canada.",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4168: {
+  }),
+  4168: new PLU({
     Plu: 4168,
     Type: "Global",
     Category: "Fruits",
@@ -6792,8 +6850,8 @@ export const PLU = {
     Restrictions: "Restricted for items grown in all states east of Colorado, New Mexico, Wyoming and Montana in the U.S. and east of the Ontario/Manitoba border in Canada.",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4169: {
+  }),
+  4169: new PLU({
     Plu: 4169,
     Type: "Global",
     Category: "Fruits",
@@ -6805,8 +6863,8 @@ export const PLU = {
     Restrictions: "Restricted for items grown in all states east of Colorado, New Mexico, Wyoming and Montana in the U.S. and east of the Ontario/Manitoba border in Canada.",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4170: {
+  }),
+  4170: new PLU({
     Plu: 4170,
     Type: "Global",
     Category: "Fruits",
@@ -6817,8 +6875,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4171: {
+  }),
+  4171: new PLU({
     Plu: 4171,
     Type: "Global",
     Category: "Fruits",
@@ -6830,8 +6888,8 @@ export const PLU = {
     Restrictions: "Restricted for items grown in all states east of Colorado, New Mexico, Wyoming and Montana in the U.S. and east of the Ontario/Manitoba border in Canada.",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4172: {
+  }),
+  4172: new PLU({
     Plu: 4172,
     Type: "Global",
     Category: "Fruits",
@@ -6842,8 +6900,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4173: {
+  }),
+  4173: new PLU({
     Plu: 4173,
     Type: "Global",
     Category: "Fruits",
@@ -6854,8 +6912,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4174: {
+  }),
+  4174: new PLU({
     Plu: 4174,
     Type: "Global",
     Category: "Fruits",
@@ -6866,8 +6924,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4176: {
+  }),
+  4176: new PLU({
     Plu: 4176,
     Type: "Global",
     Category: "Fruits",
@@ -6876,8 +6934,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4177: {
+  }),
+  4177: new PLU({
     Plu: 4177,
     Type: "Global",
     Category: "Fruits",
@@ -6889,8 +6947,8 @@ export const PLU = {
     Restrictions: "Restricted for items grown in all states east of Colorado, New Mexico, Wyoming and Montana in the U.S. and east of the Ontario/Manitoba border in Canada.",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4178: {
+  }),
+  4178: new PLU({
     Plu: 4178,
     Type: "Global",
     Category: "Fruits",
@@ -6901,8 +6959,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4179: {
+  }),
+  4179: new PLU({
     Plu: 4179,
     Type: "Global",
     Category: "Fruits",
@@ -6914,8 +6972,8 @@ export const PLU = {
     Restrictions: "Restricted for items grown in all states east of Colorado, New Mexico, Wyoming and Montana in the U.S. and east of the Ontario/Manitoba border in Canada.",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4180: {
+  }),
+  4180: new PLU({
     Plu: 4180,
     Type: "Global",
     Category: "Fruits",
@@ -6926,8 +6984,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4181: {
+  }),
+  4181: new PLU({
     Plu: 4181,
     Type: "Global",
     Category: "Fruits",
@@ -6938,8 +6996,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4182: {
+  }),
+  4182: new PLU({
     Plu: 4182,
     Type: "Global",
     Category: "Fruits",
@@ -6948,8 +7006,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4183: {
+  }),
+  4183: new PLU({
     Plu: 4183,
     Type: "Global",
     Category: "Fruits",
@@ -6960,8 +7018,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4185: {
+  }),
+  4185: new PLU({
     Plu: 4185,
     Type: "Global",
     Category: "Fruits",
@@ -6972,8 +7030,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4186: {
+  }),
+  4186: new PLU({
     Plu: 4186,
     Type: "Global",
     Category: "Fruits",
@@ -6983,8 +7041,8 @@ export const PLU = {
     Measures_na: "Size: 7 ½ (19cm) maximum with pulp length measured over convex fruit surface",
     Botanical: "Musa spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4187: {
+  }),
+  4187: new PLU({
     Plu: 4187,
     Type: "Global",
     Category: "Fruits",
@@ -6995,8 +7053,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4188: {
+  }),
+  4188: new PLU({
     Plu: 4188,
     Type: "Global",
     Category: "Fruits",
@@ -7007,8 +7065,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight =  less than 185g",
     Botanical: "Prunus persica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4189: {
+  }),
+  4189: new PLU({
     Plu: 4189,
     Type: "Global",
     Category: "Fruits",
@@ -7020,8 +7078,8 @@ export const PLU = {
     Restrictions: "Restricted for items grown in all states east of Colorado, New Mexico, Wyoming and Montana in the U.S. and east of the Ontario/Manitoba border in Canada.",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4190: {
+  }),
+  4190: new PLU({
     Plu: 4190,
     Type: "Global",
     Category: "Fruits",
@@ -7032,8 +7090,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4191: {
+  }),
+  4191: new PLU({
     Plu: 4191,
     Type: "Global",
     Category: "Fruits",
@@ -7045,8 +7103,8 @@ export const PLU = {
     Restrictions: "Restricted for items grown in all states east of Colorado, New Mexico, Wyoming and Montana in the U.S. and east of the Ontario/Manitoba border in Canada.",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4192: {
+  }),
+  4192: new PLU({
     Plu: 4192,
     Type: "Global",
     Category: "Fruits",
@@ -7057,8 +7115,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = 205g and above",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4193: {
+  }),
+  4193: new PLU({
     Plu: 4193,
     Type: "Global",
     Category: "Fruits",
@@ -7067,8 +7125,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4194: {
+  }),
+  4194: new PLU({
     Plu: 4194,
     Type: "Global",
     Category: "Fruits",
@@ -7077,8 +7135,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4195: {
+  }),
+  4195: new PLU({
     Plu: 4195,
     Type: "Global",
     Category: "Fruits",
@@ -7087,8 +7145,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4196: {
+  }),
+  4196: new PLU({
     Plu: 4196,
     Type: "Global",
     Category: "Fruits",
@@ -7097,8 +7155,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4197: {
+  }),
+  4197: new PLU({
     Plu: 4197,
     Type: "Global",
     Category: "Fruits",
@@ -7107,8 +7165,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4198: {
+  }),
+  4198: new PLU({
     Plu: 4198,
     Type: "Global",
     Category: "Fruits",
@@ -7117,8 +7175,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4199: {
+  }),
+  4199: new PLU({
     Plu: 4199,
     Type: "Global",
     Category: "Fruits",
@@ -7127,8 +7185,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4200: {
+  }),
+  4200: new PLU({
     Plu: 4200,
     Type: "Global",
     Category: "Fruits",
@@ -7137,8 +7195,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4201: {
+  }),
+  4201: new PLU({
     Plu: 4201,
     Type: "Global",
     Category: "Fruits",
@@ -7147,8 +7205,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4202: {
+  }),
+  4202: new PLU({
     Plu: 4202,
     Type: "Global",
     Category: "Fruits",
@@ -7157,8 +7215,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4203: {
+  }),
+  4203: new PLU({
     Plu: 4203,
     Type: "Global",
     Category: "Fruits",
@@ -7167,8 +7225,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4204: {
+  }),
+  4204: new PLU({
     Plu: 4204,
     Type: "Global",
     Category: "Fruits",
@@ -7177,8 +7235,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4205: {
+  }),
+  4205: new PLU({
     Plu: 4205,
     Type: "Global",
     Category: "Fruits",
@@ -7187,8 +7245,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4206: {
+  }),
+  4206: new PLU({
     Plu: 4206,
     Type: "Global",
     Category: "Fruits",
@@ -7197,8 +7255,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4207: {
+  }),
+  4207: new PLU({
     Plu: 4207,
     Type: "Global",
     Category: "Fruits",
@@ -7207,8 +7265,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4208: {
+  }),
+  4208: new PLU({
     Plu: 4208,
     Type: "Global",
     Category: "Fruits",
@@ -7217,8 +7275,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4209: {
+  }),
+  4209: new PLU({
     Plu: 4209,
     Type: "Global",
     Category: "Fruits",
@@ -7227,8 +7285,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4210: {
+  }),
+  4210: new PLU({
     Plu: 4210,
     Type: "Global",
     Category: "Fruits",
@@ -7237,8 +7295,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4211: {
+  }),
+  4211: new PLU({
     Plu: 4211,
     Type: "Global",
     Category: "Fruits",
@@ -7247,8 +7305,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4212: {
+  }),
+  4212: new PLU({
     Plu: 4212,
     Type: "Global",
     Category: "Fruits",
@@ -7257,8 +7315,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4213: {
+  }),
+  4213: new PLU({
     Plu: 4213,
     Type: "Global",
     Category: "Fruits",
@@ -7267,8 +7325,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4214: {
+  }),
+  4214: new PLU({
     Plu: 4214,
     Type: "Global",
     Category: "Fruits",
@@ -7277,8 +7335,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4215: {
+  }),
+  4215: new PLU({
     Plu: 4215,
     Type: "Global",
     Category: "Fruits",
@@ -7287,8 +7345,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4216: {
+  }),
+  4216: new PLU({
     Plu: 4216,
     Type: "Global",
     Category: "Fruits",
@@ -7297,8 +7355,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4217: {
+  }),
+  4217: new PLU({
     Plu: 4217,
     Type: "Global",
     Category: "Fruits",
@@ -7307,8 +7365,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4218: {
+  }),
+  4218: new PLU({
     Plu: 4218,
     Type: "Global",
     Category: "Fruits",
@@ -7318,8 +7376,8 @@ export const PLU = {
     Measures_na: "Less than 2-3/16 inch,Less than 55 mm Average Fruit Dimensions",
     Botanical: "Prunus armeniaca",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4219: {
+  }),
+  4219: new PLU({
     Plu: 4219,
     Type: "Global",
     Category: "Fruits",
@@ -7328,8 +7386,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Prunus armeniaca",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4220: {
+  }),
+  4220: new PLU({
     Plu: 4220,
     Type: "Global",
     Category: "Fruits",
@@ -7337,8 +7395,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Annona spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4221: {
+  }),
+  4221: new PLU({
     Plu: 4221,
     Type: "Global",
     Category: "Fruits",
@@ -7349,8 +7407,8 @@ export const PLU = {
     Restrictions: "Restricted for items grown east of the Mississippi River in the U.S. or east of the Ontario/Manitoba border in Canada.",
     Botanical: "Persea americana",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4222: {
+  }),
+  4222: new PLU({
     Plu: 4222,
     Type: "Global",
     Category: "Fruits",
@@ -7361,8 +7419,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = less than 280g",
     Botanical: "Persea americana",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4223: {
+  }),
+  4223: new PLU({
     Plu: 4223,
     Type: "Global",
     Category: "Fruits",
@@ -7373,8 +7431,8 @@ export const PLU = {
     Restrictions: "Restricted for items grown east of the Mississippi River in the U.S. or east of the Ontario/Manitoba border in Canada.",
     Botanical: "Persea americana",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4224: {
+  }),
+  4224: new PLU({
     Plu: 4224,
     Type: "Global",
     Category: "Fruits",
@@ -7385,8 +7443,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = 280g and above",
     Botanical: "Persea americana",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4225: {
+  }),
+  4225: new PLU({
     Plu: 4225,
     Type: "Global",
     Category: "Fruits",
@@ -7397,8 +7455,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = 190g - under 315g",
     Botanical: "Persea americana",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4226: {
+  }),
+  4226: new PLU({
     Plu: 4226,
     Type: "Global",
     Category: "Fruits",
@@ -7407,8 +7465,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Musa spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4227: {
+  }),
+  4227: new PLU({
     Plu: 4227,
     Type: "Global",
     Category: "Fruits",
@@ -7417,8 +7475,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Persea americana",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4228: {
+  }),
+  4228: new PLU({
     Plu: 4228,
     Type: "Global",
     Category: "Fruits",
@@ -7427,8 +7485,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Persea americana",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4229: {
+  }),
+  4229: new PLU({
     Plu: 4229,
     Type: "Global",
     Category: "Fruits",
@@ -7437,8 +7495,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Musa spp",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4230: {
+  }),
+  4230: new PLU({
     Plu: 4230,
     Type: "Global",
     Category: "Fruits",
@@ -7447,8 +7505,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Musa spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4231: {
+  }),
+  4231: new PLU({
     Plu: 4231,
     Type: "Global",
     Category: "Fruits",
@@ -7457,8 +7515,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Musa spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4232: {
+  }),
+  4232: new PLU({
     Plu: 4232,
     Type: "Global",
     Category: "Fruits",
@@ -7467,8 +7525,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Musa spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4233: {
+  }),
+  4233: new PLU({
     Plu: 4233,
     Type: "Global",
     Category: "Fruits",
@@ -7477,8 +7535,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Musa spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4234: {
+  }),
+  4234: new PLU({
     Plu: 4234,
     Type: "Global",
     Category: "Fruits",
@@ -7487,8 +7545,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Musa spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4235: {
+  }),
+  4235: new PLU({
     Plu: 4235,
     Type: "Global",
     Category: "Fruits",
@@ -7497,8 +7555,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Musa ssp",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4236: {
+  }),
+  4236: new PLU({
     Plu: 4236,
     Type: "Global",
     Category: "Fruits",
@@ -7507,8 +7565,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Musa spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4237: {
+  }),
+  4237: new PLU({
     Plu: 4237,
     Type: "Global",
     Category: "Fruits",
@@ -7517,8 +7575,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Musa spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4238: {
+  }),
+  4238: new PLU({
     Plu: 4238,
     Type: "Global",
     Category: "Fruits",
@@ -7527,8 +7585,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Musa spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4239: {
+  }),
+  4239: new PLU({
     Plu: 4239,
     Type: "Global",
     Category: "Fruits",
@@ -7537,8 +7595,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Rubus fruticosus",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4240: {
+  }),
+  4240: new PLU({
     Plu: 4240,
     Type: "Global",
     Category: "Fruits",
@@ -7547,8 +7605,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Vaccinium spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4241: {
+  }),
+  4241: new PLU({
     Plu: 4241,
     Type: "Global",
     Category: "Fruits",
@@ -7557,8 +7615,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Rubus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4242: {
+  }),
+  4242: new PLU({
     Plu: 4242,
     Type: "Global",
     Category: "Fruits",
@@ -7567,8 +7625,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Vaccinium macrocarpon",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4243: {
+  }),
+  4243: new PLU({
     Plu: 4243,
     Type: "Global",
     Category: "Fruits",
@@ -7577,8 +7635,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Ribes uva-crispa",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4244: {
+  }),
+  4244: new PLU({
     Plu: 4244,
     Type: "Global",
     Category: "Fruits",
@@ -7587,8 +7645,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "R.occidentalis",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4245: {
+  }),
+  4245: new PLU({
     Plu: 4245,
     Type: "Global",
     Category: "Fruits",
@@ -7597,8 +7655,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Rubus idaeus",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4246: {
+  }),
+  4246: new PLU({
     Plu: 4246,
     Type: "Global",
     Category: "Fruits",
@@ -7608,8 +7666,8 @@ export const PLU = {
     Restrictions: "Restricted for items grown east of the Mississippi River in the U.S. or east of the Ontario/Manitoba border in Canada.",
     Botanical: "Fragaria ananassa",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4247: {
+  }),
+  4247: new PLU({
     Plu: 4247,
     Type: "Global",
     Category: "Fruits",
@@ -7619,8 +7677,8 @@ export const PLU = {
     Restrictions: "Restricted for items grown east of the Mississippi River in the U.S. or east of the Ontario/Manitoba border in Canada.",
     Botanical: "Fragaria ananassa",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4248: {
+  }),
+  4248: new PLU({
     Plu: 4248,
     Type: "Global",
     Category: "Fruits",
@@ -7629,8 +7687,8 @@ export const PLU = {
     Size: "Quart",
     Botanical: "Fragaria ananassa",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4249: {
+  }),
+  4249: new PLU({
     Plu: 4249,
     Type: "Global",
     Category: "Fruits",
@@ -7640,8 +7698,8 @@ export const PLU = {
     Restrictions: "Restricted for items grown east of the Mississippi River in the U.S. or east of the Ontario/Manitoba border in Canada.",
     Botanical: "Fragaria ananassa",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4250: {
+  }),
+  4250: new PLU({
     Plu: 4250,
     Type: "Global",
     Category: "Fruits",
@@ -7650,8 +7708,8 @@ export const PLU = {
     Size: "Bulk 3-pack (3 pints)",
     Botanical: "Fragaria ananassa",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4251: {
+  }),
+  4251: new PLU({
     Plu: 4251,
     Type: "Global",
     Category: "Fruits",
@@ -7660,8 +7718,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Fragaria ananassa",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4252: {
+  }),
+  4252: new PLU({
     Plu: 4252,
     Type: "Global",
     Category: "Fruits",
@@ -7670,8 +7728,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Rubus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4253: {
+  }),
+  4253: new PLU({
     Plu: 4253,
     Type: "Global",
     Category: "Fruits",
@@ -7680,8 +7738,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Rubus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4254: {
+  }),
+  4254: new PLU({
     Plu: 4254,
     Type: "Global",
     Category: "Fruits",
@@ -7689,8 +7747,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Artocarpus altilis",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4255: {
+  }),
+  4255: new PLU({
     Plu: 4255,
     Type: "Global",
     Category: "Fruits",
@@ -7698,8 +7756,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Opuntia spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4256: {
+  }),
+  4256: new PLU({
     Plu: 4256,
     Type: "Global",
     Category: "Fruits",
@@ -7707,8 +7765,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Averrhoa carambola",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4257: {
+  }),
+  4257: new PLU({
     Plu: 4257,
     Type: "Global",
     Category: "Fruits",
@@ -7716,8 +7774,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Annona cherimola",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4258: {
+  }),
+  4258: new PLU({
     Plu: 4258,
     Type: "Global",
     Category: "Fruits",
@@ -7726,8 +7784,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Prunus avium",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4259: {
+  }),
+  4259: new PLU({
     Plu: 4259,
     Type: "Global",
     Category: "Fruits",
@@ -7736,8 +7794,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Prunus avium",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4260: {
+  }),
+  4260: new PLU({
     Plu: 4260,
     Type: "Global",
     Category: "Fruits",
@@ -7746,8 +7804,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cocos nucifera",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4261: {
+  }),
+  4261: new PLU({
     Plu: 4261,
     Type: "Global",
     Category: "Fruits",
@@ -7756,8 +7814,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cocos nucifera",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4262: {
+  }),
+  4262: new PLU({
     Plu: 4262,
     Type: "Global",
     Category: "Fruits",
@@ -7766,8 +7824,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cocos nucifera",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4263: {
+  }),
+  4263: new PLU({
     Plu: 4263,
     Type: "Global",
     Category: "Fruits",
@@ -7776,8 +7834,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Phoenix dactylifera",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4264: {
+  }),
+  4264: new PLU({
     Plu: 4264,
     Type: "Global",
     Category: "Fruits",
@@ -7786,8 +7844,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Phoenix dactylifera",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4265: {
+  }),
+  4265: new PLU({
     Plu: 4265,
     Type: "Global",
     Category: "Fruits",
@@ -7795,8 +7853,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Acca sellowiana",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4266: {
+  }),
+  4266: new PLU({
     Plu: 4266,
     Type: "Global",
     Category: "Fruits",
@@ -7805,8 +7863,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Ficus carica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4267: {
+  }),
+  4267: new PLU({
     Plu: 4267,
     Type: "Global",
     Category: "Fruits",
@@ -7815,8 +7873,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Ficus carica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4268: {
+  }),
+  4268: new PLU({
     Plu: 4268,
     Type: "Global",
     Category: "Fruits",
@@ -7825,8 +7883,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Ficus carica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4269: {
+  }),
+  4269: new PLU({
     Plu: 4269,
     Type: "Global",
     Category: "Fruits",
@@ -7835,8 +7893,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Ficus carica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4270: {
+  }),
+  4270: new PLU({
     Plu: 4270,
     Type: "Global",
     Category: "Fruits",
@@ -7845,8 +7903,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Vitis vinifera",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4271: {
+  }),
+  4271: new PLU({
     Plu: 4271,
     Type: "Global",
     Category: "Fruits",
@@ -7855,8 +7913,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Vitis vinifera",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4272: {
+  }),
+  4272: new PLU({
     Plu: 4272,
     Type: "Global",
     Category: "Fruits",
@@ -7865,8 +7923,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "V.labrusca",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4273: {
+  }),
+  4273: new PLU({
     Plu: 4273,
     Type: "Global",
     Category: "Fruits",
@@ -7875,8 +7933,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Vitis vinifera",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4274: {
+  }),
+  4274: new PLU({
     Plu: 4274,
     Type: "Global",
     Category: "Fruits",
@@ -7885,8 +7943,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Vitis vinifera",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4275: {
+  }),
+  4275: new PLU({
     Plu: 4275,
     Type: "Global",
     Category: "Fruits",
@@ -7895,8 +7953,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Vitis vinifera",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4276: {
+  }),
+  4276: new PLU({
     Plu: 4276,
     Type: "Global",
     Category: "Fruits",
@@ -7905,8 +7963,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Vitis vinifera",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4277: {
+  }),
+  4277: new PLU({
     Plu: 4277,
     Type: "Global",
     Category: "Fruits",
@@ -7915,8 +7973,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Vitis vinifera",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4278: {
+  }),
+  4278: new PLU({
     Plu: 4278,
     Type: "Global",
     Category: "Fruits",
@@ -7925,8 +7983,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Vitis vinifera",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4279: {
+  }),
+  4279: new PLU({
     Plu: 4279,
     Type: "Global",
     Category: "Fruits",
@@ -7935,8 +7993,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "C.grandis",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4280: {
+  }),
+  4280: new PLU({
     Plu: 4280,
     Type: "Global",
     Category: "Fruits",
@@ -7947,8 +8005,8 @@ export const PLU = {
     Restrictions: "Restricted for items grown in Texas, Arizona and New Mexico in the U.S.",
     Botanical: "Citrus paradisi",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4281: {
+  }),
+  4281: new PLU({
     Plu: 4281,
     Type: "Global",
     Category: "Fruits",
@@ -7959,8 +8017,8 @@ export const PLU = {
     Restrictions: "Restricted for items grown east of the Mississippi River in the U.S or east of the Ontario/Manitoba border in Canada.",
     Botanical: "Citrus paradisi",
     Created_at: "2002-05-01 22:00:00",
-  },
-  4282: {
+  }),
+  4282: new PLU({
     Plu: 4282,
     Type: "Global",
     Category: "Fruits",
@@ -7971,8 +8029,8 @@ export const PLU = {
     Measures_row: "Average Fruit Dimensions = 97 - under 108mm",
     Botanical: "Citrus paradisi",
     Created_at: "2002-06-01 22:00:00",
-  },
-  4283: {
+  }),
+  4283: new PLU({
     Plu: 4283,
     Type: "Global",
     Category: "Fruits",
@@ -7983,8 +8041,8 @@ export const PLU = {
     Restrictions: "Restricted for items grown in Texas, Arizona and New Mexico in the U.S.",
     Botanical: "Citrus paradisi",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4284: {
+  }),
+  4284: new PLU({
     Plu: 4284,
     Type: "Global",
     Category: "Fruits",
@@ -7995,8 +8053,8 @@ export const PLU = {
     Restrictions: "Restricted for items grown east of the Mississippi River in the U.S or east of the Ontario/Manitoba border in Canada.",
     Botanical: "Citrus paradisi",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4285: {
+  }),
+  4285: new PLU({
     Plu: 4285,
     Type: "Global",
     Category: "Fruits",
@@ -8007,8 +8065,8 @@ export const PLU = {
     Measures_row: "Average Fruit Dimensions = less than 97mm",
     Botanical: "Citrus paradisi",
     Created_at: "2002-06-01 22:00:00",
-  },
-  4286: {
+  }),
+  4286: new PLU({
     Plu: 4286,
     Type: "Global",
     Category: "Fruits",
@@ -8019,8 +8077,8 @@ export const PLU = {
     Restrictions: "Restricted for items grown in Texas, Arizona and New Mexico in the U.S.",
     Botanical: "Citrus paradisi",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4287: {
+  }),
+  4287: new PLU({
     Plu: 4287,
     Type: "Global",
     Category: "Fruits",
@@ -8031,8 +8089,8 @@ export const PLU = {
     Restrictions: "Restricted for items grown east of the Mississippi River in the U.S or east of the Ontario/Manitoba border in Canada.",
     Botanical: "Citrus paradisi",
     Created_at: "2002-05-01 22:00:00",
-  },
-  4288: {
+  }),
+  4288: new PLU({
     Plu: 4288,
     Type: "Global",
     Category: "Fruits",
@@ -8043,8 +8101,8 @@ export const PLU = {
     Measures_row: "Average Fruit Dimensions = 97-under 108mm",
     Botanical: "Citrus paradisi",
     Created_at: "2002-06-01 22:00:00",
-  },
-  4289: {
+  }),
+  4289: new PLU({
     Plu: 4289,
     Type: "Global",
     Category: "Fruits",
@@ -8055,8 +8113,8 @@ export const PLU = {
     Restrictions: "Restricted for items grown in Texas, Arizona and New Mexico in the U.S.",
     Botanical: "Citrus paradisi",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4290: {
+  }),
+  4290: new PLU({
     Plu: 4290,
     Type: "Global",
     Category: "Fruits",
@@ -8067,8 +8125,8 @@ export const PLU = {
     Restrictions: "Restricted for items grown east of the Mississippi River in the U.S or east of the Ontario/Manitoba border in Canada.",
     Botanical: "Citrus paradisi",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4291: {
+  }),
+  4291: new PLU({
     Plu: 4291,
     Type: "Global",
     Category: "Fruits",
@@ -8079,8 +8137,8 @@ export const PLU = {
     Measures_row: "Average Fruit Dimensions = less than 97mm",
     Botanical: "Citrus paradisi",
     Created_at: "2002-06-01 22:00:00",
-  },
-  4292: {
+  }),
+  4292: new PLU({
     Plu: 4292,
     Type: "Global",
     Category: "Fruits",
@@ -8091,8 +8149,8 @@ export const PLU = {
     Restrictions: "Restricted for items grown in Texas, Arizona and New Mexico in the U.S.",
     Botanical: "Citrus paradisi",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4293: {
+  }),
+  4293: new PLU({
     Plu: 4293,
     Type: "Global",
     Category: "Fruits",
@@ -8104,8 +8162,8 @@ export const PLU = {
     Restrictions: "Restricted for items grown east of the Mississippi River in the U.S or east of the Ontario/Manitoba border in Canada.",
     Botanical: "Citrus paradisi",
     Created_at: "2002-05-01 22:00:00",
-  },
-  4294: {
+  }),
+  4294: new PLU({
     Plu: 4294,
     Type: "Global",
     Category: "Fruits",
@@ -8116,8 +8174,8 @@ export const PLU = {
     Measures_row: "Average Fruit Dimensions = 97-under 108mm",
     Botanical: "Citrus paradisi",
     Created_at: "2002-06-01 22:00:00",
-  },
-  4295: {
+  }),
+  4295: new PLU({
     Plu: 4295,
     Type: "Global",
     Category: "Fruits",
@@ -8128,8 +8186,8 @@ export const PLU = {
     Restrictions: "Restricted for items grown in Texas, Arizona and New Mexico in the U.S.",
     Botanical: "Citrus paradisi",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4296: {
+  }),
+  4296: new PLU({
     Plu: 4296,
     Type: "Global",
     Category: "Fruits",
@@ -8138,8 +8196,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Citrus paradisi",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4297: {
+  }),
+  4297: new PLU({
     Plu: 4297,
     Type: "Global",
     Category: "Fruits",
@@ -8148,8 +8206,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Citrus paradisi",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4298: {
+  }),
+  4298: new PLU({
     Plu: 4298,
     Type: "Global",
     Category: "Fruits",
@@ -8158,8 +8216,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Citrus paradisi",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4299: {
+  }),
+  4299: new PLU({
     Plu: 4299,
     Type: "Global",
     Category: "Fruits",
@@ -8167,16 +8225,16 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Psidium guajava",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4300: {
+  }),
+  4300: new PLU({
     Plu: 4300,
     Type: "Global",
     Category: "Fruits",
     Commodity: "HOMLI FRUIT",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4301: {
+  }),
+  4301: new PLU({
     Plu: 4301,
     Type: "Global",
     Category: "Fruits",
@@ -8185,8 +8243,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Actinidia deliciosa",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4302: {
+  }),
+  4302: new PLU({
     Plu: 4302,
     Type: "Global",
     Category: "Fruits",
@@ -8194,8 +8252,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucumis metuliferus",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4303: {
+  }),
+  4303: new PLU({
     Plu: 4303,
     Type: "Global",
     Category: "Fruits",
@@ -8203,8 +8261,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Fortunella spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4304: {
+  }),
+  4304: new PLU({
     Plu: 4304,
     Type: "Global",
     Category: "Fruits",
@@ -8213,8 +8271,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Citrus limon",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4305: {
+  }),
+  4305: new PLU({
     Plu: 4305,
     Type: "Global",
     Category: "Fruits",
@@ -8223,8 +8281,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Citrus aurantifolia",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4306: {
+  }),
+  4306: new PLU({
     Plu: 4306,
     Type: "Global",
     Category: "Fruits",
@@ -8232,8 +8290,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4307: {
+  }),
+  4307: new PLU({
     Plu: 4307,
     Type: "Global",
     Category: "Fruits",
@@ -8241,8 +8299,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Dimocarpus longan",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4308: {
+  }),
+  4308: new PLU({
     Plu: 4308,
     Type: "Global",
     Category: "Fruits",
@@ -8250,8 +8308,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Eribotyra japonica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4309: {
+  }),
+  4309: new PLU({
     Plu: 4309,
     Type: "Global",
     Category: "Fruits",
@@ -8259,8 +8317,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Litchi chinensis",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4310: {
+  }),
+  4310: new PLU({
     Plu: 4310,
     Type: "Global",
     Category: "Fruits",
@@ -8268,8 +8326,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Pouteria sapota",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4311: {
+  }),
+  4311: new PLU({
     Plu: 4311,
     Type: "Global",
     Category: "Fruits",
@@ -8280,8 +8338,8 @@ export const PLU = {
     Botanical: "Mangifera indica",
     Aka: "(Includes Keitt and Francis varieties)",
     Created_at: "2007-05-14 22:00:00",
-  },
-  4312: {
+  }),
+  4312: new PLU({
     Plu: 4312,
     Type: "Global",
     Category: "Fruits",
@@ -8291,8 +8349,8 @@ export const PLU = {
     Measures_na: "18 size and smaller",
     Botanical: "Mangifera indica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4313: {
+  }),
+  4313: new PLU({
     Plu: 4313,
     Type: "Global",
     Category: "Fruits",
@@ -8301,8 +8359,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Mangifera indica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4314: {
+  }),
+  4314: new PLU({
     Plu: 4314,
     Type: "Global",
     Category: "Fruits",
@@ -8311,8 +8369,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Mangifera indica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4315: {
+  }),
+  4315: new PLU({
     Plu: 4315,
     Type: "Global",
     Category: "Fruits",
@@ -8321,8 +8379,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Mangifera indica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4316: {
+  }),
+  4316: new PLU({
     Plu: 4316,
     Type: "Global",
     Category: "Fruits",
@@ -8331,8 +8389,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Mangifera indica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4317: {
+  }),
+  4317: new PLU({
     Plu: 4317,
     Type: "Global",
     Category: "Fruits",
@@ -8341,8 +8399,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucumis melo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4318: {
+  }),
+  4318: new PLU({
     Plu: 4318,
     Type: "Global",
     Category: "Fruits",
@@ -8354,8 +8412,8 @@ export const PLU = {
     Restrictions: "Restricted for items grown east of the Mississippi River in the U.S or east of the Ontario/Manitoba border in Canada.",
     Botanical: "Cucumis melo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4319: {
+  }),
+  4319: new PLU({
     Plu: 4319,
     Type: "Global",
     Category: "Fruits",
@@ -8367,8 +8425,8 @@ export const PLU = {
     Restrictions: "Restricted for items grown east of the Mississippi River in the U.S or east of the Ontario/Manitoba border in Canada.",
     Botanical: "Cucumis melo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4320: {
+  }),
+  4320: new PLU({
     Plu: 4320,
     Type: "Global",
     Category: "Fruits",
@@ -8377,8 +8435,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucumis melo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4321: {
+  }),
+  4321: new PLU({
     Plu: 4321,
     Type: "Global",
     Category: "Fruits",
@@ -8387,8 +8445,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucumis melo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4322: {
+  }),
+  4322: new PLU({
     Plu: 4322,
     Type: "Global",
     Category: "Fruits",
@@ -8397,8 +8455,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucumis melo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4323: {
+  }),
+  4323: new PLU({
     Plu: 4323,
     Type: "Global",
     Category: "Fruits",
@@ -8407,8 +8465,8 @@ export const PLU = {
     Size: "Bulk",
     Botanical: "Fragaria ananassa",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4324: {
+  }),
+  4324: new PLU({
     Plu: 4324,
     Type: "Global",
     Category: "Fruits",
@@ -8417,8 +8475,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucumis melo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4325: {
+  }),
+  4325: new PLU({
     Plu: 4325,
     Type: "Global",
     Category: "Fruits",
@@ -8427,8 +8485,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucumis melo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4326: {
+  }),
+  4326: new PLU({
     Plu: 4326,
     Type: "Global",
     Category: "Fruits",
@@ -8437,8 +8495,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucumis melo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4327: {
+  }),
+  4327: new PLU({
     Plu: 4327,
     Type: "Global",
     Category: "Fruits",
@@ -8447,8 +8505,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucumis melo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4328: {
+  }),
+  4328: new PLU({
     Plu: 4328,
     Type: "Global",
     Category: "Fruits",
@@ -8456,8 +8514,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Citrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4329: {
+  }),
+  4329: new PLU({
     Plu: 4329,
     Type: "Global",
     Category: "Fruits",
@@ -8468,8 +8526,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight =  less than 2040g",
     Botanical: "Cucumis melo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4330: {
+  }),
+  4330: new PLU({
     Plu: 4330,
     Type: "Global",
     Category: "Fruits",
@@ -8478,8 +8536,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucumis melo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4331: {
+  }),
+  4331: new PLU({
     Plu: 4331,
     Type: "Global",
     Category: "Fruits",
@@ -8488,8 +8546,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucumis melo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4332: {
+  }),
+  4332: new PLU({
     Plu: 4332,
     Type: "Global",
     Category: "Fruits",
@@ -8498,8 +8556,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucumis melo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4333: {
+  }),
+  4333: new PLU({
     Plu: 4333,
     Type: "Global",
     Category: "Fruits",
@@ -8508,8 +8566,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucumis melo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4334: {
+  }),
+  4334: new PLU({
     Plu: 4334,
     Type: "Global",
     Category: "Fruits",
@@ -8518,8 +8576,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucumis melo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4335: {
+  }),
+  4335: new PLU({
     Plu: 4335,
     Type: "Global",
     Category: "Fruits",
@@ -8528,8 +8586,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucumis melo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4336: {
+  }),
+  4336: new PLU({
     Plu: 4336,
     Type: "Global",
     Category: "Fruits",
@@ -8538,8 +8596,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucumis melo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4337: {
+  }),
+  4337: new PLU({
     Plu: 4337,
     Type: "Global",
     Category: "Fruits",
@@ -8548,8 +8606,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucumis melo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4338: {
+  }),
+  4338: new PLU({
     Plu: 4338,
     Type: "Global",
     Category: "Fruits",
@@ -8558,8 +8616,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucumis melo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4339: {
+  }),
+  4339: new PLU({
     Plu: 4339,
     Type: "Global",
     Category: "Fruits",
@@ -8568,8 +8626,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucumis melo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4340: {
+  }),
+  4340: new PLU({
     Plu: 4340,
     Type: "Global",
     Category: "Fruits",
@@ -8578,8 +8636,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Citrullus lanatus",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4341: {
+  }),
+  4341: new PLU({
     Plu: 4341,
     Type: "Global",
     Category: "Fruits",
@@ -8588,8 +8646,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Citrullus lanatus",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4342: {
+  }),
+  4342: new PLU({
     Plu: 4342,
     Type: "Global",
     Category: "Fruits",
@@ -8598,8 +8656,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucumis melo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4343: {
+  }),
+  4343: new PLU({
     Plu: 4343,
     Type: "Global",
     Category: "Fruits",
@@ -8608,8 +8666,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucumis melo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4344: {
+  }),
+  4344: new PLU({
     Plu: 4344,
     Type: "Global",
     Category: "Fruits",
@@ -8618,8 +8676,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucumis melo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4345: {
+  }),
+  4345: new PLU({
     Plu: 4345,
     Type: "Global",
     Category: "Fruits",
@@ -8628,8 +8686,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucumis melo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4346: {
+  }),
+  4346: new PLU({
     Plu: 4346,
     Type: "Global",
     Category: "Fruits",
@@ -8638,8 +8696,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucumis melo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4347: {
+  }),
+  4347: new PLU({
     Plu: 4347,
     Type: "Global",
     Category: "Fruits",
@@ -8648,8 +8706,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucumis melo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4348: {
+  }),
+  4348: new PLU({
     Plu: 4348,
     Type: "Global",
     Category: "Fruits",
@@ -8658,8 +8716,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucumis melo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4349: {
+  }),
+  4349: new PLU({
     Plu: 4349,
     Type: "Global",
     Category: "Fruits",
@@ -8668,8 +8726,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucumis melo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4350: {
+  }),
+  4350: new PLU({
     Plu: 4350,
     Type: "Global",
     Category: "Fruits",
@@ -8678,8 +8736,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucumis melo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4351: {
+  }),
+  4351: new PLU({
     Plu: 4351,
     Type: "Global",
     Category: "Fruits",
@@ -8688,8 +8746,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucumis melo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4352: {
+  }),
+  4352: new PLU({
     Plu: 4352,
     Type: "Global",
     Category: "Fruits",
@@ -8698,8 +8756,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucumis melo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4353: {
+  }),
+  4353: new PLU({
     Plu: 4353,
     Type: "Global",
     Category: "Fruits",
@@ -8708,8 +8766,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucumis melo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4354: {
+  }),
+  4354: new PLU({
     Plu: 4354,
     Type: "Global",
     Category: "Fruits",
@@ -8718,8 +8776,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucumis melo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4355: {
+  }),
+  4355: new PLU({
     Plu: 4355,
     Type: "Global",
     Category: "Fruits",
@@ -8728,8 +8786,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucumis melo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4356: {
+  }),
+  4356: new PLU({
     Plu: 4356,
     Type: "Global",
     Category: "Fruits",
@@ -8738,8 +8796,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucumis melo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4357: {
+  }),
+  4357: new PLU({
     Plu: 4357,
     Type: "Global",
     Category: "Fruits",
@@ -8748,8 +8806,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucumis melo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4358: {
+  }),
+  4358: new PLU({
     Plu: 4358,
     Type: "Global",
     Category: "Fruits",
@@ -8758,8 +8816,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucumis melo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4359: {
+  }),
+  4359: new PLU({
     Plu: 4359,
     Type: "Global",
     Category: "Fruits",
@@ -8768,8 +8826,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucumis melo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4360: {
+  }),
+  4360: new PLU({
     Plu: 4360,
     Type: "Global",
     Category: "Fruits",
@@ -8778,8 +8836,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucumis melo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4361: {
+  }),
+  4361: new PLU({
     Plu: 4361,
     Type: "Global",
     Category: "Fruits",
@@ -8788,8 +8846,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucumis melo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4362: {
+  }),
+  4362: new PLU({
     Plu: 4362,
     Type: "Global",
     Category: "Fruits",
@@ -8798,8 +8856,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucumis melo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4363: {
+  }),
+  4363: new PLU({
     Plu: 4363,
     Type: "Global",
     Category: "Fruits",
@@ -8808,8 +8866,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucumis melo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4364: {
+  }),
+  4364: new PLU({
     Plu: 4364,
     Type: "Global",
     Category: "Fruits",
@@ -8818,8 +8876,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucumis melo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4365: {
+  }),
+  4365: new PLU({
     Plu: 4365,
     Type: "Global",
     Category: "Fruits",
@@ -8828,8 +8886,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucumis melo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4366: {
+  }),
+  4366: new PLU({
     Plu: 4366,
     Type: "Global",
     Category: "Fruits",
@@ -8838,8 +8896,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucumis melo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4367: {
+  }),
+  4367: new PLU({
     Plu: 4367,
     Type: "Global",
     Category: "Fruits",
@@ -8848,8 +8906,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucumis melo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4368: {
+  }),
+  4368: new PLU({
     Plu: 4368,
     Type: "Global",
     Category: "Fruits",
@@ -8858,8 +8916,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucumis melo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4369: {
+  }),
+  4369: new PLU({
     Plu: 4369,
     Type: "Global",
     Category: "Fruits",
@@ -8868,8 +8926,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucumis melo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4370: {
+  }),
+  4370: new PLU({
     Plu: 4370,
     Type: "Global",
     Category: "Fruits",
@@ -8878,8 +8936,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucumis melo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4371: {
+  }),
+  4371: new PLU({
     Plu: 4371,
     Type: "Global",
     Category: "Fruits",
@@ -8888,8 +8946,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucumis melo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4372: {
+  }),
+  4372: new PLU({
     Plu: 4372,
     Type: "Global",
     Category: "Fruits",
@@ -8898,8 +8956,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucumis melo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4373: {
+  }),
+  4373: new PLU({
     Plu: 4373,
     Type: "Global",
     Category: "Fruits",
@@ -8908,8 +8966,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucumis melo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4374: {
+  }),
+  4374: new PLU({
     Plu: 4374,
     Type: "Global",
     Category: "Fruits",
@@ -8918,8 +8976,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucumis melo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4375: {
+  }),
+  4375: new PLU({
     Plu: 4375,
     Type: "Global",
     Category: "Fruits",
@@ -8928,8 +8986,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucumis melo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4376: {
+  }),
+  4376: new PLU({
     Plu: 4376,
     Type: "Global",
     Category: "Fruits",
@@ -8938,8 +8996,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucumis melo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4377: {
+  }),
+  4377: new PLU({
     Plu: 4377,
     Type: "Global",
     Category: "Fruits",
@@ -8950,8 +9008,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight =  less than 185g",
     Botanical: "Prunus persica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4378: {
+  }),
+  4378: new PLU({
     Plu: 4378,
     Type: "Global",
     Category: "Fruits",
@@ -8962,8 +9020,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight =  185g and above",
     Botanical: "Prunus persica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4379: {
+  }),
+  4379: new PLU({
     Plu: 4379,
     Type: "Global",
     Category: "Fruits",
@@ -8972,8 +9030,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Prunus persica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4380: {
+  }),
+  4380: new PLU({
     Plu: 4380,
     Type: "Global",
     Category: "Fruits",
@@ -8982,8 +9040,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Prunus persica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4381: {
+  }),
+  4381: new PLU({
     Plu: 4381,
     Type: "Global",
     Category: "Fruits",
@@ -8992,8 +9050,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Citrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4382: {
+  }),
+  4382: new PLU({
     Plu: 4382,
     Type: "Global",
     Category: "Fruits",
@@ -9002,8 +9060,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Citrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4383: {
+  }),
+  4383: new PLU({
     Plu: 4383,
     Type: "Global",
     Category: "Fruits",
@@ -9012,8 +9070,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Citro paradisi X",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4384: {
+  }),
+  4384: new PLU({
     Plu: 4384,
     Type: "Global",
     Category: "Fruits",
@@ -9025,8 +9083,8 @@ export const PLU = {
     Restrictions: "Restricted for items grown east of the Mississippi River in the U.S., east of the Ontario/Manitoba border in Canada and Texas, Arizona and New Mexico in the U.S.",
     Botanical: "Citrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4385: {
+  }),
+  4385: new PLU({
     Plu: 4385,
     Type: "Global",
     Category: "Fruits",
@@ -9038,8 +9096,8 @@ export const PLU = {
     Restrictions: "Restricted for items grown east of the Mississippi River in the U.S., east of the Ontario/Manitoba border in Canada and Texas, Arizona and New Mexico in the U.S.",
     Botanical: "Citrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4386: {
+  }),
+  4386: new PLU({
     Plu: 4386,
     Type: "Global",
     Category: "Fruits",
@@ -9050,8 +9108,8 @@ export const PLU = {
     Measures_row: "Average Fruit Dimensions = less than 65mm",
     Botanical: "Citrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4387: {
+  }),
+  4387: new PLU({
     Plu: 4387,
     Type: "Global",
     Category: "Fruits",
@@ -9062,8 +9120,8 @@ export const PLU = {
     Measures_row: "Average Fruit Dimensions = 65mm and above",
     Botanical: "Citrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4388: {
+  }),
+  4388: new PLU({
     Plu: 4388,
     Type: "Global",
     Category: "Fruits",
@@ -9074,8 +9132,8 @@ export const PLU = {
     Measures_row: "Average Fruit Dimensions = 84mm and above",
     Botanical: "Citrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4389: {
+  }),
+  4389: new PLU({
     Plu: 4389,
     Type: "Global",
     Category: "Fruits",
@@ -9084,8 +9142,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Citrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4390: {
+  }),
+  4390: new PLU({
     Plu: 4390,
     Type: "Global",
     Category: "Fruits",
@@ -9094,8 +9152,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Citrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4391: {
+  }),
+  4391: new PLU({
     Plu: 4391,
     Type: "Global",
     Category: "Fruits",
@@ -9104,8 +9162,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Citrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4392: {
+  }),
+  4392: new PLU({
     Plu: 4392,
     Type: "Global",
     Category: "Fruits",
@@ -9114,8 +9172,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Citrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4393: {
+  }),
+  4393: new PLU({
     Plu: 4393,
     Type: "Global",
     Category: "Fruits",
@@ -9124,8 +9182,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Citrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4394: {
+  }),
+  4394: new PLU({
     Plu: 4394,
     Type: "Global",
     Category: "Fruits",
@@ -9135,8 +9193,8 @@ export const PLU = {
     Measures_na: "9 size and larger",
     Botanical: "Carica papaya",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4395: {
+  }),
+  4395: new PLU({
     Plu: 4395,
     Type: "Global",
     Category: "Fruits",
@@ -9145,8 +9203,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Carica papaya",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4396: {
+  }),
+  4396: new PLU({
     Plu: 4396,
     Type: "Global",
     Category: "Fruits",
@@ -9155,8 +9213,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Carica papaya",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4397: {
+  }),
+  4397: new PLU({
     Plu: 4397,
     Type: "Global",
     Category: "Fruits",
@@ -9165,8 +9223,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Passiflora edulis",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4398: {
+  }),
+  4398: new PLU({
     Plu: 4398,
     Type: "Global",
     Category: "Fruits",
@@ -9175,8 +9233,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Passiflora spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4399: {
+  }),
+  4399: new PLU({
     Plu: 4399,
     Type: "Global",
     Category: "Fruits",
@@ -9185,8 +9243,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Prunus persica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4400: {
+  }),
+  4400: new PLU({
     Plu: 4400,
     Type: "Global",
     Category: "Fruits",
@@ -9197,8 +9255,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight =  less than 185g",
     Botanical: "Prunus persica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4401: {
+  }),
+  4401: new PLU({
     Plu: 4401,
     Type: "Global",
     Category: "Fruits",
@@ -9209,8 +9267,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight =  185g and above",
     Botanical: "Prunus persica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4402: {
+  }),
+  4402: new PLU({
     Plu: 4402,
     Type: "Global",
     Category: "Fruits",
@@ -9222,8 +9280,8 @@ export const PLU = {
     Restrictions: "Restricted for items grown east of the Mississippi River in the U.S. or east of the Ontario/Manitoba border in Canada.",
     Botanical: "Prunus persica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4403: {
+  }),
+  4403: new PLU({
     Plu: 4403,
     Type: "Global",
     Category: "Fruits",
@@ -9235,8 +9293,8 @@ export const PLU = {
     Restrictions: "Restricted for items grown east of the Mississippi River in the U.S. or east of the Ontario/Manitoba border in Canada.",
     Botanical: "Prunus persica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4404: {
+  }),
+  4404: new PLU({
     Plu: 4404,
     Type: "Global",
     Category: "Fruits",
@@ -9245,8 +9303,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Prunus persica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4405: {
+  }),
+  4405: new PLU({
     Plu: 4405,
     Type: "Global",
     Category: "Fruits",
@@ -9255,8 +9313,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Prunus persica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4406: {
+  }),
+  4406: new PLU({
     Plu: 4406,
     Type: "Global",
     Category: "Fruits",
@@ -9265,8 +9323,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Pyrus pyrifolia",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4407: {
+  }),
+  4407: new PLU({
     Plu: 4407,
     Type: "Global",
     Category: "Fruits",
@@ -9275,8 +9333,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Pyrus pyrifolia",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4408: {
+  }),
+  4408: new PLU({
     Plu: 4408,
     Type: "Global",
     Category: "Fruits",
@@ -9285,8 +9343,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Pyrus pyrifolia",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4409: {
+  }),
+  4409: new PLU({
     Plu: 4409,
     Type: "Global",
     Category: "Fruits",
@@ -9297,8 +9355,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight =  180g and above",
     Botanical: "Pyrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4410: {
+  }),
+  4410: new PLU({
     Plu: 4410,
     Type: "Global",
     Category: "Fruits",
@@ -9307,8 +9365,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4411: {
+  }),
+  4411: new PLU({
     Plu: 4411,
     Type: "Global",
     Category: "Fruits",
@@ -9320,8 +9378,8 @@ export const PLU = {
     Restrictions: "Restricted for items grown east of the Mississippi River in the U.S. or east of the Ontario/Manitoba border in Canada.",
     Botanical: "Pyrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4412: {
+  }),
+  4412: new PLU({
     Plu: 4412,
     Type: "Global",
     Category: "Fruits",
@@ -9333,8 +9391,8 @@ export const PLU = {
     Restrictions: "Restricted for items grown east of the Mississippi River in the U.S. or east of the Ontario/Manitoba border in Canada.",
     Botanical: "Pyrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4413: {
+  }),
+  4413: new PLU({
     Plu: 4413,
     Type: "Global",
     Category: "Fruits",
@@ -9345,8 +9403,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight =  185g and above",
     Botanical: "Pyrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4414: {
+  }),
+  4414: new PLU({
     Plu: 4414,
     Type: "Global",
     Category: "Fruits",
@@ -9355,8 +9413,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
     Created_at: "2009-06-15 22:00:00",
-  },
-  4415: {
+  }),
+  4415: new PLU({
     Plu: 4415,
     Type: "Global",
     Category: "Fruits",
@@ -9365,8 +9423,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4416: {
+  }),
+  4416: new PLU({
     Plu: 4416,
     Type: "Global",
     Category: "Fruits",
@@ -9378,8 +9436,8 @@ export const PLU = {
     Botanical: "Pyrus spp.",
     Aka: "D'Anjou",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4417: {
+  }),
+  4417: new PLU({
     Plu: 4417,
     Type: "Global",
     Category: "Fruits",
@@ -9389,8 +9447,8 @@ export const PLU = {
     Botanical: "Pyrus spp.",
     Aka: "D'Anjou",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4418: {
+  }),
+  4418: new PLU({
     Plu: 4418,
     Type: "Global",
     Category: "Fruits",
@@ -9399,8 +9457,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4419: {
+  }),
+  4419: new PLU({
     Plu: 4419,
     Type: "Global",
     Category: "Fruits",
@@ -9409,8 +9467,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4420: {
+  }),
+  4420: new PLU({
     Plu: 4420,
     Type: "Global",
     Category: "Fruits",
@@ -9419,8 +9477,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4421: {
+  }),
+  4421: new PLU({
     Plu: 4421,
     Type: "Global",
     Category: "Fruits",
@@ -9429,8 +9487,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
     Created_at: "2009-06-15 22:00:00",
-  },
-  4422: {
+  }),
+  4422: new PLU({
     Plu: 4422,
     Type: "Global",
     Category: "Fruits",
@@ -9439,8 +9497,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4423: {
+  }),
+  4423: new PLU({
     Plu: 4423,
     Type: "Global",
     Category: "Fruits",
@@ -9449,8 +9507,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4424: {
+  }),
+  4424: new PLU({
     Plu: 4424,
     Type: "Global",
     Category: "Fruits",
@@ -9459,8 +9517,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4425: {
+  }),
+  4425: new PLU({
     Plu: 4425,
     Type: "Global",
     Category: "Fruits",
@@ -9469,8 +9527,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4426: {
+  }),
+  4426: new PLU({
     Plu: 4426,
     Type: "Global",
     Category: "Fruits",
@@ -9479,8 +9537,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4427: {
+  }),
+  4427: new PLU({
     Plu: 4427,
     Type: "Global",
     Category: "Fruits",
@@ -9489,8 +9547,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Diospyros spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4428: {
+  }),
+  4428: new PLU({
     Plu: 4428,
     Type: "Global",
     Category: "Fruits",
@@ -9499,8 +9557,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Diospyros spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4429: {
+  }),
+  4429: new PLU({
     Plu: 4429,
     Type: "Global",
     Category: "Fruits",
@@ -9509,8 +9567,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Diospyros spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4430: {
+  }),
+  4430: new PLU({
     Plu: 4430,
     Type: "Global",
     Category: "Fruits",
@@ -9520,8 +9578,8 @@ export const PLU = {
     Restrictions: "Sizes for pineapple based on two-layer lug.",
     Botanical: "Ananas comosus",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4431: {
+  }),
+  4431: new PLU({
     Plu: 4431,
     Type: "Global",
     Category: "Fruits",
@@ -9532,8 +9590,8 @@ export const PLU = {
     Restrictions: "Sizes for pineapple based on two-layer lug.",
     Botanical: "Ananas comosus",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4432: {
+  }),
+  4432: new PLU({
     Plu: 4432,
     Type: "Global",
     Category: "Fruits",
@@ -9544,8 +9602,8 @@ export const PLU = {
     Restrictions: "Sizes for pineapple based on two-layer lug.",
     Botanical: "Ananas comosus",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4433: {
+  }),
+  4433: new PLU({
     Plu: 4433,
     Type: "Global",
     Category: "Fruits",
@@ -9555,8 +9613,8 @@ export const PLU = {
     Restrictions: "Sizes for pineapple based on two-layer lug.",
     Botanical: "Ananas comosus",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4434: {
+  }),
+  4434: new PLU({
     Plu: 4434,
     Type: "Global",
     Category: "Fruits",
@@ -9567,8 +9625,8 @@ export const PLU = {
     Measures_row: "Average Fruit Dimensions < 50MM",
     Botanical: "Prunus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4435: {
+  }),
+  4435: new PLU({
     Plu: 4435,
     Type: "Global",
     Category: "Fruits",
@@ -9579,8 +9637,8 @@ export const PLU = {
     Measures_row: "Average Fruit Dimensions 50MM & ABOVE",
     Botanical: "Prunus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4436: {
+  }),
+  4436: new PLU({
     Plu: 4436,
     Type: "Global",
     Category: "Fruits",
@@ -9589,8 +9647,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Prunus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4437: {
+  }),
+  4437: new PLU({
     Plu: 4437,
     Type: "Global",
     Category: "Fruits",
@@ -9601,8 +9659,8 @@ export const PLU = {
     Measures_row: "Average Fruit Dimensions < 50MM",
     Botanical: "Prunus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4438: {
+  }),
+  4438: new PLU({
     Plu: 4438,
     Type: "Global",
     Category: "Fruits",
@@ -9613,8 +9671,8 @@ export const PLU = {
     Measures_row: "Average Fruit Dimensions 50MM & ABOVE",
     Botanical: "Prunus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4439: {
+  }),
+  4439: new PLU({
     Plu: 4439,
     Type: "Global",
     Category: "Fruits",
@@ -9625,8 +9683,8 @@ export const PLU = {
     Measures_row: "Average Fruit Dimensions < 50MM",
     Botanical: "Prunus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4440: {
+  }),
+  4440: new PLU({
     Plu: 4440,
     Type: "Global",
     Category: "Fruits",
@@ -9637,8 +9695,8 @@ export const PLU = {
     Measures_row: "Average Fruit Dimensions 50MM & ABOVE",
     Botanical: "Prunus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4441: {
+  }),
+  4441: new PLU({
     Plu: 4441,
     Type: "Global",
     Category: "Fruits",
@@ -9649,8 +9707,8 @@ export const PLU = {
     Measures_row: "Average Fruit Dimensions < 50MM",
     Botanical: "Prunus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4442: {
+  }),
+  4442: new PLU({
     Plu: 4442,
     Type: "Global",
     Category: "Fruits",
@@ -9661,8 +9719,8 @@ export const PLU = {
     Measures_row: "Average Fruit Dimensions 50MM & ABOVE",
     Botanical: "Prunus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4443: {
+  }),
+  4443: new PLU({
     Plu: 4443,
     Type: "Global",
     Category: "Fruits",
@@ -9671,8 +9729,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Prunus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4444: {
+  }),
+  4444: new PLU({
     Plu: 4444,
     Type: "Global",
     Category: "Fruits",
@@ -9681,8 +9739,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Prunus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4445: {
+  }),
+  4445: new PLU({
     Plu: 4445,
     Type: "Global",
     Category: "Fruits",
@@ -9692,8 +9750,8 @@ export const PLU = {
     Measures_row: "Average Fruit Dimensions = less than 3 inch",
     Botanical: "Punica granatum",
     Created_at: "2007-10-29 23:00:00",
-  },
-  4447: {
+  }),
+  4447: new PLU({
     Plu: 4447,
     Type: "Global",
     Category: "Fruits",
@@ -9701,8 +9759,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cydonia oblonga",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4448: {
+  }),
+  4448: new PLU({
     Plu: 4448,
     Type: "Global",
     Category: "Fruits",
@@ -9710,8 +9768,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Tamarindus indica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4449: {
+  }),
+  4449: new PLU({
     Plu: 4449,
     Type: "Global",
     Category: "Fruits",
@@ -9720,8 +9778,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Citrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4450: {
+  }),
+  4450: new PLU({
     Plu: 4450,
     Type: "Global",
     Category: "Fruits",
@@ -9731,8 +9789,8 @@ export const PLU = {
     Restrictions: "This code can be used anyplace in the globe; however, there are other codes for this item that can be used outside of North America.",
     Botanical: "Citrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4451: {
+  }),
+  4451: new PLU({
     Plu: 4451,
     Type: "Global",
     Category: "Fruits",
@@ -9741,8 +9799,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Citrus reticulata",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4452: {
+  }),
+  4452: new PLU({
     Plu: 4452,
     Type: "Global",
     Category: "Fruits",
@@ -9751,8 +9809,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Citrus spp. reticulata blanco",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4453: {
+  }),
+  4453: new PLU({
     Plu: 4453,
     Type: "Global",
     Category: "Fruits",
@@ -9762,8 +9820,8 @@ export const PLU = {
     Restrictions: "This code can be used anyplace in the globe; however, there are other codes for this item that can be used outside of North America.",
     Botanical: "Citrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4454: {
+  }),
+  4454: new PLU({
     Plu: 4454,
     Type: "Global",
     Category: "Fruits",
@@ -9772,8 +9830,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Citrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4455: {
+  }),
+  4455: new PLU({
     Plu: 4455,
     Type: "Global",
     Category: "Fruits",
@@ -9782,8 +9840,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Citrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4456: {
+  }),
+  4456: new PLU({
     Plu: 4456,
     Type: "Global",
     Category: "Fruits",
@@ -9791,8 +9849,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Citro paradisi X",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4457: {
+  }),
+  4457: new PLU({
     Plu: 4457,
     Type: "Global",
     Category: "Fruits",
@@ -9801,8 +9859,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Citrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4458: {
+  }),
+  4458: new PLU({
     Plu: 4458,
     Type: "Global",
     Category: "Fruits",
@@ -9811,8 +9869,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Citrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4459: {
+  }),
+  4459: new PLU({
     Plu: 4459,
     Type: "Global",
     Category: "Fruits",
@@ -9822,8 +9880,8 @@ export const PLU = {
     Botanical: "Citro paradisi X",
     Aka: "Ugli®",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4460: {
+  }),
+  4460: new PLU({
     Plu: 4460,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -9831,8 +9889,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4461: {
+  }),
+  4461: new PLU({
     Plu: 4461,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -9840,8 +9898,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4462: {
+  }),
+  4462: new PLU({
     Plu: 4462,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -9849,8 +9907,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4463: {
+  }),
+  4463: new PLU({
     Plu: 4463,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -9858,8 +9916,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4464: {
+  }),
+  4464: new PLU({
     Plu: 4464,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -9867,8 +9925,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4465: {
+  }),
+  4465: new PLU({
     Plu: 4465,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -9876,8 +9934,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4466: {
+  }),
+  4466: new PLU({
     Plu: 4466,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -9885,8 +9943,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4467: {
+  }),
+  4467: new PLU({
     Plu: 4467,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -9894,8 +9952,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4468: {
+  }),
+  4468: new PLU({
     Plu: 4468,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -9903,8 +9961,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4469: {
+  }),
+  4469: new PLU({
     Plu: 4469,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -9912,16 +9970,16 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4470: {
+  }),
+  4470: new PLU({
     Plu: 4470,
     Type: "Global",
     Category: "Fruits",
     Commodity: "SALAD BAR",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4471: {
+  }),
+  4471: new PLU({
     Plu: 4471,
     Type: "Global",
     Category: "Fruits",
@@ -9929,8 +9987,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4472: {
+  }),
+  4472: new PLU({
     Plu: 4472,
     Type: "Global",
     Category: "Fruits",
@@ -9938,8 +9996,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4473: {
+  }),
+  4473: new PLU({
     Plu: 4473,
     Type: "Global",
     Category: "Fruits",
@@ -9947,8 +10005,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4474: {
+  }),
+  4474: new PLU({
     Plu: 4474,
     Type: "Global",
     Category: "Fruits",
@@ -9956,8 +10014,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4475: {
+  }),
+  4475: new PLU({
     Plu: 4475,
     Type: "Global",
     Category: "Fruits",
@@ -9965,8 +10023,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4476: {
+  }),
+  4476: new PLU({
     Plu: 4476,
     Type: "Global",
     Category: "Fruits",
@@ -9974,8 +10032,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4477: {
+  }),
+  4477: new PLU({
     Plu: 4477,
     Type: "Global",
     Category: "Fruits",
@@ -9983,8 +10041,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4478: {
+  }),
+  4478: new PLU({
     Plu: 4478,
     Type: "Global",
     Category: "Fruits",
@@ -9992,8 +10050,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4479: {
+  }),
+  4479: new PLU({
     Plu: 4479,
     Type: "Global",
     Category: "Fruits",
@@ -10001,8 +10059,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4480: {
+  }),
+  4480: new PLU({
     Plu: 4480,
     Type: "Global",
     Category: "Fruits",
@@ -10010,8 +10068,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4481: {
+  }),
+  4481: new PLU({
     Plu: 4481,
     Type: "Global",
     Category: "Fruits",
@@ -10019,8 +10077,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4482: {
+  }),
+  4482: new PLU({
     Plu: 4482,
     Type: "Global",
     Category: "Fruits",
@@ -10028,8 +10086,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4483: {
+  }),
+  4483: new PLU({
     Plu: 4483,
     Type: "Global",
     Category: "Fruits",
@@ -10037,8 +10095,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4484: {
+  }),
+  4484: new PLU({
     Plu: 4484,
     Type: "Global",
     Category: "Fruits",
@@ -10046,8 +10104,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4485: {
+  }),
+  4485: new PLU({
     Plu: 4485,
     Type: "Global",
     Category: "Fruits",
@@ -10055,8 +10113,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4486: {
+  }),
+  4486: new PLU({
     Plu: 4486,
     Type: "Global",
     Category: "Fruits",
@@ -10064,8 +10122,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4487: {
+  }),
+  4487: new PLU({
     Plu: 4487,
     Type: "Global",
     Category: "Fruits",
@@ -10073,8 +10131,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4488: {
+  }),
+  4488: new PLU({
     Plu: 4488,
     Type: "Global",
     Category: "Fruits",
@@ -10082,8 +10140,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4489: {
+  }),
+  4489: new PLU({
     Plu: 4489,
     Type: "Global",
     Category: "Fruits",
@@ -10091,8 +10149,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4490: {
+  }),
+  4490: new PLU({
     Plu: 4490,
     Type: "Global",
     Category: "Fruits",
@@ -10100,8 +10158,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4491: {
+  }),
+  4491: new PLU({
     Plu: 4491,
     Type: "Global",
     Category: "Fruits",
@@ -10112,8 +10170,8 @@ export const PLU = {
     Restrictions: "Restricted for items grown east of the Mississippi River in the U.S or east of the Ontario/Manitoba border in Canada.",
     Botanical: "Citrus paradisi",
     Created_at: "2002-05-01 22:00:00",
-  },
-  4492: {
+  }),
+  4492: new PLU({
     Plu: 4492,
     Type: "Global",
     Category: "Fruits",
@@ -10124,8 +10182,8 @@ export const PLU = {
     Measures_row: "Average Fruit Dimensions = 108mm and above",
     Botanical: "Citrus paradisi",
     Created_at: "2002-06-01 22:00:00",
-  },
-  4493: {
+  }),
+  4493: new PLU({
     Plu: 4493,
     Type: "Global",
     Category: "Fruits",
@@ -10136,8 +10194,8 @@ export const PLU = {
     Restrictions: "Restricted for items grown in Texas, Arizona and New Mexico in the U.S.",
     Botanical: "Citrus paradisi",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4494: {
+  }),
+  4494: new PLU({
     Plu: 4494,
     Type: "Global",
     Category: "Fruits",
@@ -10148,8 +10206,8 @@ export const PLU = {
     Restrictions: "Restricted for items grown east of the Mississippi River in the U.S or east of the Ontario/Manitoba border in Canada.",
     Botanical: "Citrus paradisi",
     Created_at: "2002-05-01 22:00:00",
-  },
-  4495: {
+  }),
+  4495: new PLU({
     Plu: 4495,
     Type: "Global",
     Category: "Fruits",
@@ -10160,8 +10218,8 @@ export const PLU = {
     Measures_row: "Average Fruit Dimensions = 108mm and above",
     Botanical: "Citrus paradisi",
     Created_at: "2002-06-01 22:00:00",
-  },
-  4496: {
+  }),
+  4496: new PLU({
     Plu: 4496,
     Type: "Global",
     Category: "Fruits",
@@ -10172,8 +10230,8 @@ export const PLU = {
     Restrictions: "Restricted for items grown in Texas, Arizona and New Mexico in the U.S.",
     Botanical: "Citrus paradisi",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4497: {
+  }),
+  4497: new PLU({
     Plu: 4497,
     Type: "Global",
     Category: "Fruits",
@@ -10183,8 +10241,8 @@ export const PLU = {
     Botanical: "Vitis vinifera",
     Aka: "SUPERIOR SEEDLESS® brand",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4498: {
+  }),
+  4498: new PLU({
     Plu: 4498,
     Type: "Global",
     Category: "Fruits",
@@ -10193,8 +10251,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Vitis vinifera",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4499: {
+  }),
+  4499: new PLU({
     Plu: 4499,
     Type: "Global",
     Category: "Fruits",
@@ -10203,8 +10261,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Vitis vinifera",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4500: {
+  }),
+  4500: new PLU({
     Plu: 4500,
     Type: "Global",
     Category: "Vegetables",
@@ -10212,8 +10270,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4501: {
+  }),
+  4501: new PLU({
     Plu: 4501,
     Type: "Global",
     Category: "Vegetables",
@@ -10221,8 +10279,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4502: {
+  }),
+  4502: new PLU({
     Plu: 4502,
     Type: "Global",
     Category: "Vegetables",
@@ -10230,8 +10288,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4503: {
+  }),
+  4503: new PLU({
     Plu: 4503,
     Type: "Global",
     Category: "Vegetables",
@@ -10239,8 +10297,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4504: {
+  }),
+  4504: new PLU({
     Plu: 4504,
     Type: "Global",
     Category: "Vegetables",
@@ -10248,8 +10306,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4505: {
+  }),
+  4505: new PLU({
     Plu: 4505,
     Type: "Global",
     Category: "Vegetables",
@@ -10257,8 +10315,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4506: {
+  }),
+  4506: new PLU({
     Plu: 4506,
     Type: "Global",
     Category: "Vegetables",
@@ -10266,8 +10324,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4507: {
+  }),
+  4507: new PLU({
     Plu: 4507,
     Type: "Global",
     Category: "Vegetables",
@@ -10275,8 +10333,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4508: {
+  }),
+  4508: new PLU({
     Plu: 4508,
     Type: "Global",
     Category: "Vegetables",
@@ -10284,8 +10342,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4509: {
+  }),
+  4509: new PLU({
     Plu: 4509,
     Type: "Global",
     Category: "Vegetables",
@@ -10293,8 +10351,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4510: {
+  }),
+  4510: new PLU({
     Plu: 4510,
     Type: "Global",
     Category: "Vegetables",
@@ -10302,8 +10360,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4511: {
+  }),
+  4511: new PLU({
     Plu: 4511,
     Type: "Global",
     Category: "Vegetables",
@@ -10311,8 +10369,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4512: {
+  }),
+  4512: new PLU({
     Plu: 4512,
     Type: "Global",
     Category: "Vegetables",
@@ -10320,8 +10378,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4513: {
+  }),
+  4513: new PLU({
     Plu: 4513,
     Type: "Global",
     Category: "Vegetables",
@@ -10329,8 +10387,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4514: {
+  }),
+  4514: new PLU({
     Plu: 4514,
     Type: "Global",
     Category: "Vegetables",
@@ -10338,8 +10396,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Medicago sativa",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4515: {
+  }),
+  4515: new PLU({
     Plu: 4515,
     Type: "Global",
     Category: "Herbs",
@@ -10348,8 +10406,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Foeniculum vulgare",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4516: {
+  }),
+  4516: new PLU({
     Plu: 4516,
     Type: "Global",
     Category: "Vegetables",
@@ -10358,8 +10416,8 @@ export const PLU = {
     Measures_na: "48 size and smaller",
     Botanical: "Cynara scolymus",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4517: {
+  }),
+  4517: new PLU({
     Plu: 4517,
     Type: "Global",
     Category: "Vegetables",
@@ -10369,8 +10427,8 @@ export const PLU = {
     Measures_na: "42 size and smaller",
     Botanical: "Cynara scolymus",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4518: {
+  }),
+  4518: new PLU({
     Plu: 4518,
     Type: "Global",
     Category: "Vegetables",
@@ -10380,8 +10438,8 @@ export const PLU = {
     Measures_na: "36 size and larger",
     Botanical: "Cynara scolymus",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4519: {
+  }),
+  4519: new PLU({
     Plu: 4519,
     Type: "Global",
     Category: "Vegetables",
@@ -10390,8 +10448,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cynara scolymus",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4520: {
+  }),
+  4520: new PLU({
     Plu: 4520,
     Type: "Global",
     Category: "Vegetables",
@@ -10400,8 +10458,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cynara scolymus",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4521: {
+  }),
+  4521: new PLU({
     Plu: 4521,
     Type: "Global",
     Category: "Vegetables",
@@ -10412,8 +10470,8 @@ export const PLU = {
     Restrictions: "This code can be used anyplace in the globe; however, there are other codes for this item that can be used outside of North America.",
     Botanical: "Asparagus officinalis",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4522: {
+  }),
+  4522: new PLU({
     Plu: 4522,
     Type: "Global",
     Category: "Vegetables",
@@ -10424,8 +10482,8 @@ export const PLU = {
     Restrictions: "This code can be used anyplace in the globe; however, there are other codes for this item that can be used outside of North America.",
     Botanical: "Asparagus officinalis",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4523: {
+  }),
+  4523: new PLU({
     Plu: 4523,
     Type: "Global",
     Category: "Vegetables",
@@ -10436,8 +10494,8 @@ export const PLU = {
     Restrictions: "This code can be used anyplace in the globe; however, there are other codes for this item that can be used outside of North America.",
     Botanical: "Asparagus officinalis",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4524: {
+  }),
+  4524: new PLU({
     Plu: 4524,
     Type: "Global",
     Category: "Vegetables",
@@ -10446,8 +10504,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Asparagus officinalis",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4525: {
+  }),
+  4525: new PLU({
     Plu: 4525,
     Type: "Global",
     Category: "Vegetables",
@@ -10456,8 +10514,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Asparagus officinalis",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4526: {
+  }),
+  4526: new PLU({
     Plu: 4526,
     Type: "Global",
     Category: "Vegetables",
@@ -10466,8 +10524,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Asparagus officinalis",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4527: {
+  }),
+  4527: new PLU({
     Plu: 4527,
     Type: "Global",
     Category: "Vegetables",
@@ -10476,8 +10534,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Vigna sesquipedalis",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4528: {
+  }),
+  4528: new PLU({
     Plu: 4528,
     Type: "Global",
     Category: "Vegetables",
@@ -10486,8 +10544,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Vicia faba",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4529: {
+  }),
+  4529: new PLU({
     Plu: 4529,
     Type: "Global",
     Category: "Vegetables",
@@ -10496,8 +10554,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Phaseolus lunatus",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4530: {
+  }),
+  4530: new PLU({
     Plu: 4530,
     Type: "Global",
     Category: "Vegetables",
@@ -10506,8 +10564,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Phaseolus coccineus",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4531: {
+  }),
+  4531: new PLU({
     Plu: 4531,
     Type: "Global",
     Category: "Vegetables",
@@ -10516,8 +10574,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Phaseolus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4532: {
+  }),
+  4532: new PLU({
     Plu: 4532,
     Type: "Global",
     Category: "Vegetables",
@@ -10526,8 +10584,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Phaseolus vulgaris",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4533: {
+  }),
+  4533: new PLU({
     Plu: 4533,
     Type: "Global",
     Category: "Vegetables",
@@ -10536,8 +10594,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Phaseolus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4534: {
+  }),
+  4534: new PLU({
     Plu: 4534,
     Type: "Global",
     Category: "Vegetables",
@@ -10546,8 +10604,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Psophocarpus      tetragonolobus",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4535: {
+  }),
+  4535: new PLU({
     Plu: 4535,
     Type: "Global",
     Category: "Vegetables",
@@ -10556,8 +10614,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Phaseolus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4536: {
+  }),
+  4536: new PLU({
     Plu: 4536,
     Type: "Global",
     Category: "Vegetables",
@@ -10566,8 +10624,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Vigna radiata",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4537: {
+  }),
+  4537: new PLU({
     Plu: 4537,
     Type: "Global",
     Category: "Vegetables",
@@ -10576,8 +10634,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Beta vulgaris",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4538: {
+  }),
+  4538: new PLU({
     Plu: 4538,
     Type: "Global",
     Category: "Vegetables",
@@ -10586,8 +10644,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Beta vulgaris",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4539: {
+  }),
+  4539: new PLU({
     Plu: 4539,
     Type: "Global",
     Category: "Vegetables",
@@ -10596,8 +10654,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Beta vulgaris",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4540: {
+  }),
+  4540: new PLU({
     Plu: 4540,
     Type: "Global",
     Category: "Vegetables",
@@ -10606,8 +10664,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Beta vulgaris",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4541: {
+  }),
+  4541: new PLU({
     Plu: 4541,
     Type: "Global",
     Category: "Vegetables",
@@ -10616,8 +10674,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Beta vulgaris",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4542: {
+  }),
+  4542: new PLU({
     Plu: 4542,
     Type: "Global",
     Category: "Vegetables",
@@ -10625,8 +10683,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Beta vulgaris",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4543: {
+  }),
+  4543: new PLU({
     Plu: 4543,
     Type: "Global",
     Category: "Vegetables",
@@ -10634,8 +10692,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cichorium intybus",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4544: {
+  }),
+  4544: new PLU({
     Plu: 4544,
     Type: "Global",
     Category: "Vegetables",
@@ -10644,8 +10702,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Brassica rapa",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4545: {
+  }),
+  4545: new PLU({
     Plu: 4545,
     Type: "Global",
     Category: "Vegetables",
@@ -10653,8 +10711,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Brassica rapa",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4546: {
+  }),
+  4546: new PLU({
     Plu: 4546,
     Type: "Global",
     Category: "Vegetables",
@@ -10663,8 +10721,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Ipomoea batato",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4547: {
+  }),
+  4547: new PLU({
     Plu: 4547,
     Type: "Global",
     Category: "Vegetables",
@@ -10673,8 +10731,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Brassica oleracea",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4548: {
+  }),
+  4548: new PLU({
     Plu: 4548,
     Type: "Global",
     Category: "Vegetables",
@@ -10683,8 +10741,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Brassica oleracea",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4549: {
+  }),
+  4549: new PLU({
     Plu: 4549,
     Type: "Global",
     Category: "Vegetables",
@@ -10693,8 +10751,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Brassica oleracea",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4550: {
+  }),
+  4550: new PLU({
     Plu: 4550,
     Type: "Global",
     Category: "Vegetables",
@@ -10702,8 +10760,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Brassica olerace",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4551: {
+  }),
+  4551: new PLU({
     Plu: 4551,
     Type: "Global",
     Category: "Vegetables",
@@ -10712,8 +10770,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Brassica olerace",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4552: {
+  }),
+  4552: new PLU({
     Plu: 4552,
     Type: "Global",
     Category: "Vegetables",
@@ -10722,8 +10780,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Brassica rapa",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4553: {
+  }),
+  4553: new PLU({
     Plu: 4553,
     Type: "Global",
     Category: "Fruits",
@@ -10732,8 +10790,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4554: {
+  }),
+  4554: new PLU({
     Plu: 4554,
     Type: "Global",
     Category: "Vegetables",
@@ -10742,8 +10800,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Brassica oleracea",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4555: {
+  }),
+  4555: new PLU({
     Plu: 4555,
     Type: "Global",
     Category: "Vegetables",
@@ -10752,8 +10810,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Brassica oleracea",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4556: {
+  }),
+  4556: new PLU({
     Plu: 4556,
     Type: "Global",
     Category: "Vegetables",
@@ -10762,8 +10820,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Brassica oleracea",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4557: {
+  }),
+  4557: new PLU({
     Plu: 4557,
     Type: "Global",
     Category: "Vegetables",
@@ -10772,8 +10830,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Brassica oleracea",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4558: {
+  }),
+  4558: new PLU({
     Plu: 4558,
     Type: "Global",
     Category: "Vegetables",
@@ -10781,8 +10839,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Opuntia spp",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4559: {
+  }),
+  4559: new PLU({
     Plu: 4559,
     Type: "Global",
     Category: "Vegetables",
@@ -10790,8 +10848,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cynara cardunculus",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4560: {
+  }),
+  4560: new PLU({
     Plu: 4560,
     Type: "Global",
     Category: "Vegetables",
@@ -10800,8 +10858,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Daucus carota",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4561: {
+  }),
+  4561: new PLU({
     Plu: 4561,
     Type: "Global",
     Category: "Vegetables",
@@ -10810,8 +10868,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Daucus carota",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4562: {
+  }),
+  4562: new PLU({
     Plu: 4562,
     Type: "Global",
     Category: "Vegetables",
@@ -10820,8 +10878,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Daucus carota",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4563: {
+  }),
+  4563: new PLU({
     Plu: 4563,
     Type: "Global",
     Category: "Vegetables",
@@ -10830,8 +10888,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Daucus carota",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4564: {
+  }),
+  4564: new PLU({
     Plu: 4564,
     Type: "Global",
     Category: "Vegetables",
@@ -10840,8 +10898,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Daucus carota",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4565: {
+  }),
+  4565: new PLU({
     Plu: 4565,
     Type: "Global",
     Category: "Vegetables",
@@ -10850,8 +10908,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Daucus carota",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4566: {
+  }),
+  4566: new PLU({
     Plu: 4566,
     Type: "Global",
     Category: "Vegetables",
@@ -10860,8 +10918,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Brassica oleracea",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4567: {
+  }),
+  4567: new PLU({
     Plu: 4567,
     Type: "Global",
     Category: "Vegetables",
@@ -10870,8 +10928,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Brassica oleracea",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4568: {
+  }),
+  4568: new PLU({
     Plu: 4568,
     Type: "Global",
     Category: "Vegetables",
@@ -10880,8 +10938,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Brassica oleracea",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4569: {
+  }),
+  4569: new PLU({
     Plu: 4569,
     Type: "Global",
     Category: "Vegetables",
@@ -10890,8 +10948,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Brassica oleracea",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4570: {
+  }),
+  4570: new PLU({
     Plu: 4570,
     Type: "Global",
     Category: "Vegetables",
@@ -10900,8 +10958,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Brassica oleracea",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4571: {
+  }),
+  4571: new PLU({
     Plu: 4571,
     Type: "Global",
     Category: "Vegetables",
@@ -10910,8 +10968,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Brassica oleracea",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4572: {
+  }),
+  4572: new PLU({
     Plu: 4572,
     Type: "Global",
     Category: "Vegetables",
@@ -10920,8 +10978,8 @@ export const PLU = {
     Measures_na: "9 size and larger",
     Botanical: "Brassica oleracea",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4573: {
+  }),
+  4573: new PLU({
     Plu: 4573,
     Type: "Global",
     Category: "Vegetables",
@@ -10930,8 +10988,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Brassica oleracea",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4575: {
+  }),
+  4575: new PLU({
     Plu: 4575,
     Type: "Global",
     Category: "Vegetables",
@@ -10939,8 +10997,8 @@ export const PLU = {
     Variety: "Hearts",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4576: {
+  }),
+  4576: new PLU({
     Plu: 4576,
     Type: "Global",
     Category: "Vegetables",
@@ -10948,8 +11006,8 @@ export const PLU = {
     Variety: "Celery Sticks",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4577: {
+  }),
+  4577: new PLU({
     Plu: 4577,
     Type: "Global",
     Category: "Vegetables",
@@ -10957,8 +11015,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4578: {
+  }),
+  4578: new PLU({
     Plu: 4578,
     Type: "Global",
     Category: "Vegetables",
@@ -10966,8 +11024,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4579: {
+  }),
+  4579: new PLU({
     Plu: 4579,
     Type: "Global",
     Category: "Vegetables",
@@ -10975,8 +11033,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4580: {
+  }),
+  4580: new PLU({
     Plu: 4580,
     Type: "Global",
     Category: "Vegetables",
@@ -10984,8 +11042,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4581: {
+  }),
+  4581: new PLU({
     Plu: 4581,
     Type: "Global",
     Category: "Vegetables",
@@ -10993,8 +11051,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4582: {
+  }),
+  4582: new PLU({
     Plu: 4582,
     Type: "Global",
     Category: "Vegetables",
@@ -11004,8 +11062,8 @@ export const PLU = {
     Measures_na: "24 size and larger",
     Restrictions: "Restricted for items grown east of the Mississippi River in the U.S. or east of the Ontario/Manitoba border in Canada.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4583: {
+  }),
+  4583: new PLU({
     Plu: 4583,
     Type: "Global",
     Category: "Vegetables",
@@ -11014,8 +11072,8 @@ export const PLU = {
     Size: "Large",
     Measures_na: "24 size and larger",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4584: {
+  }),
+  4584: new PLU({
     Plu: 4584,
     Type: "Global",
     Category: "Fruits",
@@ -11027,8 +11085,8 @@ export const PLU = {
     Botanical: "Mangifera indica",
     Aka: "Keitt and Francis varieties",
     Created_at: "2009-01-28 23:00:00",
-  },
-  4585: {
+  }),
+  4585: new PLU({
     Plu: 4585,
     Type: "Global",
     Category: "Vegetables",
@@ -11036,8 +11094,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Apium graveolens",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4586: {
+  }),
+  4586: new PLU({
     Plu: 4586,
     Type: "Global",
     Category: "Vegetables",
@@ -11046,8 +11104,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Beta vulgaris",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4587: {
+  }),
+  4587: new PLU({
     Plu: 4587,
     Type: "Global",
     Category: "Vegetables",
@@ -11056,8 +11114,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Beta vulgaris",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4588: {
+  }),
+  4588: new PLU({
     Plu: 4588,
     Type: "Global",
     Category: "Vegetables",
@@ -11066,8 +11124,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Beta vulgaris",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4589: {
+  }),
+  4589: new PLU({
     Plu: 4589,
     Type: "Global",
     Category: "Vegetables",
@@ -11076,8 +11134,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Zea mays",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4590: {
+  }),
+  4590: new PLU({
     Plu: 4590,
     Type: "Global",
     Category: "Vegetables",
@@ -11086,8 +11144,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Zea mays",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4591: {
+  }),
+  4591: new PLU({
     Plu: 4591,
     Type: "Global",
     Category: "Vegetables",
@@ -11096,8 +11154,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Zea mays",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4592: {
+  }),
+  4592: new PLU({
     Plu: 4592,
     Type: "Global",
     Category: "Vegetables",
@@ -11106,8 +11164,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucumis sativus",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4593: {
+  }),
+  4593: new PLU({
     Plu: 4593,
     Type: "Global",
     Category: "Vegetables",
@@ -11116,8 +11174,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucumis sativus",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4594: {
+  }),
+  4594: new PLU({
     Plu: 4594,
     Type: "Global",
     Category: "Vegetables",
@@ -11126,8 +11184,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucumis sativus",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4595: {
+  }),
+  4595: new PLU({
     Plu: 4595,
     Type: "Global",
     Category: "Vegetables",
@@ -11136,8 +11194,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucumis sativus",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4596: {
+  }),
+  4596: new PLU({
     Plu: 4596,
     Type: "Global",
     Category: "Vegetables",
@@ -11146,8 +11204,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucumis sativus",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4597: {
+  }),
+  4597: new PLU({
     Plu: 4597,
     Type: "Global",
     Category: "Vegetables",
@@ -11156,8 +11214,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucumis sativus",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4598: {
+  }),
+  4598: new PLU({
     Plu: 4598,
     Type: "Global",
     Category: "Vegetables",
@@ -11166,8 +11224,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Raphanus sativus",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4599: {
+  }),
+  4599: new PLU({
     Plu: 4599,
     Type: "Global",
     Category: "Vegetables",
@@ -11176,8 +11234,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Solanum melongena",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4600: {
+  }),
+  4600: new PLU({
     Plu: 4600,
     Type: "Global",
     Category: "Vegetables",
@@ -11186,8 +11244,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Solanum melongena",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4601: {
+  }),
+  4601: new PLU({
     Plu: 4601,
     Type: "Global",
     Category: "Vegetables",
@@ -11196,8 +11254,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Solanum melongena",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4602: {
+  }),
+  4602: new PLU({
     Plu: 4602,
     Type: "Global",
     Category: "Vegetables",
@@ -11206,8 +11264,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Solanum melongena",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4603: {
+  }),
+  4603: new PLU({
     Plu: 4603,
     Type: "Global",
     Category: "Vegetables",
@@ -11216,8 +11274,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Solanum melongena",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4604: {
+  }),
+  4604: new PLU({
     Plu: 4604,
     Type: "Global",
     Category: "Vegetables",
@@ -11225,8 +11283,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cichorium intybus",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4605: {
+  }),
+  4605: new PLU({
     Plu: 4605,
     Type: "Global",
     Category: "Vegetables",
@@ -11235,8 +11293,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cichorium endivia",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4606: {
+  }),
+  4606: new PLU({
     Plu: 4606,
     Type: "Global",
     Category: "Vegetables",
@@ -11244,8 +11302,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Matteauccia struthiopteris",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4607: {
+  }),
+  4607: new PLU({
     Plu: 4607,
     Type: "Global",
     Category: "Vegetables",
@@ -11254,8 +11312,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Brassica juncea",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4608: {
+  }),
+  4608: new PLU({
     Plu: 4608,
     Type: "Global",
     Category: "Vegetables",
@@ -11264,8 +11322,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Allium sativum",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4609: {
+  }),
+  4609: new PLU({
     Plu: 4609,
     Type: "Global",
     Category: "Vegetables",
@@ -11274,8 +11332,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Allium ampeloprasum",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4610: {
+  }),
+  4610: new PLU({
     Plu: 4610,
     Type: "Global",
     Category: "Vegetables",
@@ -11284,8 +11342,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Allium sativum",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4611: {
+  }),
+  4611: new PLU({
     Plu: 4611,
     Type: "Global",
     Category: "Vegetables",
@@ -11294,8 +11352,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Allium sativum",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4612: {
+  }),
+  4612: new PLU({
     Plu: 4612,
     Type: "Global",
     Category: "Vegetables",
@@ -11304,8 +11362,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Zingiber officinale",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4613: {
+  }),
+  4613: new PLU({
     Plu: 4613,
     Type: "Global",
     Category: "Vegetables",
@@ -11314,8 +11372,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Zingiber officinale",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4614: {
+  }),
+  4614: new PLU({
     Plu: 4614,
     Type: "Global",
     Category: "Vegetables",
@@ -11324,8 +11382,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Brassica oleracea",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4615: {
+  }),
+  4615: new PLU({
     Plu: 4615,
     Type: "Global",
     Category: "Vegetables",
@@ -11334,8 +11392,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Taraxacum official",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4616: {
+  }),
+  4616: new PLU({
     Plu: 4616,
     Type: "Global",
     Category: "Vegetables",
@@ -11344,8 +11402,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Braccia juncea",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4617: {
+  }),
+  4617: new PLU({
     Plu: 4617,
     Type: "Global",
     Category: "Vegetables",
@@ -11354,8 +11412,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Brassica spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4618: {
+  }),
+  4618: new PLU({
     Plu: 4618,
     Type: "Global",
     Category: "Vegetables",
@@ -11364,8 +11422,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Brassica carinato",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4619: {
+  }),
+  4619: new PLU({
     Plu: 4619,
     Type: "Global",
     Category: "Vegetables",
@@ -11374,8 +11432,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Brassica rapa",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4620: {
+  }),
+  4620: new PLU({
     Plu: 4620,
     Type: "Global",
     Category: "Vegetables",
@@ -11384,8 +11442,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Brassica spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4621: {
+  }),
+  4621: new PLU({
     Plu: 4621,
     Type: "Global",
     Category: "Vegetables",
@@ -11394,8 +11452,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Brassica spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4622: {
+  }),
+  4622: new PLU({
     Plu: 4622,
     Type: "Global",
     Category: "Vegetables",
@@ -11404,8 +11462,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Brassica spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4623: {
+  }),
+  4623: new PLU({
     Plu: 4623,
     Type: "Global",
     Category: "Vegetables",
@@ -11414,8 +11472,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Brassica spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4624: {
+  }),
+  4624: new PLU({
     Plu: 4624,
     Type: "Global",
     Category: "Vegetables",
@@ -11424,8 +11482,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Brassica spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4625: {
+  }),
+  4625: new PLU({
     Plu: 4625,
     Type: "Global",
     Category: "Vegetables",
@@ -11433,8 +11491,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Armoracia rusticana",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4626: {
+  }),
+  4626: new PLU({
     Plu: 4626,
     Type: "Global",
     Category: "Vegetables",
@@ -11442,8 +11500,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Pachyrhizus erosus",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4627: {
+  }),
+  4627: new PLU({
     Plu: 4627,
     Type: "Global",
     Category: "Vegetables",
@@ -11451,8 +11509,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Brassica oleracea",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4628: {
+  }),
+  4628: new PLU({
     Plu: 4628,
     Type: "Global",
     Category: "Vegetables",
@@ -11460,8 +11518,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Brassica oleracea",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4629: {
+  }),
+  4629: new PLU({
     Plu: 4629,
     Type: "Global",
     Category: "Vegetables",
@@ -11471,8 +11529,8 @@ export const PLU = {
     Restrictions: "This code can be used anyplace in the globe; however, there are other codes for this item that can be used outside of North America.",
     Botanical: "Allium ampeloprasum",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4630: {
+  }),
+  4630: new PLU({
     Plu: 4630,
     Type: "Global",
     Category: "Vegetables",
@@ -11482,8 +11540,8 @@ export const PLU = {
     Restrictions: "This code can be used anyplace in the globe; however, there are other codes for this item that can be used outside of North America.",
     Botanical: "Allium ampeloprasum",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4631: {
+  }),
+  4631: new PLU({
     Plu: 4631,
     Type: "Global",
     Category: "Vegetables",
@@ -11492,8 +11550,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Lactuca sativa",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4632: {
+  }),
+  4632: new PLU({
     Plu: 4632,
     Type: "Global",
     Category: "Vegetables",
@@ -11502,8 +11560,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Lactuca sativa",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4633: {
+  }),
+  4633: new PLU({
     Plu: 4633,
     Type: "Global",
     Category: "Vegetables",
@@ -11512,8 +11570,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Lactuca sativa",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4634: {
+  }),
+  4634: new PLU({
     Plu: 4634,
     Type: "Global",
     Category: "Vegetables",
@@ -11523,8 +11581,8 @@ export const PLU = {
     Restrictions: "Restricted for items grown east of the Mississippi River in the U.S or east of the Ontario/Manitoba border in Canada.",
     Botanical: "Lactuca sativa",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4635: {
+  }),
+  4635: new PLU({
     Plu: 4635,
     Type: "Global",
     Category: "Fruits",
@@ -11533,8 +11591,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Vitis vinifera",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4636: {
+  }),
+  4636: new PLU({
     Plu: 4636,
     Type: "Global",
     Category: "Fruits",
@@ -11543,8 +11601,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Vitis vinifera",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4637: {
+  }),
+  4637: new PLU({
     Plu: 4637,
     Type: "Global",
     Category: "Fruits",
@@ -11553,8 +11611,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Vitis vinifera",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4638: {
+  }),
+  4638: new PLU({
     Plu: 4638,
     Type: "Global",
     Category: "Fruits",
@@ -11563,8 +11621,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Vitis vinifera",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4639: {
+  }),
+  4639: new PLU({
     Plu: 4639,
     Type: "Global",
     Category: "Vegetables",
@@ -11573,8 +11631,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Lactuca sativa",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4640: {
+  }),
+  4640: new PLU({
     Plu: 4640,
     Type: "Global",
     Category: "Vegetables",
@@ -11583,8 +11641,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Lactuca sativa",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4641: {
+  }),
+  4641: new PLU({
     Plu: 4641,
     Type: "Global",
     Category: "Vegetables",
@@ -11593,8 +11651,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Lactuca sativa",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4642: {
+  }),
+  4642: new PLU({
     Plu: 4642,
     Type: "Global",
     Category: "Vegetables",
@@ -11603,8 +11661,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Lactuca sativa",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4643: {
+  }),
+  4643: new PLU({
     Plu: 4643,
     Type: "Global",
     Category: "Vegetables",
@@ -11613,8 +11671,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Lactuca sativa",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4644: {
+  }),
+  4644: new PLU({
     Plu: 4644,
     Type: "Global",
     Category: "Vegetables",
@@ -11622,8 +11680,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Xanthosoma spp",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4645: {
+  }),
+  4645: new PLU({
     Plu: 4645,
     Type: "Global",
     Category: "Vegetables",
@@ -11633,8 +11691,8 @@ export const PLU = {
     Measures_row: "Less than 40mm diameter",
     Botanical: "Agaricus bisporus",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4646: {
+  }),
+  4646: new PLU({
     Plu: 4646,
     Type: "Global",
     Category: "Vegetables",
@@ -11643,8 +11701,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Agaricus bisporus",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4647: {
+  }),
+  4647: new PLU({
     Plu: 4647,
     Type: "Global",
     Category: "Vegetables",
@@ -11653,8 +11711,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Chanterella cibarius",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4648: {
+  }),
+  4648: new PLU({
     Plu: 4648,
     Type: "Global",
     Category: "Vegetables",
@@ -11663,8 +11721,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Agaricus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4649: {
+  }),
+  4649: new PLU({
     Plu: 4649,
     Type: "Global",
     Category: "Vegetables",
@@ -11673,8 +11731,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Pleuotus ostreatus",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4650: {
+  }),
+  4650: new PLU({
     Plu: 4650,
     Type: "Global",
     Category: "Vegetables",
@@ -11683,8 +11741,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Agaricus bisporus",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4651: {
+  }),
+  4651: new PLU({
     Plu: 4651,
     Type: "Global",
     Category: "Vegetables",
@@ -11693,8 +11751,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Lentinus edodes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4652: {
+  }),
+  4652: new PLU({
     Plu: 4652,
     Type: "Global",
     Category: "Vegetables",
@@ -11703,8 +11761,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Auricularia auricula",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4653: {
+  }),
+  4653: new PLU({
     Plu: 4653,
     Type: "Global",
     Category: "Vegetables",
@@ -11713,8 +11771,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Agaricus bisporus",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4654: {
+  }),
+  4654: new PLU({
     Plu: 4654,
     Type: "Global",
     Category: "Vegetables",
@@ -11723,8 +11781,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Agaricus bisporus",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4655: {
+  }),
+  4655: new PLU({
     Plu: 4655,
     Type: "Global",
     Category: "Vegetables",
@@ -11733,8 +11791,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Abelmoschus esculentus",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4656: {
+  }),
+  4656: new PLU({
     Plu: 4656,
     Type: "Global",
     Category: "Vegetables",
@@ -11743,8 +11801,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Luffa acutangula",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4657: {
+  }),
+  4657: new PLU({
     Plu: 4657,
     Type: "Global",
     Category: "Vegetables",
@@ -11753,8 +11811,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "A.esculentus",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4658: {
+  }),
+  4658: new PLU({
     Plu: 4658,
     Type: "Global",
     Category: "Vegetables",
@@ -11763,8 +11821,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Allium spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4659: {
+  }),
+  4659: new PLU({
     Plu: 4659,
     Type: "Global",
     Category: "Vegetables",
@@ -11773,8 +11831,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Allium spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4660: {
+  }),
+  4660: new PLU({
     Plu: 4660,
     Type: "Global",
     Category: "Vegetables",
@@ -11783,8 +11841,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Allium spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4661: {
+  }),
+  4661: new PLU({
     Plu: 4661,
     Type: "Global",
     Category: "Vegetables",
@@ -11793,8 +11851,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Allium spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4662: {
+  }),
+  4662: new PLU({
     Plu: 4662,
     Type: "Global",
     Category: "Vegetables",
@@ -11803,8 +11861,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Allium spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4663: {
+  }),
+  4663: new PLU({
     Plu: 4663,
     Type: "Global",
     Category: "Vegetables",
@@ -11813,8 +11871,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Allium spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4664: {
+  }),
+  4664: new PLU({
     Plu: 4664,
     Type: "Global",
     Category: "Vegetables",
@@ -11823,8 +11881,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Lycopersicon esculenta",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4665: {
+  }),
+  4665: new PLU({
     Plu: 4665,
     Type: "Global",
     Category: "Vegetables",
@@ -11835,8 +11893,8 @@ export const PLU = {
     Measures_row: "Min diameter less than 75mm",
     Botanical: "Allium spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4666: {
+  }),
+  4666: new PLU({
     Plu: 4666,
     Type: "Global",
     Category: "Vegetables",
@@ -11845,8 +11903,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Allium spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4667: {
+  }),
+  4667: new PLU({
     Plu: 4667,
     Type: "Global",
     Category: "Vegetables",
@@ -11855,8 +11913,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Allium spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4668: {
+  }),
+  4668: new PLU({
     Plu: 4668,
     Type: "Global",
     Category: "Vegetables",
@@ -11865,8 +11923,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Allium spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4669: {
+  }),
+  4669: new PLU({
     Plu: 4669,
     Type: "Global",
     Category: "Vegetables",
@@ -11875,8 +11933,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Allium spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4670: {
+  }),
+  4670: new PLU({
     Plu: 4670,
     Type: "Global",
     Category: "Vegetables",
@@ -11885,8 +11943,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Allium spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4671: {
+  }),
+  4671: new PLU({
     Plu: 4671,
     Type: "Global",
     Category: "Vegetables",
@@ -11894,8 +11952,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Petroselinum crispum",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4672: {
+  }),
+  4672: new PLU({
     Plu: 4672,
     Type: "Global",
     Category: "Vegetables",
@@ -11903,8 +11961,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Pastinaca sativa",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4673: {
+  }),
+  4673: new PLU({
     Plu: 4673,
     Type: "Global",
     Category: "Vegetables",
@@ -11913,8 +11971,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Vigna unguiculata",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4674: {
+  }),
+  4674: new PLU({
     Plu: 4674,
     Type: "Global",
     Category: "Vegetables",
@@ -11923,8 +11981,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Pisum sativum",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4675: {
+  }),
+  4675: new PLU({
     Plu: 4675,
     Type: "Global",
     Category: "Vegetables",
@@ -11932,8 +11990,8 @@ export const PLU = {
     Variety: "Sugar Snap",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4676: {
+  }),
+  4676: new PLU({
     Plu: 4676,
     Type: "Global",
     Category: "Vegetables",
@@ -11941,8 +11999,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4677: {
+  }),
+  4677: new PLU({
     Plu: 4677,
     Type: "Global",
     Category: "Vegetables",
@@ -11951,8 +12009,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4678: {
+  }),
+  4678: new PLU({
     Plu: 4678,
     Type: "Global",
     Category: "Vegetables",
@@ -11961,8 +12019,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4679: {
+  }),
+  4679: new PLU({
     Plu: 4679,
     Type: "Global",
     Category: "Vegetables",
@@ -11971,8 +12029,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4680: {
+  }),
+  4680: new PLU({
     Plu: 4680,
     Type: "Global",
     Category: "Vegetables",
@@ -11981,8 +12039,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4681: {
+  }),
+  4681: new PLU({
     Plu: 4681,
     Type: "Global",
     Category: "Vegetables",
@@ -11993,8 +12051,8 @@ export const PLU = {
     Measures_row: "Min diameter less than 65mm",
     Botanical: "Capsicum spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4682: {
+  }),
+  4682: new PLU({
     Plu: 4682,
     Type: "Global",
     Category: "Vegetables",
@@ -12003,8 +12061,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4683: {
+  }),
+  4683: new PLU({
     Plu: 4683,
     Type: "Global",
     Category: "Vegetables",
@@ -12013,8 +12071,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4684: {
+  }),
+  4684: new PLU({
     Plu: 4684,
     Type: "Global",
     Category: "Vegetables",
@@ -12023,8 +12081,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4685: {
+  }),
+  4685: new PLU({
     Plu: 4685,
     Type: "Global",
     Category: "Vegetables",
@@ -12033,8 +12091,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4686: {
+  }),
+  4686: new PLU({
     Plu: 4686,
     Type: "Global",
     Category: "Vegetables",
@@ -12043,8 +12101,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4687: {
+  }),
+  4687: new PLU({
     Plu: 4687,
     Type: "Global",
     Category: "Vegetables",
@@ -12053,8 +12111,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4688: {
+  }),
+  4688: new PLU({
     Plu: 4688,
     Type: "Global",
     Category: "Vegetables",
@@ -12063,8 +12121,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4689: {
+  }),
+  4689: new PLU({
     Plu: 4689,
     Type: "Global",
     Category: "Vegetables",
@@ -12073,8 +12131,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4690: {
+  }),
+  4690: new PLU({
     Plu: 4690,
     Type: "Global",
     Category: "Vegetables",
@@ -12083,8 +12141,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4691: {
+  }),
+  4691: new PLU({
     Plu: 4691,
     Type: "Global",
     Category: "Vegetables",
@@ -12093,8 +12151,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4692: {
+  }),
+  4692: new PLU({
     Plu: 4692,
     Type: "Global",
     Category: "Vegetables",
@@ -12103,8 +12161,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4693: {
+  }),
+  4693: new PLU({
     Plu: 4693,
     Type: "Global",
     Category: "Vegetables",
@@ -12113,8 +12171,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4694: {
+  }),
+  4694: new PLU({
     Plu: 4694,
     Type: "Global",
     Category: "Vegetables",
@@ -12123,8 +12181,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4695: {
+  }),
+  4695: new PLU({
     Plu: 4695,
     Type: "Global",
     Category: "Vegetables",
@@ -12133,8 +12191,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4696: {
+  }),
+  4696: new PLU({
     Plu: 4696,
     Type: "Global",
     Category: "Vegetables",
@@ -12143,8 +12201,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4697: {
+  }),
+  4697: new PLU({
     Plu: 4697,
     Type: "Global",
     Category: "Vegetables",
@@ -12153,8 +12211,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4698: {
+  }),
+  4698: new PLU({
     Plu: 4698,
     Type: "Global",
     Category: "Vegetables",
@@ -12163,8 +12221,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4699: {
+  }),
+  4699: new PLU({
     Plu: 4699,
     Type: "Global",
     Category: "Vegetables",
@@ -12173,8 +12231,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4700: {
+  }),
+  4700: new PLU({
     Plu: 4700,
     Type: "Global",
     Category: "Vegetables",
@@ -12183,8 +12241,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4701: {
+  }),
+  4701: new PLU({
     Plu: 4701,
     Type: "Global",
     Category: "Vegetables",
@@ -12193,8 +12251,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4702: {
+  }),
+  4702: new PLU({
     Plu: 4702,
     Type: "Global",
     Category: "Vegetables",
@@ -12203,8 +12261,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4703: {
+  }),
+  4703: new PLU({
     Plu: 4703,
     Type: "Global",
     Category: "Vegetables",
@@ -12213,8 +12271,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4704: {
+  }),
+  4704: new PLU({
     Plu: 4704,
     Type: "Global",
     Category: "Vegetables",
@@ -12223,8 +12281,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4705: {
+  }),
+  4705: new PLU({
     Plu: 4705,
     Type: "Global",
     Category: "Vegetables",
@@ -12233,8 +12291,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4706: {
+  }),
+  4706: new PLU({
     Plu: 4706,
     Type: "Global",
     Category: "Vegetables",
@@ -12243,8 +12301,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4707: {
+  }),
+  4707: new PLU({
     Plu: 4707,
     Type: "Global",
     Category: "Vegetables",
@@ -12253,8 +12311,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4708: {
+  }),
+  4708: new PLU({
     Plu: 4708,
     Type: "Global",
     Category: "Vegetables",
@@ -12263,8 +12321,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4709: {
+  }),
+  4709: new PLU({
     Plu: 4709,
     Type: "Global",
     Category: "Vegetables",
@@ -12273,8 +12331,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4710: {
+  }),
+  4710: new PLU({
     Plu: 4710,
     Type: "Global",
     Category: "Vegetables",
@@ -12283,8 +12341,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4711: {
+  }),
+  4711: new PLU({
     Plu: 4711,
     Type: "Global",
     Category: "Vegetables",
@@ -12293,8 +12351,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4712: {
+  }),
+  4712: new PLU({
     Plu: 4712,
     Type: "Global",
     Category: "Vegetables",
@@ -12303,8 +12361,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Capsicum spp",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4713: {
+  }),
+  4713: new PLU({
     Plu: 4713,
     Type: "Global",
     Category: "Vegetables",
@@ -12313,8 +12371,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Capsicum spp",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4714: {
+  }),
+  4714: new PLU({
     Plu: 4714,
     Type: "Global",
     Category: "Vegetables",
@@ -12323,8 +12381,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Capsicum spp",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4715: {
+  }),
+  4715: new PLU({
     Plu: 4715,
     Type: "Global",
     Category: "Vegetables",
@@ -12333,8 +12391,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Capsicum spp",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4716: {
+  }),
+  4716: new PLU({
     Plu: 4716,
     Type: "Global",
     Category: "Vegetables",
@@ -12343,8 +12401,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Capsicum spp",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4717: {
+  }),
+  4717: new PLU({
     Plu: 4717,
     Type: "Global",
     Category: "Vegetables",
@@ -12353,8 +12411,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Capsicum spp",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4718: {
+  }),
+  4718: new PLU({
     Plu: 4718,
     Type: "Global",
     Category: "Vegetables",
@@ -12363,8 +12421,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Capsicum spp",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4719: {
+  }),
+  4719: new PLU({
     Plu: 4719,
     Type: "Global",
     Category: "Vegetables",
@@ -12373,8 +12431,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Capsicum spp",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4720: {
+  }),
+  4720: new PLU({
     Plu: 4720,
     Type: "Global",
     Category: "Vegetables",
@@ -12383,8 +12441,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Capsicum spp",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4721: {
+  }),
+  4721: new PLU({
     Plu: 4721,
     Type: "Global",
     Category: "Vegetables",
@@ -12393,8 +12451,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4722: {
+  }),
+  4722: new PLU({
     Plu: 4722,
     Type: "Global",
     Category: "Vegetables",
@@ -12403,8 +12461,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Capsicum spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4723: {
+  }),
+  4723: new PLU({
     Plu: 4723,
     Type: "Global",
     Category: "Vegetables",
@@ -12413,8 +12471,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Solanum tuberosum",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4724: {
+  }),
+  4724: new PLU({
     Plu: 4724,
     Type: "Global",
     Category: "Vegetables",
@@ -12423,8 +12481,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Solanum tuberosum",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4725: {
+  }),
+  4725: new PLU({
     Plu: 4725,
     Type: "Global",
     Category: "Vegetables",
@@ -12434,8 +12492,8 @@ export const PLU = {
     Restrictions: "Restricted for items grown east of the Mississippi River in the U.S. or east of the Ontario/Manitoba border in Canada.",
     Botanical: "Solanum tuberosum",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4726: {
+  }),
+  4726: new PLU({
     Plu: 4726,
     Type: "Global",
     Category: "Vegetables",
@@ -12444,8 +12502,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Solanum tuberosum",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4727: {
+  }),
+  4727: new PLU({
     Plu: 4727,
     Type: "Global",
     Category: "Vegetables",
@@ -12454,8 +12512,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Solanum tuberosum",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4728: {
+  }),
+  4728: new PLU({
     Plu: 4728,
     Type: "Global",
     Category: "Vegetables",
@@ -12464,8 +12522,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Solanum tuberosum",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4729: {
+  }),
+  4729: new PLU({
     Plu: 4729,
     Type: "Global",
     Category: "Vegetables",
@@ -12474,8 +12532,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Solanum tuberosum",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4730: {
+  }),
+  4730: new PLU({
     Plu: 4730,
     Type: "Global",
     Category: "Vegetables",
@@ -12484,8 +12542,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Solanum tuberosum",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4731: {
+  }),
+  4731: new PLU({
     Plu: 4731,
     Type: "Global",
     Category: "Vegetables",
@@ -12494,8 +12552,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Solanum tuberosum",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4732: {
+  }),
+  4732: new PLU({
     Plu: 4732,
     Type: "Global",
     Category: "Vegetables",
@@ -12504,8 +12562,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Solanum tuberosum",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4733: {
+  }),
+  4733: new PLU({
     Plu: 4733,
     Type: "Global",
     Category: "Vegetables",
@@ -12514,8 +12572,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Solanum tuberosum",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4734: {
+  }),
+  4734: new PLU({
     Plu: 4734,
     Type: "Global",
     Category: "Vegetables",
@@ -12524,8 +12582,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucurbita pepo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4735: {
+  }),
+  4735: new PLU({
     Plu: 4735,
     Type: "Global",
     Category: "Vegetables",
@@ -12534,8 +12592,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucurbita pepo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4736: {
+  }),
+  4736: new PLU({
     Plu: 4736,
     Type: "Global",
     Category: "Vegetables",
@@ -12544,8 +12602,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucurbita pepo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4737: {
+  }),
+  4737: new PLU({
     Plu: 4737,
     Type: "Global",
     Category: "Vegetables",
@@ -12554,8 +12612,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cucurbita pepo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4738: {
+  }),
+  4738: new PLU({
     Plu: 4738,
     Type: "Global",
     Category: "Vegetables",
@@ -12563,8 +12621,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cichorium intybus",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4739: {
+  }),
+  4739: new PLU({
     Plu: 4739,
     Type: "Global",
     Category: "Vegetables",
@@ -12573,8 +12631,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Raphanus sativus",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4740: {
+  }),
+  4740: new PLU({
     Plu: 4740,
     Type: "Global",
     Category: "Vegetables",
@@ -12583,8 +12641,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Raphanus sativus",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4741: {
+  }),
+  4741: new PLU({
     Plu: 4741,
     Type: "Global",
     Category: "Vegetables",
@@ -12593,8 +12651,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Raphanus sativus",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4742: {
+  }),
+  4742: new PLU({
     Plu: 4742,
     Type: "Global",
     Category: "Vegetables",
@@ -12603,8 +12661,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Raphanus sativus",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4743: {
+  }),
+  4743: new PLU({
     Plu: 4743,
     Type: "Global",
     Category: "Vegetables",
@@ -12613,8 +12671,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Raphanus sativus",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4744: {
+  }),
+  4744: new PLU({
     Plu: 4744,
     Type: "Global",
     Category: "Vegetables",
@@ -12623,8 +12681,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Raphanus sativus",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4745: {
+  }),
+  4745: new PLU({
     Plu: 4745,
     Type: "Global",
     Category: "Vegetables",
@@ -12633,8 +12691,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Rheum x rhabarbarum",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4746: {
+  }),
+  4746: new PLU({
     Plu: 4746,
     Type: "Global",
     Category: "Vegetables",
@@ -12643,8 +12701,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Rheum x rhabarbarum",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4747: {
+  }),
+  4747: new PLU({
     Plu: 4747,
     Type: "Global",
     Category: "Vegetables",
@@ -12653,8 +12711,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Brassica napus",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4748: {
+  }),
+  4748: new PLU({
     Plu: 4748,
     Type: "Global",
     Category: "Vegetables",
@@ -12663,8 +12721,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Brassica napus",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4749: {
+  }),
+  4749: new PLU({
     Plu: 4749,
     Type: "Global",
     Category: "Vegetables",
@@ -12672,8 +12730,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4750: {
+  }),
+  4750: new PLU({
     Plu: 4750,
     Type: "Global",
     Category: "Vegetables",
@@ -12682,8 +12740,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "C. pepo/C. maxima",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4751: {
+  }),
+  4751: new PLU({
     Plu: 4751,
     Type: "Global",
     Category: "Vegetables",
@@ -12692,8 +12750,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "C.pepo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4752: {
+  }),
+  4752: new PLU({
     Plu: 4752,
     Type: "Global",
     Category: "Vegetables",
@@ -12702,8 +12760,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "C.pepo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4753: {
+  }),
+  4753: new PLU({
     Plu: 4753,
     Type: "Global",
     Category: "Vegetables",
@@ -12712,8 +12770,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "C.maxima",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4754: {
+  }),
+  4754: new PLU({
     Plu: 4754,
     Type: "Global",
     Category: "Vegetables",
@@ -12722,8 +12780,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "C.pepo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4755: {
+  }),
+  4755: new PLU({
     Plu: 4755,
     Type: "Global",
     Category: "Vegetables",
@@ -12732,8 +12790,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "C.pepo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4756: {
+  }),
+  4756: new PLU({
     Plu: 4756,
     Type: "Global",
     Category: "Vegetables",
@@ -12742,8 +12800,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "C. pepo/C. maxima",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4757: {
+  }),
+  4757: new PLU({
     Plu: 4757,
     Type: "Global",
     Category: "Vegetables",
@@ -12752,8 +12810,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "C.maxima",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4758: {
+  }),
+  4758: new PLU({
     Plu: 4758,
     Type: "Global",
     Category: "Vegetables",
@@ -12762,8 +12820,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "C.maxima",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4759: {
+  }),
+  4759: new PLU({
     Plu: 4759,
     Type: "Global",
     Category: "Vegetables",
@@ -12772,8 +12830,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "C.maxima",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4760: {
+  }),
+  4760: new PLU({
     Plu: 4760,
     Type: "Global",
     Category: "Vegetables",
@@ -12782,8 +12840,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "C.moschata",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4761: {
+  }),
+  4761: new PLU({
     Plu: 4761,
     Type: "Global",
     Category: "Vegetables",
@@ -12792,8 +12850,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Sechium edule",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4762: {
+  }),
+  4762: new PLU({
     Plu: 4762,
     Type: "Global",
     Category: "Vegetables",
@@ -12802,8 +12860,8 @@ export const PLU = {
     Measures_na: "24 size and larger",
     Botanical: "Cynara scolymus",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4763: {
+  }),
+  4763: new PLU({
     Plu: 4763,
     Type: "Global",
     Category: "Vegetables",
@@ -12812,8 +12870,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "C.maxima",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4764: {
+  }),
+  4764: new PLU({
     Plu: 4764,
     Type: "Global",
     Category: "Vegetables",
@@ -12822,8 +12880,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "C. pepo/C. maxima",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4765: {
+  }),
+  4765: new PLU({
     Plu: 4765,
     Type: "Global",
     Category: "Vegetables",
@@ -12832,8 +12890,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "C.pepo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4766: {
+  }),
+  4766: new PLU({
     Plu: 4766,
     Type: "Global",
     Category: "Vegetables",
@@ -12842,8 +12900,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "C. pepo/C. maxima",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4767: {
+  }),
+  4767: new PLU({
     Plu: 4767,
     Type: "Global",
     Category: "Vegetables",
@@ -12852,8 +12910,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "C. pepo/C. maxima",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4768: {
+  }),
+  4768: new PLU({
     Plu: 4768,
     Type: "Global",
     Category: "Vegetables",
@@ -12862,8 +12920,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "C. pepo/C. maxima",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4769: {
+  }),
+  4769: new PLU({
     Plu: 4769,
     Type: "Global",
     Category: "Vegetables",
@@ -12872,8 +12930,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "C. pepo/C. maxima",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4770: {
+  }),
+  4770: new PLU({
     Plu: 4770,
     Type: "Global",
     Category: "Fruits",
@@ -12884,8 +12942,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = 315g and above",
     Botanical: "Persea americana",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4771: {
+  }),
+  4771: new PLU({
     Plu: 4771,
     Type: "Global",
     Category: "Fruits",
@@ -12896,8 +12954,8 @@ export const PLU = {
     Restrictions: "Restricted for items grown east of the Mississippi River in the U.S. or east of the Ontario/Manitoba border in Canada.",
     Botanical: "Persea americana",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4772: {
+  }),
+  4772: new PLU({
     Plu: 4772,
     Type: "Global",
     Category: "Vegetables",
@@ -12906,8 +12964,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Capsicum spp",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4773: {
+  }),
+  4773: new PLU({
     Plu: 4773,
     Type: "Global",
     Category: "Vegetables",
@@ -12916,8 +12974,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "C.pepo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4774: {
+  }),
+  4774: new PLU({
     Plu: 4774,
     Type: "Global",
     Category: "Vegetables",
@@ -12926,8 +12984,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "C. pepo/C. maxima",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4775: {
+  }),
+  4775: new PLU({
     Plu: 4775,
     Type: "Global",
     Category: "Vegetables",
@@ -12936,8 +12994,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "C.pepo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4776: {
+  }),
+  4776: new PLU({
     Plu: 4776,
     Type: "Global",
     Category: "Vegetables",
@@ -12946,8 +13004,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "C. pepo/C. maxima",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4777: {
+  }),
+  4777: new PLU({
     Plu: 4777,
     Type: "Global",
     Category: "Vegetables",
@@ -12956,8 +13014,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "C. pepo/C. maxima",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4778: {
+  }),
+  4778: new PLU({
     Plu: 4778,
     Type: "Global",
     Category: "Vegetables",
@@ -12966,8 +13024,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Lycopersicon esculenta",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4779: {
+  }),
+  4779: new PLU({
     Plu: 4779,
     Type: "Global",
     Category: "Vegetables",
@@ -12976,8 +13034,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "C.pepo x C.maxima",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4780: {
+  }),
+  4780: new PLU({
     Plu: 4780,
     Type: "Global",
     Category: "Vegetables",
@@ -12986,8 +13044,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "C.maxima",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4781: {
+  }),
+  4781: new PLU({
     Plu: 4781,
     Type: "Global",
     Category: "Vegetables",
@@ -12996,8 +13054,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "C.pepo",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4782: {
+  }),
+  4782: new PLU({
     Plu: 4782,
     Type: "Global",
     Category: "Vegetables",
@@ -13006,8 +13064,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "C. pepo/C. maxima",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4783: {
+  }),
+  4783: new PLU({
     Plu: 4783,
     Type: "Global",
     Category: "Vegetables",
@@ -13016,8 +13074,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Momordica charantia",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4784: {
+  }),
+  4784: new PLU({
     Plu: 4784,
     Type: "Global",
     Category: "Vegetables",
@@ -13026,8 +13084,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "C. pepo/C. maxima",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4785: {
+  }),
+  4785: new PLU({
     Plu: 4785,
     Type: "Global",
     Category: "Vegetables",
@@ -13036,8 +13094,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "C. pepo/C. maxima",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4786: {
+  }),
+  4786: new PLU({
     Plu: 4786,
     Type: "Global",
     Category: "Vegetables",
@@ -13046,8 +13104,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "C. pepo/C. maxima",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4787: {
+  }),
+  4787: new PLU({
     Plu: 4787,
     Type: "Global",
     Category: "Vegetables",
@@ -13056,8 +13114,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "C. pepo/C. maxima",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4788: {
+  }),
+  4788: new PLU({
     Plu: 4788,
     Type: "Global",
     Category: "Vegetables",
@@ -13066,8 +13124,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "C. pepo/C. maxima",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4789: {
+  }),
+  4789: new PLU({
     Plu: 4789,
     Type: "Global",
     Category: "Vegetables",
@@ -13076,8 +13134,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "C. pepo/C. maxima",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4790: {
+  }),
+  4790: new PLU({
     Plu: 4790,
     Type: "Global",
     Category: "Vegetables",
@@ -13085,8 +13143,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Saccharum officinarum",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4791: {
+  }),
+  4791: new PLU({
     Plu: 4791,
     Type: "Global",
     Category: "Vegetables",
@@ -13094,8 +13152,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Helianthus tuberosum",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4792: {
+  }),
+  4792: new PLU({
     Plu: 4792,
     Type: "Global",
     Category: "Vegetables",
@@ -13104,8 +13162,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cyphomandra betacea",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4793: {
+  }),
+  4793: new PLU({
     Plu: 4793,
     Type: "Global",
     Category: "Vegetables",
@@ -13114,8 +13172,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cyphomandra betacea",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4794: {
+  }),
+  4794: new PLU({
     Plu: 4794,
     Type: "Global",
     Category: "Vegetables",
@@ -13123,8 +13181,8 @@ export const PLU = {
     Size: "Small",
     Botanical: "Colocasia esculeta",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4795: {
+  }),
+  4795: new PLU({
     Plu: 4795,
     Type: "Global",
     Category: "Vegetables",
@@ -13132,8 +13190,8 @@ export const PLU = {
     Size: "Large",
     Botanical: "Colocasia esculeta",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4796: {
+  }),
+  4796: new PLU({
     Plu: 4796,
     Type: "Global",
     Category: "Vegetables",
@@ -13142,8 +13200,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Lycopersicon esculenta",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4797: {
+  }),
+  4797: new PLU({
     Plu: 4797,
     Type: "Global",
     Category: "Vegetables",
@@ -13152,8 +13210,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Lycopersicon esculenta",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4798: {
+  }),
+  4798: new PLU({
     Plu: 4798,
     Type: "Global",
     Category: "Vegetables",
@@ -13164,8 +13222,8 @@ export const PLU = {
     Measures_row: "Less than 70mm diameter",
     Botanical: "Lycopersicon esculenta",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4799: {
+  }),
+  4799: new PLU({
     Plu: 4799,
     Type: "Global",
     Category: "Vegetables",
@@ -13176,8 +13234,8 @@ export const PLU = {
     Measures_row: "Diameter 70mm and above",
     Botanical: "Lycopersicon esculenta",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4800: {
+  }),
+  4800: new PLU({
     Plu: 4800,
     Type: "Global",
     Category: "Vegetables",
@@ -13186,8 +13244,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Lycopersicon esculenta",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4801: {
+  }),
+  4801: new PLU({
     Plu: 4801,
     Type: "Global",
     Category: "Vegetables",
@@ -13196,8 +13254,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Lycopersicon esculenta",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4802: {
+  }),
+  4802: new PLU({
     Plu: 4802,
     Type: "Global",
     Category: "Vegetables",
@@ -13206,8 +13264,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Lycopersicon esculenta",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4803: {
+  }),
+  4803: new PLU({
     Plu: 4803,
     Type: "Global",
     Category: "Vegetables",
@@ -13216,8 +13274,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Lycopersicon esculenta",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4804: {
+  }),
+  4804: new PLU({
     Plu: 4804,
     Type: "Global",
     Category: "Vegetables",
@@ -13226,8 +13284,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Lycopersicon esculenta",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4805: {
+  }),
+  4805: new PLU({
     Plu: 4805,
     Type: "Global",
     Category: "Vegetables",
@@ -13238,8 +13296,8 @@ export const PLU = {
     Measures_row: "Less than 70mm diameter",
     Botanical: "Lycopersicon esculenta",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4806: {
+  }),
+  4806: new PLU({
     Plu: 4806,
     Type: "Global",
     Category: "Vegetables",
@@ -13248,8 +13306,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Lycopersicon esculenta",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4807: {
+  }),
+  4807: new PLU({
     Plu: 4807,
     Type: "Global",
     Category: "Vegetables",
@@ -13258,8 +13316,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Lycopersicon esculenta",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4808: {
+  }),
+  4808: new PLU({
     Plu: 4808,
     Type: "Global",
     Category: "Vegetables",
@@ -13268,8 +13326,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Lycopersicon esculenta",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4809: {
+  }),
+  4809: new PLU({
     Plu: 4809,
     Type: "Global",
     Category: "Vegetables",
@@ -13278,8 +13336,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Brassica rapa",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4810: {
+  }),
+  4810: new PLU({
     Plu: 4810,
     Type: "Global",
     Category: "Vegetables",
@@ -13288,8 +13346,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Brassica rapa",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4811: {
+  }),
+  4811: new PLU({
     Plu: 4811,
     Type: "Global",
     Category: "Vegetables",
@@ -13298,8 +13356,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Brassica rapa",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4812: {
+  }),
+  4812: new PLU({
     Plu: 4812,
     Type: "Global",
     Category: "Vegetables",
@@ -13308,8 +13366,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Brassica rapa",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4813: {
+  }),
+  4813: new PLU({
     Plu: 4813,
     Type: "Global",
     Category: "Vegetables",
@@ -13318,8 +13376,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Brassica rapa",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4814: {
+  }),
+  4814: new PLU({
     Plu: 4814,
     Type: "Global",
     Category: "Vegetables",
@@ -13327,8 +13385,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Eleocharis dulcis",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4815: {
+  }),
+  4815: new PLU({
     Plu: 4815,
     Type: "Global",
     Category: "Vegetables",
@@ -13336,8 +13394,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Rorippa nasturtium-aquaticum",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4816: {
+  }),
+  4816: new PLU({
     Plu: 4816,
     Type: "Global",
     Category: "Vegetables",
@@ -13347,8 +13405,8 @@ export const PLU = {
     Restrictions: "Terminology changed to include both sweet potato and yam to avoid confusion in marketplace",
     Botanical: "Ipomoea batato",
     Created_at: "2009-06-09 22:00:00",
-  },
-  4817: {
+  }),
+  4817: new PLU({
     Plu: 4817,
     Type: "Global",
     Category: "Vegetables",
@@ -13359,8 +13417,8 @@ export const PLU = {
     Restrictions: "Terminology changed to include both sweet potato and yam to avoid confusion in marketplace",
     Botanical: "Ipomoea batato",
     Created_at: "2009-06-09 22:00:00",
-  },
-  4818: {
+  }),
+  4818: new PLU({
     Plu: 4818,
     Type: "Global",
     Category: "Vegetables",
@@ -13369,8 +13427,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Dioscorea trifidia",
     Created_at: "2009-06-09 22:00:00",
-  },
-  4819: {
+  }),
+  4819: new PLU({
     Plu: 4819,
     Type: "Global",
     Category: "Vegetables",
@@ -13378,8 +13436,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Manihot esculenta",
     Created_at: "2011-06-08 22:00:00",
-  },
-  4820: {
+  }),
+  4820: new PLU({
     Plu: 4820,
     Type: "Global",
     Category: "Vegetables",
@@ -13387,8 +13445,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4821: {
+  }),
+  4821: new PLU({
     Plu: 4821,
     Type: "Global",
     Category: "Vegetables",
@@ -13396,8 +13454,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4822: {
+  }),
+  4822: new PLU({
     Plu: 4822,
     Type: "Global",
     Category: "Vegetables",
@@ -13405,8 +13463,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4823: {
+  }),
+  4823: new PLU({
     Plu: 4823,
     Type: "Global",
     Category: "Vegetables",
@@ -13414,8 +13472,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4824: {
+  }),
+  4824: new PLU({
     Plu: 4824,
     Type: "Global",
     Category: "Vegetables",
@@ -13423,8 +13481,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4825: {
+  }),
+  4825: new PLU({
     Plu: 4825,
     Type: "Global",
     Category: "Vegetables",
@@ -13432,8 +13490,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4826: {
+  }),
+  4826: new PLU({
     Plu: 4826,
     Type: "Global",
     Category: "Vegetables",
@@ -13441,8 +13499,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4827: {
+  }),
+  4827: new PLU({
     Plu: 4827,
     Type: "Global",
     Category: "Vegetables",
@@ -13450,8 +13508,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4828: {
+  }),
+  4828: new PLU({
     Plu: 4828,
     Type: "Global",
     Category: "Vegetables",
@@ -13459,8 +13517,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4829: {
+  }),
+  4829: new PLU({
     Plu: 4829,
     Type: "Global",
     Category: "Vegetables",
@@ -13468,8 +13526,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4830: {
+  }),
+  4830: new PLU({
     Plu: 4830,
     Type: "Global",
     Category: "Vegetables",
@@ -13477,8 +13535,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4831: {
+  }),
+  4831: new PLU({
     Plu: 4831,
     Type: "Global",
     Category: "Vegetables",
@@ -13486,8 +13544,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4832: {
+  }),
+  4832: new PLU({
     Plu: 4832,
     Type: "Global",
     Category: "Vegetables",
@@ -13495,8 +13553,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4833: {
+  }),
+  4833: new PLU({
     Plu: 4833,
     Type: "Global",
     Category: "Vegetables",
@@ -13504,8 +13562,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4834: {
+  }),
+  4834: new PLU({
     Plu: 4834,
     Type: "Global",
     Category: "Vegetables",
@@ -13513,8 +13571,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4835: {
+  }),
+  4835: new PLU({
     Plu: 4835,
     Type: "Global",
     Category: "Vegetables",
@@ -13522,8 +13580,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4836: {
+  }),
+  4836: new PLU({
     Plu: 4836,
     Type: "Global",
     Category: "Vegetables",
@@ -13531,8 +13589,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4837: {
+  }),
+  4837: new PLU({
     Plu: 4837,
     Type: "Global",
     Category: "Vegetables",
@@ -13540,8 +13598,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4838: {
+  }),
+  4838: new PLU({
     Plu: 4838,
     Type: "Global",
     Category: "Vegetables",
@@ -13549,8 +13607,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4839: {
+  }),
+  4839: new PLU({
     Plu: 4839,
     Type: "Global",
     Category: "Vegetables",
@@ -13558,8 +13616,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4840: {
+  }),
+  4840: new PLU({
     Plu: 4840,
     Type: "Global",
     Category: "Vegetables",
@@ -13567,8 +13625,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4841: {
+  }),
+  4841: new PLU({
     Plu: 4841,
     Type: "Global",
     Category: "Vegetables",
@@ -13576,8 +13634,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4842: {
+  }),
+  4842: new PLU({
     Plu: 4842,
     Type: "Global",
     Category: "Vegetables",
@@ -13585,8 +13643,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4843: {
+  }),
+  4843: new PLU({
     Plu: 4843,
     Type: "Global",
     Category: "Vegetables",
@@ -13594,8 +13652,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4844: {
+  }),
+  4844: new PLU({
     Plu: 4844,
     Type: "Global",
     Category: "Vegetables",
@@ -13603,8 +13661,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4845: {
+  }),
+  4845: new PLU({
     Plu: 4845,
     Type: "Global",
     Category: "Vegetables",
@@ -13612,8 +13670,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4846: {
+  }),
+  4846: new PLU({
     Plu: 4846,
     Type: "Global",
     Category: "Vegetables",
@@ -13621,8 +13679,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4847: {
+  }),
+  4847: new PLU({
     Plu: 4847,
     Type: "Global",
     Category: "Vegetables",
@@ -13630,8 +13688,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4848: {
+  }),
+  4848: new PLU({
     Plu: 4848,
     Type: "Global",
     Category: "Vegetables",
@@ -13639,8 +13697,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4849: {
+  }),
+  4849: new PLU({
     Plu: 4849,
     Type: "Global",
     Category: "Vegetables",
@@ -13648,8 +13706,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4850: {
+  }),
+  4850: new PLU({
     Plu: 4850,
     Type: "Global",
     Category: "Vegetables",
@@ -13657,8 +13715,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4851: {
+  }),
+  4851: new PLU({
     Plu: 4851,
     Type: "Global",
     Category: "Vegetables",
@@ -13666,8 +13724,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4852: {
+  }),
+  4852: new PLU({
     Plu: 4852,
     Type: "Global",
     Category: "Vegetables",
@@ -13675,8 +13733,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4853: {
+  }),
+  4853: new PLU({
     Plu: 4853,
     Type: "Global",
     Category: "Vegetables",
@@ -13684,8 +13742,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4854: {
+  }),
+  4854: new PLU({
     Plu: 4854,
     Type: "Global",
     Category: "Vegetables",
@@ -13693,8 +13751,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4855: {
+  }),
+  4855: new PLU({
     Plu: 4855,
     Type: "Global",
     Category: "Vegetables",
@@ -13702,8 +13760,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4856: {
+  }),
+  4856: new PLU({
     Plu: 4856,
     Type: "Global",
     Category: "Vegetables",
@@ -13711,8 +13769,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4857: {
+  }),
+  4857: new PLU({
     Plu: 4857,
     Type: "Global",
     Category: "Vegetables",
@@ -13720,8 +13778,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4858: {
+  }),
+  4858: new PLU({
     Plu: 4858,
     Type: "Global",
     Category: "Vegetables",
@@ -13729,8 +13787,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4859: {
+  }),
+  4859: new PLU({
     Plu: 4859,
     Type: "Global",
     Category: "Vegetables",
@@ -13738,8 +13796,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4860: {
+  }),
+  4860: new PLU({
     Plu: 4860,
     Type: "Global",
     Category: "Dried Fruits",
@@ -13747,8 +13805,8 @@ export const PLU = {
     Variety: "Dried",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4861: {
+  }),
+  4861: new PLU({
     Plu: 4861,
     Type: "Global",
     Category: "Dried Fruits",
@@ -13757,8 +13815,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Prunus armeniaca",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4862: {
+  }),
+  4862: new PLU({
     Plu: 4862,
     Type: "Global",
     Category: "Dried Fruits",
@@ -13767,8 +13825,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Phoenix dactylifera",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4863: {
+  }),
+  4863: new PLU({
     Plu: 4863,
     Type: "Global",
     Category: "Dried Fruits",
@@ -13777,8 +13835,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Phoenix dactylifera",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4864: {
+  }),
+  4864: new PLU({
     Plu: 4864,
     Type: "Global",
     Category: "Dried Fruits",
@@ -13788,8 +13846,8 @@ export const PLU = {
     Restrictions: "Sizes for pineapple based on two-layer lug.",
     Botanical: "Ananas comosus",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4865: {
+  }),
+  4865: new PLU({
     Plu: 4865,
     Type: "Global",
     Category: "Dried Fruits",
@@ -13798,8 +13856,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Prunus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4866: {
+  }),
+  4866: new PLU({
     Plu: 4866,
     Type: "Global",
     Category: "Dried Fruits",
@@ -13808,8 +13866,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Prunus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4867: {
+  }),
+  4867: new PLU({
     Plu: 4867,
     Type: "Global",
     Category: "Dried Fruits",
@@ -13818,8 +13876,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Prunus domestica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4868: {
+  }),
+  4868: new PLU({
     Plu: 4868,
     Type: "Global",
     Category: "Dried Fruits",
@@ -13827,8 +13885,8 @@ export const PLU = {
     Variety: "Black (Dried Fruit)",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4869: {
+  }),
+  4869: new PLU({
     Plu: 4869,
     Type: "Global",
     Category: "Dried Fruits",
@@ -13836,8 +13894,8 @@ export const PLU = {
     Variety: "Golden/Yellow (Dried Fruit)",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4870: {
+  }),
+  4870: new PLU({
     Plu: 4870,
     Type: "Global",
     Category: "Dried Fruits",
@@ -13845,8 +13903,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4871: {
+  }),
+  4871: new PLU({
     Plu: 4871,
     Type: "Global",
     Category: "Dried Fruits",
@@ -13854,8 +13912,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4872: {
+  }),
+  4872: new PLU({
     Plu: 4872,
     Type: "Global",
     Category: "Dried Fruits",
@@ -13863,8 +13921,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4873: {
+  }),
+  4873: new PLU({
     Plu: 4873,
     Type: "Global",
     Category: "Dried Fruits",
@@ -13872,8 +13930,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4874: {
+  }),
+  4874: new PLU({
     Plu: 4874,
     Type: "Global",
     Category: "Dried Fruits",
@@ -13881,8 +13939,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4875: {
+  }),
+  4875: new PLU({
     Plu: 4875,
     Type: "Global",
     Category: "Dried Fruits",
@@ -13890,8 +13948,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4876: {
+  }),
+  4876: new PLU({
     Plu: 4876,
     Type: "Global",
     Category: "Dried Fruits",
@@ -13899,8 +13957,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4877: {
+  }),
+  4877: new PLU({
     Plu: 4877,
     Type: "Global",
     Category: "Dried Fruits",
@@ -13908,8 +13966,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4878: {
+  }),
+  4878: new PLU({
     Plu: 4878,
     Type: "Global",
     Category: "Dried Fruits",
@@ -13917,8 +13975,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4879: {
+  }),
+  4879: new PLU({
     Plu: 4879,
     Type: "Global",
     Category: "Dried Fruits",
@@ -13926,8 +13984,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4880: {
+  }),
+  4880: new PLU({
     Plu: 4880,
     Type: "Global",
     Category: "Dried Fruits",
@@ -13935,8 +13993,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4881: {
+  }),
+  4881: new PLU({
     Plu: 4881,
     Type: "Global",
     Category: "Dried Fruits",
@@ -13944,8 +14002,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4882: {
+  }),
+  4882: new PLU({
     Plu: 4882,
     Type: "Global",
     Category: "Dried Fruits",
@@ -13953,8 +14011,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4883: {
+  }),
+  4883: new PLU({
     Plu: 4883,
     Type: "Global",
     Category: "Dried Fruits",
@@ -13962,8 +14020,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4884: {
+  }),
+  4884: new PLU({
     Plu: 4884,
     Type: "Global",
     Category: "Herbs",
@@ -13971,8 +14029,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Eruca versicara",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4885: {
+  }),
+  4885: new PLU({
     Plu: 4885,
     Type: "Global",
     Category: "Herbs",
@@ -13980,8 +14038,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Ocimum spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4886: {
+  }),
+  4886: new PLU({
     Plu: 4886,
     Type: "Global",
     Category: "Herbs",
@@ -13990,8 +14048,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Ocimum spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4887: {
+  }),
+  4887: new PLU({
     Plu: 4887,
     Type: "Global",
     Category: "Herbs",
@@ -14000,8 +14058,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Ocimum spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4888: {
+  }),
+  4888: new PLU({
     Plu: 4888,
     Type: "Global",
     Category: "Herbs",
@@ -14009,8 +14067,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Allium Tuberosum",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4889: {
+  }),
+  4889: new PLU({
     Plu: 4889,
     Type: "Global",
     Category: "Herbs",
@@ -14018,8 +14076,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Coriandrum sativum",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4890: {
+  }),
+  4890: new PLU({
     Plu: 4890,
     Type: "Global",
     Category: "Fruits",
@@ -14028,8 +14086,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4891: {
+  }),
+  4891: new PLU({
     Plu: 4891,
     Type: "Global",
     Category: "Herbs",
@@ -14037,8 +14095,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Anethum graveolens",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4892: {
+  }),
+  4892: new PLU({
     Plu: 4892,
     Type: "Global",
     Category: "Herbs",
@@ -14047,8 +14105,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Anethum graveolens",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4893: {
+  }),
+  4893: new PLU({
     Plu: 4893,
     Type: "Global",
     Category: "Herbs",
@@ -14057,8 +14115,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Anethum graveolens",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4894: {
+  }),
+  4894: new PLU({
     Plu: 4894,
     Type: "Global",
     Category: "Herbs",
@@ -14066,8 +14124,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Cymbopogon citratus",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4895: {
+  }),
+  4895: new PLU({
     Plu: 4895,
     Type: "Global",
     Category: "Herbs",
@@ -14075,8 +14133,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Origanum spp",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4896: {
+  }),
+  4896: new PLU({
     Plu: 4896,
     Type: "Global",
     Category: "Herbs",
@@ -14084,16 +14142,16 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Mentha spp",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4897: {
+  }),
+  4897: new PLU({
     Plu: 4897,
     Type: "Global",
     Category: "Herbs",
     Commodity: "OREGANO",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4898: {
+  }),
+  4898: new PLU({
     Plu: 4898,
     Type: "Global",
     Category: "Herbs",
@@ -14101,8 +14159,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Tragopogan porrifolius",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4899: {
+  }),
+  4899: new PLU({
     Plu: 4899,
     Type: "Global",
     Category: "Herbs",
@@ -14111,8 +14169,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Petroselinum crispum",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4901: {
+  }),
+  4901: new PLU({
     Plu: 4901,
     Type: "Global",
     Category: "Herbs",
@@ -14121,8 +14179,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Petroselinum crispum",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4902: {
+  }),
+  4902: new PLU({
     Plu: 4902,
     Type: "Global",
     Category: "Herbs",
@@ -14131,8 +14189,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Petroselinum crispum",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4903: {
+  }),
+  4903: new PLU({
     Plu: 4903,
     Type: "Global",
     Category: "Herbs",
@@ -14140,8 +14198,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Rosemarinus officinalis",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4904: {
+  }),
+  4904: new PLU({
     Plu: 4904,
     Type: "Global",
     Category: "Herbs",
@@ -14149,8 +14207,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Salvia officinalis",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4905: {
+  }),
+  4905: new PLU({
     Plu: 4905,
     Type: "Global",
     Category: "Herbs",
@@ -14158,8 +14216,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Rumex spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4906: {
+  }),
+  4906: new PLU({
     Plu: 4906,
     Type: "Global",
     Category: "Herbs",
@@ -14167,8 +14225,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Artemisia dracunculus",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4907: {
+  }),
+  4907: new PLU({
     Plu: 4907,
     Type: "Global",
     Category: "Herbs",
@@ -14176,8 +14234,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Thymus vulgaris",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4908: {
+  }),
+  4908: new PLU({
     Plu: 4908,
     Type: "Global",
     Category: "Herbs",
@@ -14185,8 +14243,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Vanilla planifolia",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4909: {
+  }),
+  4909: new PLU({
     Plu: 4909,
     Type: "Global",
     Category: "Herbs",
@@ -14194,8 +14252,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4910: {
+  }),
+  4910: new PLU({
     Plu: 4910,
     Type: "Global",
     Category: "Herbs",
@@ -14203,8 +14261,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4911: {
+  }),
+  4911: new PLU({
     Plu: 4911,
     Type: "Global",
     Category: "Herbs",
@@ -14212,8 +14270,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4912: {
+  }),
+  4912: new PLU({
     Plu: 4912,
     Type: "Global",
     Category: "Herbs",
@@ -14221,8 +14279,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4913: {
+  }),
+  4913: new PLU({
     Plu: 4913,
     Type: "Global",
     Category: "Herbs",
@@ -14230,8 +14288,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4914: {
+  }),
+  4914: new PLU({
     Plu: 4914,
     Type: "Global",
     Category: "Herbs",
@@ -14239,8 +14297,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4915: {
+  }),
+  4915: new PLU({
     Plu: 4915,
     Type: "Global",
     Category: "Herbs",
@@ -14248,8 +14306,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4916: {
+  }),
+  4916: new PLU({
     Plu: 4916,
     Type: "Global",
     Category: "Herbs",
@@ -14257,8 +14315,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4917: {
+  }),
+  4917: new PLU({
     Plu: 4917,
     Type: "Global",
     Category: "Herbs",
@@ -14266,8 +14324,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4918: {
+  }),
+  4918: new PLU({
     Plu: 4918,
     Type: "Global",
     Category: "Herbs",
@@ -14275,8 +14333,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4919: {
+  }),
+  4919: new PLU({
     Plu: 4919,
     Type: "Global",
     Category: "Herbs",
@@ -14284,8 +14342,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4920: {
+  }),
+  4920: new PLU({
     Plu: 4920,
     Type: "Global",
     Category: "Herbs",
@@ -14293,8 +14351,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4921: {
+  }),
+  4921: new PLU({
     Plu: 4921,
     Type: "Global",
     Category: "Herbs",
@@ -14302,8 +14360,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4922: {
+  }),
+  4922: new PLU({
     Plu: 4922,
     Type: "Global",
     Category: "Herbs",
@@ -14311,8 +14369,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4923: {
+  }),
+  4923: new PLU({
     Plu: 4923,
     Type: "Global",
     Category: "Herbs",
@@ -14320,8 +14378,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4924: {
+  }),
+  4924: new PLU({
     Plu: 4924,
     Type: "Global",
     Category: "Nuts",
@@ -14329,8 +14387,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Prunus dulcis",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4925: {
+  }),
+  4925: new PLU({
     Plu: 4925,
     Type: "Global",
     Category: "Nuts",
@@ -14339,8 +14397,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Prunus dulcis",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4926: {
+  }),
+  4926: new PLU({
     Plu: 4926,
     Type: "Global",
     Category: "Nuts",
@@ -14348,8 +14406,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Berthollettia excelsa",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4927: {
+  }),
+  4927: new PLU({
     Plu: 4927,
     Type: "Global",
     Category: "Nuts",
@@ -14357,8 +14415,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Castanea sativa",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4928: {
+  }),
+  4928: new PLU({
     Plu: 4928,
     Type: "Global",
     Category: "Nuts",
@@ -14367,16 +14425,16 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Corylus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4929: {
+  }),
+  4929: new PLU({
     Plu: 4929,
     Type: "Global",
     Category: "Nuts",
     Commodity: "MIXED NUTS",
     Size: "All Sizes",
     Created_at: "2012-05-31 22:00:00",
-  },
-  4930: {
+  }),
+  4930: new PLU({
     Plu: 4930,
     Type: "Global",
     Category: "Nuts",
@@ -14384,8 +14442,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Arachis hypogaea",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4931: {
+  }),
+  4931: new PLU({
     Plu: 4931,
     Type: "Global",
     Category: "Nuts",
@@ -14394,8 +14452,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Arachis hypogaea",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4932: {
+  }),
+  4932: new PLU({
     Plu: 4932,
     Type: "Global",
     Category: "Nuts",
@@ -14404,8 +14462,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Arachis hypogaea",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4933: {
+  }),
+  4933: new PLU({
     Plu: 4933,
     Type: "Global",
     Category: "Nuts",
@@ -14414,8 +14472,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Arachis hypogaea",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4934: {
+  }),
+  4934: new PLU({
     Plu: 4934,
     Type: "Global",
     Category: "Nuts",
@@ -14424,8 +14482,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Arachis hypogaea",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4935: {
+  }),
+  4935: new PLU({
     Plu: 4935,
     Type: "Global",
     Category: "Nuts",
@@ -14434,8 +14492,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Arachis hypogaea",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4936: {
+  }),
+  4936: new PLU({
     Plu: 4936,
     Type: "Global",
     Category: "Nuts",
@@ -14443,8 +14501,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Carya illinoiensis",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4937: {
+  }),
+  4937: new PLU({
     Plu: 4937,
     Type: "Global",
     Category: "Nuts",
@@ -14453,8 +14511,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Carya illinoiensis",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4938: {
+  }),
+  4938: new PLU({
     Plu: 4938,
     Type: "Global",
     Category: "Nuts",
@@ -14462,8 +14520,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Pinus spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4939: {
+  }),
+  4939: new PLU({
     Plu: 4939,
     Type: "Global",
     Category: "Nuts",
@@ -14472,8 +14530,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Pistacia vera",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4940: {
+  }),
+  4940: new PLU({
     Plu: 4940,
     Type: "Global",
     Category: "Nuts",
@@ -14482,8 +14540,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Pistacia vera",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4941: {
+  }),
+  4941: new PLU({
     Plu: 4941,
     Type: "Global",
     Category: "Nuts",
@@ -14492,8 +14550,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Pistacia vera",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4942: {
+  }),
+  4942: new PLU({
     Plu: 4942,
     Type: "Global",
     Category: "Nuts",
@@ -14501,8 +14559,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Helianthus annus",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4943: {
+  }),
+  4943: new PLU({
     Plu: 4943,
     Type: "Global",
     Category: "Nuts",
@@ -14511,8 +14569,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Juglans spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4944: {
+  }),
+  4944: new PLU({
     Plu: 4944,
     Type: "Global",
     Category: "Nuts",
@@ -14521,8 +14579,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Juglans spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4945: {
+  }),
+  4945: new PLU({
     Plu: 4945,
     Type: "Global",
     Category: "Nuts",
@@ -14531,8 +14589,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Juglans spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4946: {
+  }),
+  4946: new PLU({
     Plu: 4946,
     Type: "Global",
     Category: "Nuts",
@@ -14541,8 +14599,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Juglans spp.",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4947: {
+  }),
+  4947: new PLU({
     Plu: 4947,
     Type: "Global",
     Category: "Nuts",
@@ -14550,8 +14608,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4948: {
+  }),
+  4948: new PLU({
     Plu: 4948,
     Type: "Global",
     Category: "Nuts",
@@ -14559,8 +14617,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4949: {
+  }),
+  4949: new PLU({
     Plu: 4949,
     Type: "Global",
     Category: "Nuts",
@@ -14568,8 +14626,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4950: {
+  }),
+  4950: new PLU({
     Plu: 4950,
     Type: "Global",
     Category: "Nuts",
@@ -14577,8 +14635,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4951: {
+  }),
+  4951: new PLU({
     Plu: 4951,
     Type: "Global",
     Category: "Nuts",
@@ -14586,8 +14644,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4952: {
+  }),
+  4952: new PLU({
     Plu: 4952,
     Type: "Global",
     Category: "Nuts",
@@ -14595,8 +14653,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4953: {
+  }),
+  4953: new PLU({
     Plu: 4953,
     Type: "Global",
     Category: "Nuts",
@@ -14604,8 +14662,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4954: {
+  }),
+  4954: new PLU({
     Plu: 4954,
     Type: "Global",
     Category: "Nuts",
@@ -14613,8 +14671,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4955: {
+  }),
+  4955: new PLU({
     Plu: 4955,
     Type: "Global",
     Category: "Nuts",
@@ -14622,8 +14680,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4956: {
+  }),
+  4956: new PLU({
     Plu: 4956,
     Type: "Global",
     Category: "Nuts",
@@ -14631,8 +14689,8 @@ export const PLU = {
     Variety: "Retailer Assigned",
     Size: "All Sizes",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4957: {
+  }),
+  4957: new PLU({
     Plu: 4957,
     Type: "Global",
     Category: "Fruits",
@@ -14641,8 +14699,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Vitis vinifera",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4958: {
+  }),
+  4958: new PLU({
     Plu: 4958,
     Type: "Global",
     Category: "Fruits",
@@ -14652,8 +14710,8 @@ export const PLU = {
     Measures_row: "Average Fruit Dimensions = 54mm - under 65mm",
     Botanical: "Citrus limon",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4959: {
+  }),
+  4959: new PLU({
     Plu: 4959,
     Type: "Global",
     Category: "Fruits",
@@ -14663,8 +14721,8 @@ export const PLU = {
     Measures_na: "8 to 10 size",
     Botanical: "Mangifera indica",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4960: {
+  }),
+  4960: new PLU({
     Plu: 4960,
     Type: "Global",
     Category: "Fruits",
@@ -14673,8 +14731,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Pyrus spp.",
     Created_at: "2007-05-03 22:00:00",
-  },
-  4961: {
+  }),
+  4961: new PLU({
     Plu: 4961,
     Type: "Global",
     Category: "Fruits",
@@ -14685,8 +14743,8 @@ export const PLU = {
     Botanical: "Mangifera indica",
     Aka: "(Includes Oro, Ataulfo/Honey Manila varieties)",
     Created_at: "2007-05-09 22:00:00",
-  },
-  3128: {
+  }),
+  3128: new PLU({
     Plu: 3128,
     Type: "Global",
     Category: "Vegetables",
@@ -14695,8 +14753,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Solanum tuberosum",
     Created_at: "1999-12-30 23:00:00",
-  },
-  4446: {
+  }),
+  4446: new PLU({
     Plu: 4446,
     Type: "Global",
     Category: "Fruits",
@@ -14705,8 +14763,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Punica granatum",
     Created_at: "1999-12-30 23:00:00",
-  },
-  3460: {
+  }),
+  3460: new PLU({
     Plu: 3460,
     Type: "Global",
     Category: "Fruits",
@@ -14716,8 +14774,8 @@ export const PLU = {
     Botanical: "Malus domestica",
     Aka: "Red Prince",
     Created_at: "2015-08-20 07:21:36",
-  },
-  3459: {
+  }),
+  3459: new PLU({
     Plu: 3459,
     Type: "Global",
     Category: "Fruits",
@@ -14726,8 +14784,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Diospyros kaki",
     Created_at: "2015-08-20 07:22:12",
-  },
-  3461: {
+  }),
+  3461: new PLU({
     Plu: 3461,
     Type: "Global",
     Category: "Fruits",
@@ -14736,8 +14794,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "2015-09-03 18:06:40",
-  },
-  3462: {
+  }),
+  3462: new PLU({
     Plu: 3462,
     Type: "Global",
     Category: "Herbs",
@@ -14746,8 +14804,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Allium tuberosum",
     Created_at: "2015-09-03 18:07:41",
-  },
-  3464: {
+  }),
+  3464: new PLU({
     Plu: 3464,
     Type: "Global",
     Category: "Fruits",
@@ -14757,8 +14815,8 @@ export const PLU = {
     Botanical: "Mangifera",
     Aka: "Calypso™",
     Created_at: "2016-02-08 15:12:13",
-  },
-  3465: {
+  }),
+  3465: new PLU({
     Plu: 3465,
     Type: "Global",
     Category: "Vegetables",
@@ -14768,8 +14826,8 @@ export const PLU = {
     Botanical: "Capsicum",
     Aka: "Enjoya™",
     Created_at: "2016-02-08 15:17:05",
-  },
-  3466: {
+  }),
+  3466: new PLU({
     Plu: 3466,
     Type: "Global",
     Category: "Fruits",
@@ -14779,8 +14837,8 @@ export const PLU = {
     Botanical: "Pyrus communis",
     Aka: "Cheeky®",
     Created_at: "2016-02-08 15:18:37",
-  },
-  3467: {
+  }),
+  3467: new PLU({
     Plu: 3467,
     Type: "Global",
     Category: "Fruits",
@@ -14790,8 +14848,8 @@ export const PLU = {
     Botanical: "Malus domestica",
     Aka: "Juici™",
     Created_at: "2016-02-08 15:20:16",
-  },
-  3463: {
+  }),
+  3463: new PLU({
     Plu: 3463,
     Type: "Global",
     Category: "Vegetables",
@@ -14800,8 +14858,8 @@ export const PLU = {
     Botanical: "amaranthus spp.",
     Aka: "Chinese spinach, yin choy",
     Created_at: "2016-02-12 16:14:46",
-  },
-  3468: {
+  }),
+  3468: new PLU({
     Plu: 3468,
     Type: "Global",
     Category: "Fruits",
@@ -14812,8 +14870,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight less than 205g",
     Botanical: "Malus domestica",
     Created_at: "2016-03-01 19:51:58",
-  },
-  3469: {
+  }),
+  3469: new PLU({
     Plu: 3469,
     Type: "Global",
     Category: "Fruits",
@@ -14823,8 +14881,8 @@ export const PLU = {
     Botanical: "Vitis Vinifera I.",
     Aka: "SABLE SEEDLESS® brand",
     Created_at: "2016-05-02 11:49:24",
-  },
-  3470: {
+  }),
+  3470: new PLU({
     Plu: 3470,
     Type: "Global",
     Category: "Fruits",
@@ -14833,8 +14891,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Citrullus lanatus",
     Created_at: "2016-05-16 18:03:50",
-  },
-  3471: {
+  }),
+  3471: new PLU({
     Plu: 3471,
     Type: "Global",
     Category: "Vegetables",
@@ -14843,8 +14901,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Opuntia sp",
     Created_at: "2016-05-26 12:03:09",
-  },
-  3472: {
+  }),
+  3472: new PLU({
     Plu: 3472,
     Type: "Global",
     Category: "Herbs",
@@ -14853,8 +14911,8 @@ export const PLU = {
     Botanical: "Piper sanctum",
     Aka: "Sacred pepper leaf",
     Created_at: "2016-05-26 12:04:21",
-  },
-  3473: {
+  }),
+  3473: new PLU({
     Plu: 3473,
     Type: "Global",
     Category: "Herbs",
@@ -14862,8 +14920,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Chenopodium ambrosioides L.",
     Created_at: "2016-05-26 12:05:59",
-  },
-  3474: {
+  }),
+  3474: new PLU({
     Plu: 3474,
     Type: "Global",
     Category: "Vegetables",
@@ -14872,8 +14930,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Escobedia linearis Schlecht",
     Created_at: "2016-05-26 12:07:56",
-  },
-  3475: {
+  }),
+  3475: new PLU({
     Plu: 3475,
     Type: "Global",
     Category: "Herbs",
@@ -14882,8 +14940,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Mentha piperata",
     Created_at: "2016-05-26 12:09:57",
-  },
-  3476: {
+  }),
+  3476: new PLU({
     Plu: 3476,
     Type: "Global",
     Category: "Herbs",
@@ -14891,8 +14949,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Citrus x sinensis (L.) Osbeck",
     Created_at: "2016-05-26 12:11:17",
-  },
-  3477: {
+  }),
+  3477: new PLU({
     Plu: 3477,
     Type: "Global",
     Category: "Herbs",
@@ -14901,8 +14959,8 @@ export const PLU = {
     Botanical: "Porophyllum macrocephalum DC.",
     Aka: "Summer cilantro, Bolivian coriander",
     Created_at: "2016-05-26 12:13:07",
-  },
-  3478: {
+  }),
+  3478: new PLU({
     Plu: 3478,
     Type: "Global",
     Category: "Vegetables",
@@ -14910,8 +14968,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Chenopodium spp.",
     Created_at: "2016-05-26 12:14:32",
-  },
-  3479: {
+  }),
+  3479: new PLU({
     Plu: 3479,
     Type: "Global",
     Category: "Vegetables",
@@ -14920,8 +14978,8 @@ export const PLU = {
     Botanical: "Crotalaria longirostrata",
     Aka: "Chepil",
     Created_at: "2016-05-26 12:17:28",
-  },
-  3480: {
+  }),
+  3480: new PLU({
     Plu: 3480,
     Type: "Global",
     Category: "Vegetables",
@@ -14930,8 +14988,8 @@ export const PLU = {
     Botanical: "Cucurbita pepo",
     Aka: "Pumpkin vine",
     Created_at: "2016-05-26 12:18:41",
-  },
-  3481: {
+  }),
+  3481: new PLU({
     Plu: 3481,
     Type: "Global",
     Category: "Vegetables",
@@ -14940,8 +14998,8 @@ export const PLU = {
     Botanical: "Phaseolus lunatus",
     Aka: "Xpelon bean",
     Created_at: "2016-05-26 12:20:12",
-  },
-  3482: {
+  }),
+  3482: new PLU({
     Plu: 3482,
     Type: "Global",
     Category: "Herbs",
@@ -14949,8 +15007,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Porophyllum linaria (Cav.) DC.",
     Created_at: "2016-05-26 12:21:29",
-  },
-  3483: {
+  }),
+  3483: new PLU({
     Plu: 3483,
     Type: "Global",
     Category: "Herbs",
@@ -14959,8 +15017,8 @@ export const PLU = {
     Botanical: "Solanum americanum Mill.",
     Aka: "Purple grass",
     Created_at: "2016-05-26 12:22:31",
-  },
-  3484: {
+  }),
+  3484: new PLU({
     Plu: 3484,
     Type: "Global",
     Category: "Fruits",
@@ -14970,8 +15028,8 @@ export const PLU = {
     Botanical: "Malus domestica",
     Aka: "Choupette",
     Created_at: "2016-07-18 15:35:37",
-  },
-  3486: {
+  }),
+  3486: new PLU({
     Plu: 3486,
     Type: "Global",
     Category: "Fruits",
@@ -14981,8 +15039,8 @@ export const PLU = {
     Botanical: "Malus domestica",
     Aka: "SugarBee™",
     Created_at: "2016-10-31 17:44:09",
-  },
-  3487: {
+  }),
+  3487: new PLU({
     Plu: 3487,
     Type: "Global",
     Category: "Fruits",
@@ -14992,8 +15050,8 @@ export const PLU = {
     Botanical: "Malus domestica",
     Aka: "Rave™, First Kiss™",
     Created_at: "2016-10-31 19:22:14",
-  },
-  3485: {
+  }),
+  3485: new PLU({
     Plu: 3485,
     Type: "Global",
     Category: "Fruits",
@@ -15003,8 +15061,8 @@ export const PLU = {
     Botanical: "Pyrus communis",
     Aka: "Cold Snap™",
     Created_at: "2016-10-31 19:50:02",
-  },
-  3488: {
+  }),
+  3488: new PLU({
     Plu: 3488,
     Type: "Global",
     Category: "Fruits",
@@ -15014,8 +15072,8 @@ export const PLU = {
     Measures_na: "7 and Larger",
     Botanical: "Mangifera indica",
     Created_at: "2017-01-18 18:06:37",
-  },
-  3489: {
+  }),
+  3489: new PLU({
     Plu: 3489,
     Type: "Global",
     Category: "Fruits",
@@ -15025,8 +15083,8 @@ export const PLU = {
     Botanical: "Pyrus communis",
     Aka: "Migo™",
     Created_at: "2017-01-26 19:07:26",
-  },
-  3490: {
+  }),
+  3490: new PLU({
     Plu: 3490,
     Type: "Global",
     Category: "Fruits",
@@ -15036,8 +15094,8 @@ export const PLU = {
     Botanical: "Malus domestica",
     Aka: "EverCrisp™",
     Created_at: "2018-02-07 19:33:06",
-  },
-  3491: {
+  }),
+  3491: new PLU({
     Plu: 3491,
     Type: "Global",
     Category: "Fruits",
@@ -15047,8 +15105,8 @@ export const PLU = {
     Botanical: "Vitis vinifera",
     Aka: "Sweeties™",
     Created_at: "2018-02-08 14:51:43",
-  },
-  3492: {
+  }),
+  3492: new PLU({
     Plu: 3492,
     Type: "Global",
     Category: "Fruits",
@@ -15058,8 +15116,8 @@ export const PLU = {
     Botanical: "Vitis vinifera",
     Aka: "Passion Fire™",
     Created_at: "2018-02-08 15:09:57",
-  },
-  3493: {
+  }),
+  3493: new PLU({
     Plu: 3493,
     Type: "Global",
     Category: "Vegetables",
@@ -15069,8 +15127,8 @@ export const PLU = {
     Botanical: "Allium cepa",
     Aka: "Sunions",
     Created_at: "2018-05-08 15:05:16",
-  },
-  3495: {
+  }),
+  3495: new PLU({
     Plu: 3495,
     Type: "Global",
     Category: "Fruits",
@@ -15080,8 +15138,8 @@ export const PLU = {
     Botanical: "Pyrus communis",
     Aka: "QTee®",
     Created_at: "2018-05-08 16:55:03",
-  },
-  3496: {
+  }),
+  3496: new PLU({
     Plu: 3496,
     Type: "Global",
     Category: "Fruits",
@@ -15092,8 +15150,8 @@ export const PLU = {
     Aka: "IFG 68-175 (Sweet Celebration®), IFG Four (Sweet Romance®), IFG None (Jack's Salute®)",
     Notes: "Image is representative of the PLU commodity type and does not show all varieties covered under this PLU code.",
     Created_at: "2018-05-09 12:57:49",
-  },
-  3497: {
+  }),
+  3497: new PLU({
     Plu: 3497,
     Type: "Global",
     Category: "Fruits",
@@ -15103,8 +15161,8 @@ export const PLU = {
     Botanical: "Vitis vinifera",
     Aka: "IFG One (Sweet Surrender®), IFG Eight (Sweet Enchantment®), IFG Thirteen (Sweet Secrets®), IFG Fifteen (Sweet Surprise®), IFGSixteen (Sweet Surprise®), IFG Seventeen (Sweet Joy®), IFG Twenty-Five (Sweet Magic®), IFG Twenty-Six (Sweet Bond®)",
     Created_at: "2018-05-09 12:59:58",
-  },
-  3498: {
+  }),
+  3498: new PLU({
     Plu: 3498,
     Type: "Global",
     Category: "Fruits",
@@ -15114,8 +15172,8 @@ export const PLU = {
     Botanical: "Vitis vinifera",
     Aka: "IFG Two (Sweet Sunshine®), IFG Ten (Sweet Globe®), IFG Eleven (Sugar Crisp®)",
     Created_at: "2018-05-09 13:12:32",
-  },
-  3499: {
+  }),
+  3499: new PLU({
     Plu: 3499,
     Type: "Global",
     Category: "Fruits",
@@ -15125,8 +15183,8 @@ export const PLU = {
     Botanical: "Vitis vinifera",
     Aka: "IFG Fourteen (Sweet Mayabelle®), IFG Eighteen (Sweet Nectar®), IFG Nineteen (Candy Hearts®), IFG Twenty-One (Candy Snaps®), IFG Twenty-Three (Candy Drops®)",
     Created_at: "2018-05-09 13:16:32",
-  },
-  3500: {
+  }),
+  3500: new PLU({
     Plu: 3500,
     Type: "Global",
     Category: "Fruits",
@@ -15136,8 +15194,8 @@ export const PLU = {
     Botanical: "Vitis vinifera",
     Aka: "IFG Six (Sweet Sapphire®). IFG Twelve (Funny Fingers®), IFG Twenty (Candy Crunch®), IFG Twenty-Two (Candy Dream®s)",
     Created_at: "2018-05-09 13:36:51",
-  },
-  3501: {
+  }),
+  3501: new PLU({
     Plu: 3501,
     Type: "Global",
     Category: "Fruits",
@@ -15147,8 +15205,8 @@ export const PLU = {
     Botanical: "Vitis vinifera",
     Aka: "IFG Seven (Cotton Candy®)",
     Created_at: "2018-05-09 13:38:39",
-  },
-  3502: {
+  }),
+  3502: new PLU({
     Plu: 3502,
     Type: "Global",
     Category: "Fruits",
@@ -15158,8 +15216,8 @@ export const PLU = {
     Botanical: "Vitis vinifera",
     Aka: "ARRA 27, Mystic Star",
     Created_at: "2018-05-11 14:42:41",
-  },
-  3503: {
+  }),
+  3503: new PLU({
     Plu: 3503,
     Type: "Global",
     Category: "Fruits",
@@ -15169,8 +15227,8 @@ export const PLU = {
     Botanical: "Vitis vinifera",
     Aka: "Passion Punch™",
     Created_at: "2018-05-11 14:46:05",
-  },
-  3504: {
+  }),
+  3504: new PLU({
     Plu: 3504,
     Type: "Global",
     Category: "Fruits",
@@ -15180,8 +15238,8 @@ export const PLU = {
     Botanical: "Vitis vinifera",
     Aka: "Sugardrop",
     Created_at: "2018-05-11 14:47:28",
-  },
-  3505: {
+  }),
+  3505: new PLU({
     Plu: 3505,
     Type: "Global",
     Category: "Fruits",
@@ -15191,8 +15249,8 @@ export const PLU = {
     Botanical: "Vitis vinifera",
     Aka: "Mystic Dream",
     Created_at: "2018-05-11 14:50:36",
-  },
-  3506: {
+  }),
+  3506: new PLU({
     Plu: 3506,
     Type: "Global",
     Category: "Fruits",
@@ -15202,8 +15260,8 @@ export const PLU = {
     Botanical: "Vitis vinifera",
     Aka: "Muscato Amore™",
     Created_at: "2018-05-11 14:52:44",
-  },
-  3494: {
+  }),
+  3494: new PLU({
     Plu: 3494,
     Type: "Global",
     Category: "Fruits",
@@ -15213,8 +15271,8 @@ export const PLU = {
     Botanical: "Citullus lanatus",
     Aka: "Sunny Gold™",
     Created_at: "2018-05-11 15:48:57",
-  },
-  3507: {
+  }),
+  3507: new PLU({
     Plu: 3507,
     Type: "Global",
     Category: "Fruits",
@@ -15224,8 +15282,8 @@ export const PLU = {
     Botanical: "Malus domestica",
     Aka: "Cosmic Crisp®",
     Created_at: "2018-08-02 17:39:27",
-  },
-  3508: {
+  }),
+  3508: new PLU({
     Plu: 3508,
     Type: "Global",
     Category: "Fruits",
@@ -15235,8 +15293,8 @@ export const PLU = {
     Botanical: "Vitus vinifera",
     Aka: "Grape Jammers™, Jelly Drops™, California Thomcord™, A29-67",
     Created_at: "2018-08-02 17:52:01",
-  },
-  3509: {
+  }),
+  3509: new PLU({
     Plu: 3509,
     Type: "Global",
     Category: "Fruits",
@@ -15245,8 +15303,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Persea americana",
     Created_at: "2018-10-31 14:43:01",
-  },
-  3510: {
+  }),
+  3510: new PLU({
     Plu: 3510,
     Type: "Global",
     Category: "Fruits",
@@ -15257,8 +15315,8 @@ export const PLU = {
     Measures_row: "Average Fruit Weight = less than 205g",
     Botanical: "Malus domestica",
     Created_at: "2018-10-31 15:55:10",
-  },
-  3511: {
+  }),
+  3511: new PLU({
     Plu: 3511,
     Type: "Global",
     Category: "Fruits",
@@ -15268,8 +15326,8 @@ export const PLU = {
     Botanical: "Malus domestica",
     Aka: "Crimson Delight™, Sunrise Magic®",
     Created_at: "2019-02-01 17:16:17",
-  },
-  3512: {
+  }),
+  3512: new PLU({
     Plu: 3512,
     Type: "Global",
     Category: "Vegetables",
@@ -15279,8 +15337,8 @@ export const PLU = {
     Botanical: "Solanum Lycopersicum",
     Aka: "Tasti-Lee™",
     Created_at: "2019-02-01 18:01:27",
-  },
-  3518: {
+  }),
+  3518: new PLU({
     Plu: 3518,
     Type: "Global",
     Category: "Fruits",
@@ -15290,8 +15348,8 @@ export const PLU = {
     Botanical: "Pyrus communis",
     Aka: "Xenia",
     Created_at: "2020-02-06 16:03:12",
-  },
-  3519: {
+  }),
+  3519: new PLU({
     Plu: 3519,
     Type: "Global",
     Category: "Fruits",
@@ -15301,8 +15359,8 @@ export const PLU = {
     Botanical: "Malus domestica",
     Aka: "Wild Twist",
     Created_at: "2020-02-06 16:04:39",
-  },
-  3520: {
+  }),
+  3520: new PLU({
     Plu: 3520,
     Type: "Global",
     Category: "Vegetables",
@@ -15312,8 +15370,8 @@ export const PLU = {
     Botanical: "Allium cepa",
     Aka: "Smileball, Goldies, Onique, SweetNothings, Loving’Onions",
     Created_at: "2020-02-06 16:54:18",
-  },
-  3513: {
+  }),
+  3513: new PLU({
     Plu: 3513,
     Type: "Global",
     Category: "Fruits",
@@ -15323,8 +15381,8 @@ export const PLU = {
     Botanical: "Malus domestica",
     Aka: "yello®",
     Created_at: "2020-02-28 17:23:41",
-  },
-  3514: {
+  }),
+  3514: new PLU({
     Plu: 3514,
     Type: "Global",
     Category: "Fruits",
@@ -15334,8 +15392,8 @@ export const PLU = {
     Botanical: "Malus domestica",
     Aka: "Tessa®",
     Created_at: "2020-02-28 17:26:27",
-  },
-  3515: {
+  }),
+  3515: new PLU({
     Plu: 3515,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -15347,8 +15405,8 @@ export const PLU = {
     Botanical: "Malus domestica",
     Aka: "Lemonade®",
     Created_at: "2020-02-28 17:28:15",
-  },
-  3516: {
+  }),
+  3516: new PLU({
     Plu: 3516,
     Type: "Global",
     Category: "Fruits",
@@ -15360,8 +15418,8 @@ export const PLU = {
     Botanical: "Malus domestica",
     Aka: "Lemonade®",
     Created_at: "2020-02-28 17:29:48",
-  },
-  3517: {
+  }),
+  3517: new PLU({
     Plu: 3517,
     Type: "Global",
     Category: "Fruits",
@@ -15370,8 +15428,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Actinidia chinensis",
     Created_at: "2020-02-28 17:34:14",
-  },
-  3521: {
+  }),
+  3521: new PLU({
     Plu: 3521,
     Type: "Global",
     Category: "Fruits",
@@ -15381,8 +15439,8 @@ export const PLU = {
     Botanical: "Malus domestica",
     Aka: "Karma®",
     Created_at: "2020-08-03 14:21:21",
-  },
-  3522: {
+  }),
+  3522: new PLU({
     Plu: 3522,
     Type: "Global",
     Category: "Fruits",
@@ -15391,8 +15449,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Pyrus communis",
     Created_at: "2020-08-03 14:24:13",
-  },
-  3523: {
+  }),
+  3523: new PLU({
     Plu: 3523,
     Type: "Global",
     Category: "Fruits",
@@ -15402,8 +15460,8 @@ export const PLU = {
     Botanical: "Malus domestica",
     Aka: "Magic Star, Natyra, Kentish Kiss, Sprank,",
     Created_at: "2021-01-29 14:22:36",
-  },
-  3524: {
+  }),
+  3524: new PLU({
     Plu: 3524,
     Type: "Global",
     Category: "Fruits",
@@ -15413,8 +15471,8 @@ export const PLU = {
     Botanical: "Citrus spp.",
     Aka: "Noble Juicy Crunch",
     Created_at: "2021-07-30 13:21:48",
-  },
-  3525: {
+  }),
+  3525: new PLU({
     Plu: 3525,
     Type: "Global",
     Category: "Fruits",
@@ -15426,8 +15484,8 @@ export const PLU = {
     Botanical: "Malus domestica",
     Aka: "SugarBee",
     Created_at: "2021-07-30 13:25:21",
-  },
-  3526: {
+  }),
+  3526: new PLU({
     Plu: 3526,
     Type: "Global",
     Category: "Fruits",
@@ -15437,8 +15495,8 @@ export const PLU = {
     Botanical: "Malus domestica",
     Aka: "LucyRose",
     Created_at: "2021-07-30 13:27:01",
-  },
-  3527: {
+  }),
+  3527: new PLU({
     Plu: 3527,
     Type: "Global",
     Category: "Fruits",
@@ -15448,8 +15506,8 @@ export const PLU = {
     Botanical: "Malus domestica",
     Aka: "LucyGlo",
     Created_at: "2021-07-30 13:28:42",
-  },
-  3528: {
+  }),
+  3528: new PLU({
     Plu: 3528,
     Type: "Global",
     Category: "Fruits",
@@ -15459,8 +15517,8 @@ export const PLU = {
     Botanical: "Malus domestica",
     Aka: "Hunnyz",
     Created_at: "2021-10-28 14:37:42",
-  },
-  3529: {
+  }),
+  3529: new PLU({
     Plu: 3529,
     Type: "Global",
     Category: "Fruits",
@@ -15470,8 +15528,8 @@ export const PLU = {
     Botanical: "Malus domestica",
     Aka: "Dazzle",
     Created_at: "2022-01-28 19:34:48",
-  },
-  3530: {
+  }),
+  3530: new PLU({
     Plu: 3530,
     Type: "Global",
     Category: "Fruits",
@@ -15480,8 +15538,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Vitis vinifera",
     Created_at: "2022-01-28 19:40:07",
-  },
-  3531: {
+  }),
+  3531: new PLU({
     Plu: 3531,
     Type: "Global",
     Category: "Fruits",
@@ -15491,8 +15549,8 @@ export const PLU = {
     Botanical: "Vitis vinifera",
     Aka: "Sugrafortynine",
     Created_at: "2022-01-28 19:57:09",
-  },
-  3532: {
+  }),
+  3532: new PLU({
     Plu: 3532,
     Type: "Global",
     Category: "Fruits",
@@ -15502,8 +15560,8 @@ export const PLU = {
     Botanical: "Vitis vinifera",
     Aka: "SugraFiftySix",
     Created_at: "2022-01-28 20:01:09",
-  },
-  3533: {
+  }),
+  3533: new PLU({
     Plu: 3533,
     Type: "Global",
     Category: "Fruits",
@@ -15513,8 +15571,8 @@ export const PLU = {
     Botanical: "Vitis vinifera",
     Aka: "SugraFiftyFour",
     Created_at: "2022-01-28 20:09:27",
-  },
-  3534: {
+  }),
+  3534: new PLU({
     Plu: 3534,
     Type: "Global",
     Category: "Fruits",
@@ -15524,8 +15582,8 @@ export const PLU = {
     Botanical: "Vitis vinifera",
     Aka: "SugraFiftyThree",
     Created_at: "2022-01-28 20:15:37",
-  },
-  3535: {
+  }),
+  3535: new PLU({
     Plu: 3535,
     Type: "Global",
     Category: "Vegetables",
@@ -15535,8 +15593,8 @@ export const PLU = {
     Botanical: "Allium Cepa",
     Aka: "Wicked Sweet Tearless Red",
     Created_at: "2022-07-28 19:10:48",
-  },
-  3536: {
+  }),
+  3536: new PLU({
     Plu: 3536,
     Type: "Global",
     Category: "Fruits",
@@ -15546,8 +15604,8 @@ export const PLU = {
     Botanical: "Prunus spp.",
     Aka: "Verry Cherry",
     Created_at: "2022-07-28 19:25:59",
-  },
-  3539: {
+  }),
+  3539: new PLU({
     Plu: 3539,
     Type: "Global",
     Category: "Fruits",
@@ -15557,8 +15615,8 @@ export const PLU = {
     Botanical: "Malus domestica",
     Aka: "Y101, Y103",
     Created_at: "2022-07-28 19:29:15",
-  },
-  3537: {
+  }),
+  3537: new PLU({
     Plu: 3537,
     Type: "Global",
     Category: "Fruits",
@@ -15568,8 +15626,8 @@ export const PLU = {
     Botanical: "Malus domestica",
     Aka: "Ludacrisp",
     Created_at: "2022-07-28 19:33:54",
-  },
-  3538: {
+  }),
+  3538: new PLU({
     Plu: 3538,
     Type: "Global",
     Category: "Fruits",
@@ -15579,8 +15637,8 @@ export const PLU = {
     Botanical: "Malus domestica",
     Aka: "GIGA®",
     Created_at: "2022-07-28 19:39:08",
-  },
-  3540: {
+  }),
+  3540: new PLU({
     Plu: 3540,
     Type: "Global",
     Category: "Fruits",
@@ -15590,8 +15648,8 @@ export const PLU = {
     Botanical: "Malus domestica",
     Aka: "R201, R202, R203, R204",
     Created_at: "2022-07-28 19:48:49",
-  },
-  3541: {
+  }),
+  3541: new PLU({
     Plu: 3541,
     Type: "Global",
     Category: "Fruits",
@@ -15601,8 +15659,8 @@ export const PLU = {
     Botanical: "Malus domestica",
     Aka: "RedPop®",
     Created_at: "2022-11-04 13:39:02",
-  },
-  3542: {
+  }),
+  3542: new PLU({
     Plu: 3542,
     Type: "Global",
     Category: "Retailer Assigned Numbers",
@@ -15612,8 +15670,8 @@ export const PLU = {
     Botanical: "Malus domestica",
     Aka: "Aura",
     Created_at: "2022-11-04 13:44:22",
-  },
-  3543: {
+  }),
+  3543: new PLU({
     Plu: 3543,
     Type: "Global",
     Category: "Fruits",
@@ -15623,8 +15681,8 @@ export const PLU = {
     Botanical: "Citrus limon",
     Aka: "Wonderful® Seedless",
     Created_at: "2023-05-01 18:50:11",
-  },
-  3544: {
+  }),
+  3544: new PLU({
     Plu: 3544,
     Type: "Global",
     Category: "Fruits",
@@ -15634,8 +15692,8 @@ export const PLU = {
     Botanical: "Citrus limon",
     Aka: "Wonderful® Seedless",
     Created_at: "2023-05-01 18:53:17",
-  },
-  3545: {
+  }),
+  3545: new PLU({
     Plu: 3545,
     Type: "Global",
     Category: "Fruits",
@@ -15645,8 +15703,8 @@ export const PLU = {
     Botanical: "Citrus limon",
     Aka: "Wonderful® Seedless",
     Created_at: "2023-05-01 18:56:07",
-  },
-  3546: {
+  }),
+  3546: new PLU({
     Plu: 3546,
     Type: "Global",
     Category: "Fruits",
@@ -15656,8 +15714,8 @@ export const PLU = {
     Botanical: "Malus domestica",
     Aka: "Honeymoon™",
     Created_at: "2023-05-01 18:58:35",
-  },
-  3547: {
+  }),
+  3547: new PLU({
     Plu: 3547,
     Type: "Global",
     Category: "Fruits",
@@ -15667,8 +15725,8 @@ export const PLU = {
     Botanical: "Malus domestica",
     Aka: "Zingy®",
     Created_at: "2023-05-02 11:30:18",
-  },
-  3548: {
+  }),
+  3548: new PLU({
     Plu: 3548,
     Type: "Global",
     Category: "Fruits",
@@ -15678,8 +15736,8 @@ export const PLU = {
     Botanical: "Malus domestica",
     Aka: "Lolipop®",
     Created_at: "2023-05-02 11:42:21",
-  },
-  3549: {
+  }),
+  3549: new PLU({
     Plu: 3549,
     Type: "Global",
     Category: "Fruits",
@@ -15689,8 +15747,8 @@ export const PLU = {
     Botanical: "Prunus avium",
     Aka: "Timberline",
     Created_at: "2023-05-02 11:58:40",
-  },
-  3550: {
+  }),
+  3550: new PLU({
     Plu: 3550,
     Type: "Global",
     Category: "Fruits",
@@ -15700,8 +15758,8 @@ export const PLU = {
     Botanical: "Prunus avium",
     Aka: "Audra Rose",
     Created_at: "2023-05-02 12:10:13",
-  },
-  3551: {
+  }),
+  3551: new PLU({
     Plu: 3551,
     Type: "Global",
     Category: "Fruits",
@@ -15711,8 +15769,8 @@ export const PLU = {
     Botanical: "Hylocereus lindatus",
     Aka: "Fire Dragons",
     Created_at: "2024-02-02 15:32:14",
-  },
-  3552: {
+  }),
+  3552: new PLU({
     Plu: 3552,
     Type: "Global",
     Category: "Fruits",
@@ -15722,8 +15780,8 @@ export const PLU = {
     Botanical: "Vitus vinifera",
     Aka: "ARRA Cherry Crush",
     Created_at: "2024-05-08 20:45:44",
-  },
-  3553: {
+  }),
+  3553: new PLU({
     Plu: 3553,
     Type: "Global",
     Category: "Fruits",
@@ -15733,8 +15791,8 @@ export const PLU = {
     Botanical: "Citrus spp.",
     Aka: "Dulce Navels ™",
     Created_at: "2024-05-08 21:03:55",
-  },
-  3554: {
+  }),
+  3554: new PLU({
     Plu: 3554,
     Type: "Global",
     Category: "Fruits",
@@ -15743,8 +15801,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "2024-05-08 21:06:12",
-  },
-  3555: {
+  }),
+  3555: new PLU({
     Plu: 3555,
     Type: "Global",
     Category: "Fruits",
@@ -15753,8 +15811,8 @@ export const PLU = {
     Size: "All Sizes",
     Botanical: "Malus domestica",
     Created_at: "2024-07-30 13:46:47",
-  },
-  3556: {
+  }),
+  3556: new PLU({
     Plu: 3556,
     Type: "Global",
     Category: "Fruits",
@@ -15764,8 +15822,8 @@ export const PLU = {
     Botanical: "Citrus spp.",
     Aka: "Tangold",
     Created_at: "2024-07-30 14:23:06",
-  },
-  3557: {
+  }),
+  3557: new PLU({
     Plu: 3557,
     Type: "Global",
     Category: "Fruits",
@@ -15775,5 +15833,5 @@ export const PLU = {
     Botanical: "Malus domestica",
     Aka: "Bloss®",
     Created_at: "2024-07-30 14:43:07",
-  }
+  })
 } as const satisfies Record<number, PLU>;
